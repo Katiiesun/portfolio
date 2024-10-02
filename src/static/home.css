@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "emfatick";
+  src: url("../../public/fonts/Emfatick NF Regular.otf") format("truetype");
+}
+
+.home img {
+  width: 100vw;
+}
+.home h1 {
+  font-size: 90px;
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  color: #ff9e78;
+  font-family: "emfatick";
+  font-weight: 50;
+}
+
+.home .portfolio {
+  font-size: 200px;
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+}
+
+.intro {
+  column-count: 2;
+  margin: 80px;
+  display: flex;
+}
+
+.pic img {
+  /* position: left; */
+  width: 20vw;
+  margin-left: 250px;
+  border-radius: 50px;
+  display: flex;
+}
+
+.introtext {
+  padding-top: 50px;
+  display: flex;
+}
+
+.introtext h1 {
+  font-size: 50px;
+  margin-bottom: 0px;
+  /* position:absolute;
+    transform: translate(190%, -600%); */
+  color: #544838;
+  display: flex;
+}
+
+.introtext p {
+  font-size: 18px;
+  /* position: absolute;
+    transform: translate(179%, -270%); */
+  color: #5e5555;
+  width: 415px;
+  font: inter;
+  font-weight: 700;
+  display: flex;
+}
+
+.projectsbackground img {
+  width: 100vw;
+}

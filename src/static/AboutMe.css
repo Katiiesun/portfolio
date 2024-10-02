@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "emfatick";
+  src: url("../../public/fonts/Emfatick NF Regular.otf") format("truetype");
+}
+
+.aboutme {
+  margin-left: 120px;
+}
+.aboutme h1 {
+  font-size: 90px;
+  /* text-align: left; */
+  margin-bottom: 0px;
+  color: #ff9e78;
+  font-family: "emfatick";
+  font-weight: 50;
+}
+
+.aboutme p {
+  font-size: 20px;
+  /* position: absolute;
+  transform: translate(40%, 60%); */
+  /* margin: auto; */
+  color: #5e5555;
+  width: 500px;
+  font: inter;
+  font-weight: 620;
+}
+
+.aboutmesection {
+  column-count: 2;
+  margin: 100px;
+  margin-bottom:200px;
+
+}
+.aboutmesection img {
+  /* position: right; */
+  width: 25vw;
+  margin-left: 90px;
+  margin-top:50px;
+  border-radius: 50px;
+}
+
+
+
+.music h1 {
+  font-size: 35px;
+  /* position: absolute;
+  transform: translate(30%, 500%); */
+  margin-left: 180px;
+  color: #5e5555;
+  width: 500px;
+  font: inter;
+  font-weight: 650;
+}
+
+
+.musicvinyls{
+    column-count:1;
+    margin-bottom:130px;
+    margin-left:130px
+
+}
+
+.music .breezeblocksVinyl {
+  /* position: absolute;
+  transform: translate(49%, -160%); */
+  width: 20vw;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow-x: hidden;
+  margin:50px;
+}
+
+.music .everseenVinyl {
+  /* position: absolute;
+  transform: translate(190%, -160%); */
+  width: 20vw;
+  border-radius: 50 px;
+  cursor: pointer;
+  overflow-x: hidden;
+  margin:50px;
+}
+
+.music .ivyVinyl {
+  /* position: absolute;
+  transform: translate(340%, -160%); */
+  width: 20vw;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow-x: hidden;
+  margin:50px;
+}
+    
+
+.music .ivyVinyl:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.music .breezeblocksVinyl:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    transform-origin: center;
+  }
+
+  .music .everseenVinyl:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    transform-origin: center;
+  }
+  
+
+/* .music .musicbackground {
+  width: 100vw;
+} */
+
+.musicvinyls h2{
+    font-size: 26px;
+    color: #5e5555;
+  width: 500px;
+  font: inter;
+  font-weight: 650;
+
+
+}
+
+/* .music h2 {
+  font-size: 26px;
+  position: absolute;
+  transform: translate(36%, -580%);
+  color: #5e5555;
+  width: 500px;
+  font: inter;
+  font-weight: 650;
+  overflow-x: hidden;
+}
+
+.music h3 {
+  font-size: 26px;
+  position: absolute;
+  transform: translate(110%, -595%);
+  color: #5e5555;
+  width: 500px;
+  font: inter;
+  font-weight: 650;
+  overflow-x: hidden;
+}
+
+.music h4 {
+  font-size: 26px;
+  position: absolute;
+  transform: translate(207%, -630%);
+  color: #5e5555;
+  width: 500px;
+  font: inter;
+  font-weight: 650;
+  overflow-x: hidden;
+} */
