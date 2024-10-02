@@ -4,10 +4,10 @@
 }
 
 .aboutme {
-  margin-left: 120px;
+  margin: 5vh;
 }
 .aboutme h1 {
-  font-size: 90px;
+  font-size: 14vh;
   /* text-align: left; */
   margin-bottom: 0px;
   color: #ff9e78;
@@ -15,28 +15,32 @@
   font-weight: 50;
 }
 
-.aboutme p {
-  font-size: 20px;
-  /* position: absolute;
-  transform: translate(40%, 60%); */
-  /* margin: auto; */
-  color: #5e5555;
-  width: 500px;
-  font: inter;
-  font-weight: 620;
-}
 
 .aboutmesection {
   column-count: 2;
-  margin: 100px;
-  margin-bottom:200px;
-
+  /* margin: 100px;
+  margin-bottom:200px; */
+  display:flex;
+  justify-content:center;
+  padding: 5vw;
 }
+
+.aboutme p {
+    font-size: 3vh;
+    /* position: absolute;
+    transform: translate(40%, 60%); */
+    /* margin: auto; */
+    color: #5e5555;
+    width: 500px;
+    font: inter;
+    font-weight: 620;
+  }
+  
 .aboutmesection img {
   /* position: right; */
-  width: 25vw;
-  margin-left: 90px;
-  margin-top:50px;
+  width:25vw;
+  height:34vw;
+  margin-top:7vw;
   border-radius: 50px;
 }
 

@@ -31,21 +31,21 @@
 
 .intro {
   column-count: 2;
-  margin: 80px;
+  /* justify-content: center; */
+  margin-left: 18vw;
   display: flex;
 }
 
 .pic img {
-  /* position: left; */
   width: 20vw;
-  margin-left: 250px;
+  margin: 5em;
   border-radius: 50px;
   display: flex;
 }
 
 .introtext {
-  padding-top: 50px;
-  display: flex;
+  padding-top: 10vw;
+  width: 60vw;
 }
 
 .introtext h1 {
