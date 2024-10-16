@@ -6,10 +6,10 @@ function Home() {
   const background =
     process.env.PUBLIC_URL + "images/websitebackground.png";
 
-  const selfie = process.env.PUBLIC_URL + "/images/selfie.jpg";
+  const selfie = process.env.PUBLIC_URL + "images/selfie.png";
 
-  const projectsBackground =
-    process.env.PUBLIC_URL + "";
+  // const projectsBackground =
+  //   process.env.PUBLIC_URL + "";
 
   return (
     <div>
@@ -37,9 +37,9 @@ function Home() {
           </p>
         </div>
       </div>
-      <div className="projectsbackground">
+      {/* <div className="projectsbackground">
         <img src={projectsBackground} alt="projects background" />
-      </div>
+      </div> */}
     </div>
   );
 }
