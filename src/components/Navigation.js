@@ -12,11 +12,16 @@ const Navigation = ({ className }) => {
     navigate("/");
   };
 
+  const navBackground =
+  process.env.PUBLIC_URL + "images/Artboard 2@2x.png";
+
   return (
-    <div className={className}>
-      <button onClick={homeClick}>Portfolio</button>
-      <button onClick={aboutMeClick}>About Me</button>
-    </div>
+    <div className={`container ${className}`}>
+    <img src={navBackground} alt="navigation background" />
+    <button onClick={homeClick}>Portfolio</button>
+    <button onClick={aboutMeClick}>About Me</button>
+  </div>
+  
   );
 };
 export default Navigation;

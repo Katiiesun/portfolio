@@ -7,33 +7,43 @@
   width: 100vw;
 }
 .home h1 {
-  font-size: 90px;
+  font-size: 120px;
   text-align: center;
   position: absolute;
   margin: auto;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -90%);
-  color: #ff9e78;
+  transform: translate(30%, -60%);
+  color: #e0e0da;
   font-family: "emfatick";
   font-weight: 50;
+  transition: all 0.5s ease-in;
 }
 
-.home .portfolio {
-  font-size: 200px;
+.home h1.visible {
+  opacity: 1;
+}
+
+.home h2{
+  font-size: 25px;
   text-align: center;
   position: absolute;
   margin: auto;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -15%);
+  transform: translate(28%, 200%);
+  color: #e0e0da;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 50;
+  transition: all 0.5s ease-in;
 }
 
 .intro {
   column-count: 2;
-  /* justify-content: center; */
-  margin-left: 18vw;
+  justify-content: right;
+  margin: 0vw;
   display: flex;
+  background-color:#b5d8ab;
 }
 
 .pic img {
@@ -53,19 +63,21 @@
   margin-bottom: 0px;
   /* position:absolute;
     transform: translate(190%, -600%); */
-  color: #544838;
+  color: #2d2727;
   display: flex;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .introtext p {
   font-size: 18px;
   /* position: absolute;
     transform: translate(179%, -270%); */
-  color: #5e5555;
+  color: #2d2727;
   width: 415px;
   font: inter;
   font-weight: 700;
   display: flex;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .projectsbackground img {

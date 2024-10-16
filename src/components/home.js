@@ -4,12 +4,12 @@ import "../static/Navigation.css";
 
 function Home() {
   const background =
-    process.env.PUBLIC_URL + "/images/Artboard 5_1@2x 10.22.26 AM.jpg";
+    process.env.PUBLIC_URL + "images/websitebackground.png";
 
   const selfie = process.env.PUBLIC_URL + "/images/selfie.jpg";
 
   const projectsBackground =
-    process.env.PUBLIC_URL + "/images/projectsbackground.png";
+    process.env.PUBLIC_URL + "";
 
   return (
     <div>
@@ -17,8 +17,9 @@ function Home() {
 
       <div className="home">
         <img src={background} alt="background" />
-        <h1>Katie Sun's</h1>
-        <h1 className="portfolio">Portfolio</h1>
+        <h1>Katie Sun</h1>
+        <h2>Engineering Student, Digital Designer</h2>
+      
       </div>
       <div className="intro">
         <div className="pic">
