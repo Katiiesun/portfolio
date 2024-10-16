@@ -17,8 +17,7 @@ const Navigation = ({ className }) => {
 
   return (
     <div className={`container ${className}`}>
-    <img src={navBackground} alt="navigation background" />
-    <button onClick={homeClick}>Portfolio</button>
+    <button onClick={homeClick}>My Work</button>
     <button onClick={aboutMeClick}>About Me</button>
   </div>
   

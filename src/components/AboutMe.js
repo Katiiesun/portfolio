@@ -40,17 +40,27 @@ function AboutMe() {
         /> */}
 
         <div className="musicvinyls">
-          <img
-            className="breezeblocksVinyl"
-            src={breezeblocks}
-            alt="breezeblocks vinyl"
-          />
-          <img className="everseenVinyl" src={everseen} alt="ever seen vinyl" />
-          <img className="ivyVinyl" src={ivy} alt="ivy vinyl" />
-          <div>
-          <h2>Breezeblocks - alt-J</h2>
-          <h2>Ever Seen - Beabadoobee</h2>
-          <h2>Ivy - Taylor Swift</h2>
+          <div className="breezeblocks">
+            {" "}
+            <img
+              className="breezeblocksVinyl"
+              src={breezeblocks}
+              alt="breezeblocks vinyl"
+            />
+            <h2>Breezeblocks - alt-J</h2>
+          </div>
+
+          <div className="everseen">
+            <img
+              className="everseenVinyl"
+              src={everseen}
+              alt="ever seen vinyl"
+            />
+            <h2>Ever Seen - Beabadoobee</h2>
+          </div>
+          <div className="ivy">
+            <img className="ivyVinyl" src={ivy} alt="ivy vinyl" />
+            <h2>Ivy - Taylor Swift</h2>
           </div>
         </div>
       </div>
