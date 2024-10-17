@@ -6,8 +6,6 @@ function AboutMe() {
   const breezeblocks = process.env.PUBLIC_URL + "/images/vinyl1.png";
   const everseen = process.env.PUBLIC_URL + "/images/vinyl2.png";
   const ivy = process.env.PUBLIC_URL + "/images/vinyl3.png";
-  const musicbackground =
-    process.env.PUBLIC_URL + "/images/musicbackground.png";
 
   return (
     <div>
@@ -42,24 +40,39 @@ function AboutMe() {
         <div className="musicvinyls">
           <div className="breezeblocks">
             {" "}
-            <img
-              className="breezeblocksVinyl"
-              src={breezeblocks}
-              alt="breezeblocks vinyl"
-            />
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=rVeMiVU77wo&ab_channel=alt-J"
+            >
+              <img
+                className="breezeblocksVinyl"
+                src={breezeblocks}
+                alt="breezeblocks vinyl"
+              />
+            </a>
             <h2>Breezeblocks - alt-J</h2>
           </div>
 
           <div className="everseen">
-            <img
-              className="everseenVinyl"
-              src={everseen}
-              alt="ever seen vinyl"
-            />
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=-VEpcGrCOWY&ab_channel=beabadoobeeVEVO"
+            >
+              <img
+                className="everseenVinyl"
+                src={everseen}
+                alt="ever seen vinyl"
+              />
+            </a>
             <h2>Ever Seen - Beabadoobee</h2>
           </div>
           <div className="ivy">
-            <img className="ivyVinyl" src={ivy} alt="ivy vinyl" />
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=9nIOx-ezlzA&ab_channel=TaylorSwiftVEVO"
+            >
+              <img className="ivyVinyl" src={ivy} alt="ivy vinyl" />
+            </a>
             <h2>Ivy - Taylor Swift</h2>
           </div>
         </div>

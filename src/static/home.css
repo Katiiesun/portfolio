@@ -18,7 +18,7 @@
   margin: auto;
   top: 50%;
   left: 50%;
-  transform: translate(30%, -60%);
+  transform: translate(28%, -60%);
   color: #e0e0da;
   font-family: "emfatick";
   font-weight: 50;
@@ -91,3 +91,57 @@
   font-family:monospace;
 }
 
+.matcha-spill img{
+  width: 100vw;
+}
+
+.Subbud{
+  margin-left:20vw;
+}
+
+.Subbud img{
+  width: 55vw;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow-x: hidden;
+  margin:30px;
+  box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+}
+
+.Subbud img:hover{
+  transform: scale(1.08);
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.Subbud h1{
+  font-family:monospace;
+  font-size: 1.6vw;
+  margin-left: 6.5vw;
+}
+
+.clearSpider{
+  margin-left:20vw;
+  margin-top:6vw;
+}
+
+.clearSpider img{
+  width: 55vw;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow-x: hidden;
+  margin:30px;
+  box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+}
+
+.clearSpider h1{
+  font-family:monospace;
+  font-size: 1.6vw;
+  margin-left: -1.7vw;
+}
+
+.clearSpider img:hover{
+  transform: scale(1.08);
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}

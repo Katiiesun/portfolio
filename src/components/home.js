@@ -3,10 +3,13 @@ import Navigation from "./Navigation";
 import "../static/Navigation.css";
 
 function Home() {
-  const background =
-    process.env.PUBLIC_URL + "images/websitebackground.png";
+  const background = process.env.PUBLIC_URL + "images/websitebackground.png";
 
   const selfie = process.env.PUBLIC_URL + "images/selfie.png";
+
+  const matchaSpill = process.env.PUBLIC_URL + "images/matchabottom.png";
+  const subbudImg = process.env.PUBLIC_URL + "images/subbud-ver2.png";
+  const clearSpider = process.env.PUBLIC_URL + "images/clearspiderBarcode.png";
 
   // const projectsBackground =
   //   process.env.PUBLIC_URL + "";
@@ -19,7 +22,6 @@ function Home() {
         <img src={background} alt="background" />
         <h1>Katie Sun</h1>
         <h2>Engineering Student, Digital Designer</h2>
-      
       </div>
       <div className="intro">
         <div className="pic">
@@ -37,9 +39,17 @@ function Home() {
           </p>
         </div>
       </div>
-      {/* <div className="projectsbackground">
-        <img src={projectsBackground} alt="projects background" />
-      </div> */}
+      <div className="matcha-spill">
+        <img src={matchaSpill} alt="bottom of matcha" />
+      </div>
+      <div className="Subbud">
+      <img src={subbudImg} alt="subbud" />
+      <h1>Streamlining subscription management with SubBud.</h1>
+      </div>
+      <div className="clearSpider">
+      <img src={clearSpider} alt="clear spider redesign" />
+      <h1>Redesigning feature landing page for enhanced visual engagement.</h1>
+      </div>
     </div>
   );
 }
