@@ -37,7 +37,7 @@
   cursor: pointer;
   margin:5px;
   padding: 13px 10px;
-  font-size: 18px;
+  font-size: 1.25vw;
   color: #d1d0d0;
   font-family:monospace;
   position: relative;
@@ -54,7 +54,7 @@
   cursor: pointer;
   margin:5px;
   padding: 13px 10px;
-  font-size: 18px;
+  font-size: 1.25vw;
   color: #d1d0d0;
   font-family:monospace;
   position: relative;

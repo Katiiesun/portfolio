@@ -70,7 +70,7 @@
 }
 
 .introtext h1 {
-  font-size: 55px;
+  font-size: 3.5vw;
   margin-bottom: 0px;
   /* position:absolute;
     transform: translate(190%, -600%); */
@@ -80,7 +80,7 @@
 }
 
 .introtext p {
-  font-size: 22px;
+  font-size: 1.6vw;
   /* position: absolute;
     transform: translate(179%, -270%); */
   color: #2d2727;
@@ -93,6 +93,12 @@
 
 .matcha-spill img{
   width: 100vw;
+}
+
+.projectsSection{
+  background-color:#f3f2f0;
+  margin-top: -1vw;
+  padding-bottom:10vw;
 }
 
 .Subbud{
@@ -137,11 +143,51 @@
 .clearSpider h1{
   font-family:monospace;
   font-size: 1.6vw;
-  margin-left: -1.7vw;
+  margin-left: 1.3vw;
+  width: 60vw;
 }
 
 .clearSpider img:hover{
   transform: scale(1.08);
   transition: transform 0.3s ease;
   transform-origin: center;
+}
+
+.moodCraft{
+  margin-left:20vw;
+  margin-top:6vw;
+}
+
+.moodCraft img{
+  width: 55vw;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow-x: hidden;
+  margin:30px;
+  box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+}
+
+.moodCraft h1{
+  font-family:monospace;
+  font-size: 1.6vw;
+  margin-left: 1.3vw;
+  width: 60vw;
+}
+
+.moodCraft img:hover{
+  transform: scale(1.08);
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.moreProjects{
+  padding-top:60px;
+  background-color:#2d2727;
+  padding-bottom:60px;
+}
+
+.moreProjectsText h1{
+margin-left: 50px;
+font-family:monospace;
+color:#f3f2f0
 }

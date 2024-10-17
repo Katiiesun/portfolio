@@ -7,7 +7,7 @@
   margin: 5vh;
 }
 .aboutme h1 {
-  font-size: 14vh;
+  font-size: 7vw;
   /* text-align: left; */
   margin-bottom: 0px;
   color: #e0e0da;
@@ -48,7 +48,7 @@
 
 
 .music{
-  background-color:#e0e0da;
+  background-color:#f3f2f0;
   margin-top:-3.5vw;
 }
 .music h1 {
@@ -126,7 +126,7 @@
 } */
 
 .breezeblocks h2{
-    font-size: 26px;
+    font-size: 1.8vw;
     color: #5e5555;
   width: 500px;
   font-family: monospace;
@@ -134,7 +134,7 @@
   padding-left:3vw;
 }
 .everseen h2{
-  font-size: 26px;
+  font-size: 1.8vw;
   color: #5e5555;
 width: 500px;
 font-family: monospace;
@@ -143,7 +143,7 @@ padding-left:1.5vw;
 }
 
 .ivy h2{
-  font-size: 26px;
+  font-size: 1.8vw;
   color: #5e5555;
 width: 500px;
 font-family: monospace;
@@ -151,35 +151,3 @@ font-weight: 650;
 padding-left:4vw;
 }
 
-/* .music h2 {
-  font-size: 26px;
-  position: absolute;
-  transform: translate(36%, -580%);
-  color: #5e5555;
-  width: 500px;
-  font: inter;
-  font-weight: 650;
-  overflow-x: hidden;
-}
-
-.music h3 {
-  font-size: 26px;
-  position: absolute;
-  transform: translate(110%, -595%);
-  color: #5e5555;
-  width: 500px;
-  font: inter;
-  font-weight: 650;
-  overflow-x: hidden;
-}
-
-.music h4 {
-  font-size: 26px;
-  position: absolute;
-  transform: translate(207%, -630%);
-  color: #5e5555;
-  width: 500px;
-  font: inter;
-  font-weight: 650;
-  overflow-x: hidden;
-} */
