@@ -1,6 +1,9 @@
 import "../static/home.css";
 import Navigation from "./Navigation";
 import "../static/Navigation.css";
+import Footer from "./footer";
+import "../static/footer.css";
+
 
 function Home() {
   const background = process.env.PUBLIC_URL + "images/websitebackground.png";
@@ -12,6 +15,7 @@ function Home() {
   const clearSpider = process.env.PUBLIC_URL + "images/clearspiderBarcode.png";
   const moodCraft = process.env.PUBLIC_URL + "images/moodcraft.png";
   const artwork = process.env.PUBLIC_URL + "images/artwork.png";
+  const otherProjects = process.env.PUBLIC_URL + "images/moreProjects.png";
 
   // const projectsBackground =
   //   process.env.PUBLIC_URL + "";
@@ -59,31 +63,30 @@ function Home() {
         <div className="moodCraft">
           <img src={moodCraft} alt="moodcraft" />
           <h1>
-            Designing to promote emotional well-being through creative
+            Designing a mobile app to promote emotional well-being through creative
             expressions
           </h1>
         </div>
       </div>
       <div className="moreProjects">
         <div className="moreProjectsText">
-          <h1>Other projects I've worked on!</h1>
+          <h1>Some other cool things I've worked on!</h1>
         </div>
 
-        <div className="moodCraft">
-          <img src={moodCraft} alt="moodcraft" />
+        <div className="otherProjects">
+          <img src={otherProjects} alt="more projects" />
           <h1>
-            Designing to promote emotional well-being through creative
-            expressions
+            Various projects from graphic design to 3D modelling
           </h1>
         </div>
-        <div className="moodCraft">
+        <div className="myArtwork">
           <img src={artwork} alt="my artwork" />
           <h1>
-            Designing to promote emotional well-being through creative
-            expressions
+            A few art pieces I've created over the past few years
           </h1>
         </div>
       </div>
+      <Footer className="footerHome" />
     </div>
   );
 }

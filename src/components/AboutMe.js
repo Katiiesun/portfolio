@@ -1,5 +1,7 @@
 import "../static/AboutMe.css";
 import Navigation from "./Navigation";
+import Footer from "./footer";
+import "../static/footer.css";
 
 function AboutMe() {
   const aboutmephoto = process.env.PUBLIC_URL + "/images/meincali.jpg";
@@ -77,6 +79,7 @@ function AboutMe() {
           </div>
         </div>
       </div>
+      <Footer className="footerAboutMe" />
     </div>
   );
 }

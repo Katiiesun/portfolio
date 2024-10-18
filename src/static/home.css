@@ -22,7 +22,6 @@
   color: #e0e0da;
   font-family: "emfatick";
   font-weight: 50;
-  transition: all 0.5s ease-in;
 }
 
 .home h1.visible {
@@ -40,8 +39,26 @@
   color: #e0e0da;
   font-family: monospace;
   font-weight: 50;
-  transition: all 0.5s ease-in;
+  /* animation: typing 4s steps(22, end) forwards, blink 1s infinite; */
 }
+
+/* @keyframes typing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid #222;
+  }
+} */
 
 .intro {
   column-count: 2;
@@ -60,13 +77,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:2em;
+  padding: 2em;
 }
 
 .introtext {
   padding-top: 0vw;
   width: 60vw;
-  
 }
 
 .introtext h1 {
@@ -88,106 +104,165 @@
   font: inter;
   font-weight: 550;
   display: flex;
-  font-family:monospace;
+  font-family: monospace;
 }
 
-.matcha-spill img{
+.matcha-spill img {
   width: 100vw;
 }
 
-.projectsSection{
-  background-color:#f3f2f0;
+.projectsSection {
+  background-color: #f3f2f0;
   margin-top: -1vw;
-  padding-bottom:10vw;
+  padding-bottom: 10vw;
 }
 
-.Subbud{
-  margin-left:20vw;
+.Subbud {
+  margin-left: 20vw;
 }
 
-.Subbud img{
+.Subbud img {
   width: 55vw;
   border-radius: 50px;
   cursor: pointer;
   overflow-x: hidden;
-  margin:30px;
+  margin: 30px;
   box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
 }
 
-.Subbud img:hover{
-  transform: scale(1.08);
+.Subbud img:hover {
+  transform: scale(1.05);
   transition: transform 0.3s ease;
   transform-origin: center;
 }
 
-.Subbud h1{
-  font-family:monospace;
+.Subbud h1 {
+  font-family: monospace;
   font-size: 1.6vw;
   margin-left: 6.5vw;
 }
 
-.clearSpider{
-  margin-left:20vw;
-  margin-top:6vw;
+.clearSpider {
+  margin-left: 20vw;
+  margin-top: 6vw;
 }
 
-.clearSpider img{
+.clearSpider img {
   width: 55vw;
   border-radius: 50px;
   cursor: pointer;
   overflow-x: hidden;
-  margin:30px;
+  margin: 30px;
   box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
 }
 
-.clearSpider h1{
-  font-family:monospace;
+.clearSpider h1 {
+  font-family: monospace;
   font-size: 1.6vw;
   margin-left: 1.3vw;
   width: 60vw;
 }
 
-.clearSpider img:hover{
-  transform: scale(1.08);
+.clearSpider img:hover {
+  transform: scale(1.05);
   transition: transform 0.3s ease;
   transform-origin: center;
 }
 
-.moodCraft{
-  margin-left:20vw;
-  margin-top:6vw;
+.moodCraft {
+  margin-left: 20vw;
+  margin-top: 6vw;
 }
 
-.moodCraft img{
+.moodCraft img {
   width: 55vw;
   border-radius: 50px;
   cursor: pointer;
   overflow-x: hidden;
-  margin:30px;
+  margin: 30px;
   box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
 }
 
-.moodCraft h1{
-  font-family:monospace;
+.moodCraft h1 {
+  font-family: monospace;
   font-size: 1.6vw;
   margin-left: 1.3vw;
   width: 60vw;
 }
 
-.moodCraft img:hover{
-  transform: scale(1.08);
+.moodCraft img:hover {
+  transform: scale(1.05);
   transition: transform 0.3s ease;
   transform-origin: center;
 }
 
-.moreProjects{
-  padding-top:60px;
-  background-color:#2d2727;
-  padding-bottom:60px;
+.moreProjects {
+  padding-top: 60px;
+  background-color: #2d2727;
+  padding-bottom: 100px;
 }
 
-.moreProjectsText h1{
-margin-left: 50px;
-font-family:monospace;
-color:#f3f2f0
+.moreProjectsText h1 {
+  margin-left: 50px;
+  font-family: monospace;
+  color: #f3f2f0;
+}
+
+.myArtwork {
+  margin-left: 20vw;
+  margin-top: 6vw;
+}
+
+.myArtwork img {
+  width: 55vw;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow-x: hidden;
+  margin: 30px;
+  box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4);
+}
+
+.myArtwork h1 {
+  font-family: monospace;
+  font-size: 1.6vw;
+  margin-left: 3vw;
+  width: 60vw;
+  color: #e0e0da;
+  font-weight: 180px;
+}
+
+.myArtwork img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+
+.otherProjects {
+  margin-left: 20vw;
+  margin-top: 6vw;
+}
+
+.otherProjects img {
+  width: 55vw;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow-x: hidden;
+  margin: 30px;
+  box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4);
+}
+
+.otherProjects h1 {
+  font-family: monospace;
+  font-size: 1.6vw;
+  margin-left: 3vw;
+  width: 60vw;
+  color: #e0e0da;
+  font-weight: 180px;
+}
+
+.otherProjects img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  transform-origin: center;
 }
