@@ -5,6 +5,7 @@
 
 .home {
   margin: 0%;
+  overflow:hidden;
 }
 
 .home img {
@@ -136,10 +137,52 @@
   transform-origin: center;
 }
 
+.SubbudButtons{
+  padding:5px;
+  margin-left:2vw;
+}
+
+.moodcraftButtons{
+  padding:5px;
+  margin-left:1vw;
+}
+
+.projectsSection .SubbudButtons button{
+  background-color: #E8E5EF;
+  border-color:transparent;
+  border-radius:8px;
+  padding: 8px;
+  margin: 10px;
+  font-family:monospace;
+  color:#9d8fbe
+}
+
+.projectsSection .clearSpiderButtons button{
+  background-color: #dbe9f5;
+  border-color:transparent;
+  border-radius:8px;
+  padding: 8px;
+  margin: 10px;
+  font-family:monospace;
+  color:#809aad
+
+}
+
+.projectsSection .moodcraftButtons button{
+  background-color: #e1eae2;
+  border-color:transparent;
+  border-radius:8px;
+  padding: 8px;
+  margin: 10px;
+  font-family:monospace;
+  color:#9db79b;
+
+}
 .Subbud h1 {
   font-family: monospace;
   font-size: 1.6vw;
   margin-left: 6.5vw;
+  width:60vw;
 }
 
 .clearSpider {

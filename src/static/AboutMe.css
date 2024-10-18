@@ -5,6 +5,7 @@
 
 .aboutme {
   margin: 5vh;
+  overflow:hidden;
 }
 .aboutme h1 {
   font-size: 7vw;
@@ -24,6 +25,7 @@
   justify-content:center;
   padding: 5vw;
   background-color: #2d2727;
+  overflow:hidden;
 }
 
 .aboutme p {
@@ -50,6 +52,7 @@
 .music{
   background-color:#f3f2f0;
   margin-top:-3.5vw;
+  overflow:hidden;
 }
 .music h1 {
   font-size: 35px;

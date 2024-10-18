@@ -4,7 +4,6 @@ import "../static/Navigation.css";
 import Footer from "./footer";
 import "../static/footer.css";
 
-
 function Home() {
   const background = process.env.PUBLIC_URL + "images/websitebackground.png";
 
@@ -51,39 +50,51 @@ function Home() {
       <div className="projectsSection">
         <div className="Subbud">
           <img src={subbudImg} alt="subbud" />
-          <h1>Streamlining subscription management with SubBud.</h1>
+          <div className="SubbudButtons">
+            <button>User research</button>
+            <button>App Architecture</button>
+            <button>Interaction design</button>
+          </div>
+
+          <h1>
+            Streamlining subscription management and promoting discoverability
+            with SubBud.
+          </h1>
         </div>
         <div className="clearSpider">
           <img src={clearSpider} alt="clear spider redesign" />
+          <div className="clearSpiderButtons">
+            <button>Web design</button>
+            <button>Illustrations</button>
+          </div>
           <h1>
             Redesigning Clear Spider feature landing page for enhanced visual
-            engagement.
+            engagement
           </h1>
         </div>
         <div className="moodCraft">
           <img src={moodCraft} alt="moodcraft" />
+          <div className="moodcraftButtons">
+            <button>Visual design</button>
+          </div>
           <h1>
-            Designing a mobile app to promote emotional well-being through creative
-            expressions
+            Designing a mobile app to help foster emotional well-being through
+            creative expressions
           </h1>
         </div>
       </div>
       <div className="moreProjects">
         <div className="moreProjectsText">
-          <h1>Some other cool things I've worked on!</h1>
+          <h1>Some other cool things I've worked on!😎</h1>
         </div>
 
         <div className="otherProjects">
           <img src={otherProjects} alt="more projects" />
-          <h1>
-            Various projects from graphic design to 3D modelling
-          </h1>
+          <h1>Various projects from graphic design to 3D modelling</h1>
         </div>
         <div className="myArtwork">
           <img src={artwork} alt="my artwork" />
-          <h1>
-            A few art pieces I've created over the past few years
-          </h1>
+          <h1>A few art pieces I've created over the past few years</h1>
         </div>
       </div>
       <Footer className="footerHome" />
