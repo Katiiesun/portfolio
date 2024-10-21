@@ -23,13 +23,43 @@
   color: #e0e0da;
   font-family: "emfatick";
   font-weight: 50;
+  animation: fadeIn 2s;
 }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 .home h1.visible {
   opacity: 1;
 }
 
-.home h2 {
+.typing-text{
+  font-size: 1.5vw;
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  top: 60%;
+  left: 60%;
+  /* transform: translate(30%, 300%); */
+  color: #e0e0da;
+  font-family: monospace;
+  font-weight: 50;
+    animation: blink-cursor 0.75s step-end infinite; /* Cursor blinking effect */
+}
+
+@keyframes blink-cursor {
+  from {
+    border-right-color: rgba(0, 0, 0, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/* .home h2 {
   font-size: 1.5vw;
   text-align: center;
   position: absolute;
@@ -40,8 +70,9 @@
   color: #e0e0da;
   font-family: monospace;
   font-weight: 50;
+  animation: fadeIn 2s; */
   /* animation: typing 4s steps(22, end) forwards, blink 1s infinite; */
-}
+
 
 /* @keyframes typing {
   0% {

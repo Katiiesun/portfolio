@@ -3,8 +3,14 @@ import Navigation from "./Navigation";
 import "../static/Navigation.css";
 import Footer from "./footer";
 import "../static/footer.css";
+import { Link } from "react-router-dom"; 
+import { useState, useEffect, useCallback, useRef } from "react";
 
 function Home() {
+
+  const [text, setText] = useState("");
+
+
   const background = process.env.PUBLIC_URL + "images/websitebackground.png";
 
   const selfie = process.env.PUBLIC_URL + "images/selfie.png";
@@ -16,8 +22,24 @@ function Home() {
   const artwork = process.env.PUBLIC_URL + "images/artwork.png";
   const otherProjects = process.env.PUBLIC_URL + "images/moreProjects.png";
 
-  // const projectsBackground =
-  //   process.env.PUBLIC_URL + "";
+ 
+  useEffect(() => {
+    const initialText = "Engineering Student, Digital Designer";
+    let index = 0;  // Start the index at 0, not -1
+
+    const typeText = () => {
+      if (index < initialText.length) {
+        setText(initialText.substring(0, index + 1));  // Update text based on index
+        index++;
+      } else {
+        clearInterval(intervalId);  // Stop the interval when done
+      }
+    };
+
+    const intervalId = setInterval(typeText, 70);  // Type a letter every 150ms
+
+    return () => clearInterval(intervalId);  // Cleanup interval on unmount
+  }, []);
 
   return (
     <div>
@@ -26,7 +48,8 @@ function Home() {
       <div className="home">
         <img src={background} alt="background" />
         <h1>Katie Sun</h1>
-        <h2>Engineering Student, Digital Designer</h2>
+        <h2 className="typing-text">{text}</h2>
+        {/* <h2>Engineering Student, Digital Designer</h2> */}
       </div>
       <div className="intro">
         <div className="pic">
@@ -49,7 +72,9 @@ function Home() {
       </div>
       <div className="projectsSection">
         <div className="Subbud">
-          <img src={subbudImg} alt="subbud" />
+        <Link to="/subbud">
+        <img src={subbudImg} alt="subbud" />
+          </Link>
           <div className="SubbudButtons">
             <button>User research</button>
             <button>App Architecture</button>

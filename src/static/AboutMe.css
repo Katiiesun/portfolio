@@ -5,8 +5,16 @@
 
 .aboutme {
   margin: 5vh;
+  padding-bottom:20px;
   overflow:hidden;
+  animation: fadeIn 1s;
 }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 .aboutme h1 {
   font-size: 7vw;
   /* text-align: left; */
@@ -46,6 +54,7 @@
   height:34vw;
   margin-top:7vw;
   border-radius: 50px;
+  animation: fadeIn 1s;
 }
 
 

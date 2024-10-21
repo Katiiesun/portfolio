@@ -24,21 +24,23 @@
 
 // export default App;
 
-import {BrowserRouter as Router,Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
 import AboutMe from "./components/AboutMe";
-
+import Subbud from "./components/subbud";  // Import the Subbud component
 
 function App() {
-  return(
+  return (
     <Router>
       <div>
         <Routes>
-          <Route path="/"element={<Home />}/>
-          <Route path="/about-me"element={<AboutMe />}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/subbud" element={<Subbud />} /> {/* New route for Subbud */}
         </Routes>
       </div>
     </Router>
   );
 }
+
 export default App;
