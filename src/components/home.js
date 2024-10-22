@@ -3,13 +3,11 @@ import Navigation from "./Navigation";
 import "../static/Navigation.css";
 import Footer from "./footer";
 import "../static/footer.css";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 import { useState, useEffect, useCallback, useRef } from "react";
 
 function Home() {
-
   const [text, setText] = useState("");
-
 
   const background = process.env.PUBLIC_URL + "images/websitebackground.png";
 
@@ -21,24 +19,24 @@ function Home() {
   const moodCraft = process.env.PUBLIC_URL + "images/moodcraft.png";
   const artwork = process.env.PUBLIC_URL + "images/artwork.png";
   const otherProjects = process.env.PUBLIC_URL + "images/moreProjects.png";
+  const folkloreCD = process.env.PUBLIC_URL + "images/folkloreCD.png";
 
- 
   useEffect(() => {
     const initialText = "Engineering Student, Digital Designer";
-    let index = 0;  // Start the index at 0, not -1
+    let index = 0; // Start the index at 0, not -1
 
     const typeText = () => {
       if (index < initialText.length) {
-        setText(initialText.substring(0, index + 1));  // Update text based on index
+        setText(initialText.substring(0, index + 1)); // Update text based on index
         index++;
       } else {
-        clearInterval(intervalId);  // Stop the interval when done
+        clearInterval(intervalId); // Stop the interval when done
       }
     };
 
-    const intervalId = setInterval(typeText, 70);  // Type a letter every 150ms
+    const intervalId = setInterval(typeText, 70); // Type a letter every 150ms
 
-    return () => clearInterval(intervalId);  // Cleanup interval on unmount
+    return () => clearInterval(intervalId); // Cleanup interval on unmount
   }, []);
 
   return (
@@ -46,7 +44,15 @@ function Home() {
       {" "}
       <Navigation className="navhome" />
       <div className="home">
-        <img src={background} alt="background" />
+        <div className="homeBackground"><img src={background} alt="background" /></div>
+        <div className="folkloreCD">
+        <a
+              target="_blank"
+              href="https://open.spotify.com/album/1pzvBxYgT6OVwJLtHkrdQK?si=EH3Lcm63Rv2WQnhdeg7z4A"
+            >
+          <img src={folkloreCD} alt="folklore cd" />
+          </a>
+        </div>
         <h1>Katie Sun</h1>
         <h2 className="typing-text">{text}</h2>
         {/* <h2>Engineering Student, Digital Designer</h2> */}
@@ -72,8 +78,8 @@ function Home() {
       </div>
       <div className="projectsSection">
         <div className="Subbud">
-        <Link to="/subbud">
-        <img src={subbudImg} alt="subbud" />
+          <Link to="/subbud">
+            <img src={subbudImg} alt="subbud" />
           </Link>
           <div className="SubbudButtons">
             <button>User research</button>

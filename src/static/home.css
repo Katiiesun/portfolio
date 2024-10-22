@@ -8,8 +8,29 @@
   overflow:hidden;
 }
 
-.home img {
+.homeBackground img {
   width: 100vw;
+}
+
+.folkloreCD img{
+position:absolute;
+top:68px;
+left:35%;
+/* transform: translate(350%, -578%); */
+width: 10vw;
+animation: spin 3s linear ; /* Apply spin animation */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* Start from 0 degrees */
+  }
+  to {
+    transform: rotate(360deg); /* Rotate fully (360 degrees) */
+  }
+}
+.folkloreCD img:hover{
+  transform:scale(1.1);
 }
 
 .home h1 {
@@ -42,7 +63,7 @@
   position: absolute;
   margin: auto;
   top: 60%;
-  left: 60%;
+  left: 60.5%;
   /* transform: translate(30%, 300%); */
   color: #e0e0da;
   font-family: monospace;
