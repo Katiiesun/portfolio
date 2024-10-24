@@ -23,10 +23,12 @@ function AboutMe() {
             best in environments that foster creativity and innovation while
             also valuing grounded, evidence-based approaches. Problem-solving is
             at the heart of my work, and I am committed to bringing both
-            creativity and reasoning to the design process 💪 Outside of
-            designing, you'll likely find me sipping a matcha latte, learning my
-            favourite songs on the piano, or binge watching modern family for
-            the 10th time.{" "}
+            creativity and reasoning to the design process 💪
+          </p>
+          <p>
+            Outside of designing, you'll likely find me sipping a matcha latte,
+            learning my favourite songs on the piano, or binge watching modern
+            family for the 10th time.{" "}
           </p>
         </div>
         <img src={aboutmephoto} alt="pic of me" />

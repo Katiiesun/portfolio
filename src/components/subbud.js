@@ -3,10 +3,21 @@ import Navigation from "./Navigation";
 import "../static/Navigation.css";
 import Footer from "./footer";
 import "../static/footer.css";
+import { useState, useEffect, useCallback, useRef } from "react";
 
 const subbudBanner = process.env.PUBLIC_URL + "images/subbud-banner.png";
 const designEmpathize = process.env.PUBLIC_URL + "images/design-empathize.png";
+const competitorReviews =
+  process.env.PUBLIC_URL + "images/competitorReviews.png";
+const competitorAnalysis =
+  process.env.PUBLIC_URL + "images/competitorAnalysis.png";
+  const empathyMap =
+  process.env.PUBLIC_URL + "images/empathymap.png";
+
 function Subbud() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="subbud-header">
@@ -126,6 +137,57 @@ function Subbud() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="secondaryResearch">
+        <h1>Secondary Research</h1>
+        <h2>
+          Next, I conducted secondary research by looking at reviews of other
+          existing products on the market, and conducting a thorough competitor
+          analysis.{" "}
+        </h2>
+        <div className="competitor-reviews">
+          {" "}
+          <img src={competitorReviews} alt="competitor reviews" />
+          <img src={competitorAnalysis} alt="competitor analysis" />
+        </div>
+        <h2>
+          By comparing these features, I was able to pinpoint several gaps
+          within the market:{" "}
+        </h2>
+        <h3>
+          Edit and Cancel Subscriptions: There is a significant lack of
+          platforms that allow users to edit and cancel subscriptions directly
+          within the app. Users expressed a strong need for a seamless interface
+          for managing subscription details and an integrated payment
+          methods/wallet feature.
+        </h3>
+        <h3>
+          Usage Analysis: Comprehensive usage tracking is rarely offered by
+          competitors, yet it is crucial for users to evaluate the value of
+          their subscriptions. This gap highlights the need for detailed usage
+          analysis features.
+        </h3>
+        <h3>
+          Price Increase Alerts: Many users are not notified of price increases
+          for their subscriptions. The absence of price increase alerts prevents
+          users from managing their budgets effectively and staying informed
+          about changes in subscription costs.
+        </h3>
+        <h3>
+          Service Discovery: It was observed that two of these products did not
+          have an explore page where users can discover new subscriptions.
+        </h3>
+      
+        <div className="empathyMap">
+        <h1>Empathy Mapping</h1>
+        <h2>
+          Next, I created an empathy map to help me understand the users on a
+          more personal level, enabling me to design solutions that truly
+          resonate with their needs and aspirations.
+        </h2>
+        <img src={empathyMap} alt="empathy map" />
+        </div>
+       
       </div>
     </div>
   );
