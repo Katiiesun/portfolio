@@ -11,8 +11,23 @@ const competitorReviews =
   process.env.PUBLIC_URL + "images/competitorReviews.png";
 const competitorAnalysis =
   process.env.PUBLIC_URL + "images/competitorAnalysis.png";
-  const empathyMap =
-  process.env.PUBLIC_URL + "images/empathymap.png";
+const empathyMap = process.env.PUBLIC_URL + "images/empathymap.png";
+const userPersona = process.env.PUBLIC_URL + "images/userpersona.png";
+const ideationWireframe = process.env.PUBLIC_URL + "images/ideationsubbud.png";
+const ideation = process.env.PUBLIC_URL + "images/design-ideate.png";
+const prototype = process.env.PUBLIC_URL + "images/design-prototype.png";
+const usabilityTesting = process.env.PUBLIC_URL + "images/usabilityTesting.png";
+const iteration1 = process.env.PUBLIC_URL + "images/iterate1.png";
+const iteration2 = process.env.PUBLIC_URL + "images/iterate2.png";
+const iteration3 = process.env.PUBLIC_URL + "images/iterate3.png";
+const finalDesign = process.env.PUBLIC_URL + "images/design-final.png";
+const homepage = process.env.PUBLIC_URL + "images/subbud-home.jpeg";
+const manageSubscription = process.env.PUBLIC_URL + "images/subFlow.jpeg";
+const notifications = process.env.PUBLIC_URL + "images/notification.png";
+const addingSub = process.env.PUBLIC_URL + "images/subBud-addingsub.jpeg";
+const subAnalytics = process.env.PUBLIC_URL + "images/subBud-analytics.png";
+const subExplore = process.env.PUBLIC_URL + "images/explore-portrait.png";
+const linkIcon = process.env.PUBLIC_URL + "images/arrow-tr.png";
 
 function Subbud() {
   useEffect(() => {
@@ -23,6 +38,19 @@ function Subbud() {
       <div className="subbud-header">
         <Navigation className="projectsnav" />
         <img src={subbudBanner} alt="subbud banner" />
+        <div className="subBud-prototype-link">
+          {" "}
+          <a
+            target="_blank"
+            href="https://www.figma.com/proto/R1tryGWF4H2U6obAc7WaX1/SubBud?page-id=123%3A578&node-id=553-6227&node-type=frame&viewport=606%2C215%2C0.14&t=xRdH191XcQWcN0Pg-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=553%3A6227"
+          >
+            <h1>View Prototype</h1>
+            <div className="link-icon">
+              {" "}
+              <img src={linkIcon} alt="link icon" />
+            </div>
+          </a>
+        </div>
       </div>
       <div className="subbud-section1">
         <div className="subbud-overview">
@@ -177,18 +205,143 @@ function Subbud() {
           Service Discovery: It was observed that two of these products did not
           have an explore page where users can discover new subscriptions.
         </h3>
-      
+
         <div className="empathyMap">
-        <h1>Empathy Mapping</h1>
-        <h2>
-          Next, I created an empathy map to help me understand the users on a
-          more personal level, enabling me to design solutions that truly
-          resonate with their needs and aspirations.
-        </h2>
-        <img src={empathyMap} alt="empathy map" />
+          <h1>Empathy Mapping</h1>
+          <h2>
+            Next, I created an empathy map to help me understand the users on a
+            more personal level, enabling me to design solutions that truly
+            resonate with their needs and aspirations.
+          </h2>
+          <img src={empathyMap} alt="empathy map" />
         </div>
-       
+
+        <div className="userPersona">
+          <h1>User Persona</h1>
+          <h2>
+            After synthesizing all the research data and insights gathered, I
+            turned this information into a user persona of the target user.
+          </h2>
+          <img src={userPersona} alt="user persona" />
+        </div>
       </div>
+      <div className="ideation">
+        <h1>Ideation</h1>
+        <img src={ideation} alt="design process ideation stage" />
+        <h2>
+          Now let's begin ideating! I started by translating my initial ideas
+          into rough, low-fidelity wireframe drawings. These wireframes served
+          as the foundation for the visual layout and user flow of the app.
+        </h2>
+        <h2>
+          These wireframes were intentionally simple and rough, allowing me to
+          explore a wide range of concepts and iterate rapidly.
+        </h2>
+        <img src={ideationWireframe} alt="ideation wireframes" />
+      </div>
+      <div className="prototype">
+        <h1>Prototyping + Usability Testing</h1>
+        <img src={prototype} alt="Prototyping and testing stage" />
+        <h2>
+          I then translated the rough sketches into more detailed and polished
+          wireframes and mapped out interactions to create a high-fidelity
+          prototype to be used for user testing.
+        </h2>
+        <h2>
+          Next, I prepared instructions and questions for the participants and
+          gathered points of confusion with my current design.
+        </h2>
+
+        <img src={usabilityTesting} alt="Usability testing steps" />
+        <div className="iterations">
+          <h1>Design Iterations</h1>
+          <h2>
+            A few of the changes I made during this stage of the design process
+            after receiving feedback from users!
+          </h2>{" "}
+          <div className="iteration1">
+            {" "}
+            <img src={iteration1} alt="First change to design" />
+          </div>
+          <div className="iteration2">
+            {" "}
+            <img src={iteration2} alt="Second change to design" />
+          </div>
+          <div className="iteration3">
+            <img src={iteration3} alt="Third change to design" />
+          </div>
+        </div>
+      </div>
+      <div className="finalDesign">
+        <h1>Final Screens</h1>
+        <div className="final-design-img">
+          {" "}
+          <img src={finalDesign} alt="Final design screens" />
+        </div>
+        <div className="homepage">
+          <img src={homepage} alt="Home screens" />
+          <div className="homepage-text">
+            <h1>Home Screen</h1>
+            <h2>
+              View and manage your subscriptions, total monthly spending, and
+              recent payments. Search through your subscriptions and share with
+              friends and family.{" "}
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div className="manageSub">
+        <div className="manageSub-text">
+          <h1>Manage Subscription + Billing History</h1>
+          <img
+            src={manageSubscription}
+            alt="Manage Subscription and billing history"
+          />
+        </div>
+      </div>
+      <div className="notifications">
+        <img src={notifications} alt="Notifications screen" />
+        <div className="notification-text">
+          <h1>Notifications</h1>
+          <h2>
+            Turn on notifications and customize reminders for your
+            subscriptions. Add multiple reminders and set the time and date for
+            each.{" "}
+          </h2>
+        </div>
+      </div>
+      <div className="addingSub">
+        <div className="addingSub-text">
+          <h1>Adding a Subscription</h1>
+        </div>
+        <img src={addingSub} alt="Adding a subscription flows" />
+      </div>
+      <div className="subBud-analytics">
+        <div className="analytics-text">
+          <h1>Spending Analytics + Usage Insights</h1>
+          <h2>
+            The analytics page gives you full visibility into your spending as
+            well as usage of each subscription. You can sort by time period and
+            by subscription or category. Usage insights show which subscriptions
+            you've used the most as well as ones you haven't used as much,
+            providing saving suggestions.
+          </h2>
+        </div>
+        <img src={subAnalytics} alt="Subbud Analytics Screen" />
+      </div>
+      <div className="subBud-explore">
+        <img src={subExplore} alt="subbud explore screen" />
+        <div className="subExplore-text">
+          <h1>Discover Subscriptions</h1>
+          <h2>
+            Find new subscriptions that are catered to your interests and needs,
+            recommended to you based off your current subscription types.
+            Compare pricing and plans of other subscriptions to ensure best
+            value.
+          </h2>
+        </div>
+      </div>
+      <Footer className="footerSubBud" />
     </div>
   );
 }
