@@ -253,6 +253,7 @@ function Subbud() {
         </h2>
 
         <img src={usabilityTesting} alt="Usability testing steps" />
+        </div>
         <div className="iterations">
           <h1>Design Iterations</h1>
           <h2>
@@ -271,7 +272,6 @@ function Subbud() {
             <img src={iteration3} alt="Third change to design" />
           </div>
         </div>
-      </div>
       <div className="finalDesign">
         <h1>Final Screens</h1>
         <div className="final-design-img">

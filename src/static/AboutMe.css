@@ -42,7 +42,7 @@
     transform: translate(40%, 60%); */
     /* margin: auto; */
     color: #cdcdcd;
-    width: 550px;
+    width: 40vw;
     font-family:monospace;
     font-weight: 50px;
     line-height:120%
@@ -52,7 +52,8 @@
   /* position: right; */
   width:25vw;
   height:34vw;
-  margin-top:7vw;
+  margin-top:10vw;
+  margin-left:3vw;
   border-radius: 50px;
   animation: fadeIn 1s;
 }

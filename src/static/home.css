@@ -233,7 +233,7 @@ animation: spin 3s linear ; /* Apply spin animation */
 .Subbud h1 {
   font-family: monospace;
   font-size: 1.6vw;
-  margin-left: 6.5vw;
+  margin-left: 3vw;
   width:60vw;
 }
 

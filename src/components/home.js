@@ -4,15 +4,13 @@ import "../static/Navigation.css";
 import Footer from "./footer";
 import "../static/footer.css";
 import { Link } from "react-router-dom";
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect } from "react";
 
 function Home() {
   const [text, setText] = useState("");
 
   const background = process.env.PUBLIC_URL + "images/websitebackground.png";
-
   const selfie = process.env.PUBLIC_URL + "images/selfie.png";
-
   const matchaSpill = process.env.PUBLIC_URL + "images/matchabottom.png";
   const subbudImg = process.env.PUBLIC_URL + "images/subbud-ver2.png";
   const clearSpider = process.env.PUBLIC_URL + "images/clearspiderBarcode.png";
@@ -23,53 +21,51 @@ function Home() {
 
   useEffect(() => {
     const initialText = "Engineering Student, Digital Designer";
-    let index = 0; // Start the index at 0, not -1
+    let index = 0;
 
     const typeText = () => {
       if (index < initialText.length) {
-        setText(initialText.substring(0, index + 1)); // Update text based on index
+        setText(initialText.substring(0, index + 1));
         index++;
       } else {
-        clearInterval(intervalId); // Stop the interval when done
+        clearInterval(intervalId);
       }
     };
 
-    const intervalId = setInterval(typeText, 70); // Type a letter every 150ms
-
-    return () => clearInterval(intervalId); // Cleanup interval on unmount
+    const intervalId = setInterval(typeText, 70);
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
     <div>
-      {" "}
       <Navigation className="navhome" />
       <div className="home">
-        <div className="homeBackground"><img src={background} alt="background" /></div>
+        <div className="homeBackground">
+          <img src={background} alt="background" />
+        </div>
         <div className="folkloreCD">
-        <a
-              target="_blank"
-              href="https://open.spotify.com/album/1pzvBxYgT6OVwJLtHkrdQK?si=EH3Lcm63Rv2WQnhdeg7z4A"
-            >
-          <img src={folkloreCD} alt="folklore cd" />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://open.spotify.com/album/1pzvBxYgT6OVwJLtHkrdQK?si=EH3Lcm63Rv2WQnhdeg7z4A"
+          >
+            <img src={folkloreCD} alt="folklore cd" />
           </a>
         </div>
         <h1>Katie Sun</h1>
         <h2 className="typing-text">{text}</h2>
-        {/* <h2>Engineering Student, Digital Designer</h2> */}
       </div>
       <div className="intro">
         <div className="pic">
-          {" "}
           <img src={selfie} alt="self pic" />
         </div>
-
         <div className="introtext">
           <h1>Hello I'm Katie 👋</h1>
           <p>
             I'm a 2A Systems Design Engineering student @ UWaterloo and am
             passionate about tech and design ⚙️💡 I aspire to apply my design
             and systems thinking to create user-friendly solutions within
-            various digital problem spaces. 
+            various digital problem spaces.
           </p>
         </div>
       </div>
@@ -86,14 +82,16 @@ function Home() {
             <button>App Architecture</button>
             <button>Interaction design</button>
           </div>
-
           <h1>
             Streamlining subscription management and promoting discoverability
             with SubBud.
           </h1>
         </div>
+
         <div className="clearSpider">
-          <img src={clearSpider} alt="clear spider redesign" />
+          <Link to="/clearSpider">
+            <img src={clearSpider} alt="clear spider redesign" />
+          </Link>
           <div className="clearSpiderButtons">
             <button>Web design</button>
             <button>Illustrations</button>
@@ -103,6 +101,7 @@ function Home() {
             engagement
           </h1>
         </div>
+
         <div className="moodCraft">
           <img src={moodCraft} alt="moodcraft" />
           <div className="moodcraftButtons">
@@ -118,9 +117,11 @@ function Home() {
         <div className="moreProjectsText">
           <h1>Some other cool things I've worked on!😎</h1>
         </div>
-
         <div className="otherProjects">
-          <img src={otherProjects} alt="more projects" />
+          <Link to="/moreProjects">
+            <img src={otherProjects} alt="more projects" />
+          </Link>
+
           <h1>Various projects from graphic design to 3D modelling</h1>
         </div>
         <div className="myArtwork">

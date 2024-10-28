@@ -13,24 +13,26 @@ body {
 columns:2;
 }
 
-.subBud-prototype-link h1:hover{
-color:#999999;
-cursor: pointer;
+.subBud-prototype-link:hover{
+  opacity:50%;
+  cursor:pointer;
   }
+
 
 .subBud-prototype-link .link-icon img{
   width:1vw;
   position: absolute;
-  top:61.7%;
+  top:450px;
   left:23.5%;
 }
+
 
 .subBud-prototype-link h1{
   font-family: Arial, Helvetica, sans-serif;
   font-size:1.1vw;
   color:#6B6B6B;
   position: absolute;
-  top:60%;
+  top:438px;
   left:15%;
 }
 .subbud-header img {
@@ -332,20 +334,44 @@ cursor: pointer;
   width: 65vw;
 }
 
+.iterations{
+  display: flex;
+  /* padding-left: 18vw; */
+  padding-top: 4vw;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgb(247, 247, 247);
+}
+.iterations h1{
+  font-size: 2vw;
+  padding-left: 18vw;
+}
+
+.iterations h2{
+  display: flex;
+  /* padding-top: 2vw; */
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.1vw;
+  width: 65vw; 
+  padding-left: 18vw;
+}
 .iteration1 img {
   width: 68vw;
   padding-bottom: 4vw;
+  padding-left: 15vw;
+  padding-top:4vw;
 }
 .iteration2 img {
   width: 64vw;
   padding-top: 5vw;
-  padding-left: 3vw;
+  padding-left: 17vw;
   padding-bottom: 2vw;
 }
 .iteration3 img {
   width: 40vw;
   padding-top: 1vw;
-  padding-left: 13vw;
+  padding-left: 30vw;
   padding-bottom: 0vw;
 }
 

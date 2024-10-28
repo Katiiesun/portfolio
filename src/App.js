@@ -27,7 +27,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
 import AboutMe from "./components/AboutMe";
-import Subbud from "./components/subbud";  // Import the Subbud component
+import Subbud from "./components/subbud"; 
+import ClearSpider from "./components/clearSpider";
+import MoreProjects from "./components/moreProjects";
 
 function App() {
   return (
@@ -36,7 +38,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/subbud" element={<Subbud />} /> {/* New route for Subbud */}
+          <Route path="/subbud" element={<Subbud />} /> 
+          <Route path="/clear-spider" element={<ClearSpider />} /> 
+          <Route path="/moreProjects" element={<MoreProjects />} /> 
         </Routes>
       </div>
     </Router>
