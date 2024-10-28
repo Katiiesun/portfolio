@@ -30,6 +30,7 @@ import AboutMe from "./components/AboutMe";
 import Subbud from "./components/subbud"; 
 import ClearSpider from "./components/clearSpider";
 import MoreProjects from "./components/moreProjects";
+import Artwork from "./components/Artwork";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="/subbud" element={<Subbud />} /> 
           <Route path="/clear-spider" element={<ClearSpider />} /> 
           <Route path="/moreProjects" element={<MoreProjects />} /> 
+          <Route path="/Artwork" element={<Artwork/>} /> 
         </Routes>
       </div>
     </Router>

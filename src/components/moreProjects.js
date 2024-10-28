@@ -53,7 +53,8 @@ function MoreProjects() {
               One of my tasks as a digital designer co-op was to create
               illustrations for the company website and marketing campaigns. I
               especially loved this part of my role as it was really fun for me
-              to bring out my artistic side and get more comfortable with Illustrator.
+              to bring out my artistic side and get more comfortable with
+              Illustrator.
             </h2>
           </div>
           <img src={csIllustrations1} alt="Clear Spider Illustrations" />
@@ -74,7 +75,16 @@ function MoreProjects() {
               innocent students, including myself 😔.{" "}
             </h2>
           </div>
-          <img src={angryGoose} alt="Clear Spider Illustrations" />
+          <div className="goose-pic">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://youtu.be/lgG3JvcJjBw"
+            >
+              <img src={angryGoose} alt="goose puzzle" />
+            </a>
+            <h2>tap the goose!</h2>
+          </div>
         </div>
         <div className="goose-process">
           <img src={gooseRender} alt="Solidworks model of goose" />
@@ -98,16 +108,17 @@ function MoreProjects() {
         </div>
       </div>
       <div className="scoobyMobile">
-          <div className="scooby-Text">
-            <h1>Scooby-Doo Mystery Machine</h1>
-            <h2>
-              For a class project, I 3D-modelled the Scooby-Doo mobile using Solidworks.
-            </h2>
-          </div>
-          <img src={scooby} alt="Scooby doo mobile in solidworks" />
+        <div className="scooby-Text">
+          <h1>Scooby-Doo Mystery Machine</h1>
+          <h2>
+            For a class project, I 3D-modelled the Scooby-Doo mobile using
+            Solidworks.
+          </h2>
         </div>
-        <Footer className="footerSubBud" />
+        <img src={scooby} alt="Scooby doo mobile in solidworks" />
       </div>
+      <Footer className="footerSubBud" />
+    </div>
   );
 }
 

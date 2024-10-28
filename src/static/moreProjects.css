@@ -90,6 +90,7 @@
 .goose-intro img{
     width:38vw;
     padding-top:0vw;
+    padding-bottom:1vw;
 }
 
 .goose-intro img:hover{
@@ -116,6 +117,15 @@
     color: #f3f2f0;
 }
 
+.goose-pic h2{
+  font-family: monospace;
+  font-size: 1.4vw;
+  font-weight: 510;
+  width: 34vw;
+  line-height: 30px;
+  color: #f3f2f0;
+  padding-left: 17vw;
+}
 .goose-process{
     columns:2;
     padding-top:9vw;

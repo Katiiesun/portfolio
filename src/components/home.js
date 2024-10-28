@@ -125,7 +125,10 @@ function Home() {
           <h1>Various projects from graphic design to 3D modelling</h1>
         </div>
         <div className="myArtwork">
-          <img src={artwork} alt="my artwork" />
+          <Link to="/Artwork">
+            <img src={artwork} alt="my artwork" />
+          </Link>
+
           <h1>A few art pieces I've created over the past few years</h1>
         </div>
       </div>

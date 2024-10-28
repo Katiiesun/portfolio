@@ -1,0 +1,26 @@
+.my-artwork{
+padding-left:10vw;
+padding-top:5vw;
+}
+
+.my-artwork h1{
+    font-family: monospace;
+    flex: 1; /* Ensure both columns take up equal space */
+    font-size: 3vw;
+    padding-top: 3vw;
+    width: 35vw;
+}
+
+.my-artwork h2{
+    font-family: monospace;
+    font-size: 1.4vw;
+    font-weight: 510;
+    width: 80vw;
+    line-height: 30px;
+}
+
+.my-artwork img{
+    width:80vw;
+    padding-top:3vw;
+    padding-bottom:6vw;
+}
