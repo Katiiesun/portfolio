@@ -84,6 +84,15 @@
 
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* Start from 0 degrees */
+  }
+  to {
+    transform: rotate(360deg); /* Rotate fully (360 degrees) */
+  }
+}
+
 .music .breezeblocksVinyl {
   /* position: absolute;
   transform: translate(49%, -160%); */
@@ -92,7 +101,9 @@
   cursor: pointer;
   overflow-x: hidden;
   margin:50px;
+  animation: spin 3s linear infinite ; /* Apply spin animation */
 }
+
 
 .music .everseenVinyl {
   /* position: absolute;
@@ -102,7 +113,9 @@
   cursor: pointer;
   overflow-x: hidden;
   margin:50px;
+  animation: spin 3s linear infinite; /* Apply spin animation */
 }
+
 
 .music .ivyVinyl {
   /* position: absolute;
@@ -112,22 +125,26 @@
   cursor: pointer;
   overflow-x: hidden;
   margin:50px;
+  animation: spin 3s linear infinite; /* Apply spin animation */
 }
-    
+
 
 .music .ivyVinyl:hover {
+  animation-play-state: paused;
   transform: scale(1.1);
   transition: transform 0.3s ease;
   transform-origin: center;
 }
 
 .music .breezeblocksVinyl:hover {
+  animation-play-state: paused;
     transform: scale(1.1);
     transition: transform 0.3s ease;
     transform-origin: center;
   }
 
   .music .everseenVinyl:hover{
+    animation-play-state: paused;
     transform: scale(1.1);
     transition: transform 0.3s ease;
     transform-origin: center;

@@ -170,6 +170,32 @@ animation: spin 3s linear ; /* Apply spin animation */
   padding-bottom: 10vw;
 }
 
+.DivvyUp {
+  margin-left: 20vw;
+  margin-bottom: 5vw;
+}
+
+.DivvyUp img {
+  width: 55vw;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow-x: hidden;
+  margin: 30px;
+  box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+}
+
+.DivvyUp img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.DivvyUpButtons{
+  padding:5px;
+  margin-left:2vw;
+}
+
+
 .Subbud {
   margin-left: 20vw;
 }
@@ -197,6 +223,17 @@ animation: spin 3s linear ; /* Apply spin animation */
 .moodcraftButtons{
   padding:5px;
   margin-left:1vw;
+}
+
+
+.projectsSection .DivvyUpButtons button{
+  background-color: #cedafd;
+  border-color:transparent;
+  border-radius:8px;
+  padding: 8px;
+  margin: 10px;
+  font-family:monospace;
+  color:#344ea3
 }
 
 .projectsSection .SubbudButtons button{
@@ -230,6 +267,13 @@ animation: spin 3s linear ; /* Apply spin animation */
   color:#9db79b;
 
 }
+.DivvyUp h1 {
+  font-family: monospace;
+  font-size: 1.6vw;
+  margin-left: 3vw;
+  width:60vw;
+}
+
 .Subbud h1 {
   font-family: monospace;
   font-size: 1.6vw;

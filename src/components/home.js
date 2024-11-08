@@ -18,6 +18,7 @@ function Home() {
   const artwork = process.env.PUBLIC_URL + "images/artwork.png";
   const otherProjects = process.env.PUBLIC_URL + "images/moreProjects.png";
   const folkloreCD = process.env.PUBLIC_URL + "images/folkloreCD.png";
+  const divvyUp = process.env.PUBLIC_URL + "images/Artboard 6.png";
 
   useEffect(() => {
     const initialText = "Engineering Student, Digital Designer";
@@ -73,6 +74,21 @@ function Home() {
         <img src={matchaSpill} alt="bottom of matcha" />
       </div>
       <div className="projectsSection">
+        <div className="DivvyUp">
+          <Link to="/">
+            <img src={divvyUp} alt="divvyUp" />
+          </Link>
+          <div className="DivvyUpButtons">
+            <button>User research</button>
+            <button>App Architecture</button>
+            <button>Interaction design</button>
+          </div>
+          <h1>
+            Simplifying group planning and bill splitting with DivvyUp, for
+            a seamless group outing experience.
+          </h1>
+        </div>
+
         <div className="Subbud">
           <Link to="/subbud">
             <img src={subbudImg} alt="subbud" />
