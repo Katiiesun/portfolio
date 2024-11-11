@@ -1,0 +1,15 @@
+.construction-msg h1{
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-bottom: 0px;
+    /* position:absolute;
+      transform: translate(190%, -600%); */
+    color: #4d4545;
+    display: flex;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.construction-msg{
+    padding-left: 35vw;
+    padding-top: 20vw;
+}

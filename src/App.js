@@ -31,6 +31,7 @@ import Subbud from "./components/subbud";
 import ClearSpider from "./components/clearSpider";
 import MoreProjects from "./components/moreProjects";
 import Artwork from "./components/Artwork";
+import DivvyUp from "./components/DivvyUp";
 
 function App() {
   return (
@@ -40,9 +41,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/subbud" element={<Subbud />} /> 
-          <Route path="/clear-spider" element={<ClearSpider />} /> 
+          <Route path="/clearSpider" element={<ClearSpider />} /> 
           <Route path="/moreProjects" element={<MoreProjects />} /> 
-          <Route path="/Artwork" element={<Artwork/>} /> 
+          <Route path="/Artwork" element={<Artwork />} /> 
+          <Route path="/DivvyUp" element={<DivvyUp />} /> 
         </Routes>
       </div>
     </Router>

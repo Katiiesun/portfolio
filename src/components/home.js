@@ -75,7 +75,7 @@ function Home() {
       </div>
       <div className="projectsSection">
         <div className="DivvyUp">
-          <Link to="/">
+          <Link to="/DivvyUp">
             <img src={divvyUp} alt="divvyUp" />
           </Link>
           <div className="DivvyUpButtons">
@@ -113,12 +113,12 @@ function Home() {
             <button>Illustrations</button>
           </div>
           <h1>
-            Redesigning Clear Spider feature landing page for enhanced visual
+            Redesigning Clear Spider product landing page for enhanced visual
             engagement
           </h1>
         </div>
 
-        <div className="moodCraft">
+        {/* <div className="moodCraft">
           <img src={moodCraft} alt="moodcraft" />
           <div className="moodcraftButtons">
             <button>Visual design</button>
@@ -127,7 +127,7 @@ function Home() {
             Designing a mobile app to help foster emotional well-being through
             creative expressions
           </h1>
-        </div>
+        </div> */}
       </div>
       <div className="moreProjects">
         <div className="moreProjectsText">

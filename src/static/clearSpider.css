@@ -1,0 +1,215 @@
+.csHeader{
+    columns:2;
+    display:flex;
+    padding-top:8vw;
+    padding-left:8vw;
+    padding-right:8vw;
+    padding-bottom:4vw;
+    background-color:rgb(246, 246, 246);
+}
+
+.csHeader img{
+    width:55vw;
+}
+
+.csHeader h1{
+    font-size:2.3vw;
+    padding-top:12vw;
+}
+
+.cs-section1{
+    display: flex;
+    margin-left: 18vw;
+    margin-top:4vw;
+    margin-bottom: 4vw;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+  .cs-overview{
+    font-size: 0.8vw;
+    width: 65vw;
+    padding-bottom:2vw;
+  }
+
+  .cs-overview h2 {
+    font-weight: 500;
+    margin-bottom: 3vw;
+    line-height: 1.8vw;
+  }
+
+  .cs-overview h1{
+    font-weight: 600;
+  }
+
+  .cs-section2{
+    columns:2;
+    display:flex;
+  }
+
+  .cs-section2 img{
+    width:55vw;
+    margin-left: 4vw;
+}
+
+.section2-text{
+    padding-left:12vw;
+    padding-top:11vw;
+
+}
+
+.section2-text h1{
+    font-size:1.7vw;
+    font-weight: 600;
+}
+
+.section2-text h2{
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+}
+
+.cs-section3{
+    columns:2;
+    display:flex;  
+    margin-top: 5vw;
+}
+
+.cs-section3 img{
+width:45vw;
+padding-left: 12vw;
+}
+
+.section3-text{
+    padding-left:6vw;
+    padding-top:8vw;
+    width:26vw;
+}
+
+.section3-text h1{
+    font-size:1.7vw;
+    font-weight: 600;
+}
+
+.section3-text h2{
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+}
+
+.cs-section4 .cs-iteration{
+    columns:2;
+    display:flex;  
+    margin-top: 5vw; 
+}
+
+.cs-section4 img{
+    width: 55vw;
+}
+
+.section4-text{
+    padding-left:12vw;
+    padding-top:11vw;
+    width:26vw;
+}
+
+.section4-text h1{
+    font-size:1.7vw;
+    font-weight: 600;
+}
+
+.section4-text h2{
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+}
+
+.final-screens {
+    columns:2;
+    display:flex;
+    margin-left: 4vw;
+}
+.final-screens img{
+width:45vw;
+}
+
+.cs-section5 {
+    columns:2;
+    display:flex;  
+    margin-top: 5vw;  
+}
+
+.cs-section5 img{
+    width:55vw;
+    padding-left:6vw;
+}
+
+.section5-text{
+    padding-left:3vw;
+    padding-top:11vw;
+    width:26vw;
+}
+
+.section5-text h1{
+    font-size:1.7vw;
+    font-weight: 600;
+}
+
+.section5-text h2{
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+}
+
+.cs-section6 img{
+    width:80vw;
+    padding-left: 12vw;
+}
+
+.section6-text{
+    padding-left:12vw;
+    padding-top:5vw;
+    width:78vw;  
+}
+
+.section6-text h1{
+    font-size:1.7vw;
+    font-weight: 600;
+}
+
+.section6-text h2{
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+}
+
+.cs-section7 .section7-img{
+    display:flex;  
+    margin-top: 5vw;  
+    columns:2;
+   padding-left:8vw;
+   padding-bottom:8vw;
+}
+
+.cs-section7 .section7-img img{
+    width:43vw;
+
+
+}
+
+.section7-text {
+    padding-left:12vw;
+    padding-top:5vw;
+    width:78vw;  
+}
+
+.section7-text h1{
+    font-size:1.7vw;
+    font-weight: 600;
+}
+
+.section7-text h2{
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 1.8vw; 
+}
