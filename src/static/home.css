@@ -405,3 +405,168 @@ animation: spin 3s linear ; /* Apply spin animation */
   transition: transform 0.3s ease;
   transform-origin: center;
 }
+
+/* Responsive Adjustments for Tablets (screens 768px wide and below) */
+@media (max-width: 768px) {
+  .home h1 {
+    font-size: 6vw;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+
+  .typing-text {
+    font-size: 1.2vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .folkloreCD img {
+    width: 15vw;
+    left: 25%;
+  }
+
+  .intro {
+    flex-direction: column;
+    padding: 2vw;
+  }
+
+  .introtext h1 {
+    font-size: 4vw;
+  }
+
+  .introtext p {
+    font-size: 1.4vw;
+    width: 90%;
+  }
+
+  .pic img {
+    width: 50vw;
+    margin: 2em auto;
+  }
+
+  /* Project Section */
+  .DivvyUp, .Subbud, .clearSpider, .moodCraft, .myArtwork, .otherProjects {
+    margin-left: 5vw;
+  }
+
+  .DivvyUp img, .Subbud img, .clearSpider img, .moodCraft img, .myArtwork img, .otherProjects img {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .DivvyUp h1, .Subbud h1, .clearSpider h1, .moodCraft h1, .myArtwork h1, .otherProjects h1 {
+    font-size: 4vw;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* Buttons */
+  .projectsSection .DivvyUpButtons button,
+  .projectsSection .SubbudButtons button,
+  .projectsSection .clearSpiderButtons button,
+  .projectsSection .moodcraftButtons button {
+    padding: 6px;
+    font-size: 1vw;
+    margin: 5px;
+  }
+
+  /* Reduce padding and margins */
+  .projectsSection {
+    padding-bottom: 5vw;
+  }
+
+  .moreProjects {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .moreProjectsText h1 {
+    font-size: 4vw;
+    text-align: center;
+  }
+}
+
+/* Mobile Adjustments (screens 480px wide and below) */
+@media (max-width: 480px) {
+  .home h1 {
+    font-size: 12vw;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .typing-text {
+    font-size: 3vw;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .folkloreCD img {
+    width: 25vw;
+    top: 10px;
+    left: 35%;
+  }
+
+  .intro {
+    padding: 5vw;
+  }
+
+  .introtext h1 {
+    font-size: 6vw;
+  }
+
+  .introtext p {
+    font-size: 3vw;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .pic img {
+    width: 70vw;
+    margin: 1em auto;
+  }
+
+  /* Project Section */
+  .DivvyUp, .Subbud, .clearSpider, .moodCraft, .myArtwork, .otherProjects {
+    margin-left: 0;
+    margin-top: 5vw;
+    text-align: center;
+  }
+
+  .DivvyUp img, .Subbud img, .clearSpider img, .moodCraft img, .myArtwork img, .otherProjects img {
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  .DivvyUp h1, .Subbud h1, .clearSpider h1, .moodCraft h1, .myArtwork h1, .otherProjects h1 {
+    font-size: 5vw;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* Buttons */
+  .projectsSection .DivvyUpButtons button,
+  .projectsSection .SubbudButtons button,
+  .projectsSection .clearSpiderButtons button,
+  .projectsSection .moodcraftButtons button {
+    padding: 4px;
+    font-size: 2vw;
+    margin: 5px;
+  }
+
+  /* Reduce padding and margins */
+  .projectsSection {
+    padding: 2vw 0 5vw 0;
+  }
+
+  .moreProjects {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .moreProjectsText h1 {
+    font-size: 5vw;
+    text-align: center;
+  }
+}

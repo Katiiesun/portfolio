@@ -69,12 +69,12 @@ columns:2;
 }
 
 .project-duration h1 {
-  flex: 1; /* Ensure both columns take up equal space */
+  flex: 1;
   font-size: 1.3vw;
 }
 
 .subbud-skills h1 {
-  flex: 1; /* Ensure both columns take up equal space */
+  flex: 1;
   font-size: 1.3vw;
 }
 
@@ -123,8 +123,6 @@ columns:2;
 
 .designProcess1 h1 {
   display: flex;
-  /* padding-left:22vw;
-    padding-top:4vw; */
   flex-direction: column;
   align-items: flex-start;
   font-size: 2vw;
@@ -164,8 +162,6 @@ columns:2;
 }
 .userInterviews h2 {
   display: flex;
-  /* padding-left:22vw;
-    padding-top:4vw; */
   flex-direction: column;
   align-items: flex-start;
   font-size: 1.1vw;
@@ -181,7 +177,6 @@ columns:2;
 
 .keyFindings {
   display: flex;
-  /* padding-left: 22vw; */
   padding-top: 4vw;
   padding-bottom: 1vw;
   flex-direction: column;
@@ -195,13 +190,13 @@ columns:2;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 2vw; /* Space between key findings */
+  gap: 2vw; 
 }
 
 .keyFinding1,
 .keyFinding2,
 .keyFinding3 {
-  width: 30%; /* This gives each key finding a third of the available width */
+  width: 30%; 
   margin-bottom: 2vw;
 }
 
@@ -209,25 +204,26 @@ columns:2;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 2vw; /* Space between key findings */
+  gap: 2vw; 
 }
 
 .keyFinding4,
 .keyFinding5,
 .keyFinding6 {
-  width: 30%; /* This gives each key finding a third of the available width */
+  width: 30%; 
   margin-bottom: 2vw;
 }
 
 .secondaryResearch {
   display: flex;
-  padding-left: 18vw;
-  padding-top: 4vw;
-  padding-right: vw;
-  padding-bottom: 4vw;
   flex-direction: column;
   align-items: flex-start;
+  padding-left: 18vw !important;
+  padding-top: 4vw !important;
+  padding-right: 4vw !important; 
+  padding-bottom: 4vw !important;
 }
+
 
 .secondaryResearch h1 {
   font-size: 2vw;
@@ -235,8 +231,6 @@ columns:2;
 
 .secondaryResearch h2 {
   display: flex;
-  /* padding-left:22vw;
-      padding-top:4vw; */
   flex-direction: column;
   align-items: flex-start;
   font-size: 1.1vw;
@@ -245,8 +239,6 @@ columns:2;
 
 .secondaryResearch h3 {
   display: flex;
-  /* padding-left:22vw;
-      padding-top:4vw; */
   flex-direction: column;
   align-items: flex-start;
   font-size: 1.1vw;
@@ -265,7 +257,6 @@ columns:2;
 .empathyMap img {
   width: 55vw;
   padding-top: 4vw;
-  padding-left: 4vw;
 }
 
 .userPersona {
@@ -278,13 +269,12 @@ columns:2;
 
 .ideation {
   display: flex;
-  padding-left: 18vw;
   padding-top: 4vw;
-  padding-right: vw;
+  padding-left:18vw;
+  padding-right: 4vw;
   padding-bottom: 4vw;
   flex-direction: column;
   align-items: flex-start;
-  /* background-color: rgb(247, 247, 247); */
 }
 
 .ideation h1 {
@@ -293,7 +283,6 @@ columns:2;
 
 .ideation h2 {
   display: flex;
-  /* padding-top: 2vw; */
   flex-direction: column;
   align-items: flex-start;
   font-size: 1.1vw;
@@ -327,7 +316,6 @@ columns:2;
 
 .prototype h2 {
   display: flex;
-  /* padding-top: 2vw; */
   flex-direction: column;
   align-items: flex-start;
   font-size: 1.1vw;
@@ -336,7 +324,6 @@ columns:2;
 
 .iterations{
   display: flex;
-  /* padding-left: 18vw; */
   padding-top: 4vw;
   flex-direction: column;
   align-items: flex-start;
@@ -349,7 +336,6 @@ columns:2;
 
 .iterations h2{
   display: flex;
-  /* padding-top: 2vw; */
   flex-direction: column;
   align-items: flex-start;
   font-size: 1.1vw;
@@ -395,7 +381,6 @@ columns:2;
 
 .homepage-text h2 {
   display: flex;
-  /* padding-top: 2vw; */
   flex-direction: column;
   align-items: flex-start;
   font-size: 1.1vw;
@@ -435,11 +420,6 @@ columns:2;
 .notifications {
   columns: 2;
   gap: 5vw;
-  /* display: flex;
-  padding-left: 18vw;
-  padding-top: 4vw;
-  flex-direction: column;
-  align-items: flex-start; */
 }
 
 .notifications img {
@@ -458,7 +438,6 @@ columns:2;
 
 .notification-text h2 {
   display: flex;
-  /* padding-top: 2vw; */
   flex-direction: column;
   align-items: flex-start;
   font-size: 1.1vw;
@@ -499,7 +478,6 @@ columns:2;
 
 .analytics-text h2{
   display: flex;
-  /* padding-top: 2vw; */
   flex-direction: column;
   align-items: flex-start;
   font-size: 1.1vw;
@@ -538,7 +516,6 @@ columns:2;
 
 .subExplore-text h2{
   display: flex;
-  /* padding-top: 2vw; */
   flex-direction: column;
   align-items: flex-start;
   font-size: 1.1vw;
