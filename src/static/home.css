@@ -119,7 +119,7 @@ animation: spin 3s linear ; /* Apply spin animation */
   margin: 0vw;
   display: flex;
   background-color: #b5d8ab;
-  margin-top: -3.5px;
+  margin-top: -6px;
 }
 
 .pic img {
