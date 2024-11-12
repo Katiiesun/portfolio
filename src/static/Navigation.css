@@ -91,28 +91,17 @@
 }
 
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
+
+@media (max-width: 700px) {
   .navhome {
-    padding: 15px; /* Reduce padding for smaller screens */
+    padding: 10px; 
     position:absolute;
-    margin-left:52%;
+    margin-left:56%;
     overflow-x:hidden;
   }
 
   .navhome button {
-    font-size: 4vw; /* Responsive font size */
-    padding: 8px;
-  }
-}
-
-@media (max-width: 480px) {
-  .navhome {
-    padding: 10px; /* Further reduce padding for small screens */
-  }
-
-  .navhome button {
-    font-size: 3vw; /* Increase font size on very small screens */
+    font-size: 2.5vw; 
     padding: 6px;
   }
 }
