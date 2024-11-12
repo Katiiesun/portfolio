@@ -3,11 +3,11 @@
     padding: 20px;
     text-align: left;
     position: relative; /* Change from fixed to relative */
-    bottom: 0;
     width: 100;
     display: flex;
     max-width: 100vw; /* Ensure it doesn't exceed the viewport */
     padding: 45 20px;
+    padding-bottom:2vw;
   }
   
   .footer-container {
@@ -54,6 +54,7 @@
     display: flex;
     max-width: 100vw; 
     padding: 45 20px;
+    padding-bottom:2vw;
   }
   
   
@@ -95,6 +96,7 @@
     display: flex;
     max-width: 100vw; 
     padding: 45 20px;
+    padding-bottom:2vw;
   }
   
   
