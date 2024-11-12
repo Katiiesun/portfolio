@@ -405,3 +405,228 @@ animation: spin 3s linear ; /* Apply spin animation */
   transform-origin: center;
 }
 
+@media (max-width: 480px) {
+  .home h1 {
+    font-size: 9vw;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    transform: translate(28%, -800%);
+    color: #e0e0da;
+    font-family: "emfatick";
+    font-weight: 50;
+    animation: fadeIn 2s;
+  }
+  .typing-text{
+    font-size: 1.5vw;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 18.6%;
+    left: 60.5%;
+    /* transform: translate(30%, 300%); */
+    color: #e0e0da;
+    font-family: monospace;
+    font-weight: 50;
+      animation: blink-cursor 0.75s step-end infinite; /* Cursor blinking effect */
+  }
+  
+  .folkloreCD img{
+    position:absolute;
+    top:15px;
+    left:35%;
+    width: 10vw;
+    animation: spin 3s linear ; /* Apply spin animation */
+    }
+
+    .pic img {
+      width: 30vw;
+      margin: 5vw;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2vw;
+    }
+    
+    .introtext {
+      padding-top: 0vw;
+      width: 60vw;
+    }
+    
+    .introtext h1 {
+      font-size: 3.5vw;
+      margin-bottom: 0px;
+      /* position:absolute;
+        transform: translate(190%, -600%); */
+      color: #2d2727;
+      display: flex;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .introtext p {
+      font-size: 1.6vw;
+      /* position: absolute;
+        transform: translate(179%, -270%); */
+      color: #2d2727;
+      width: 580px;
+      font: inter;
+      font-weight: 550;
+      display: flex;
+      font-family: monospace;
+    }
+
+    .projectsSection .DivvyUpButtons button{
+      background-color: #cedafd;
+      border-color:transparent;
+      border-radius:8px;
+      padding: 2vw;
+      margin: 1vw;
+      font-size: 2vw;
+      font-family:monospace;
+      color:#344ea3
+    }
+    
+    .projectsSection .SubbudButtons button{
+      background-color: #E8E5EF;
+      border-color:transparent;
+      border-radius:8px;
+      padding: 2vw;
+      margin: 1vw;
+      font-size: 2vw;
+      font-family:monospace;
+      color:#9d8fbe
+    }
+    
+    .projectsSection .clearSpiderButtons button{
+      background-color: #dbe9f5;
+      border-color:transparent;
+      border-radius:8px;
+      padding: 2vw;
+      margin: 1vw;
+      font-size: 2vw;
+      font-family:monospace;
+      color:#809aad
+    
+    }
+    .SubbudButtons{
+      padding:1vw;
+      margin-left:2vw;
+    }
+
+    .DivvyUpButtons{
+      padding:1vw;
+      margin-left:2vw;
+    }
+
+    .clearSpiderButtons{
+      padding:1vw;
+      margin-left:2vw;
+    }
+    .clearSpider img {
+      width: 55vw;
+      border-radius: 7vw;
+      cursor: pointer;
+      overflow-x: hidden;
+      margin: 30px;
+      box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+    }
+
+    .DivvyUp img {
+      width: 55vw;
+      border-radius: 7vw;
+      cursor: pointer;
+      overflow-x: hidden;
+      margin: 30px;
+      box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+    }
+    
+   
+    .Subbud img {
+      width: 55vw;
+      border-radius: 7vw;
+      cursor: pointer;
+      overflow-x: hidden;
+      margin: 30px;
+      box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+    }
+
+    .myArtwork img {
+      width: 55vw;
+      border-radius: 7vw;
+      cursor: pointer;
+      overflow-x: hidden;
+      margin: 30px;
+      box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4);
+    }
+    
+   
+    .otherProjects img {
+      width: 55vw;
+      border-radius: 7vw;
+      cursor: pointer;
+      overflow-x: hidden;
+      margin: 30px;
+      box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4);
+    }
+
+    .introtext p {
+      font-size: 2vw;
+      /* position: absolute;
+        transform: translate(179%, -270%); */
+      color: #2d2727;
+      width: 50vw;
+      font: inter;
+      font-weight: 550;
+      display: flex;
+      font-family: monospace;
+    }
+
+    .DivvyUp h1 {
+      font-family: monospace;
+      font-size: 3vw;
+      margin-left: 3vw;
+      width:60vw;
+    }
+    
+    .Subbud h1 {
+      font-family: monospace;
+      font-size: 3vw;
+      margin-left: 3vw;
+      width:60vw;
+    }
+
+    .clearSpider h1{
+      font-family: monospace;
+      font-size: 3vw;
+      margin-left: 3vw;
+      width:60vw;
+    }
+
+    .myArtwork h1 {
+      font-family: monospace;
+      font-size: 3vw;
+      margin-left: 9vw;
+      width: 60vw;
+      color: #e0e0da;
+      font-weight: 180px;
+    }
+    .otherProjects h1 {
+      font-family: monospace;
+      font-size: 3vw;
+      margin-left: 9vw;
+      width: 60vw;
+      color: #e0e0da;
+      font-weight: 180px;
+    }
+
+    .moreProjectsText h1 {
+      margin-left: 50px;
+      font-family: monospace;
+      color: #f3f2f0;
+      font-size:4vw;
+      width:70vw;
+    }
+    
+  }
+
