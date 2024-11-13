@@ -127,7 +127,7 @@
     opacity:60%;
   }
 
-  /* @media (max-width: 480px) {
+  @media (max-width: 480px) {
     .footerHome button {
       margin: 0 10px;
       padding: 10px 20px;
@@ -235,4 +235,4 @@
       font-family: monospace;
       font-weight: bold;
     }
-  } */
+  }
