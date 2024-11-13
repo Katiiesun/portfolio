@@ -204,15 +204,15 @@ padding-left:4vw;
     font-weight: 650;
   }
   .musicvinyls{
-    column-count:3;
+    column-count:1;
     padding-bottom:10vw;
-    margin-left:1vw;
+    margin-left:25vw;
 
 }
 .music .breezeblocksVinyl {
   /* position: absolute;
   transform: translate(49%, -160%); */
-  width: 20vw;
+  width: 40vw;
   border-radius: 50px;
   cursor: pointer;
   overflow-x: hidden;
@@ -224,7 +224,7 @@ padding-left:4vw;
 .music .everseenVinyl {
   /* position: absolute;
   transform: translate(190%, -160%); */
-  width: 20vw;
+  width: 40vw;
   border-radius: 50 px;
   cursor: pointer;
   overflow-x: hidden;
@@ -236,7 +236,7 @@ padding-left:4vw;
 .music .ivyVinyl {
   /* position: absolute;
   transform: translate(340%, -160%); */
-  width: 20vw;
+  width: 40vw;
   border-radius: 50px;
   cursor: pointer;
   overflow-x: hidden;
@@ -244,29 +244,29 @@ padding-left:4vw;
   animation: spin 3s linear infinite; /* Apply spin animation */
 }
 .breezeblocks h2{
-  font-size: 1.8vw;
+  font-size: 2.8vw;
   color: #5e5555;
-width: 30vw;
+width: 40vw;
 font-family: monospace;
 font-weight: 650;
-padding-left:3vw;
+padding-left:8vw;
 }
 .everseen h2{
-font-size: 1.8vw;
+font-size: 2.8vw;
 color: #5e5555;
-width: 30vw;
-font-family: monospace;
-font-weight: 650;
-padding-left:1.5vw;
-}
-
-.ivy h2{
-font-size: 1.8vw;
-color: #5e5555;
-width: 30vw;
+width: 40vw;
 font-family: monospace;
 font-weight: 650;
 padding-left:4vw;
+}
+
+.ivy h2{
+font-size: 2.8vw;
+color: #5e5555;
+width: 40vw;
+font-family: monospace;
+font-weight: 650;
+padding-left:8vw;
 }
   }
 
