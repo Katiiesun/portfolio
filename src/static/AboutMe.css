@@ -243,6 +243,30 @@ padding-left:4vw;
   margin:5vw;
   animation: spin 3s linear infinite; /* Apply spin animation */
 }
+.breezeblocks h2{
+  font-size: 1.8vw;
+  color: #5e5555;
+width: 30vw;
+font-family: monospace;
+font-weight: 650;
+padding-left:3vw;
+}
+.everseen h2{
+font-size: 1.8vw;
+color: #5e5555;
+width: 30vw;
+font-family: monospace;
+font-weight: 650;
+padding-left:1.5vw;
+}
 
+.ivy h2{
+font-size: 1.8vw;
+color: #5e5555;
+width: 30vw;
+font-family: monospace;
+font-weight: 650;
+padding-left:4vw;
+}
   }
 
