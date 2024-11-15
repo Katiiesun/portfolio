@@ -217,6 +217,17 @@ function DivvyUp() {
           {" "}
           <h1>Adding event in a plan</h1>
           <img src={divvyplan} alt="divvyUp plan and adding event screens" />
+          <h2>
+            When creating a plan, you can easily schedule events in an hourly
+            view. Within these events, both you and your friends can log
+            payments, track who paid for what, and specify how the costs are
+            split among the group. 
+          </h2>
+          <h2>Our planning feature also makes it simple to
+            adjust the plan's month and date whenever needed. Users can modify
+            these details directly on the same screen, eliminating the need to
+            navigate elsewhere. This ensures a smooth rescheduling process
+            without the user thinking they might lose the existing schedule they created.</h2>
         </div>
         <div className="divvy-onboarding">
           {" "}
@@ -253,8 +264,8 @@ function DivvyUp() {
           multi-payment logging, scheduling, and AI plan suggestions.
         </h2>
         <h2>
-          -Explore integrating in-app payment options (e.g., PayPal) to
-          allow users to settle bills directly within the app.
+          -Explore integrating in-app payment options (e.g., PayPal) to allow
+          users to settle bills directly within the app.
         </h2>
       </div>
       <Footer className="footerSubBud" />
