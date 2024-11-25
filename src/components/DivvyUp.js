@@ -19,6 +19,7 @@ function DivvyUp() {
   const divvyplan = process.env.PUBLIC_URL + "images/divvy adding event.png";
   const divvyAI = process.env.PUBLIC_URL + "images/divvy ai.png";
   const divvysplit = process.env.PUBLIC_URL + "images/divvy bill splitter.png";
+  const divvypersona = process.env.PUBLIC_URL + "images/Group 54.png";
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -121,6 +122,7 @@ function DivvyUp() {
             </h3>
           </div>
         </div>
+        <img src={divvypersona} alt="divvyUp user flow" />
       </div>
       <div className="divvy-section3">
         <h1>Ideation</h1>

@@ -25,6 +25,11 @@ width:100vw;
     padding-bottom:5vw;
 }
 
+.divvy-section2 img{
+    width:67vw;
+    padding-top:3vw;
+}
+
 .divvy-section2 .keyFindingsDivvy{
     display:flex;
     columns:3;
