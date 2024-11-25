@@ -8,6 +8,7 @@ function AboutMe() {
   const breezeblocks = process.env.PUBLIC_URL + "/images/vinyl1.png";
   const everseen = process.env.PUBLIC_URL + "/images/vinyl2.png";
   const ivy = process.env.PUBLIC_URL + "/images/vinyl3.png";
+  const selfietwo = process.env.PUBLIC_URL + "images/IMG_9177.jpeg";
 
   return (
     <div>

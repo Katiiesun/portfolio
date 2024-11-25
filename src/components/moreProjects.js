@@ -32,9 +32,8 @@ function MoreProjects() {
               For the past 2 terms I've been apart of the UW/UX team as a design
               coordinator and projects team member. I've worked on creating
               various graphics for our club events and initiatives, including
-              our FRAME Designathon back in July 2024. Currently, I'm working on
-              designing team merch and new branding for a designathon we are
-              hosting soon!
+              our FUSE and FRAME Designathons. Currently, I'm leading a team in
+              designing club merch!
             </h2>
           </div>
 

@@ -20,6 +20,7 @@ function Home() {
   const folkloreCD = process.env.PUBLIC_URL + "images/folkloreCD.png";
   const divvyUp = process.env.PUBLIC_URL + "images/Artboard 6.png";
 
+
   useEffect(() => {
     const initialText = "Engineering Student, Digital Designer";
     let index = 0;
