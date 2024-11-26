@@ -155,7 +155,7 @@ function DivvyUp() {
         <h2>
           However, through testing and further reflection on typical group
           outings, I recognized a significant limitation in this approach: most
-          events throughout the day involve multiple payments. For instance,
+          planned events throughout the day involve multiple payments. For instance,
           during an afternoon at an amusement park, various people might make
           individual payments for entry tickets, food, souvenirs, and more.
           Limiting each event to a single payment didn’t align with the way
