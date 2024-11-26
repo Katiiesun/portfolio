@@ -155,12 +155,12 @@ function DivvyUp() {
         <h2>
           However, through testing and further reflection on typical group
           outings, I recognized a significant limitation in this approach: most
-          planned events throughout the day involve multiple payments. For instance,
-          during an afternoon at an amusement park, various people might make
-          individual payments for entry tickets, food, souvenirs, and more.
-          Limiting each event to a single payment didn’t align with the way
-          groups generally manage their expenses in such scenarios, where costs
-          are often shared multiple times within a single event block.
+          planned events throughout the day involve multiple payments. For
+          instance, during an afternoon at an amusement park, various people
+          might make individual payments for entry tickets, food, souvenirs, and
+          more. Limiting each event to a single payment didn’t align with the
+          way groups generally manage their expenses in such scenarios, where
+          costs are often shared multiple times within a single event block.
         </h2>
         <h2>
           To better serve the needs of users and to improve the app's scheduling
@@ -180,8 +180,9 @@ function DivvyUp() {
             Another one of the design iterations I focused on was streamlining
             the process of adding friends to a plan. Initially, my idea was for
             users to search for a friend, tap on their profile, and then press
-            "Add Friend." However, this setup wasn't intuitive in showing that
-            users could continue searching for more friends afterward.
+            "Add Friend." However, during testing it was brought to my attention
+            that this setup wasn't intuitive in showing that users could
+            continue searching for more friends afterward.
           </h2>
           <img src={addfriendCard} alt="Iteration of adding friend card" />
           <h2>
@@ -223,13 +224,15 @@ function DivvyUp() {
             When creating a plan, you can easily schedule events in an hourly
             view. Within these events, both you and your friends can log
             payments, track who paid for what, and specify how the costs are
-            split among the group. 
+            split among the group.
           </h2>
-          <h2>Our planning feature also makes it simple to
-            adjust the plan's month and date whenever needed. Users can modify
-            these details directly on the same screen, eliminating the need to
-            navigate elsewhere. This ensures a smooth rescheduling process
-            without the user thinking they might lose the existing schedule they created.</h2>
+          <h2>
+            Our planning feature also makes it simple to adjust the plan's month
+            and date whenever needed. Users can modify these details directly on
+            the same screen, eliminating the need to navigate elsewhere. This
+            ensures a smooth rescheduling process without the user thinking they
+            might lose the existing schedule they created.
+          </h2>
         </div>
         <div className="divvy-onboarding">
           {" "}
