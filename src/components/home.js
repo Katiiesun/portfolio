@@ -5,6 +5,7 @@ import Footer from "./footer";
 import "../static/footer.css";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { initializeScrollAnimation } from "./animationInView";
 
 function Home() {
   const [text, setText] = useState("");
@@ -19,7 +20,7 @@ function Home() {
   const otherProjects = process.env.PUBLIC_URL + "images/moreProjects.png";
   const folkloreCD = process.env.PUBLIC_URL + "images/folkloreCD.png";
   const divvyUp = process.env.PUBLIC_URL + "images/Artboard 6.png";
-
+  const selfietwo = process.env.PUBLIC_URL + "images/IMG_9177.jpeg";
 
   useEffect(() => {
     const initialText = "Engineering Student, Digital Designer";
@@ -59,7 +60,9 @@ function Home() {
       </div>
       <div className="intro">
         <div className="pic">
-          <img src={selfie} alt="self pic" />
+          {/* <div class="animated hidden"> */}{" "}
+          <img src={selfietwo} alt="self pic" />
+          {/* </div> */}
         </div>
         <div className="introtext">
           <h1>Hello I'm Katie 👋</h1>
@@ -69,8 +72,20 @@ function Home() {
             and systems thinking to create user-friendly solutions within
             various digital problem spaces.
           </p>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/1LYqSUE5yBAUkqegN05GTDuTkBSvlGPNj/view?usp=sharing"
+          >
+          <div className="intro-button">
+            <button>View Resume</button>
+          </div>
+          </a>
+      
         </div>
+        
       </div>
+      
       <div className="matcha-spill">
         <img src={matchaSpill} alt="bottom of matcha" />
       </div>
@@ -85,8 +100,8 @@ function Home() {
             <button>Interaction design</button>
           </div>
           <h1>
-            Simplifying group planning and bill splitting with DivvyUp, for
-            a seamless group outing experience.
+            Simplifying group planning and bill splitting with DivvyUp, for a
+            seamless group outing experience.
           </h1>
         </div>
 
