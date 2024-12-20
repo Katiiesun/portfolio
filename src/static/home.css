@@ -549,14 +549,13 @@ left: 35vw; */
   }
 
   .projectsSection .heyMiloButtons button {
-    background-color: #cedafd;
+    background-color: #cee7fd;
     border-color: transparent;
-    border-radius: 8px;
-    padding: 2vw;
-    margin: 1vw;
-    font-size: 2vw;
+    border-radius: 50px;
+    padding: 0.8vw;
+    margin: 10px;
     font-family: monospace;
-    color: #344ea3;
+    color: #3d6491;
   }
 
   .projectsSection .SubbudButtons button {
