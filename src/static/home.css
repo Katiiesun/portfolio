@@ -195,6 +195,39 @@ left: 35vw; */
   padding-bottom: 10vw;
 }
 
+.heyMilo{
+  margin-left: 20vw;
+  margin-bottom: 5vw;
+}
+.heyMilo img{
+  width: 55vw;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow-x: hidden;
+  margin: 30px;
+  box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+}
+
+.heyMilo h1{
+  font-family: monospace;
+  font-size: 1.6vw;
+  margin-left: 1.3vw;
+  width: 60vw;
+}
+
+.heyMilo img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.heyMiloButtons {
+  padding: 5px;
+  margin-left: 2vw;
+}
+
+
+
 .DivvyUp {
   margin-left: 20vw;
   margin-bottom: 5vw;
@@ -248,6 +281,17 @@ left: 35vw; */
   padding: 5px;
   margin-left: 1vw;
 }
+
+.projectsSection .heyMiloButtons button {
+  background-color: #cee7fd;
+  border-color: transparent;
+  border-radius: 50px;
+  padding: 0.8vw;
+  margin: 10px;
+  font-family: monospace;
+  color: #3d6491;
+}
+
 
 .projectsSection .DivvyUpButtons button {
   background-color: #cedafd;

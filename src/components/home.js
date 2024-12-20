@@ -21,6 +21,7 @@ function Home() {
   const folkloreCD = process.env.PUBLIC_URL + "images/folkloreCD.png";
   const divvyUp = process.env.PUBLIC_URL + "images/Artboard 6.png";
   const selfietwo = process.env.PUBLIC_URL + "images/IMG_9177.jpeg";
+  const heyMilo = process.env.PUBLIC_URL + "images/heymilo-mockup.png";
 
   useEffect(() => {
     const initialText = "Engineering Student, Digital Designer";
@@ -77,19 +78,31 @@ function Home() {
             rel="noopener noreferrer"
             href="https://drive.google.com/file/d/1u6VZ9GxkGkYUsooimeUzSdmNSfX7HS1h/view?usp=sharing"
           >
-          <div className="intro-button">
-            <button>View Resume</button>
-          </div>
+            <div className="intro-button">
+              <button>View Resume</button>
+            </div>
           </a>
-      
         </div>
-        
       </div>
-      
+
       <div className="matcha-spill">
         <img src={matchaSpill} alt="bottom of matcha" />
       </div>
       <div className="projectsSection">
+
+      <div className="heyMilo">
+          {/* <Link to="/DivvyUp"> */}
+            <img src={heyMilo} alt="heyMilo" />
+          {/* </Link> */}
+          <div className="heyMiloButtons">
+            <button>Coming soon!</button>
+            
+          </div>
+          <h1>
+          Redesigning the ATS dashboard and navigation to streamline recruiter workflows
+          </h1>
+        </div>
+
         <div className="DivvyUp">
           <Link to="/DivvyUp">
             <img src={divvyUp} alt="divvyUp" />
