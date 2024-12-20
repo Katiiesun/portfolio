@@ -142,7 +142,7 @@ function Home() {
             <button>Illustrations</button>
           </div>
           <h1>
-            Redesigning Clear Spider product landing page for enhanced visual
+            Redesigning a product landing page for enhanced visual
             engagement
           </h1>
         </div>
