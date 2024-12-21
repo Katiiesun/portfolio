@@ -99,7 +99,7 @@ function Home() {
             
           </div>
           <h1>
-          Redesigning an ATS dashboard and navigation to streamline recruiter workflows
+          Redesigning an ATS dashboard and navigation system to streamline recruiter workflows
           </h1>
         </div>
 
