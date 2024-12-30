@@ -76,7 +76,7 @@ function Home() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1u6VZ9GxkGkYUsooimeUzSdmNSfX7HS1h/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iI4BnTmvVhqyEQsz8GGG-9JBgJQFHi2a/view?usp=sharing"
           >
             <div className="intro-button">
               <button>View Resume</button>
@@ -89,17 +89,16 @@ function Home() {
         <img src={matchaSpill} alt="bottom of matcha" />
       </div>
       <div className="projectsSection">
-
-      <div className="heyMilo">
+        <div className="heyMilo">
           {/* <Link to="/DivvyUp"> */}
-            <img src={heyMilo} alt="heyMilo" />
+          <img src={heyMilo} alt="heyMilo" />
           {/* </Link> */}
           <div className="heyMiloButtons">
             <button>Coming soon!</button>
-            
           </div>
           <h1>
-          Redesigning an ATS dashboard and navigation system to streamline recruiter workflows
+            Redesigning an ATS dashboard and navigation system to streamline
+            recruiter workflows
           </h1>
         </div>
 
@@ -142,8 +141,7 @@ function Home() {
             <button>Illustrations</button>
           </div>
           <h1>
-            Redesigning a product landing page for enhanced visual
-            engagement
+            Redesigning a product landing page for enhanced visual engagement
           </h1>
         </div>
 
