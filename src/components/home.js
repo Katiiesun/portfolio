@@ -94,7 +94,9 @@ function Home() {
           <img src={heyMilo} alt="heyMilo" />
           </Link>
           <div className="heyMiloButtons">
-            <button>Coming soon!</button>
+            <button>Interaction Design</button>
+            <button>Competitor Analysis</button>
+            <button>Interface Design</button>
           </div>
           <h1>
             Redesigning an ATS dashboard and navigation system to streamline
