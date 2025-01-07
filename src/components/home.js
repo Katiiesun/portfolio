@@ -90,9 +90,9 @@ function Home() {
       </div>
       <div className="projectsSection">
         <div className="heyMilo">
-          {/* <Link to="/DivvyUp"> */}
+          <Link to="/heymilo">
           <img src={heyMilo} alt="heyMilo" />
-          {/* </Link> */}
+          </Link>
           <div className="heyMiloButtons">
             <button>Coming soon!</button>
           </div>
