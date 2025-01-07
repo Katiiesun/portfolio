@@ -14,6 +14,7 @@ const hmfinalTwo = process.env.PUBLIC_URL + "images/Group 1171276152.png";
 const hmfinalThree = process.env.PUBLIC_URL + "images/Group 1171276153.png";
 const devhandoff = process.env.PUBLIC_URL + "images/dev handoff.png";
 const ideation = process.env.PUBLIC_URL + "images/IMG_1534.jpg";
+const heyMilo = process.env.PUBLIC_URL + "images/heymilo-mockup.png";
 
 function HeyMilo() {
   useEffect(() => {
