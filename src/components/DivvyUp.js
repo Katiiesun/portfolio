@@ -55,7 +55,7 @@ function DivvyUp() {
         <div className="subbud-intro">
           <div className="subbud-skills">
             <h1>SKILLS</h1>
-            <h2>User research</h2>
+            <h2>Product thinking</h2>
             <h2>App architecture</h2>
             <h2>Interaction design</h2>
           </div>
@@ -65,7 +65,7 @@ function DivvyUp() {
           </div>
           <div className="project-duration">
             <h1>DURATION</h1>
-            <h2>September 2024 - Now</h2>
+            <h2>September - November 2024</h2>
           </div>
         </div>
       </div>

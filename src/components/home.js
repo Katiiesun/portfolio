@@ -109,7 +109,7 @@ function Home() {
             <img src={divvyUp} alt="divvyUp" />
           </Link>
           <div className="DivvyUpButtons">
-            <button>User research</button>
+            <button>Product thinking</button>
             <button>App Architecture</button>
             <button>Interaction design</button>
           </div>
