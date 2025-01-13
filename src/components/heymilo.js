@@ -105,7 +105,7 @@ function HeyMilo() {
           loop with updates and progress.
         </h2>
         <div className="userTesting">
-          <h1>User Testing</h1>
+          <h1>Feedback & Testing</h1>
           <h2>
             Throughout the process, my team regularly held meetings and user
             flow run-throughs of my designs to spot any issues or points of
