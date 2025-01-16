@@ -12,7 +12,7 @@ function Home() {
 
   const background = process.env.PUBLIC_URL + "images/websitebackground.png";
   const selfie = process.env.PUBLIC_URL + "images/selfie.png";
-  const matchaSpill = process.env.PUBLIC_URL + "images/matchabottom.png";
+  const matchaSpill = process.env.PUBLIC_URL + "images/matchabottom-removebg-preview.png";
   const subbudImg = process.env.PUBLIC_URL + "images/subbud-ver2.png";
   const clearSpider = process.env.PUBLIC_URL + "images/clearspiderBarcode.png";
   const moodCraft = process.env.PUBLIC_URL + "images/moodcraft.png";

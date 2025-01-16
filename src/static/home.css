@@ -190,7 +190,7 @@ left: 35vw; */
 }
 
 .projectsSection {
-  background-color: #f3f2f0;
+  background-color: #ffffff;
   margin-top: -1vw;
   padding-bottom: 10vw;
 }
@@ -211,7 +211,7 @@ left: 35vw; */
 .heyMilo h1{
   font-family: monospace;
   font-size: 1.6vw;
-  margin-left: 1.3vw;
+  margin-left: 3vw;
   width: 60vw;
 }
 
@@ -283,7 +283,7 @@ left: 35vw; */
 }
 
 .projectsSection .heyMiloButtons button {
-  background-color: #cee7fd;
+  background-color: #e7f4ff;
   border-color: transparent;
   border-radius: 50px;
   padding: 0.8vw;
@@ -294,7 +294,7 @@ left: 35vw; */
 
 
 .projectsSection .DivvyUpButtons button {
-  background-color: #cedafd;
+  background-color: #e0e7fc;
   border-color: transparent;
   border-radius: 50px;
   padding: 0.8vw;
@@ -304,7 +304,7 @@ left: 35vw; */
 }
 
 .projectsSection .SubbudButtons button {
-  background-color: #e8e5ef;
+  background-color: #f4f0fd;
   border-color: transparent;
   border-radius: 50px;
   padding: 0.8vw;
@@ -314,7 +314,7 @@ left: 35vw; */
 }
 
 .projectsSection .clearSpiderButtons button {
-  background-color: #dbe9f5;
+  background-color: #eaf5fe;
   border-color: transparent;
   border-radius: 50px;
   padding: 0.8vw;
