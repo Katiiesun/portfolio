@@ -205,7 +205,7 @@ left: 35vw; */
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
-  box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+  /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
 }
 
 .heyMilo h1{
@@ -239,7 +239,7 @@ left: 35vw; */
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
-  box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+  /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
 }
 
 .DivvyUp img:hover {
@@ -263,7 +263,7 @@ left: 35vw; */
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
-  box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+  /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
 }
 
 .Subbud img:hover {
@@ -357,7 +357,7 @@ left: 35vw; */
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
-  box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+  /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
 }
 
 .clearSpider h1 {
@@ -384,7 +384,7 @@ left: 35vw; */
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
-  box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+  /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
 }
 
 .moodCraft h1 {
@@ -423,7 +423,7 @@ left: 35vw; */
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
-  box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4);
+  /* box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4); */
 }
 
 .myArtwork h1 {
@@ -452,7 +452,7 @@ left: 35vw; */
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
-  box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4);
+  /* box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4); */
 }
 
 .otherProjects h1 {
