@@ -605,7 +605,7 @@ left: 35vw; */
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
-    box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+    /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
   }
 
   .DivvyUp img {
@@ -614,7 +614,7 @@ left: 35vw; */
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
-    box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+    /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
   }
 
   .heyMilo img {
@@ -623,7 +623,7 @@ left: 35vw; */
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
-    box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+    /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
   }
 
   .Subbud img {
@@ -632,7 +632,7 @@ left: 35vw; */
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
-    box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4);
+    /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
   }
 
   .myArtwork img {
@@ -641,7 +641,7 @@ left: 35vw; */
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
-    box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4);
+    /* box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4); */
   }
 
   .otherProjects img {
@@ -650,7 +650,7 @@ left: 35vw; */
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
-    box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4);
+    /* box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4); */
   }
 
   .introtext p {
