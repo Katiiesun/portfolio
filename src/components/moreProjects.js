@@ -29,11 +29,10 @@ function MoreProjects() {
             <h1>UW/UX</h1>
             <h2>
               {" "}
-              For the past 2 terms I've been apart of the UW/UX team as a design
-              coordinator and projects team member. I've worked on creating
-              various graphics for our club events and initiatives, including
-              our FUSE and FRAME Designathons. Currently, I'm leading a team in
-              designing club merch!
+              For the past 3 terms, I've been apart of the UW/UX team creating
+              branding for our club events and initiatives, including
+              our FUSE and FRAME Designathons. Currently, I'm leading the design
+              team on a club rebrand!
             </h2>
           </div>
 
