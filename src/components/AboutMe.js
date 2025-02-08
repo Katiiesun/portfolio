@@ -5,10 +5,11 @@ import "../static/footer.css";
 
 function AboutMe() {
   const aboutmephoto = process.env.PUBLIC_URL + "/images/meincali.png";
-  const breezeblocks = process.env.PUBLIC_URL + "/images/vinyl1.png";
-  const everseen = process.env.PUBLIC_URL + "/images/vinyl2.png";
-  const ivy = process.env.PUBLIC_URL + "/images/vinyl3.png";
+  const breezeblocks = process.env.PUBLIC_URL + "images/Group 2.png";
+  const everseen = process.env.PUBLIC_URL + "images/Group 1171276156.png";
+  const ivy = process.env.PUBLIC_URL + "/images/Group 1171276155.png";
   const selfietwo = process.env.PUBLIC_URL + "images/IMG_9177.jpeg";
+
 
   return (
     <div>
@@ -47,38 +48,38 @@ function AboutMe() {
             {" "}
             <a
               target="_blank"
-              href="https://www.youtube.com/watch?v=rVeMiVU77wo&ab_channel=alt-J"
+              href="https://youtu.be/tjuIzZ8uldo"
             >
               <img
                 className="breezeblocksVinyl"
                 src={breezeblocks}
-                alt="breezeblocks vinyl"
+                alt="homemade dynamite vinyl"
               />
             </a>
-            <h2>Breezeblocks - alt-J</h2>
+            <h2>Homemade Dynamite - Lorde</h2>
           </div>
 
           <div className="everseen">
             <a
               target="_blank"
-              href="https://www.youtube.com/watch?v=-VEpcGrCOWY&ab_channel=beabadoobeeVEVO"
+              href="https://youtu.be/e7b5hbWvWEQ?list=OLAK5uy_m4ef9CbQVqNjomB_Jps9wYIzgyP7Agsdk"
             >
               <img
                 className="everseenVinyl"
                 src={everseen}
-                alt="ever seen vinyl"
+                alt="Freudian vinyl"
               />
             </a>
-            <h2>Ever Seen - Beabadoobee</h2>
+            <h2>Freudian - Danial Caesar</h2>
           </div>
           <div className="ivy">
             <a
               target="_blank"
-              href="https://www.youtube.com/watch?v=9nIOx-ezlzA&ab_channel=TaylorSwiftVEVO"
+              href="https://youtu.be/9ZozITxuNKo"
             >
-              <img className="ivyVinyl" src={ivy} alt="ivy vinyl" />
+              <img className="ivyVinyl" src={ivy} alt="love lost vinyl" />
             </a>
-            <h2>Ivy - Taylor Swift</h2>
+            <h2>Love Lost - Mac Miller</h2>
           </div>
         </div>
       </div>

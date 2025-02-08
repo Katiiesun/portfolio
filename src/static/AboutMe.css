@@ -80,7 +80,7 @@
 .musicvinyls{
     column-count:3;
     padding-bottom: 70px;
-    margin-left:40px
+    margin-left:30px
 
 }
 
@@ -96,7 +96,7 @@
 .music .breezeblocksVinyl {
   /* position: absolute;
   transform: translate(49%, -160%); */
-  width: 20vw;
+  width: 23vw;
   border-radius: 50px;
   cursor: pointer;
   overflow-x: hidden;
@@ -108,7 +108,7 @@
 .music .everseenVinyl {
   /* position: absolute;
   transform: translate(190%, -160%); */
-  width: 20vw;
+  width: 23vw;
   border-radius: 50 px;
   cursor: pointer;
   overflow-x: hidden;
@@ -120,7 +120,7 @@
 .music .ivyVinyl {
   /* position: absolute;
   transform: translate(340%, -160%); */
-  width: 20vw;
+  width: 23vw;
   border-radius: 50px;
   cursor: pointer;
   overflow-x: hidden;
@@ -169,7 +169,7 @@
 width: 500px;
 font-family: monospace;
 font-weight: 650;
-padding-left:1.5vw;
+padding-left:2.5vw;
 }
 
 .ivy h2{
@@ -178,7 +178,7 @@ padding-left:1.5vw;
 width: 500px;
 font-family: monospace;
 font-weight: 650;
-padding-left:4vw;
+padding-left:3vw;
 }
 
 @media (max-width: 700px) {
