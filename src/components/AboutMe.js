@@ -70,7 +70,7 @@ function AboutMe() {
                 alt="Freudian vinyl"
               />
             </a>
-            <h2>Freudian - Danial Caesar</h2>
+            <h2>Freudian - Daniel Caesar</h2>
           </div>
           <div className="ivy">
             <a
