@@ -76,7 +76,7 @@ function Home() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1xnnyM6i5IwY9Ln7DwfiknaUgGvNcxgwn/view?usp=sharing"
+            href="https://drive.google.com/file/d/1WCkUhNpRqYopri2Dt6aOSO4PTEtb5-Z7/view?usp=sharing"
           >
             <div className="intro-button">
               <button>View Resume</button>
