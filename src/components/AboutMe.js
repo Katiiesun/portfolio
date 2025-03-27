@@ -2,14 +2,28 @@ import "../static/AboutMe.css";
 import Navigation from "./Navigation";
 import Footer from "./footer";
 import "../static/footer.css";
+import { useState } from "react";
+
+
 
 function AboutMe() {
   const aboutmephoto = process.env.PUBLIC_URL + "/images/meincali.png";
   const breezeblocks = process.env.PUBLIC_URL + "images/Group 2.png";
   const everseen = process.env.PUBLIC_URL + "images/Group 1171276156.png";
   const ivy = process.env.PUBLIC_URL + "/images/Group 1171276155.png";
-  const selfietwo = process.env.PUBLIC_URL + "images/IMG_9177.jpeg";
+  const selfietwo = process.env.PUBLIC_URL + "/images/IMG_9177.jpeg";
+  const legome = process.env.PUBLIC_URL + "/images/IMG_7970.jpeg";
 
+
+  const [isLego, setIsLego] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsLego(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsLego(false);
+  };
 
   return (
     <div>
@@ -32,9 +46,17 @@ function AboutMe() {
             learning my favourite songs on the piano, or binge watching modern
             family for the 10th time.{" "}
           </p>
-        </div>
-        <img src={aboutmephoto} alt="pic of me" />
+          </div>
+          
+          <img
+          src={isLego ? legome : aboutmephoto}
+          alt="pic of me"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          style={{ cursor: "pointer", transition: "0.3s ease-in-out" }}
+        />
       </div>
+
       <div className="music">
         <h1> Songs on repeat 🎧...</h1>
         {/* <img
