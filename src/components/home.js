@@ -119,7 +119,7 @@ function Home() {
           </h1>
         </div>
 
-        <div className="Subbud">
+        {/* <div className="Subbud">
           <Link to="/subbud">
             <img src={subbudImg} alt="subbud" />
           </Link>
@@ -132,7 +132,7 @@ function Home() {
             Streamlining subscription management and promoting discoverability
             with SubBud.
           </h1>
-        </div>
+        </div> */}
 
         <div className="clearSpider">
           <Link to="/clearSpider">
