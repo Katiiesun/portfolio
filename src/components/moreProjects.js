@@ -29,17 +29,17 @@ function MoreProjects() {
             <h1>UW/UX</h1>
             <h2>
               {" "}
-              For the past 3 terms, I've been apart of the UW/UX team creating
-              branding for our club events and initiatives, including
-              our FUSE and FRAME Designathons. Currently, I'm leading the design
-              team on a club rebrand!
+              For the past 4 terms, I was apart of the UW/UX team creating
+              branding for our club events and initiatives, including 3 designathons.
+              Earlier in the year, we rebranded our club to align closer to our values and growing vision.
+             Recently, I led the branding for our FLOW designathon and merch!
             </h2>
           </div>
 
           <img src={frameTeam} alt="frame designathon" />
         </div>
         <div className="uwux-posts">
-          <img src={uwuxPosts} alt="UW/UX posts" />
+          {/* <img src={uwuxPosts} alt="UW/UX posts" /> */}
         </div>
       </div>
 

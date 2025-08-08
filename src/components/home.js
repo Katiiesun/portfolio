@@ -73,6 +73,7 @@ function Home() {
             and systems thinking to create user-friendly solutions within
             various digital problem spaces.
           </p>
+          <p>Currently designing @ Manulife + UW Blueprint</p>
           <a
             target="_blank"
             rel="noopener noreferrer"
