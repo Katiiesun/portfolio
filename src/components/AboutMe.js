@@ -13,17 +13,18 @@ function AboutMe() {
   const ivy = process.env.PUBLIC_URL + "/images/Group 1171276155.png";
   const selfietwo = process.env.PUBLIC_URL + "/images/IMG_9177.jpeg";
   const legome = process.env.PUBLIC_URL + "/images/IMG_7970.jpeg";
+  const aboutme = process.env.PUBLIC_URL + "/images/aboutmepic.JPEG";
 
 
-  const [isLego, setIsLego] = useState(false);
+  // const [isLego, setIsLego] = useState(false);
 
-  const handleMouseEnter = () => {
-    setIsLego(true);
-  };
+  // const handleMouseEnter = () => {
+  //   setIsLego(true);
+  // };
 
-  const handleMouseLeave = () => {
-    setIsLego(false);
-  };
+  // const handleMouseLeave = () => {
+  //   setIsLego(false);
+  // };
 
   return (
     <div>
@@ -49,11 +50,12 @@ function AboutMe() {
           </div>
           
           <img
-          src={isLego ? legome : aboutmephoto}
-          alt="pic of me"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-          style={{ cursor: "pointer", transition: "0.3s ease-in-out" }}
+          src={aboutme} alt="photo of me"
+          // src={isLego ? legome : aboutmephoto}
+          // alt="pic of me"
+          // onMouseEnter={handleMouseEnter}
+          // onMouseLeave={handleMouseLeave}
+          // style={{ cursor: "pointer", transition: "0.3s ease-in-out" }}
         />
       </div>
 
