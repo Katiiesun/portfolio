@@ -11,7 +11,7 @@ const Footer = ({ className }) => {
 
   return (
     <div className={`footer-container ${className}`}>
-      <h1>Get connected ❤️</h1>
+      <h1>Get connected!</h1>
       <button onClick={linkedInClick}>LinkedIn</button>
       <button onClick={emailClick}>Email</button>
     </div>

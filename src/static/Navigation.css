@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "inter";
+  src: url("../../public/fonts/InterVariable.ttf") format("truetype");
+}
+
 .navhome {
   display: flex;
   margin-left: 80%;
@@ -30,30 +35,35 @@
 }
 
 .navhome button {
-  background-color: transparent;
+  background-color:transparent;
   border: none;
   cursor: pointer;
-  margin: 5px;
+  margin: 3px;
   padding: 13px 10px;
   font-size: 1.25vw;
+  font-weight:500;
   color: #d1d0d0;
-  font-family: monospace;
+  font-family: inter;
   position: relative;
 }
 
 .navhome button:hover {
   color: #b5d8ab;
+  /* background-color:#3e3732; */
+  border-radius:50%;
+
 }
 
 .aboutmenav button {
-  background-color: transparent;
+  background-color:transparent;
   border: none;
   cursor: pointer;
-  margin: 5px;
+  margin: 3px;
   padding: 13px 10px;
   font-size: 1.25vw;
+  font-weight:500;
   color: #d1d0d0;
-  font-family: monospace;
+  font-family: inter;
   position: relative;
 }
 
@@ -71,14 +81,16 @@
 }
 
 .projectsnav button {
-  background-color: transparent;
+ 
+  color: #282828;
+  background-color:transparent;
   border: none;
   cursor: pointer;
-  margin: 5px;
+  margin: 3px;
   padding: 13px 10px;
   font-size: 1.25vw;
-  color: #282828;
-  font-family: monospace;
+  font-weight:500;
+  font-family: inter;
   position: relative;
 }
 
@@ -108,14 +120,16 @@
     position: absolute;
   }
   .aboutmenav button {
-    background-color: transparent;
+    background-color:transparent;
     border: none;
     cursor: pointer;
     margin: 5px;
     padding: 6px;
     font-size: 2.5vw;
+    font-weight:500;
     color: #d1d0d0;
-    font-family: monospace;
+    font-family: inter;
+    position: relative;
   }
 
   .projectsnav {
@@ -134,7 +148,7 @@
     margin: 5px;
     padding: 6px;
     font-size: 2.5vw;
-    font-family: monospace;
+    font-family: inter;
     background-color: transparent;
   }
   }

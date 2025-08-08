@@ -3,6 +3,22 @@
   src: url("../../public/fonts/Emfatick NF Regular.otf") format("truetype");
 }
 
+@font-face {
+  font-family: "inter";
+  src: url("../../public/fonts/InterVariable.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "acorn-bold";
+  src: url("../../public/fonts/Acorn/Acorn-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "acorn-medium";
+  src: url("../../public/fonts/Acorn/Acorn-Medium.otf") format("truetype");
+}
+
+
 .aboutme {
   margin: 5vh;
   padding-bottom:20px;
@@ -20,7 +36,7 @@
   /* text-align: left; */
   margin-bottom: 0px;
   color: #e0e0da;
-  font-family: "emfatick";
+  font-family: "acorn-bold";
   font-weight: 50;
 }
 
@@ -43,9 +59,10 @@
     /* margin: auto; */
     color: #cdcdcd;
     width: 40vw;
-    font-family:monospace;
-    font-weight: 50px;
-    line-height:120%
+    font-family:inter;
+    font-weight:450;
+
+    line-height:140%
   }
   
 .aboutmesection img {
@@ -56,6 +73,15 @@
   margin-left:3vw;
   border-radius: 50px;
   animation: fadeIn 1s;
+  
+}
+
+.aboutmesection img:hover{
+  transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+	&:hover; 
+		/* transform: scale(1.03); */
+    transform: rotate(2deg);
+    
 }
 
 
@@ -65,14 +91,14 @@
   overflow:hidden;
 }
 .music h1 {
-  font-size:2.6vw;
+  font-size:4vw;
   /* position: absolute;
   transform: translate(30%, 500%); */
   margin-left: 7vw;
   padding-top:7vw;
   color: #5e5555;
   width: 70vw;
-  font-family:monospace;
+  font-family:acorn-medium;
   font-weight: 650;
 }
 
@@ -159,26 +185,26 @@
     font-size: 1.8vw;
     color: #5e5555;
   width: 500px;
-  font-family: monospace;
+  font-family: inter;
   font-weight: 650;
-  padding-left:3vw;
+  padding-left:3.5vw;
 }
 .everseen h2{
   font-size: 1.8vw;
   color: #5e5555;
 width: 500px;
-font-family: monospace;
+font-family: inter;
 font-weight: 650;
-padding-left:2.5vw;
+padding-left:4.5vw;
 }
 
 .ivy h2{
   font-size: 1.8vw;
   color: #5e5555;
 width: 500px;
-font-family: monospace;
+font-family: inter;
 font-weight: 650;
-padding-left:3vw;
+padding-left:5vw;
 }
 
 @media (max-width: 700px) {
@@ -200,7 +226,8 @@ padding-left:3vw;
     padding-top:10vw;
     color: #5e5555;
     width: 60vw;
-    font-family:monospace;
+    font-size:5vw;
+    font-family:acorn-medium;
     font-weight: 650;
   }
   .musicvinyls{
@@ -247,24 +274,24 @@ padding-left:3vw;
   font-size: 2.8vw;
   color: #5e5555;
 width: 40vw;
-font-family: monospace;
+font-family: inter;
 font-weight: 650;
-padding-left:8vw;
+padding-left:6vw;
 }
 .everseen h2{
 font-size: 2.8vw;
 color: #5e5555;
 width: 40vw;
-font-family: monospace;
+font-family: inter;
 font-weight: 650;
-padding-left:4vw;
+padding-left:7vw;
 }
 
 .ivy h2{
 font-size: 2.8vw;
 color: #5e5555;
 width: 40vw;
-font-family: monospace;
+font-family: inter;
 font-weight: 650;
 padding-left:8vw;
 }

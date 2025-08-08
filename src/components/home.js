@@ -24,7 +24,7 @@ function Home() {
   const heyMilo = process.env.PUBLIC_URL + "images/heymilo-mockup.png";
 
   useEffect(() => {
-    const initialText = "Engineering Student, Digital Designer";
+    const initialText = "Product Designer, Engineering Student";
     let index = 0;
 
     const typeText = () => {
@@ -68,7 +68,7 @@ function Home() {
         <div className="introtext">
           <h1>Hello I'm Katie 👋</h1>
           <p>
-            I'm a 2A Systems Design Engineering student @ UWaterloo and am
+            I'm a 2B Systems Design Engineering student @ UWaterloo and am
             passionate about tech and design ⚙️💡 I aspire to apply my design
             and systems thinking to create user-friendly solutions within
             various digital problem spaces.
@@ -89,6 +89,8 @@ function Home() {
         <img src={matchaSpill} alt="bottom of matcha" />
       </div>
       <div className="projectsSection">
+        <div className="workTitle"><h1>My work</h1></div>
+        
         <div className="heyMilo">
           <Link to="/heymilo">
           <img src={heyMilo} alt="heyMilo" />
@@ -98,10 +100,10 @@ function Home() {
             <button>Competitor Analysis</button>
             <button>Interface Design</button>
           </div>
-          <h1>
+          <h2>
             Redesigning an ATS dashboard and navigation system to streamline
             recruiter workflows
-          </h1>
+          </h2>
         </div>
 
         <div className="DivvyUp">
@@ -113,10 +115,10 @@ function Home() {
             <button>App Architecture</button>
             <button>Interaction design</button>
           </div>
-          <h1>
+          <h2>
             Simplifying group planning and bill splitting with DivvyUp, for a
             seamless group outing experience.
-          </h1>
+          </h2>
         </div>
 
         {/* <div className="Subbud">
@@ -142,9 +144,9 @@ function Home() {
             <button>Web design</button>
             <button>Illustrations</button>
           </div>
-          <h1>
+          <h2>
             Redesigning a product landing page for enhanced visual engagement
-          </h1>
+          </h2>
         </div>
 
         {/* <div className="moodCraft">
@@ -160,7 +162,7 @@ function Home() {
       </div>
       <div className="moreProjects">
         <div className="moreProjectsText">
-          <h1>Some other cool things I've worked on!😎</h1>
+          <h1>More</h1>
         </div>
         <div className="otherProjects">
           <Link to="/moreProjects">
