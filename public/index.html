@@ -39,5 +39,16 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      const originalTitle = document.title;
+
+      window.addEventListener('blur', () => {
+        document.title = 'nooo dont go';
+      });
+
+      window.addEventListener('focus', () => {
+        document.title = originalTitle;
+      });
+    </script>
   </body>
 </html>
