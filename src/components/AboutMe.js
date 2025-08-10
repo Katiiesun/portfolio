@@ -33,8 +33,8 @@ function AboutMe() {
         <div className="aboutme">
           <h1>About Me</h1>
           <p>
-            Hey! I'm an aspiring product designer with a background in visual
-            arts, design and engineering 🎨 ⚙️ Creating art since I was young
+            Hey! I'm a product designer with a background in visual
+            arts and engineering 🎨 ⚙️ Creating art since I was young
             helped me discover that I love communicating ideas through visuals.
             Having been immersed in art and design my entire life, I find I work
             best in environments that foster creativity and innovation while
