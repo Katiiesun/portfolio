@@ -1,42 +1,41 @@
 @font-face {
-    font-family: "inter";
-    src: url("../../public/fonts/InterVariable.ttf") format("truetype");
-  }
-  
-  @font-face {
-    font-family: "acorn-bold";
-    src: url("../../public/fonts/Acorn/Acorn-Bold.otf") format("truetype");
-  }
-  
-  @font-face {
-    font-family: "acorn-medium";
-    src: url("../../public/fonts/Acorn/Acorn-Medium.otf") format("truetype");
-  }
-  
-
-.my-artwork{
-padding-left:10vw;
-padding-top:5vw;
+  font-family: "inter";
+  src: url("../../public/fonts/InterVariable.ttf") format("truetype");
 }
 
-.my-artwork h1{
-    font-family: acorn-medium;
-    flex: 1; /* Ensure both columns take up equal space */
-    font-size: 3vw;
-    padding-top: 3vw;
-    width: 35vw;
+@font-face {
+  font-family: "acorn-bold";
+  src: url("../../public/fonts/Acorn/Acorn-Bold.otf") format("truetype");
 }
 
-.my-artwork h2{
-    font-family: inter;
-    font-size: 1.4vw;
-    font-weight: 510;
-    width: 80vw;
-    line-height: 3vw;
+@font-face {
+  font-family: "acorn-medium";
+  src: url("../../public/fonts/Acorn/Acorn-Medium.otf") format("truetype");
 }
 
-.my-artwork img{
-    width:80vw;
-    padding-top:3vw;
-    padding-bottom:6vw;
+.my-artwork {
+  padding-left: 10vw;
+  padding-top: 5vw;
+}
+
+.my-artwork h1 {
+  font-family: acorn-medium;
+  flex: 1; /* Ensure both columns take up equal space */
+  font-size: 3vw;
+  padding-top: 3vw;
+  width: 35vw;
+}
+
+.my-artwork h2 {
+  font-family: inter;
+  font-size: 1.4vw;
+  font-weight: 510;
+  width: 80vw;
+  line-height: 3vw;
+}
+
+.my-artwork img {
+  width: 80vw;
+  padding-top: 3vw;
+  padding-bottom: 6vw;
 }

@@ -14,6 +14,7 @@ const gooseRender = process.env.PUBLIC_URL + "images/FullSizeRender.png";
 const gooseStruggle = process.env.PUBLIC_URL + "images/goosestruggle.png";
 const gooseGIF = process.env.PUBLIC_URL + "images/IMB_kRrPVQ (1).gif";
 const scooby = process.env.PUBLIC_URL + "images/scooby.png";
+const flow = process.env.PUBLIC_URL + "images/flow.png";
 
 function MoreProjects() {
   useEffect(() => {
@@ -36,7 +37,7 @@ function MoreProjects() {
             </h2>
           </div>
 
-          <img src={frameTeam} alt="frame designathon" />
+          <img src={flow} alt="flow designathon" />
         </div>
         <div className="uwux-posts">
           {/* <img src={uwuxPosts} alt="UW/UX posts" /> */}
