@@ -128,7 +128,7 @@ function WealthApp() {
               • Determine whether navigation elements should persist across
               sections
             </h2>
-            <h2>• Make structural decisions before finalizing the MVP IA </h2>
+            <h2>• Make structural decisions before finalizing the MVP IA</h2>
           </div>
         </div>
       </div>
@@ -138,12 +138,11 @@ function WealthApp() {
             {" "}
             <h1>Target users</h1>
             <h2>
-              • Existing wealth management clients using the online portal (tens
-              of thousands of active users)
+              • The online portal is actively used by a large base of existing wealth management clients.
             </h2>
             <h2>
-              • Long-term goal: expand to the broader client base (hundreds of
-              thousands)
+              • A long-term goal is to expand the platform to the broader
+              client base, significantly increasing reach.
             </h2>
             <h2>
               → Test participants included both internal employees with
