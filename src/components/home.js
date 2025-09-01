@@ -22,6 +22,7 @@ function Home() {
   const divvyUp = process.env.PUBLIC_URL + "images/Artboard 6.png";
   const selfietwo = process.env.PUBLIC_URL + "images/IMG_9177.jpeg";
   const heyMilo = process.env.PUBLIC_URL + "images/heymilo-mockup.png";
+  const wealthApp = process.env.PUBLIC_URL + "images/wealthApp.png";
 
   useEffect(() => {
     const initialText = "Product Designer, Engineering Student";
@@ -73,7 +74,7 @@ function Home() {
             and systems thinking to create user-friendly solutions within
             various digital problem spaces.
           </p>
-          <p>Currently designing @ Manulife + UW Blueprint</p>
+          <p>Currently designing @ UW Blueprint, Prev. @ Manulife</p>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -91,6 +92,21 @@ function Home() {
       </div>
       <div className="projectsSection">
         <div className="workTitle"><h1>My work</h1></div>
+        
+        <div className="wealthApp">
+          <Link to="/wealthApp">
+          <img src={wealthApp} alt="wealth app cover" />
+          </Link>
+          <div className="wealthButtons">
+            <button>A/B Testing</button>
+            <button>Prototyping</button>
+            <button>Test Planning</button>
+          </div>
+          <h2>
+          Designing a future-ready navigation solution for Canada’s #1 insurance provider
+          </h2>
+        </div>
+
         
         <div className="heyMilo">
           <Link to="/heymilo">

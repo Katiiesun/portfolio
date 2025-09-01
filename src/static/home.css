@@ -225,6 +225,54 @@ color:#a2ba9c;
 font-size: 6vw;
 
 }
+
+
+.wealthApp{
+  margin-left: 20vw;
+  margin-bottom: 5vw;
+}
+.wealthApp img{
+  width: 55vw;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow-x: hidden;
+  margin: 30px;
+  /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
+}
+
+.wealthApp h2{
+  font-family: inter;
+  line-height:140%;
+  font-size: 1.6vw;
+  margin-left: 3vw;
+  width: 57vw;
+  font-weight: 540;
+}
+
+.wealthApp img:hover {
+  /* transform: scale(1.05); */
+  transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+	&:hover; 
+		transform: scale(1.03);
+  /* transition: transform 0.3s ease; */
+  transform-origin: center;
+}
+
+.wealthButtons {
+  padding: 5px;
+  margin-left: 2vw;
+}
+.projectsSection .wealthButtons button {
+  background-color: #dcede3;
+  border-color: transparent;
+  border-radius: 50px;
+  padding: 0.8vw;
+  margin: 10px;
+  font-family: inter;
+  color: #437956;
+}
+
+
 .heyMilo{
   margin-left: 20vw;
   margin-bottom: 5vw;
@@ -567,7 +615,7 @@ font-size: 6vw;
   .pic img {
     width: 30vw;
     margin: 5vw;
-    border-radius: 20px;
+    border-radius: 8vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -616,9 +664,10 @@ font-size: 6vw;
   .projectsSection .heyMiloButtons button {
     background-color: #cee7fd;
     border-color: transparent;
-    border-radius: 50px;
-    padding: 0.8vw;
-    margin: 10px;
+    border-radius: 8px;
+    padding: 2vw;
+    margin: 1vw;
+    font-size:2vw;
     font-family: monospace;
     color: #3d6491;
   }
@@ -769,4 +818,46 @@ font-size: 6vw;
     font-size: 6vw;
     color: #958473;
   }
+
+  .wealthApp{
+    margin-left: 20vw;
+    margin-bottom: 5vw;
+  }
+  .wealthApp img{
+    width: 55vw;
+    border-radius: 7vw;
+    cursor: pointer;
+    overflow-x: hidden;
+    margin: 30px;
+    /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
+  }
+  
+  .wealthApp h2{
+    font-family: inter;
+    line-height:140%;
+    font-size: 1.6vw;
+    margin-left: 3vw;
+    width: 57vw;
+    font-weight: 540;
+  }
+  
+
+  
+  .wealthButtons {
+    padding: 5px;
+    margin-left: 2vw;
+  }
+  .projectsSection .wealthButtons button {
+    background-color: #dcede3;
+    border-color: transparent;
+    margin: 10px;
+    font-family: inter;
+    color: #437956;
+
+    border-radius: 8px;
+    padding: 2vw;
+    margin: 1vw;
+    font-size: 2vw;
+  }
+  
 }

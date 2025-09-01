@@ -6,7 +6,7 @@ import "../static/footer.css";
 import { useState, useEffect, useCallback, useRef } from "react";
 
 const frameTeam = process.env.PUBLIC_URL + "images/frame.jpeg";
-const uwuxPosts = process.env.PUBLIC_URL + "images/uwuxPosts.png";
+const uwuxPosts = process.env.PUBLIC_URL + "images/uwux rebrand.png";
 const csIllustrations1 = process.env.PUBLIC_URL + "images/Artboard 5@4x.png";
 const csIllustrations2 = process.env.PUBLIC_URL + "images/Artboard 6@4x.png";
 const angryGoose = process.env.PUBLIC_URL + "images/angrygoose.png";
@@ -40,7 +40,7 @@ function MoreProjects() {
           <img src={flow} alt="flow designathon" />
         </div>
         <div className="uwux-posts">
-          {/* <img src={uwuxPosts} alt="UW/UX posts" /> */}
+          <img src={uwuxPosts} alt="UW/UX posts" />
         </div>
       </div>
 

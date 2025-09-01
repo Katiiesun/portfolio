@@ -33,6 +33,7 @@ import MoreProjects from "./components/moreProjects";
 import Artwork from "./components/Artwork";
 import DivvyUp from "./components/DivvyUp";
 import HeyMilo from "./components/heymilo";
+import WealthApp from "./components/wealthApp";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path="/Artwork" element={<Artwork />} /> 
           <Route path="/DivvyUp" element={<DivvyUp />} /> 
           <Route path="/heymilo" element={<HeyMilo />} /> 
+          <Route path="/wealthApp" element={<WealthApp />} /> 
         </Routes>
       </div>
     </Router>

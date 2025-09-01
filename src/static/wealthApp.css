@@ -1,0 +1,674 @@
+@font-face {
+  font-family: "inter";
+  src: url("../../public/fonts/InterVariable.ttf") format("truetype");
+}
+
+.wealthHeader {
+  columns: 2;
+  display: flex;
+  padding-top: 4vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-bottom: 4vw;
+  background-color: #528271;
+  border-radius: 0 0 40px 40px;
+  gap: 60px;
+}
+
+.wealthHeader img {
+  width: 30vw;
+}
+
+.wealthText {
+  width: 43vw;
+  height: 30vw;
+  flex-shrink: 0;
+}
+
+.wealthHeader .wealthText h1 {
+  font-size: 2.3vw;
+  padding-top: 12vw;
+  color: #fff;
+  font-family: inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.wealthHeader .wealthText h2 {
+  font-size: 1.3vw;
+  color: #eeeeee;
+  font-family: inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.wealthContent {
+  display: flex;
+  padding: 0 14vw;
+  align-items: center;
+  align-self: stretch;
+}
+
+.wealthsection1 {
+  display: flex;
+  /* margin-left: 18vw; */
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  flex-direction: column;
+  align-items: left;
+  gap: 6vw;
+}
+
+.wealth-intro {
+  display: flex;
+  justify-content: flex-start;
+  font-family: inter;
+  width: 60vw;
+  gap: 10vw;
+}
+
+.wealthsection1 .confidential {
+  display: flex;
+  /* width: 90vw; */
+  padding: 2vw 2vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  background: #cbe1ec;
+}
+
+.wealthsection1 .confidential h1 {
+  color: #000;
+  font-family: inter;
+  font-size: 1.3vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.wealthsection1 .confidential h2 {
+  display: flex;
+  /* width: 855.285px; */
+  /* height: 139px; */
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.wealthsection1 .wealth-overview h1 {
+  color: #528271;
+  font-family: inter;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.wealthsection1 .wealth-overview h2 {
+  color: #000;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.wealthsection1 .wealth-myrole h1 {
+  color: #000;
+  font-family: inter;
+  font-size: 2.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.wealthsection1 .wealth-myrole h2 {
+  color: #000;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.wealthsection1 .wealth-myrole {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.challenge-sec2 {
+  display: flex;
+  padding: 4vw 14vw;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 40px 40px 0 0;
+  background: #385b4f;
+}
+
+.challenge-sec2 h1 {
+  color: #ffffff;
+  font-family: inter;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.challenge-sec2 h2 {
+  color: #eee;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.challenge-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2vw;
+  align-self: stretch;
+  padding-top: 2vw;
+}
+
+.challenge-container h1 {
+  color: #ffffff;
+  font-family: inter;
+  font-size: 1.7vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.challenge-container h2 {
+  color: #eee;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.whymatter {
+  display: flex;
+  width: 30vw;
+  height: 24vw;
+  padding: 2vw 2vw;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1vw;
+  /* gap: 2vw; */
+  border-radius: 30px;
+  background: #2e4e43;
+}
+
+.ourgoal {
+  display: flex;
+  width: 30vw;
+  height: 24vw;
+  padding: 2vw 2vw;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 22px; */
+  border-radius: 30px;
+  line-height: 1vw;
+  background: #2e4e43;
+}
+
+.wealth-section3 {
+  display: flex;
+  /* margin-left: 18vw; */
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  flex-direction: column;
+  align-items: left;
+  gap: 6vw;
+  padding: 0 14vw;
+}
+
+.targetUsers {
+  columns: 2;
+  gap: 4vw;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.targetUsers img {
+  width: 22vw;
+}
+
+.targetUsersText {
+  width: 44vw;
+}
+
+.targetUsersText h1 {
+  color: #000;
+  font-family: inter;
+  font-size: 2.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.targetUsersText h2 {
+  color: #000;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.wealth-userneeds {
+  display: flex;
+  /* width: 90vw; */
+  padding: 2vw 2vw;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  background: #528271;
+}
+
+.wealth-userneeds h1 {
+  color: #ffffff;
+  font-family: inter;
+  font-size: 2.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.wealth-userneeds h2 {
+  color: #eee;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.wealthProcess img {
+  width: 70vw;
+}
+
+.wealthProcess h1 {
+  color: #5a7684;
+  font-family: inter;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.whatwasTested-sec4 {
+  display: flex;
+  padding: 4vw 14vw;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 40px 40px 0 0;
+  background: #5a7684;
+  gap: 8vw;
+}
+
+.whatwasTested-sec4 h1 {
+  color: #ffffff;
+  font-family: inter;
+  font-size: 2.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.whatwasTested-sec4 h2 {
+  color: #eee;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.futurenav {
+  columns: 2;
+  gap: 2vw;
+}
+
+.futurenav img {
+  width: 34vw;
+}
+
+.futurenavtext {
+  padding-top: 4.4vw;
+}
+
+.futurenavtext h1 {
+  color: #eee;
+  font-family: inter;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2vw;
+}
+
+.bottomnav {
+  columns: 2;
+  gap: 2vw;
+}
+
+.bottomnav img {
+  width: 25vw;
+  padding-right: 4vw;
+}
+
+.bottomnavtext {
+  padding-top: 4.4vw;
+}
+
+.bottomnavtext h1 {
+  color: #eee;
+  font-family: inter;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2vw;
+}
+
+.scrollvstab {
+  columns: 2;
+  gap: 2vw;
+}
+
+.scrollvstabtext {
+  padding-top: 4.4vw;
+}
+
+.scrollvstabtext h1 {
+  color: #eee;
+  font-family: inter;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2vw;
+}
+
+.scrollvstabtext h2 {
+  color: #eee;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.scrollvstab img {
+  width: 25vw;
+}
+
+.keyinsights {
+  display: flex;
+  /* margin-left: 18vw; */
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  flex-direction: column;
+  align-items: left;
+  gap: 2vw;
+  padding: 0 14vw;
+}
+
+.keyinsights h1 {
+  color: #528271;
+  font-family: inter;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.insights {
+  display: flex;
+  gap: 2vw; /* spacing between cards */
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.insight1 {
+  display: flex;
+  width: 18.5vw;
+  height: 30vw;
+  padding: 2vw 2vw;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #ccdbd6;
+  border-radius: 2vw;
+}
+
+.insight1 h1 {
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.insight1 h2 {
+  color: #000000;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.insight2 {
+  display: flex;
+  width: 18.5vw;
+  height: 30vw;
+  padding: 2vw 2vw;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #ccdbd6;
+  border-radius: 2vw;
+}
+
+.insight2 h1 {
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.insight2 h2 {
+  color: #000000;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.insight3 {
+  display: flex;
+  width: 18.5vw;
+  height: 30vw;
+  padding: 2vw 2vw;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #ccdbd6;
+  border-radius: 2vw;
+}
+
+.insight3 h1 {
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.insight3 h2 {
+  color: #000000;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.recos {
+  display: flex;
+  /* margin-left: 18vw; */
+  margin-top: 8vw;
+  margin-bottom: 4vw;
+  flex-direction: column;
+  align-items: left;
+  gap: 2vw;
+  padding: 0 14vw;
+}
+
+.recos h1 {
+  color: #000000;
+  font-family: inter;
+  font-size: 2.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.recos h2 {
+  color: #000;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw;
+}
+
+.whatIlearned{
+    display: flex;
+    /* margin-left: 18vw; */
+    margin-top: 4vw;
+    margin-bottom: 10vw;
+    flex-direction: column;
+    align-items: left;
+    gap: 2vw;
+    padding: 0 14vw;
+}
+
+.whatIlearned h1{
+    color: #000000;
+  font-family: Inter;
+  font-size: 2.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.learnings{
+    display: flex;
+  gap: 2vw; /* spacing between cards */
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+.learning1{
+    display: flex;
+    width: 18.5vw;
+    height: 25vw;
+    padding: 2vw 2vw;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #CBE1EC;
+    border-radius: 2vw;
+}
+
+.learning1 h1{
+    color: #000000;
+    font-family: Inter;
+    font-size: 1.4vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.learning1 h2{
+    color: #000000;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw; 
+}
+
+.learning2{
+    display: flex;
+    width: 18.5vw;
+    height: 25vw;
+    padding: 2vw 2vw;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #CBE1EC;
+    border-radius: 2vw;
+}
+
+.learning2 h1{
+    color: #000000;
+    font-family: Inter;
+    font-size: 1.4vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.learning2 h2{
+    color: #000000;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw; 
+}
+
+.learning3{
+    display: flex;
+    width: 18.5vw;
+    height: 25vw;
+    padding: 2vw 2vw;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #CBE1EC;
+    border-radius: 2vw;
+}
+
+.learning3 h1{
+    color: #000000;
+    font-family: Inter;
+    font-size: 1.4vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.learning3 h2{
+    color: #000000;
+  font-family: inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2vw; 
+}
