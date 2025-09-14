@@ -227,39 +227,38 @@ function WealthApp() {
           <div className="insight1">
             <h1>🧭 Navigation Preferences</h1>
             <h2>
-              • Majority of users preferred having account-related content
+              ✔️ Majority of users preferred having account-related content
               available both within individual account views and as separate
               sections in the bottom navigation
             </h2>
 
             <h2>
-              • Unexpected disappearance of navigation bar on certain screens
+              ❌ Unexpected disappearance of navigation bar on certain screens
               resulted in context loss and confusion
             </h2>
           </div>
           <div className="insight2">
             <h1> 📁 Grouping and Switching</h1>
             <h2>
-              • Some workflows for managing investment views lacked clarity
+              ❌ Some workflows for managing investment views lacked clarity
             </h2>
 
             <h2>
-              • Entry point to create a grouped view isn’t easily accessible,
+              ❌ Entry point to create a grouped view isn’t easily accessible,
               doesn’t match mental model of users
             </h2>
 
             <h2>
-              • Placement of navigation element and confirmation states needed
-              to be more visible and intuitive
+              ❌ Placement of navigation element and confirmation states weren't visible enough
             </h2>
           </div>
           <div className="insight3">
             <h1>📄 Resource Access</h1>
             <h2>
-              • Many expected account specific files to be found within account
+              ❗️ Many expected account specific files to be found within account
               views
             </h2>
-            <h2>• Contextual entry points improved discoverability</h2>
+            <h2>✔️ Contextual entry points improved discoverability</h2>
           </div>
         </div>
       </div>
