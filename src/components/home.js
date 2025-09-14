@@ -10,6 +10,7 @@ import { initializeScrollAnimation } from "./animationInView";
 function Home() {
   const [text, setText] = useState("");
   const imgRef = useRef(null);
+  const handRef = useRef(null);
 
   const background = process.env.PUBLIC_URL + "images/websitebackground.png";
   const selfie = process.env.PUBLIC_URL + "images/selfie.png";
@@ -44,29 +45,62 @@ function Home() {
   }, []);
 
   // scroll animation
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver(
+  //     (entries) => {
+  //       entries.forEach((entry) => {
+  //         console.log("Observed:", entry.target, "visible?", entry.isIntersecting);
+
+  //         if (entry.isIntersecting) {
+  //           entry.target.classList.add("scroll-rotate");
+  //         } else {
+  //           entry.target.classList.remove("scroll-rotate");
+  //         }
+  //       });
+  //     },
+  //     { threshold: 0.6 } // make it easier to trigger
+  //   );
+
+  //   if (imgRef.current) {
+  //     console.log("Observing image:", imgRef.current);
+  //     observer.observe(imgRef.current);
+  //   } else {
+  //     console.warn("⚠️ imgRef.current was null!");
+  //   }
+
+  //   return () => observer.disconnect();
+  // }, []);
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          console.log("Observed:", entry.target, "visible?", entry.isIntersecting);
-
           if (entry.isIntersecting) {
-            entry.target.classList.add("scroll-rotate");
+            // if it's the image
+            if (entry.target === imgRef.current) {
+              entry.target.classList.add("scroll-rotate");
+            }
+  
+            // if it's the waving hand
+            if (entry.target === handRef.current) {
+              entry.target.classList.add("wave-hand");
+            }
           } else {
-            entry.target.classList.remove("scroll-rotate");
+            // image should rotate back
+            if (entry.target === imgRef.current) {
+              entry.target.classList.remove("scroll-rotate");
+            }
+  
+            // hand should not remove the class — only wave once
           }
         });
       },
-      { threshold: 0.6 } // make it easier to trigger
+      { threshold: 0.6 }
     );
-
-    if (imgRef.current) {
-      console.log("Observing image:", imgRef.current);
-      observer.observe(imgRef.current);
-    } else {
-      console.warn("⚠️ imgRef.current was null!");
-    }
-
+  
+    if (imgRef.current) observer.observe(imgRef.current);
+    if (handRef.current) observer.observe(handRef.current);
+  
     return () => observer.disconnect();
   }, []);
 
@@ -96,7 +130,7 @@ function Home() {
           {/* </div> */}
         </div>
         <div className="introtext">
-          <h1>Hello I'm Katie 👋</h1>
+          <h1>Hello I'm Katie <span ref={handRef}>👋</span></h1>
           <p>
             I'm a 2B Systems Design Engineering student @ UWaterloo and am
             passionate about tech and design ⚙️💡 I aspire to apply my design

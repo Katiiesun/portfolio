@@ -167,6 +167,23 @@ left: 35vw; */
   transition: transform 0.3s ease;
 }
 
+.wave-hand {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: wave 1s ease-in-out 1;
+  margin-left: 0.3em;
+}
+
+@keyframes wave {
+  0%   { transform: rotate(0deg) scale(1); }
+  15%  { transform: rotate(15deg) scale(1.2); }
+  30%  { transform: rotate(-10deg) scale(1.15); }
+  45%  { transform: rotate(15deg) scale(1.2); }
+  60%  { transform: rotate(-10deg) scale(1.15); }
+  75%  { transform: rotate(15deg) scale(1.2); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
 .introtext {
   padding-top: 0vw;
   width: 60vw;
