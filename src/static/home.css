@@ -148,13 +148,23 @@ left: 35vw; */
   justify-content: center;
   align-items: center;
   padding: 3em;
+  
 }
 
-.pic img:hover{
+/* .pic img:hover{
   transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
 	&:hover; 
 		/* transform: scale(1.03); */
-    transform: rotate(-2deg);
+    /* transform: rotate(-2deg); */
+
+
+.pic img.scroll-rotate {
+  transform: rotate(-2deg);
+}
+
+.scroll-rotate {
+  transform: rotate(10deg);
+  transition: transform 0.3s ease;
 }
 
 .introtext {

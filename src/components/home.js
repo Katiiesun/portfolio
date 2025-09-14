@@ -4,15 +4,17 @@ import "../static/Navigation.css";
 import Footer from "./footer";
 import "../static/footer.css";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { initializeScrollAnimation } from "./animationInView";
 
 function Home() {
   const [text, setText] = useState("");
+  const imgRef = useRef(null);
 
   const background = process.env.PUBLIC_URL + "images/websitebackground.png";
   const selfie = process.env.PUBLIC_URL + "images/selfie.png";
-  const matchaSpill = process.env.PUBLIC_URL + "images/matchabottom-removebg-preview.png";
+  const matchaSpill =
+    process.env.PUBLIC_URL + "images/matchabottom-removebg-preview.png";
   const subbudImg = process.env.PUBLIC_URL + "images/subbud-ver2.png";
   const clearSpider = process.env.PUBLIC_URL + "images/clearspiderBarcode.png";
   const moodCraft = process.env.PUBLIC_URL + "images/moodcraft.png";
@@ -41,6 +43,33 @@ function Home() {
     return () => clearInterval(intervalId);
   }, []);
 
+  // scroll animation
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          console.log("Observed:", entry.target, "visible?", entry.isIntersecting);
+
+          if (entry.isIntersecting) {
+            entry.target.classList.add("scroll-rotate");
+          } else {
+            entry.target.classList.remove("scroll-rotate");
+          }
+        });
+      },
+      { threshold: 0.6 } // make it easier to trigger
+    );
+
+    if (imgRef.current) {
+      console.log("Observing image:", imgRef.current);
+      observer.observe(imgRef.current);
+    } else {
+      console.warn("⚠️ imgRef.current was null!");
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div>
       <Navigation className="navhome" />
@@ -63,7 +92,7 @@ function Home() {
       <div className="intro">
         <div className="pic">
           {/* <div class="animated hidden"> */}{" "}
-          <img src={selfietwo} alt="self pic" />
+          <img ref={imgRef} src={selfietwo} alt="self pic" />
           {/* </div> */}
         </div>
         <div className="introtext">
@@ -91,11 +120,13 @@ function Home() {
         <img src={matchaSpill} alt="bottom of matcha" />
       </div>
       <div className="projectsSection">
-        <div className="workTitle"><h1>My work</h1></div>
-        
+        <div className="workTitle">
+          <h1>My work</h1>
+        </div>
+
         <div className="wealthApp">
           <Link to="/wealthApp">
-          <img src={wealthApp} alt="wealth app cover" />
+            <img src={wealthApp} alt="wealth app cover" />
           </Link>
           <div className="wealthButtons">
             <button>A/B Testing</button>
@@ -103,14 +134,14 @@ function Home() {
             <button>Test Planning</button>
           </div>
           <h2>
-          Designing a future-ready navigation solution for Canada’s #1 insurance provider
+            Designing a future-ready navigation solution for Canada’s #1
+            insurance provider
           </h2>
         </div>
 
-        
         <div className="heyMilo">
           <Link to="/heymilo">
-          <img src={heyMilo} alt="heyMilo" />
+            <img src={heyMilo} alt="heyMilo" />
           </Link>
           <div className="heyMiloButtons">
             <button>Interaction Design</button>
