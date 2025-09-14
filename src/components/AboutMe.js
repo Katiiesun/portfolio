@@ -44,7 +44,7 @@ function AboutMe() {
           </p>
           <p>
             Outside of designing, you'll likely find me sipping a matcha latte,
-            learning my favourite songs on the piano, or binge watching modern
+            doing arts & crafts, or binge watching modern
             family for the 10th time.{" "}
           </p>
           </div>
