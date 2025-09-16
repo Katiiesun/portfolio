@@ -297,7 +297,7 @@ function Home() {
             <img src={artwork} alt="my artwork" />
           </Link>
 
-          <h1>A few art pieces I've created over the past few years</h1>
+          <h1>Katie's art gallery!</h1>
         </div>
       </div>
       <Footer className="footerHome" />
