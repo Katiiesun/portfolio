@@ -80,7 +80,7 @@ function Home() {
   //           if (entry.target === imgRef.current) {
   //             entry.target.classList.add("scroll-rotate");
   //           }
-  
+
   //           // if it's the waving hand
   //           if (entry.target === handRef.current) {
   //             entry.target.classList.add("wave-hand");
@@ -90,54 +90,53 @@ function Home() {
   //           if (entry.target === imgRef.current) {
   //             entry.target.classList.remove("scroll-rotate");
   //           }
-  
+
   //           // hand should not remove the class — only wave once
   //         }
   //       });
   //     },
   //     { threshold: 0.6 }
   //   );
-  
+
   //   if (imgRef.current) observer.observe(imgRef.current);
   //   if (handRef.current) observer.observe(handRef.current);
-  
+
   //   return () => observer.disconnect();
   // }, []);
 
   const [handWaved, setHandWaved] = useState(false); // track if hand has already waved
 
-useEffect(() => {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          // image tilt
-          if (entry.target === imgRef.current) {
-            entry.target.classList.add("scroll-rotate");
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // image tilt
+            if (entry.target === imgRef.current) {
+              entry.target.classList.add("scroll-rotate");
+            }
+
+            // hand wave, only if it hasn't waved yet
+            if (entry.target === handRef.current && !handWaved) {
+              setHandWaved(true);
+            }
+          } else {
+            // image rotate back when scrolling away
+            if (entry.target === imgRef.current) {
+              entry.target.classList.remove("scroll-rotate");
+            }
+            // do NOT remove hand class — wave only once
           }
+        });
+      },
+      { threshold: 0.6 }
+    );
 
-          // hand wave, only if it hasn't waved yet
-          if (entry.target === handRef.current && !handWaved) {
-            setHandWaved(true);
-          }
-        } else {
-          // image rotate back when scrolling away
-          if (entry.target === imgRef.current) {
-            entry.target.classList.remove("scroll-rotate");
-          }
-          // do NOT remove hand class — wave only once
-        }
-      });
-    },
-    { threshold: 0.6 }
-  );
+    if (imgRef.current) observer.observe(imgRef.current);
+    if (handRef.current) observer.observe(handRef.current);
 
-  if (imgRef.current) observer.observe(imgRef.current);
-  if (handRef.current) observer.observe(handRef.current);
-
-  return () => observer.disconnect();
-}, [handWaved]); // add handWaved to dependencies
-
+    return () => observer.disconnect();
+  }, [handWaved]); // add handWaved to dependencies
 
   return (
     <div>
@@ -165,7 +164,12 @@ useEffect(() => {
           {/* </div> */}
         </div>
         <div className="introtext">
-          <h1>Hello I'm Katie <span ref={handRef} className={handWaved ? "wave-hand" : ""}>👋</span></h1>
+          <h1>
+            Hello I'm Katie{" "}
+            <span ref={handRef} className={handWaved ? "wave-hand" : ""}>
+              👋
+            </span>
+          </h1>
           <p>
             I'm a 2B Systems Design Engineering student @ UWaterloo and am
             passionate about tech and design ⚙️💡 I aspire to apply my design
