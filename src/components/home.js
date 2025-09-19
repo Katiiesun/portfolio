@@ -12,7 +12,7 @@ function Home() {
   const imgRef = useRef(null);
   const handRef = useRef(null);
 
-  const background = process.env.PUBLIC_URL + "images/websitebackground.png";
+  const background = process.env.PUBLIC_URL + "images/websitebackground-min (1).png";
   const selfie = process.env.PUBLIC_URL + "images/selfie.png";
   const matchaSpill =
     process.env.PUBLIC_URL + "images/matchabottom-removebg-preview.png";
