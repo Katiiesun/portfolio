@@ -13,7 +13,7 @@ function AboutMe() {
   const ivy = process.env.PUBLIC_URL + "/images/Group 1171276155.png";
   const selfietwo = process.env.PUBLIC_URL + "/images/IMG_9177.jpeg";
   const legome = process.env.PUBLIC_URL + "/images/IMG_7970.jpeg";
-  const aboutme = process.env.PUBLIC_URL + "/images/aboutmepic.JPEG";
+  const aboutme = process.env.PUBLIC_URL + "/images/aboutmepic-min.JPEG";
 
 
   // const [isLego, setIsLego] = useState(false);
