@@ -204,7 +204,7 @@ function Home() {
           <div className="wealthButtons">
             <button>A/B Testing</button>
             <button>Prototyping</button>
-            <button>Test Planning</button>
+            <button>Product Thinking</button>
           </div>
           <h2>
             Designing a future-ready navigation solution for Canada’s #1
