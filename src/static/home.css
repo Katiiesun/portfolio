@@ -260,7 +260,7 @@ font-size: 6vw;
 }
 .wealthApp img{
   width: 55vw;
-  border-radius: 50px;
+  border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
@@ -306,7 +306,7 @@ font-size: 6vw;
 }
 .heyMilo img{
   width: 55vw;
-  border-radius: 50px;
+  border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
@@ -345,7 +345,7 @@ font-size: 6vw;
 
 .DivvyUp img {
   width: 55vw;
-  border-radius: 50px;
+  border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
@@ -372,7 +372,7 @@ font-size: 6vw;
 
 .Subbud img {
   width: 55vw;
-  border-radius: 50px;
+  border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
@@ -468,7 +468,7 @@ font-size: 6vw;
 
 .clearSpider img {
   width: 55vw;
-  border-radius: 50px;
+  border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
@@ -500,7 +500,7 @@ font-size: 6vw;
 
 .moodCraft img {
   width: 55vw;
-  border-radius: 50px;
+  border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
@@ -544,7 +544,7 @@ font-size: 6vw;
 
 .myArtwork img {
   width: 55vw;
-  border-radius: 50px;
+  border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
@@ -743,7 +743,7 @@ font-size: 6vw;
   }
   .clearSpider img {
     width: 55vw;
-    border-radius: 7vw;
+    border-radius: 2vw;
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
@@ -752,7 +752,7 @@ font-size: 6vw;
 
   .DivvyUp img {
     width: 55vw;
-    border-radius: 7vw;
+    border-radius: 2vw;
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
@@ -761,7 +761,7 @@ font-size: 6vw;
 
   .heyMilo img {
     width: 55vw;
-    border-radius: 7vw;
+    border-radius: 2vw;
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
@@ -770,7 +770,7 @@ font-size: 6vw;
 
   .Subbud img {
     width: 55vw;
-    border-radius: 7vw;
+    border-radius: 2vw;
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
@@ -779,7 +779,7 @@ font-size: 6vw;
 
   .myArtwork img {
     width: 55vw;
-    border-radius: 7vw;
+    border-radius: 2vw;
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
@@ -788,7 +788,7 @@ font-size: 6vw;
 
   .otherProjects img {
     width: 55vw;
-    border-radius: 7vw;
+    border-radius: 2vw;
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
@@ -853,7 +853,7 @@ font-size: 6vw;
   }
   .wealthApp img{
     width: 55vw;
-    border-radius: 7vw;
+    border-radius: 2vw;
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
