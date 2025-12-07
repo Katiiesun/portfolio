@@ -49,10 +49,12 @@ function Home() {
     const phrases = [
       "is a product designer",
       "is an engineering student",
-      "is a candle connoisseur",
       "has a messy desk",
+      "is a candle connoisseur",
       "is an arts & crafts enthusiast",
-      "is probably listening to music rn"
+      "lovesssss matcha",
+      "is probably listening to music rn",
+      
     ];
   
     let phraseIndex = 0;
