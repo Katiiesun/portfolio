@@ -12,7 +12,8 @@ function Home() {
   const imgRef = useRef(null);
   const handRef = useRef(null);
 
-  const background = process.env.PUBLIC_URL + "images/websitebackground-min (1).png";
+  const background =
+    process.env.PUBLIC_URL + "images/websitebackground-min (1).png";
   const selfie = process.env.PUBLIC_URL + "images/selfie.png";
   const matchaSpill =
     process.env.PUBLIC_URL + "images/matchabottom-removebg-preview.png";
@@ -27,22 +28,81 @@ function Home() {
   const heyMilo = process.env.PUBLIC_URL + "images/heymilo-mockup.png";
   const wealthApp = process.env.PUBLIC_URL + "images/wealthApp.png";
 
+  // useEffect(() => {
+  //   const initialText = "Product Designer, Engineering Student";
+  //   let index = 0;
+
+  //   const typeText = () => {
+  //     if (index < initialText.length) {
+  //       setText(initialText.substring(0, index + 1));
+  //       index++;
+  //     } else {
+  //       clearInterval(intervalId);
+  //     }
+  //   };
+
+  //   const intervalId = setInterval(typeText, 70);
+  //   return () => clearInterval(intervalId);
+  // }, []);
+
   useEffect(() => {
-    const initialText = "Product Designer, Engineering Student";
-    let index = 0;
-
-    const typeText = () => {
-      if (index < initialText.length) {
-        setText(initialText.substring(0, index + 1));
-        index++;
+    const phrases = [
+      "is a product designer",
+      "is an engineering student",
+      "is a candle connoisseur",
+      "has a messy desk",
+      "is an arts & crafts enthusiast",
+      "is probably listening to music rn"
+    ];
+  
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+  
+    const typeSpeed = 80;
+    const deleteSpeed = 40;
+    const pauseAfterTyping = 1200;
+    const pauseAfterDeleting = 500;
+  
+    let timeoutId;
+  
+    const type = () => {
+      const currentPhrase = phrases[phraseIndex];
+  
+      if (!isDeleting) {
+        // typing
+        setText(currentPhrase.substring(0, charIndex + 1));
+        charIndex++;
+  
+        if (charIndex === currentPhrase.length) {
+          timeoutId = setTimeout(() => {
+            isDeleting = true;
+            type();
+          }, pauseAfterTyping);
+          return;
+        }
       } else {
-        clearInterval(intervalId);
+        // deleting
+        setText(currentPhrase.substring(0, charIndex - 1));
+        charIndex--;
+  
+        if (charIndex === 0) {
+          isDeleting = false;
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+  
+          timeoutId = setTimeout(type, pauseAfterDeleting);
+          return;
+        }
       }
+  
+      timeoutId = setTimeout(type, isDeleting ? deleteSpeed : typeSpeed);
     };
-
-    const intervalId = setInterval(typeText, 70);
-    return () => clearInterval(intervalId);
+  
+    type();
+  
+    return () => clearTimeout(timeoutId);
   }, []);
+  
 
   // scroll animation
   // useEffect(() => {
@@ -171,12 +231,11 @@ function Home() {
             </span>
           </h1>
           <p>
-            I'm a 2B Systems Design Engineering student @ UWaterloo and am
-            passionate about tech and design ⚙️💡 I aspire to apply my design
-            and systems thinking to create user-friendly solutions within
-            various digital problem spaces.
+            I'm a Systems Design Engineering student @ UWaterloo and am
+            passionate about crafting experiences that simplify how people
+            navigate the digital space ⚙️💡.
           </p>
-          <p>Currently designing @ UW Blueprint, Prev. @ Manulife</p>
+          <p>Currently designing @ UW Blueprint, Incoming @ Revvity! </p>
           <a
             target="_blank"
             rel="noopener noreferrer"
