@@ -5,12 +5,16 @@ import Footer from "./footer";
 import "../static/footer.css";
 import { useState, useEffect, useCallback, useRef } from "react";
 
-const wealthHeader = process.env.PUBLIC_URL + "images/wealthHeader.png";
+const wealthHeader = process.env.PUBLIC_URL + "images/WEALTH COVER 1.png";
 const investing = process.env.PUBLIC_URL + "images/investing.png";
 const testprocess = process.env.PUBLIC_URL + "images/wealthprocess.png";
-const futurenav = process.env.PUBLIC_URL + "images/wealth-futureNav.png";
-const bottomnav = process.env.PUBLIC_URL + "images/wealth-bottomnav.png";
-const scrollvstab = process.env.PUBLIC_URL + "images/scrollvstab.png";
+const futurenav = process.env.PUBLIC_URL + "images/futurenavelement.png";
+const bottomnav = process.env.PUBLIC_URL + "images/bottomnavstructure.png";
+const scrollvstab = process.env.PUBLIC_URL + "images/tabbedvsscroll.png";
+const improvement1 = process.env.PUBLIC_URL + "images/iteration1.png";
+const improvement2 = process.env.PUBLIC_URL + "images/improvement2.png";
+const improvement3 = process.env.PUBLIC_URL + "images/improvement3.png";
+const improvement4 = process.env.PUBLIC_URL + "images/improvement4.png";
 
 function WealthApp() {
   useEffect(() => {
@@ -270,6 +274,7 @@ function WealthApp() {
           user orientation. Remove the bottom navigation when user goes through
           a flow to reduce mis-tapping and exiting out of flow
         </h2>
+        <img src={improvement1} alt="improvement 1" />
         <h2>
           → Have account-related content available through both the bottom
           navigation and individual account views. Screens accessed through
@@ -277,15 +282,18 @@ function WealthApp() {
           grouped view while individual account view screens show information
           for that specific account.
         </h2>
+        <img src={improvement2} alt="improvement 2" />
         <h2>
           → Simplify the grouping and switching workflows by clarifying labels,
           confirmation states, and adding entry points that align with users’
           mental models uncovered during testing.
         </h2>
+        <img src={improvement3} alt="improvement 3" />
         <h2>
           → Integrate file access more contextually within account views to
           align with user expectations.
         </h2>
+        <img src={improvement4} alt="improvement 4" />
       </div>
       <div className="whatIlearned">
         <h1>What I learned</h1>

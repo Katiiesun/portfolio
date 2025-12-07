@@ -342,11 +342,11 @@
 
 .futurenav {
   columns: 2;
-  gap: 2vw;
+  gap: 0vw;
 }
 
 .futurenav img {
-  width: 34vw;
+  width: 40vw;
 }
 
 .futurenavtext {
@@ -368,7 +368,7 @@
 }
 
 .bottomnav img {
-  width: 25vw;
+  width: 30vw;
   padding-right: 4vw;
 }
 
@@ -413,7 +413,7 @@
 }
 
 .scrollvstab img {
-  width: 25vw;
+  width: 30vw;
 }
 
 .keyinsights {
