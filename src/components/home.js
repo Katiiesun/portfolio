@@ -211,7 +211,7 @@ function Home() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://open.spotify.com/album/1pzvBxYgT6OVwJLtHkrdQK?si=EH3Lcm63Rv2WQnhdeg7z4A"
+            href="https://open.spotify.com/user/awiui7eruupw35vkztv427960?si=ebec6fdd1f62438b"
           >
             <img src={folkloreCD} alt="folklore cd" />
           </a>
