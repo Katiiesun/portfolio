@@ -233,9 +233,9 @@ function Home() {
           <p>
             I'm a Systems Design Engineering student @ UWaterloo and am
             passionate about crafting experiences that simplify how people
-            navigate the digital space ⚙️💡.
+            navigate the digital space ⚙️💡
           </p>
-          <p>Currently designing @ UW Blueprint, Incoming @ Revvity! </p>
+          <p>Incoming UX Research and Design @ Revvity! </p>
           <a
             target="_blank"
             rel="noopener noreferrer"
