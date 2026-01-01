@@ -17,6 +17,12 @@
 
 .wealthHeader img {
   width: 30vw;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wealthHeader img:hover {
+  transform: translateY(-0.6vw) rotate(1.2deg);
+  box-shadow: 0 1.2vw 2.5vw rgba(162, 162, 162, 0.08);
 }
 
 .wealthText {
@@ -153,7 +159,13 @@
   align-self: stretch;
   border-radius: 40px 40px 0 0;
   background: #385b4f;
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
 }
+
+/* .challenge-sec2:hover {
+  transform: translateY(-0.6vw);
+  box-shadow: 0 1.2vw 2.5vw rgba(162, 162, 162, 0.08);
+} */
 
 .challenge-sec2 h1 {
   color: #ffffff;
@@ -290,7 +302,7 @@
 }
 
 .wealth-userneeds h2 {
-  color: #eee;
+  color: #f3f3f3;
   font-family: inter;
   font-size: 1.2vw;
   font-style: normal;

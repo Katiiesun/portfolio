@@ -148,7 +148,7 @@ left: 35vw; */
   justify-content: center;
   align-items: center;
   padding: 3em;
-  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* .pic img:hover{
@@ -161,6 +161,11 @@ left: 35vw; */
 .pic img.scroll-rotate {
   transform: rotate(-2deg);
 }
+
+/* .pic img:hover{
+  transform: translateY(-0.6vw);
+  box-shadow: 0 1.2vw 2.5vw rgba(162, 162, 162, 0.08);
+} */
 
 .scroll-rotate {
   transform: rotate(10deg);
@@ -258,14 +263,37 @@ font-size: 6vw;
   margin-left: 20vw;
   margin-bottom: 5vw;
 }
-.wealthApp img{
+/* .wealthApp img{
   width: 55vw;
   border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
   /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
-}
+
+  .wealthApp-card {
+    width: 55vw;
+    border-radius: 2vw;
+    overflow: hidden; /* KEY */
+    margin: 30px;
+    height:36vw;  
+    cursor: pointer;
+    display: block;
+  }
+  
+  /* Image fills container */
+  .wealthApp-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  
+  /* Hover effect */
+  .wealthApp-card:hover img {
+    transform: scale(1.03);
+  }
+  
 
 .wealthApp h2{
   font-family: inter;
@@ -276,14 +304,14 @@ font-size: 6vw;
   font-weight: 540;
 }
 
-.wealthApp img:hover {
-  /* transform: scale(1.05); */
+/* .wealthApp img:hover {
+
   transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
 	&:hover; 
 		transform: scale(1.03);
-  /* transition: transform 0.3s ease; */
+
   transform-origin: center;
-}
+} */
 
 .wealthButtons {
   padding: 5px;
@@ -304,14 +332,37 @@ font-size: 6vw;
   margin-left: 20vw;
   margin-bottom: 5vw;
 }
-.heyMilo img{
+/* .heyMilo img{
   width: 55vw;
   border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
-  /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
+} */
+
+.heyMilo-card {
+  width: 55vw;              
+  border-radius: 2vw;
+  overflow: hidden;  
+  height:36vw;     
+  margin: 30px;
+  cursor: pointer;
+  display: block;
+  transition: box-shadow 0.4s ease;
 }
+
+.heyMilo-card img {
+  width: 102%;
+  height: 102%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.heyMilo-card:hover img {
+  transform: scale(1.03);
+}
+
+
 
 .heyMilo h2{
   font-family: inter;
@@ -321,15 +372,15 @@ font-size: 6vw;
   width: 57vw;
   font-weight: 540;
 }
-
+/* 
 .heyMilo img:hover {
-  /* transform: scale(1.05); */
+
   transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
 	&:hover; 
 		transform: scale(1.03);
-  /* transition: transform 0.3s ease; */
+
   transform-origin: center;
-}
+} */
 
 .heyMiloButtons {
   padding: 5px;
@@ -343,22 +394,42 @@ font-size: 6vw;
   margin-bottom: 5vw;
 }
 
-.DivvyUp img {
+/* .DivvyUp img {
   width: 55vw;
   border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
-  /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
-}
+} */
 
-.DivvyUp img:hover {
-  /* transform: scale(1.05);
-  transition: transform 0.3s ease; */
+
+/* .DivvyUp img:hover {
   transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
 	&:hover; 
 		transform: scale(1.03);
   transform-origin: center;
+} */
+
+.divvyUp-card {
+  width: 55vw;  
+  height:36vw;           
+  border-radius: 2vw;
+  overflow: hidden;
+  margin: 30px;
+  cursor: pointer;
+  display: block;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.divvyUp-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.divvyUp-card:hover img {
+  transform: scale(1.03);
 }
 
 .DivvyUpButtons {
@@ -466,14 +537,37 @@ font-size: 6vw;
   margin-top: 6vw;
 }
 
-.clearSpider img {
+.clearSpider-card {
+  width: 55vw;
+  border-radius: 2vw;
+  overflow: hidden;  
+  height:36vw;     
+  margin: 30px;
+  cursor: pointer;
+  display: block;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.clearSpider-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.clearSpider-card:hover img {
+  transform: scale(1.03);
+}
+
+
+/* .clearSpider img {
   width: 55vw;
   border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
-  /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
-}
+
+} */
 
 .clearSpider h2 {
   font-family: inter;
@@ -484,14 +578,13 @@ font-size: 6vw;
   font-weight: 540;
 }
 
-.clearSpider img:hover {
-  /* transform: scale(1.05);
-  transition: transform 0.3s ease; */
+/* .clearSpider img:hover {
+ 
   transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
 	&:hover; 
 		transform: scale(1.03);
   transform-origin: center;
-}
+} */
 
 .moodCraft {
   margin-left: 20vw;
@@ -542,14 +635,46 @@ font-size: 6vw;
   margin-top: 6vw;
 }
 
-.myArtwork img {
+/* .myArtwork img {
   width: 55vw;
   border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
-  /* box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4); */
+
+} */
+
+.otherProjects-card,
+.myArtwork-card {
+  width: 55vw;
+  height:36vw;
+  border-radius: 2vw;
+  overflow: hidden;
+  margin: 30px;
+  cursor: pointer;
+  display: block;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
+
+.otherProjects-card img,
+.myArtwork-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.otherProjects-card:hover img,
+.myArtwork-card:hover img {
+  transform: scale(1.03);
+}
+
+/* .otherProjects-card:hover,
+.myArtwork-card:hover {
+  box-shadow: 0 2vw 4vw rgba(0, 0, 0, 0.15);
+  transform: translateY(-0.4vw);
+} */
+
 
 .myArtwork h1 {
   font-family: inter;
@@ -562,28 +687,26 @@ font-size: 6vw;
   font-weight: 180px;
 }
 
-.myArtwork img:hover {
-  /* transform: scale(1.05);
-  transition: transform 0.3s ease; */
+/* .myArtwork img:hover {
+
   transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
 	&:hover; 
 		transform: scale(1.03);
   transform-origin: center;
-}
+} */
 
 .otherProjects {
   margin-left: 20vw;
   margin-top: 6vw;
 }
-
+/* 
 .otherProjects img {
   width: 55vw;
   border-radius: 2vw;
   cursor: pointer;
   overflow-x: hidden;
   margin: 30px;
-  /* box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4); */
-}
+} */
 
 .otherProjects h1 {
   font-family: inter;
@@ -597,15 +720,16 @@ font-size: 6vw;
  
 }
 
-.otherProjects img:hover {
-  /* transform: scale(1.05);
-  transition: transform 0.3s ease; */
+/* .otherProjects img:hover {
+
   transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
 	&:hover; 
 		transform: scale(1.03);
   transform-origin: center;
-}
+} */
 
+
+  /*NEED TO FIX THE IMAGES !!!!!!!!!!! */
 @media (max-width: 768px) {
   .home h1 {
     font-size: 8vw;

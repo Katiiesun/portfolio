@@ -25,8 +25,8 @@ function HeyMilo() {
       <Navigation className="projectsnav" />
       <div className="hmHeader">
         <h1>
-          Redesigning an ATS dashboard and navigation system to streamline
-          recruiter workflows
+          Redesigning an ATS dashboard and navigation system to{" "}
+          <span className="highlight">streamline recruiter workflows</span>
         </h1>
         <img src={hmfinalTwo} alt="heymilo redesign" />
       </div>
@@ -82,7 +82,19 @@ function HeyMilo() {
             the candidates page, poor scrolling designs and information
             hierarchy in candidate evaluations.
           </h2>
+
           <img src={heymiloOG} alt="heymilo redesign" />
+          <div className="problem-statement">
+            <h1 class="headline">
+              This confusing navigation system and display of candidate
+              evaluations was
+              <span class="highlight"> wasting recruiters’ valuable time </span>
+              in searching for information,
+              <span class="highlight"> leading to frustration </span>
+              in tracking candidates.
+            </h1>
+            <h1>So how do we solve this?</h1>
+          </div>
           <h1>Competitor Analysis</h1>
           <h2>
             To help me better understand the current market of ATS platforms and
@@ -90,6 +102,49 @@ function HeyMilo() {
             existing layouts and user experiences.
           </h2>
           <img src={atsAnalysis} alt="heymilo redesign" />
+          <h1>Framing the Solution</h1>
+          <h2>
+            {" "}
+            I developed a set of requirements informed by team conversations and
+            secondary research to directly address user pain points. These
+            requirements aligned the redesign around shared goals and
+            constraints.{" "}
+          </h2>
+          <div className="design-principles">
+            <ul>
+              <li>
+                Provide a simple navigation system{" "}
+                <span className="emphasis">accessible on every screen</span> of
+                the platform
+              </li>
+
+              <li>
+                Provide recruiters with{" "}
+                <span className="emphasis">easy-to-read</span> performance
+                indicators and visual cues for candidate evaluations.
+              </li>
+
+              <li>
+                Organize candidate data to{" "}
+                <span className="emphasis">
+                  reduce information overload and improve focus
+                </span>{" "}
+                during evaluation review.
+              </li>
+
+              <li>
+                Ensure <span className="emphasis">smooth transitions</span>{" "}
+                between tasks, such as managing agents and evaluating
+                candidates.
+              </li>
+
+              <li>
+                Design with <span className="emphasis">flexibility</span> to
+                accommodate future platform additions such as notifications,
+                credit system, etc.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="hm-section3">
@@ -117,11 +172,15 @@ function HeyMilo() {
       </div>
       <div className="final-text">
         <h1>Final Designs</h1>
-        <h2>Now let's get onto the final solutions! </h2>
+        <h2>
+          Through multiple rounds of feedback and iteration, the designs evolved
+          into a final solution ready for development. The following highlights
+          the key design changes I led from concept to final delivery!{" "}
+        </h2>
       </div>
       <div className="hm-final">
         <div className="hm-section4">
-          <div className="section4-text">
+          <div className="hmsection4-text">
             <h1> Navigation Improvements</h1>
             <h2>
               I introduced a new sidebar navigation system that allows for quick
@@ -148,8 +207,8 @@ function HeyMilo() {
             </h2>
           </div>
         </div>
-        <div className="hm-section4">
-          <div className="hmsection4-text">
+        <div className="hm-section6">
+          <div className="hmsection6-text">
             <h1>Candidate Evaluation Display</h1>
             <h2>
               To address information overload on the candidates page, I
@@ -177,29 +236,29 @@ function HeyMilo() {
             </h2>
             <img src={devhandoff} alt="heymilo redesign" />
           </div>
-          </div>
-          <div className="hm-lessons">
-            <h1>Lessons Learned</h1>
-            <h3>01. Adapting to Startup Pace </h3>
-            <h2>
-              Redesigning an entire platform within a tight timeline initially
-              seemed quite daunting to me. However, this challenge taught me to adapt
-              quickly and work efficiently in a fast-paced startup environment.
-              The supportive team culture played a crucial role in helping me
-              adjust to the rapid iteration cycles and quick decision-making
-              processes.
-            </h2>
-            <h3>02. Design Documentation & Development Handoff </h3>
-            <h2>
-              Working on my first large-scale project handoff taught me
-              invaluable lessons about design documentation. I learned to create
-              comprehensive and clear documentation systems, organizing
-              component states and user flows in a way that streamlines the
-              development process. This project taught me the importance of
-              thorough documentation in ensuring smooth implementation of
-              complex design systems.
-            </h2>
-            </div>
+        </div>
+        <div className="hm-lessons">
+          <h1>Lessons Learned</h1>
+          <h3>01. Adapting to Startup Pace </h3>
+          <h2>
+            Redesigning an entire platform within a tight timeline initially
+            seemed quite daunting to me. However, this challenge taught me to
+            adapt quickly and work efficiently in a fast-paced startup
+            environment. The supportive team culture played a crucial role in
+            helping me adjust to the rapid iteration cycles and quick
+            decision-making processes.
+          </h2>
+          <h3>02. Design Documentation & Development Handoff </h3>
+          <h2>
+            Working on my first large-scale project handoff taught me invaluable
+            lessons about design documentation. I learned to create
+            comprehensive and clear documentation systems, organizing component
+            states and user flows in a way that streamlines the development
+            process. This project taught me the importance of thorough
+            documentation in ensuring smooth implementation of complex design
+            systems.
+          </h2>
+        </div>
       </div>
       <Footer className="footerSubBud" />
     </div>

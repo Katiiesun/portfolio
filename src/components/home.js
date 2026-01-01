@@ -54,28 +54,27 @@ function Home() {
       "is an arts & crafts enthusiast",
       "lovesssss matcha",
       "is probably listening to music rn",
-      
     ];
-  
+
     let phraseIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
-  
+
     const typeSpeed = 80;
     const deleteSpeed = 40;
     const pauseAfterTyping = 1200;
     const pauseAfterDeleting = 500;
-  
+
     let timeoutId;
-  
+
     const type = () => {
       const currentPhrase = phrases[phraseIndex];
-  
+
       if (!isDeleting) {
         // typing
         setText(currentPhrase.substring(0, charIndex + 1));
         charIndex++;
-  
+
         if (charIndex === currentPhrase.length) {
           timeoutId = setTimeout(() => {
             isDeleting = true;
@@ -87,24 +86,23 @@ function Home() {
         // deleting
         setText(currentPhrase.substring(0, charIndex - 1));
         charIndex--;
-  
+
         if (charIndex === 0) {
           isDeleting = false;
           phraseIndex = (phraseIndex + 1) % phrases.length;
-  
+
           timeoutId = setTimeout(type, pauseAfterDeleting);
           return;
         }
       }
-  
+
       timeoutId = setTimeout(type, isDeleting ? deleteSpeed : typeSpeed);
     };
-  
+
     type();
-  
+
     return () => clearTimeout(timeoutId);
   }, []);
-  
 
   // scroll animation
   // useEffect(() => {
@@ -259,7 +257,7 @@ function Home() {
         </div>
 
         <div className="wealthApp">
-          <Link to="/wealthApp">
+          <Link to="/wealthApp" className="wealthApp-card">
             <img src={wealthApp} alt="wealth app cover" />
           </Link>
           <div className="wealthButtons">
@@ -274,7 +272,7 @@ function Home() {
         </div>
 
         <div className="heyMilo">
-          <Link to="/heymilo">
+          <Link to="/heymilo" className="heyMilo-card">
             <img src={heyMilo} alt="heyMilo" />
           </Link>
           <div className="heyMiloButtons">
@@ -289,7 +287,7 @@ function Home() {
         </div>
 
         <div className="DivvyUp">
-          <Link to="/DivvyUp">
+          <Link to="/DivvyUp" className="divvyUp-card">
             <img src={divvyUp} alt="divvyUp" />
           </Link>
           <div className="DivvyUpButtons">
@@ -319,7 +317,7 @@ function Home() {
         </div> */}
 
         <div className="clearSpider">
-          <Link to="/clearSpider">
+          <Link to="/clearSpider" className="clearSpider-card">
             <img src={clearSpider} alt="clear spider redesign" />
           </Link>
           <div className="clearSpiderButtons">
@@ -347,14 +345,14 @@ function Home() {
           <h1>More</h1>
         </div>
         <div className="otherProjects">
-          <Link to="/moreProjects">
+          <Link to="/moreProjects" className="otherProjects-card">
             <img src={otherProjects} alt="more projects" />
           </Link>
 
           <h1>Various projects from graphic design to 3D modelling</h1>
         </div>
         <div className="myArtwork">
-          <Link to="/Artwork">
+          <Link to="/Artwork" className="myArtwork-card">
             <img src={artwork} alt="my artwork" />
           </Link>
 

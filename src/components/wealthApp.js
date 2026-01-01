@@ -86,16 +86,12 @@ function WealthApp() {
           <div className="wealth-myrole">
             <h1>My role</h1>
             <h2>
-              • Collaborated with the design lead and experience design director
-              to conceptualize navigation structures
-            </h2>
-            <h2>
-              • Designed and built high-fidelity interactive prototypes in Figma
-            </h2>
-            <h2>• Developed user testing tasks and moderated interviews</h2>
-            <h2>
-              • Analyzed feedback and synthesized insights into actionable
-              design decisions
+              Working closely with the design lead and experience design
+              director, I helped conceptualize navigation structures while
+              designing and building high-fidelity interactive prototypes in
+              Figma. I also developed and moderated user testing tasks and
+              interviews, analyzing feedback to synthesize actionable insights
+              that guided design decisions.
             </h2>
           </div>
         </div>
@@ -142,11 +138,12 @@ function WealthApp() {
             {" "}
             <h1>Target users</h1>
             <h2>
-              • The online portal is actively used by a large base of existing wealth management clients.
+              • The online portal is actively used by a large base of existing
+              wealth management clients.
             </h2>
             <h2>
-              • A long-term goal is to expand the platform to the broader
-              client base, significantly increasing reach.
+              • A long-term goal is to expand the platform to the broader client
+              base, significantly increasing reach.
             </h2>
             <h2>
               → Test participants included both internal employees with
@@ -253,14 +250,15 @@ function WealthApp() {
             </h2>
 
             <h2>
-              ❌ Placement of navigation element and confirmation states weren't visible enough
+              ❌ Placement of navigation element and confirmation states weren't
+              visible enough
             </h2>
           </div>
           <div className="insight3">
             <h1>📄 Resource Access</h1>
             <h2>
-              ❗️ Many expected account specific files to be found within account
-              views
+              ❗️ Many expected account specific files to be found within
+              account views
             </h2>
             <h2>✔️ Contextual entry points improved discoverability</h2>
           </div>
