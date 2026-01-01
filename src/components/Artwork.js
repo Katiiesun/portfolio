@@ -28,7 +28,7 @@ function Artwork() {
           and real things we see. In highschool, I was in a visual arts program
           so here are some of my favourite pieces I created during those few
           years!{" "} */}
-          A couple art pieces I've created over recent years
+          A couple art pieces I've created over recent years through various mediums
         </h2>
         <img src={myArtwork} alt="my artwork" />
       </div>
