@@ -278,7 +278,7 @@ function Home() {
           <div className="heyMiloButtons">
             <button>Interaction Design</button>
             <button>Competitor Analysis</button>
-            <button>Interface Design</button>
+            <button>Information Architecture</button>
           </div>
           <h2>
             Redesigning an ATS dashboard and navigation system to streamline
