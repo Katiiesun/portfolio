@@ -19,7 +19,7 @@ function Artwork() {
       <div className="my-artwork">
         <h1>Artwork</h1>
         <h2>
-          One of my favourite hobbies as a kid was drawing and painting. My
+          {/* One of my favourite hobbies as a kid was drawing and painting. My
           parents noticed my interest towards creating art and put me into
           visual art lessons at age 4. Visual arts has always been one of my
           biggest passions growing up as it allowed me to express my creativity
@@ -27,7 +27,8 @@ function Artwork() {
           realism as I loved being able to capture the essence of real people
           and real things we see. In highschool, I was in a visual arts program
           so here are some of my favourite pieces I created during those few
-          years!{" "}
+          years!{" "} */}
+          A couple art pieces I've created over recent years
         </h2>
         <img src={myArtwork} alt="my artwork" />
       </div>
