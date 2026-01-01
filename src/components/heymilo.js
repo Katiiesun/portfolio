@@ -33,19 +33,19 @@ function HeyMilo() {
       <div className="cs-section1">
         <div className="subbud-intro">
           <div className="subbud-skills">
-            <h1>SKILLS</h1>
+            <h1>Skills</h1>
             <h2>Interaction Design</h2>
             <h2>Competitor Analysis</h2>
             <h2>Interface Design</h2>
           </div>
           <div className="project-duration">
-            <h1>TEAM</h1>
+            <h1>Team</h1>
             <h2>Co-founder</h2>
             <h2>1 Designer</h2>
             <h2>2 Developers</h2>
           </div>
           <div className="project-duration">
-            <h1>DURATION</h1>
+            <h1>Duration</h1>
             <h2>November 2024 - January 2025</h2>
           </div>
         </div>

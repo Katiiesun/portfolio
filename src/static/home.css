@@ -155,8 +155,7 @@ left: 35vw; */
   transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
 	&:hover; 
 		/* transform: scale(1.03); */
-    /* transform: rotate(-2deg); */
-
+/* transform: rotate(-2deg); */
 
 .pic img.scroll-rotate {
   transform: rotate(-2deg);
@@ -180,13 +179,27 @@ left: 35vw; */
 }
 
 @keyframes wave {
-  0%   { transform: rotate(0deg) scale(1); }
-  15%  { transform: rotate(15deg) scale(1.2); }
-  30%  { transform: rotate(-10deg) scale(1.15); }
-  45%  { transform: rotate(15deg) scale(1.2); }
-  60%  { transform: rotate(-10deg) scale(1.15); }
-  75%  { transform: rotate(15deg) scale(1.2); }
-  100% { transform: rotate(0deg) scale(1); }
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  15% {
+    transform: rotate(15deg) scale(1.2);
+  }
+  30% {
+    transform: rotate(-10deg) scale(1.15);
+  }
+  45% {
+    transform: rotate(15deg) scale(1.2);
+  }
+  60% {
+    transform: rotate(-10deg) scale(1.15);
+  }
+  75% {
+    transform: rotate(15deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
 }
 
 .introtext {
@@ -248,18 +261,16 @@ left: 35vw; */
   padding-bottom: 10vw;
 }
 
-.projectsSection .workTitle{
+.projectsSection .workTitle {
   margin-left: 37vw;
 }
 .projectsSection h1 {
-font-family:acorn-medium;
-color:#a2ba9c;
-font-size: 6vw;
-
+  font-family: acorn-medium;
+  color: #a2ba9c;
+  font-size: 6vw;
 }
 
-
-.wealthApp{
+.wealthApp {
   margin-left: 20vw;
   margin-bottom: 5vw;
 }
@@ -271,33 +282,32 @@ font-size: 6vw;
   margin: 30px;
   /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
 
-  .wealthApp-card {
-    width: 55vw;
-    border-radius: 2vw;
-    overflow: hidden; /* KEY */
-    margin: 30px;
-    height:36vw;  
-    cursor: pointer;
-    display: block;
-  }
-  
-  /* Image fills container */
-  .wealthApp-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
-  }
-  
-  /* Hover effect */
-  .wealthApp-card:hover img {
-    transform: scale(1.03);
-  }
-  
+.wealthApp-card {
+  width: 55vw;
+  border-radius: 2vw;
+  overflow: hidden; /* KEY */
+  margin: 30px;
+  height: 36vw;
+  cursor: pointer;
+  display: block;
+}
 
-.wealthApp h2{
+/* Image fills container */
+.wealthApp-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Hover effect */
+.wealthApp-card:hover img {
+  transform: scale(1.03);
+}
+
+.wealthApp h2 {
   font-family: inter;
-  line-height:140%;
+  line-height: 140%;
   font-size: 1.6vw;
   margin-left: 3vw;
   width: 57vw;
@@ -327,8 +337,7 @@ font-size: 6vw;
   color: #437956;
 }
 
-
-.heyMilo{
+.heyMilo {
   margin-left: 20vw;
   margin-bottom: 5vw;
 }
@@ -341,10 +350,10 @@ font-size: 6vw;
 } */
 
 .heyMilo-card {
-  width: 55vw;              
+  width: 55vw;
   border-radius: 2vw;
-  overflow: hidden;  
-  height:36vw;     
+  overflow: hidden;
+  height: 36vw;
   margin: 30px;
   cursor: pointer;
   display: block;
@@ -362,11 +371,9 @@ font-size: 6vw;
   transform: scale(1.03);
 }
 
-
-
-.heyMilo h2{
+.heyMilo h2 {
   font-family: inter;
-  line-height:140%;
+  line-height: 140%;
   font-size: 1.6vw;
   margin-left: 3vw;
   width: 57vw;
@@ -387,8 +394,6 @@ font-size: 6vw;
   margin-left: 2vw;
 }
 
-
-
 .DivvyUp {
   margin-left: 20vw;
   margin-bottom: 5vw;
@@ -402,7 +407,6 @@ font-size: 6vw;
   margin: 30px;
 } */
 
-
 /* .DivvyUp img:hover {
   transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
 	&:hover; 
@@ -411,8 +415,8 @@ font-size: 6vw;
 } */
 
 .divvyUp-card {
-  width: 55vw;  
-  height:36vw;           
+  width: 55vw;
+  height: 36vw;
   border-radius: 2vw;
   overflow: hidden;
   margin: 30px;
@@ -476,7 +480,6 @@ font-size: 6vw;
   color: #3d6491;
 }
 
-
 .projectsSection .DivvyUpButtons button {
   background-color: #e0e7fc;
   border-color: transparent;
@@ -518,7 +521,7 @@ font-size: 6vw;
 }
 .DivvyUp h2 {
   font-family: inter;
-  line-height:140%;
+  line-height: 140%;
   font-size: 1.6vw;
   margin-left: 3vw;
   width: 57vw;
@@ -540,8 +543,8 @@ font-size: 6vw;
 .clearSpider-card {
   width: 55vw;
   border-radius: 2vw;
-  overflow: hidden;  
-  height:36vw;     
+  overflow: hidden;
+  height: 36vw;
   margin: 30px;
   cursor: pointer;
   display: block;
@@ -559,7 +562,6 @@ font-size: 6vw;
   transform: scale(1.03);
 }
 
-
 /* .clearSpider img {
   width: 55vw;
   border-radius: 2vw;
@@ -571,7 +573,7 @@ font-size: 6vw;
 
 .clearSpider h2 {
   font-family: inter;
-  line-height:140%;
+  line-height: 140%;
   font-size: 1.6vw;
   margin-left: 3vw;
   width: 57vw;
@@ -617,10 +619,9 @@ font-size: 6vw;
   padding-top: 60px;
   background-color: #2d2727;
   padding-bottom: 100px;
-
 }
 
-.moreProjectsText{
+.moreProjectsText {
   margin-left: 40vw;
 }
 .moreProjectsText h1 {
@@ -647,7 +648,7 @@ font-size: 6vw;
 .otherProjects-card,
 .myArtwork-card {
   width: 55vw;
-  height:36vw;
+  height: 36vw;
   border-radius: 2vw;
   overflow: hidden;
   margin: 30px;
@@ -675,10 +676,9 @@ font-size: 6vw;
   transform: translateY(-0.4vw);
 } */
 
-
 .myArtwork h1 {
   font-family: inter;
-  line-height:140%;
+  line-height: 140%;
   font-size: 1.6vw;
   margin-left: 22vw;
   width: 57vw;
@@ -710,14 +710,12 @@ font-size: 6vw;
 
 .otherProjects h1 {
   font-family: inter;
-  line-height:140%;
+  line-height: 140%;
   font-size: 1.6vw;
   margin-left: 8vw;
   width: 57vw;
   font-weight: 540;
   color: #e0e0da;
-
- 
 }
 
 /* .otherProjects img:hover {
@@ -728,8 +726,7 @@ font-size: 6vw;
   transform-origin: center;
 } */
 
-
-  /*NEED TO FIX THE IMAGES !!!!!!!!!!! */
+/*NEED TO FIX THE IMAGES !!!!!!!!!!! */
 @media (max-width: 768px) {
   .home h1 {
     font-size: 8vw;
@@ -799,7 +796,6 @@ font-size: 6vw;
     width: 45vw;
     font-weight: 540;
     display: flex;
-  
   }
 
   .projectsSection .DivvyUpButtons button {
@@ -819,7 +815,7 @@ font-size: 6vw;
     border-radius: 8px;
     padding: 2vw;
     margin: 1vw;
-    font-size:2vw;
+    font-size: 2vw;
     font-family: monospace;
     color: #3d6491;
   }
@@ -854,7 +850,6 @@ font-size: 6vw;
     padding: 1vw;
     margin-left: 2vw;
   }
-  
 
   .DivvyUpButtons {
     padding: 1vw;
@@ -919,7 +914,6 @@ font-size: 6vw;
     /* box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4); */
   }
 
-
   .DivvyUp h1 {
     font-family: inter;
     font-size: 3vw;
@@ -971,11 +965,11 @@ font-size: 6vw;
     color: #958473;
   }
 
-  .wealthApp{
+  .wealthApp {
     margin-left: 20vw;
     margin-bottom: 5vw;
   }
-  .wealthApp img{
+  .wealthApp img {
     width: 55vw;
     border-radius: 2vw;
     cursor: pointer;
@@ -983,18 +977,16 @@ font-size: 6vw;
     margin: 14px;
     /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
   }
-  
-  .wealthApp h2{
+
+  .wealthApp h2 {
     font-family: inter;
-    line-height:140%;
+    line-height: 140%;
     font-size: 1.6vw;
     margin-left: 3vw;
     width: 57vw;
     font-weight: 540;
   }
-  
 
-  
   .wealthButtons {
     padding: 5px;
     margin-left: 2vw;
@@ -1011,5 +1003,4 @@ font-size: 6vw;
     margin: 1vw;
     font-size: 2vw;
   }
-  
 }
