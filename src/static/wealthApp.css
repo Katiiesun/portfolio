@@ -83,7 +83,15 @@
   align-items: flex-start;
   gap: 10px;
   border-radius: 10px;
-  background: #cbe1ec;
+  background: #ffffff;
+  box-shadow: 1.2vw 1.2vw 2.5vw rgba(187, 187, 187, 0.08);
+
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wealthsection1 .confidential:hover {
+  transform: translateY(-0.6vw);
+  box-shadow: 0 1.2vw 2.5vw rgba(110, 110, 110, 0.08);
 }
 
 .wealthsection1 .confidential h1 {
@@ -772,4 +780,5 @@
 .carousel-btn.right {
   right: -2vw;
 }
+
 

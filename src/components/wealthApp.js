@@ -16,10 +16,14 @@ const improvement2 = process.env.PUBLIC_URL + "images/improvement2.png";
 const improvement3 = process.env.PUBLIC_URL + "images/improvement3.png";
 const improvement4 = process.env.PUBLIC_URL + "images/improvement4.png";
 
+
+
 function WealthApp() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  
+  
   return (
     <div>
       <Navigation className="projectsnav" />
