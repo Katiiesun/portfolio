@@ -1,215 +1,236 @@
-.csHeader{
-    columns:2;
-    display:flex;
-    padding-top:8vw;
-    padding-left:8vw;
-    padding-right:8vw;
-    padding-bottom:4vw;
-    background-color:rgb(246, 246, 246);
+.csHeader {
+  columns: 2;
+  display: flex;
+  padding-top: 8vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-bottom: 4vw;
+  background-color: rgb(246, 246, 246);
 }
 
-.csHeader img{
-    width:55vw;
+.csHeader img {
+  width: 55vw;
+  animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
 }
 
-.csHeader h1{
-    font-size:2.3vw;
-    padding-top:12vw;
-}
-
-.cs-section1{
-    display: flex;
-    margin-left: 18vw;
-    margin-top:4vw;
-    margin-bottom: 4vw;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-  .cs-overview{
-    font-size: 0.8vw;
-    width: 65vw;
-    padding-bottom:2vw;
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* starts slightly below */
   }
-
-  .cs-overview h2 {
-    font-weight: 400;
-    margin-bottom: 3vw;
-    line-height: 1.8vw;
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* ends at normal position */
   }
+}
 
-  .cs-overview h1{
-    font-weight: 600;
+.csHeader h1 {
+  font-size: 2.3vw;
+  padding-top: 12vw;
+  animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* starts slightly below */
   }
-
-  .cs-section2{
-    columns:2;
-    display:flex;
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* ends at normal position */
   }
-
-  .cs-section2 img{
-    width:55vw;
-    margin-left: 4vw;
 }
 
-.section2-text{
-    padding-left:12vw;
-    padding-top:11vw;
-
+.cs-section1 {
+  display: flex;
+  margin-left: 18vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.section2-text h1{
-    font-size:1.7vw;
-    font-weight: 600;
+.cs-overview {
+  font-size: 0.8vw;
+  width: 65vw;
+  padding-bottom: 2vw;
 }
 
-.section2-text h2{
-    font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 1.8vw;
+.cs-overview h2 {
+  font-weight: 400;
+  margin-bottom: 3vw;
+  line-height: 1.8vw;
 }
 
-.cs-section3{
-    columns:2;
-    display:flex;  
-    margin-top: 5vw;
+.cs-overview h1 {
+  font-weight: 600;
 }
 
-.cs-section3 img{
-width:45vw;
-padding-left: 12vw;
+.cs-section2 {
+  columns: 2;
+  display: flex;
 }
 
-.section3-text{
-    padding-left:6vw;
-    padding-top:8vw;
-    width:26vw;
+.cs-section2 img {
+  width: 55vw;
+  margin-left: 4vw;
 }
 
-.section3-text h1{
-    font-size:1.7vw;
-    font-weight: 600;
+.section2-text {
+  padding-left: 12vw;
+  padding-top: 11vw;
 }
 
-.section3-text h2{
-    font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 1.8vw;
+.section2-text h1 {
+  font-size: 1.7vw;
+  font-weight: 600;
 }
 
-.cs-section4 .cs-iteration{
-    columns:2;
-    display:flex;  
-    margin-top: 5vw; 
+.section2-text h2 {
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 1.8vw;
 }
 
-.cs-section4 img{
-    width: 55vw;
+.cs-section3 {
+  columns: 2;
+  display: flex;
+  margin-top: 5vw;
 }
 
-.section4-text{
-    padding-left:12vw;
-    padding-top:11vw;
-    width:26vw;
+.cs-section3 img {
+  width: 45vw;
+  padding-left: 12vw;
 }
 
-.section4-text h1{
-    font-size:1.7vw;
-    font-weight: 600;
+.section3-text {
+  padding-left: 6vw;
+  padding-top: 8vw;
+  width: 26vw;
 }
 
-.section4-text h2{
-    font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 1.8vw;
+.section3-text h1 {
+  font-size: 1.7vw;
+  font-weight: 600;
+}
+
+.section3-text h2 {
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 1.8vw;
+}
+
+.cs-section4 .cs-iteration {
+  columns: 2;
+  display: flex;
+  margin-top: 5vw;
+}
+
+.cs-section4 img {
+  width: 55vw;
+}
+
+.section4-text {
+  padding-left: 12vw;
+  padding-top: 11vw;
+  width: 26vw;
+}
+
+.section4-text h1 {
+  font-size: 1.7vw;
+  font-weight: 600;
+}
+
+.section4-text h2 {
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 1.8vw;
 }
 
 .final-screens {
-    columns:2;
-    display:flex;
-    margin-left: 4vw;
+  columns: 2;
+  display: flex;
+  margin-left: 4vw;
 }
-.final-screens img{
-width:45vw;
+.final-screens img {
+  width: 45vw;
 }
 
 .cs-section5 {
-    columns:2;
-    display:flex;  
-    margin-top: 5vw;  
+  columns: 2;
+  display: flex;
+  margin-top: 5vw;
 }
 
-.cs-section5 img{
-    width:55vw;
-    padding-left:6vw;
+.cs-section5 img {
+  width: 55vw;
+  padding-left: 6vw;
 }
 
-.section5-text{
-    padding-left:3vw;
-    padding-top:11vw;
-    width:26vw;
+.section5-text {
+  padding-left: 3vw;
+  padding-top: 11vw;
+  width: 26vw;
 }
 
-.section5-text h1{
-    font-size:1.7vw;
-    font-weight: 600;
+.section5-text h1 {
+  font-size: 1.7vw;
+  font-weight: 600;
 }
 
-.section5-text h2{
-    font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 1.8vw;
+.section5-text h2 {
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 1.8vw;
 }
 
-.cs-section6 img{
-    width:80vw;
-    padding-left: 12vw;
+.cs-section6 img {
+  width: 80vw;
+  padding-left: 12vw;
 }
 
-.section6-text{
-    padding-left:12vw;
-    padding-top:5vw;
-    width:78vw;  
+.section6-text {
+  padding-left: 12vw;
+  padding-top: 5vw;
+  width: 78vw;
 }
 
-.section6-text h1{
-    font-size:1.7vw;
-    font-weight: 600;
+.section6-text h1 {
+  font-size: 1.7vw;
+  font-weight: 600;
 }
 
-.section6-text h2{
-    font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 1.8vw;
+.section6-text h2 {
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 1.8vw;
 }
 
-.cs-section7 .section7-img{
-    display:flex;  
-    margin-top: 5vw;  
-    columns:2;
-   padding-left:8vw;
-   padding-bottom:8vw;
+.cs-section7 .section7-img {
+  display: flex;
+  margin-top: 5vw;
+  columns: 2;
+  padding-left: 8vw;
+  padding-bottom: 8vw;
 }
 
-.cs-section7 .section7-img img{
-    width:43vw;
-
-
+.cs-section7 .section7-img img {
+  width: 43vw;
 }
 
 .section7-text {
-    padding-left:12vw;
-    padding-top:5vw;
-    width:78vw;  
+  padding-left: 12vw;
+  padding-top: 5vw;
+  width: 78vw;
 }
 
-.section7-text h1{
-    font-size:1.7vw;
-    font-weight: 600;
+.section7-text h1 {
+  font-size: 1.7vw;
+  font-weight: 600;
 }
 
-.section7-text h2{
-    font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 1.8vw; 
+.section7-text h2 {
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 1.8vw;
 }

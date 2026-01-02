@@ -53,21 +53,23 @@ left: 35vw; */
   text-align: center;
   position: absolute;
   margin: auto;
-  top: 50%;
-  left: 50%;
-  transform: translate(28%, -60%);
+  top: 37%;
+  left: 58%;
+  /* transform: translate(100%, -60%); */
   color: #e0e0da;
   font-family: "acorn-bold";
   font-weight: 50;
-  animation: fadeIn 2s;
+  animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
 }
 
-@keyframes fadeIn {
+@keyframes fadeInUp {
   0% {
     opacity: 0;
+    transform: translateY(20px); /* starts slightly below */
   }
   100% {
     opacity: 1;
+    transform: translateY(0); /* ends at normal position */
   }
 }
 
@@ -86,7 +88,18 @@ left: 35vw; */
   color: #b3b3b3;
   font-family: inter;
   font-weight: 450;
-  animation: blink-cursor 0.75s step-end infinite; /* Cursor blinking effect */
+  animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* starts slightly below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* ends at normal position */
+  }
 }
 
 @keyframes blink-cursor {
@@ -733,20 +746,20 @@ left: 35vw; */
     text-align: center;
     position: absolute;
     margin: auto;
-    top: 16%;
-    left: 51%;
+    top: 14%;
+    left: 56%;
     color: #e0e0da;
     font-family: "acorn-bold";
     font-weight: 50;
-    animation: fadeIn 2s;
+    animation: fadeInUp 0.6s;
   }
   .typing-text {
     font-size: 1.5vw;
     text-align: center;
     position: absolute;
     margin: auto;
-    top: 19%;
-    left: 68%;
+    top: 22%;
+    left: 65%;
     color: #b3b3b3;
     font-family: inter;
     font-weight: 500;

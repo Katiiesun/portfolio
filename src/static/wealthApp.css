@@ -13,13 +13,28 @@
   background-color: #528271;
   border-radius: 0 0 40px 40px;
   gap: 60px;
+  transition: background-color 0.4s ease;
 }
+/* .wealthHeader:hover{
+background-color: #3c6657;
+} */
 
 .wealthHeader img {
   width: 30vw;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
 }
 
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* starts slightly below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* ends at normal position */
+  }
+}
 .wealthHeader img:hover {
   transform: translateY(-0.6vw) rotate(1.2deg);
   box-shadow: 0 1.2vw 2.5vw rgba(162, 162, 162, 0.08);
@@ -29,6 +44,18 @@
   width: 43vw;
   height: 30vw;
   flex-shrink: 0;
+  animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* starts slightly below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* ends at normal position */
+  }
 }
 
 .wealthHeader .wealthText h1 {
@@ -86,7 +113,7 @@
   background: #ffffff;
   box-shadow: 1.2vw 1.2vw 2.5vw rgba(187, 187, 187, 0.08);
 
-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .wealthsection1 .confidential:hover {
@@ -579,19 +606,19 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
   line-height: 2vw;
 }
 
-.whatIlearned{
-    display: flex;
-    /* margin-left: 18vw; */
-    margin-top: 4vw;
-    margin-bottom: 10vw;
-    flex-direction: column;
-    align-items: left;
-    gap: 2vw;
-    padding: 0 14vw;
+.whatIlearned {
+  display: flex;
+  /* margin-left: 18vw; */
+  margin-top: 4vw;
+  margin-bottom: 10vw;
+  flex-direction: column;
+  align-items: left;
+  gap: 2vw;
+  padding: 0 14vw;
 }
 
-.whatIlearned h1{
-    color: #000000;
+.whatIlearned h1 {
+  color: #000000;
   font-family: Inter;
   font-size: 2.4vw;
   font-style: normal;
@@ -599,98 +626,98 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
   line-height: 28px;
 }
 
-.learnings{
-    display: flex;
+.learnings {
+  display: flex;
   gap: 2vw; /* spacing between cards */
   justify-content: space-between;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
-.learning1{
-    display: flex;
-    width: 18.5vw;
-    height: 25vw;
-    padding: 2vw 2vw;
-    flex-direction: column;
-    align-items: flex-start;
-    background: #CBE1EC;
-    border-radius: 2vw;
+.learning1 {
+  display: flex;
+  width: 18.5vw;
+  height: 25vw;
+  padding: 2vw 2vw;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #cbe1ec;
+  border-radius: 2vw;
 }
 
-.learning1 h1{
-    color: #000000;
-    font-family: Inter;
-    font-size: 1.4vw;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 28px;
+.learning1 h1 {
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
 }
 
-.learning1 h2{
-    color: #000000;
+.learning1 h2 {
+  color: #000000;
   font-family: inter;
   font-size: 1.2vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw; 
+  line-height: 2vw;
 }
 
-.learning2{
-    display: flex;
-    width: 18.5vw;
-    height: 25vw;
-    padding: 2vw 2vw;
-    flex-direction: column;
-    align-items: flex-start;
-    background: #CBE1EC;
-    border-radius: 2vw;
+.learning2 {
+  display: flex;
+  width: 18.5vw;
+  height: 25vw;
+  padding: 2vw 2vw;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #cbe1ec;
+  border-radius: 2vw;
 }
 
-.learning2 h1{
-    color: #000000;
-    font-family: Inter;
-    font-size: 1.4vw;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 28px;
+.learning2 h1 {
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
 }
 
-.learning2 h2{
-    color: #000000;
+.learning2 h2 {
+  color: #000000;
   font-family: inter;
   font-size: 1.2vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw; 
+  line-height: 2vw;
 }
 
-.learning3{
-    display: flex;
-    width: 18.5vw;
-    height: 25vw;
-    padding: 2vw 2vw;
-    flex-direction: column;
-    align-items: flex-start;
-    background: #CBE1EC;
-    border-radius: 2vw;
+.learning3 {
+  display: flex;
+  width: 18.5vw;
+  height: 25vw;
+  padding: 2vw 2vw;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #cbe1ec;
+  border-radius: 2vw;
 }
 
-.learning3 h1{
-    color: #000000;
-    font-family: Inter;
-    font-size: 1.4vw;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 28px;
+.learning3 h1 {
+  color: #000000;
+  font-family: Inter;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
 }
 
-.learning3 h2{
-    color: #000000;
+.learning3 h2 {
+  color: #000000;
   font-family: inter;
   font-size: 1.2vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw; 
+  line-height: 2vw;
 }
 
 .more-work {
@@ -702,7 +729,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
   font-weight: 600;
   margin-bottom: 3vw;
   font-family: acorn;
-  color:#a2ba9c
+  color: #a2ba9c;
 }
 
 .carousel-wrapper {
@@ -743,10 +770,10 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
   font-weight: 500;
   margin-top: 3vw;
   margin-bottom: 3vw;
-  margin-left:2vw;
-  margin-right:2vw;
-  line-height:1.6vw;
-  font-weight:400;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  line-height: 1.6vw;
+  font-weight: 400;
 }
 
 .carousel-card:hover img {
@@ -780,5 +807,3 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 .carousel-btn.right {
   right: -2vw;
 }
-
-

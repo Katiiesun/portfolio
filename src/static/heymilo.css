@@ -20,12 +20,36 @@
 
 .hmHeader img{
     width:50vw;
-}
+    animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* starts slightly below */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* ends at normal position */
+    }
+  }
 
 .hmHeader h1{
     font-size:2vw;
     padding-top:12vw;
-}
+    animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* starts slightly below */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* ends at normal position */
+    }
+  }
 
 
 .hm-overview{
