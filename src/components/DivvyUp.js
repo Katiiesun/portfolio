@@ -273,6 +273,38 @@ function DivvyUp() {
           users to settle bills directly within the app.
         </h2>
       </div>
+
+      <section class="more-work">
+        <h1>Continue Reading</h1>
+
+        <div class="carousel-wrapper">
+          {/* <button class="carousel-btn left" aria-label="Scroll left">←</button> */}
+
+          <div class="carousel" id="carousel">
+      <a href="/wealthApp" class="carousel-card">
+        <img src="images/wealthApp.png" alt="Wealth App" />
+        <h2>Structuring Intuitive Navigation for a Wealth Management App</h2>
+      </a>
+
+            <a href="/heymilo" class="carousel-card">
+              <img src="images/heymilo-mockup.png" alt="HeyMilo AI" />
+              <h2>
+                Redesigning an ATS dashboard and navigation system to streamline
+                recruiter workflows
+              </h2>
+            </a>
+
+
+            <a href="/clearSpider" class="carousel-card">
+              <img src="images/clearspiderBarcode.png" alt="ClearSpider" />
+              <h2>Reimagining a product landing page for stronger visual impact</h2>
+            </a>
+          </div>
+
+          {/* <button class="carousel-btn right" aria-label="Scroll right">→</button> */}
+        </div>
+      </section>
+
       <Footer className="footerSubBud" />
     </div>
   );

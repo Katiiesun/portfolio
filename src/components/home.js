@@ -297,7 +297,7 @@ function Home() {
           </div>
           <h2>
             Simplifying group planning and bill splitting with DivvyUp, for a
-            seamless group outing experience.
+            seamless group outing experience
           </h2>
         </div>
 
@@ -325,7 +325,7 @@ function Home() {
             <button>Illustrations</button>
           </div>
           <h2>
-            Redesigning a product landing page for enhanced visual engagement
+          Reimagining a product landing page for stronger visual impact
           </h2>
         </div>
 

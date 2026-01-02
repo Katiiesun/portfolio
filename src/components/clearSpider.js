@@ -24,7 +24,7 @@ function ClearSpider() {
       <Navigation className="projectsnav" />
       <div className="csHeader">
         <h1>
-          Redesigning a product landing page for enhanced visual engagement
+        Reimagining a product landing page for stronger visual impact
         </h1>
         <img src={clearSpider1} alt="clear spider redesign landing" />
       </div>
@@ -143,6 +143,41 @@ function ClearSpider() {
           <img src={clearSpider9} alt="clear spider footer CTA" />
         </div>
       </div>
+
+      <section class="more-work">
+        <h1>Continue Reading</h1>
+
+        <div class="carousel-wrapper">
+          {/* <button class="carousel-btn left" aria-label="Scroll left">←</button> */}
+
+          <div class="carousel" id="carousel">
+      <a href="/wealthApp" class="carousel-card">
+        <img src="images/wealthApp.png" alt="Wealth App" />
+        <h2>Structuring Intuitive Navigation for a Wealth Management App</h2>
+      </a>
+
+            <a href="/heymilo" class="carousel-card">
+              <img src="images/heymilo-mockup.png" alt="HeyMilo AI" />
+              <h2>
+                Redesigning an ATS dashboard and navigation system to streamline
+                recruiter workflows
+              </h2>
+            </a>
+
+
+            <a href="/DivvyUp" class="carousel-card">
+              <img src="images/Artboard 6.png" alt="DivvyUp" />
+              <h2>
+                Simplifying group planning and bill splitting with DivvyUp, for
+                a seamless group outing experience
+              </h2>
+            </a>
+          </div>
+
+          {/* <button class="carousel-btn right" aria-label="Scroll right">→</button> */}
+        </div>
+      </section>
+
       <Footer className="footerSubBud" />
     </div>
   );

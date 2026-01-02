@@ -322,6 +322,39 @@ function WealthApp() {
         </div>
       </div>
 
+      <section class="more-work">
+        <h1>Continue Reading</h1>
+
+        <div class="carousel-wrapper">
+          {/* <button class="carousel-btn left" aria-label="Scroll left">←</button> */}
+
+          <div class="carousel" id="carousel">
+            <a href="/heymilo" class="carousel-card">
+              <img src="images/heymilo-mockup.png" alt="HeyMilo AI" />
+              <h2>
+                Redesigning an ATS dashboard and navigation system to streamline
+                recruiter workflows
+              </h2>
+            </a>
+
+            <a href="/DivvyUp" class="carousel-card">
+              <img src="images/Artboard 6.png" alt="DivvyUp" />
+              <h2>
+                Simplifying group planning and bill splitting with DivvyUp, for
+                a seamless group outing experience
+              </h2>
+            </a>
+
+            <a href="/clearSpider" class="carousel-card">
+              <img src="images/clearspiderBarcode.png" alt="ClearSpider" />
+              <h2>Reimagining a product landing page for stronger visual impact</h2>
+            </a>
+          </div>
+
+          {/* <button class="carousel-btn right" aria-label="Scroll right">→</button> */}
+        </div>
+      </section>
+
       <Footer className="footerSubBud" />
     </div>
   );
