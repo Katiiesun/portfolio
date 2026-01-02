@@ -183,11 +183,19 @@ function HeyMilo() {
           <div className="hmsection4-text">
             <h1> Navigation Improvements</h1>
             <h2>
-              I introduced a new sidebar navigation system that allows for quick
-              workspace switching, provides access to recent and archived
-              agents, and organizes agents hierarchically for better clarity. I
-              also ensured essential functions are easily accessible to improve
-              overall navigation.
+              I introduced a{" "}
+              <span className="highlight2">new sidebar navigation system </span>
+              that enables{" "}
+              <span className="highlight2">quick workspace switching</span>,
+              provides clear access to recent and archived agents, and{" "}
+              <span className="highlight2">
+                organizes agents hierarchically
+              </span>{" "}
+              for better clarity. I also ensured{" "}
+              <span className="highlight2">
+                essential functions are easily accessible{" "}
+              </span>
+              to improve overall navigation.
             </h2>
           </div>
           <img src={hmfinalOne} alt="Final design one" />
@@ -197,13 +205,18 @@ function HeyMilo() {
           <div className="hmsection5-text">
             <h1>Full Candidate List</h1>
             <h2>
-              I added a full candidate list feature, accessible when you click
-              on a specific agent. This allows users to quickly and easily
-              compare multiple candidates at once using candidate scores and
-              tags. I also included selection tabs to group candidates into
-              categories like completed interviews, incomplete interviews,
-              top-rated, and more, allowing recruiters to easily track
-              candidates through the interviewing process.
+              I added a{" "}
+              <span className="highlight2">full candidate list feature</span>,
+              accessible when you click on a specific agent. This allows
+              recruiters to{" "}
+              <span className="highlight2">
+                compare multiple candidates at once
+              </span>{" "}
+              using candidate scores and tags. I also introduced{" "}
+              <span className="highlight2">segmented controls</span> to group
+              candidates into categories like completed interviews, incomplete
+              interviews, and top-rated, making it easier to track candidates
+              throughout the interviewing process.
             </h2>
           </div>
         </div>
@@ -211,13 +224,15 @@ function HeyMilo() {
           <div className="hmsection6-text">
             <h1>Candidate Evaluation Display</h1>
             <h2>
-              To address information overload on the candidates page, I
-              redesigned it with collapsible candidate lists, clean and focused
-              evaluation views, and a streamlined information display. I
-              prioritized a clear visual hierarchy to make it easier for users
-              to find what they need. In addition, the agent information can now
-              be accessed through a drop-down, offering comparative statistics
-              while keeping the focus on candidate evaluations.
+              To address <span className="highlight2">information overload</span>{" "}
+              on the candidates page, I redesigned it with
+              <span className="highlight2"> collapsible candidate lists</span> and
+              <span className="highlight2"> clean, focused evaluation views</span>
+              , supported by a streamlined information display. I prioritized a <span className="highlight2">clear visual hierarchy</span> to make
+              it easier for users to find what they need. In addition, agent
+              information can now be accessed through a drop-down, offering
+              comparative statistics while keeping the focus on candidate
+              evaluations.
             </h2>
           </div>
           <img src={hmfinalThree} alt="Final design three" />
@@ -268,10 +283,12 @@ function HeyMilo() {
           {/* <button class="carousel-btn left" aria-label="Scroll left">←</button> */}
 
           <div class="carousel" id="carousel">
-      <a href="/wealthApp" class="carousel-card">
-        <img src="images/wealthApp.png" alt="Wealth App" />
-        <h2>Structuring Intuitive Navigation for a Wealth Management App</h2>
-      </a>
+            <a href="/wealthApp" class="carousel-card">
+              <img src="images/wealthApp.png" alt="Wealth App" />
+              <h2>
+                Structuring Intuitive Navigation for a Wealth Management App
+              </h2>
+            </a>
 
             <a href="/DivvyUp" class="carousel-card">
               <img src="images/Artboard 6.png" alt="DivvyUp" />
@@ -283,14 +300,15 @@ function HeyMilo() {
 
             <a href="/clearSpider" class="carousel-card">
               <img src="images/clearspiderBarcode.png" alt="ClearSpider" />
-              <h2>Reimagining a product landing page for stronger visual impact</h2>
+              <h2>
+                Reimagining a product landing page for stronger visual impact
+              </h2>
             </a>
           </div>
 
           {/* <button class="carousel-btn right" aria-label="Scroll right">→</button> */}
         </div>
       </section>
-
 
       <Footer className="footerSubBud" />
     </div>
