@@ -860,59 +860,52 @@ left: 35vw; */
     padding: 1vw;
     margin-left: 2vw;
   }
-  .clearSpider img {
+  /* .clearSpider img {
     width: 55vw;
     border-radius: 2vw;
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
-    /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
-  }
 
-  .DivvyUp img {
-    width: 55vw;
-    border-radius: 2vw;
-    cursor: pointer;
-    overflow-x: hidden;
-    margin: 14px;
-    /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
-  }
+  } */
 
-  .heyMilo img {
+  /* .DivvyUp img {
     width: 55vw;
     border-radius: 2vw;
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
-    /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
-  }
 
-  .Subbud img {
-    width: 55vw;
-    border-radius: 2vw;
-    cursor: pointer;
-    overflow-x: hidden;
-    margin: 14px;
-    /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
-  }
+  } */
 
-  .myArtwork img {
+  /* .heyMilo img {
     width: 55vw;
     border-radius: 2vw;
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
-    /* box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4); */
-  }
+ 
+  } */
 
-  .otherProjects img {
+ 
+
+  /* .myArtwork img {
     width: 55vw;
     border-radius: 2vw;
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
-    /* box-shadow: 2px 2px 8px rgba(22, 22, 22, 0.4); */
-  }
+   
+  } */
+
+  /* .otherProjects img {
+    width: 55vw;
+    border-radius: 2vw;
+    cursor: pointer;
+    overflow-x: hidden;
+    margin: 14px;
+ 
+  } */
 
   .DivvyUp h1 {
     font-family: inter;
@@ -969,14 +962,14 @@ left: 35vw; */
     margin-left: 20vw;
     margin-bottom: 5vw;
   }
-  .wealthApp img {
+  /* .wealthApp img {
     width: 55vw;
     border-radius: 2vw;
     cursor: pointer;
     overflow-x: hidden;
     margin: 14px;
-    /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
-  }
+  
+  } */
 
   .wealthApp h2 {
     font-family: inter;
