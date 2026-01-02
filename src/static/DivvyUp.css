@@ -52,7 +52,7 @@ width:100vw;
     align-items: flex-start;
     font-size: 1.1vw;
     width: 20vw;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .keyFindingsDivvy .keyFinding-2 h2{
@@ -71,7 +71,7 @@ width:100vw;
     align-items: flex-start;
     font-size: 1.1vw;
     width: 20vw;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .keyFindingsDivvy .keyFinding-3 h2{
@@ -90,7 +90,7 @@ width:100vw;
     align-items: flex-start;
     font-size: 1.1vw;
     width: 20vw;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .divvy-section3{
@@ -105,7 +105,7 @@ width:100vw;
 }
 
 .divvy-section3 h2{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.2vw;
     line-height: 1.8vw; 
     width: 65vw;
@@ -130,7 +130,7 @@ width:100vw;
 }
 
 .divvy-section4 h2{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.2vw;
     line-height: 1.8vw; 
     width: 65vw;
@@ -165,7 +165,7 @@ width:100vw;
 }
 
 .divvy-section5 .divvy-final h2{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.2vw;
     line-height: 1.8vw; 
     width: 23vw;
@@ -180,7 +180,7 @@ width:100vw;
 }
 
 .divvy-section5 .divvy-onboarding h2{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.2vw;
     line-height: 1.8vw; 
     width: 65vw;
@@ -204,7 +204,7 @@ width:100vw;
 }
 
 .divvy-section6 h2{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.2vw;
     line-height: 1.8vw; 
     width: 65vw;
