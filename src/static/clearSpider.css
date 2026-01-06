@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "acorn-bold";
+  src: url("../../public/fonts/Acorn/Acorn-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "acorn-medium";
+  src: url("../../public/fonts/Acorn/Acorn-Medium.otf") format("truetype");
+}
+
+
 .csHeader {
   columns: 2;
   display: flex;
