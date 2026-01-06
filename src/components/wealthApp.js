@@ -351,7 +351,7 @@ function WealthApp() {
 
             <a href="/clearSpider" class="carousel-card">
               <img src="images/clearspiderBarcode.png" alt="ClearSpider" />
-              <h2>Reimagining a product landing page for stronger visual impact</h2>
+              <h2> Reimagining a product landing page for increased visual engagement</h2>
             </a>
           </div>
 

@@ -235,7 +235,7 @@ function Home() {
             passionate about crafting experiences that simplify how people
             navigate the digital space ⚙️💡
           </p>
-          <p>Incoming UX Research and Design @ Revvity! </p>
+          <p>Currently designing @ Revvity! </p>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -329,7 +329,7 @@ function Home() {
 
             <h2>
               Reimagining a product landing page for{" "}
-              <span className="highlight3">stronger visual impact</span>
+              <span className="highlight3">increased visual engagement</span>
             </h2>
 
             <div className="clearSpiderButtons">

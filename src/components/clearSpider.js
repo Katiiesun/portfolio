@@ -24,7 +24,7 @@ function ClearSpider() {
       <Navigation className="projectsnav" />
       <div className="csHeader">
         <h1>
-        Reimagining a product landing page for stronger visual impact
+        Reimagining a product landing page for increased visual engagement
         </h1>
         <img src={clearSpider1} alt="clear spider redesign landing" />
       </div>
@@ -153,7 +153,7 @@ function ClearSpider() {
           <div class="carousel" id="carousel">
       <a href="/wealthApp" class="carousel-card">
         <img src="images/wealthApp.png" alt="Wealth App" />
-        <h2>Structuring Intuitive Navigation for a Wealth Management App</h2>
+        <h2>Designing a future-ready navigation solution for Canada’s #1 insurance provider</h2>
       </a>
 
             <a href="/heymilo" class="carousel-card">

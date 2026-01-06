@@ -283,7 +283,7 @@ function DivvyUp() {
           <div class="carousel" id="carousel">
       <a href="/wealthApp" class="carousel-card">
         <img src="images/wealthApp.png" alt="Wealth App" />
-        <h2>Structuring Intuitive Navigation for a Wealth Management App</h2>
+        <h2>Designing a future-ready navigation solution for Canada’s #1 insurance provider</h2>
       </a>
 
             <a href="/heymilo" class="carousel-card">
@@ -297,7 +297,7 @@ function DivvyUp() {
 
             <a href="/clearSpider" class="carousel-card">
               <img src="images/clearspiderBarcode.png" alt="ClearSpider" />
-              <h2>Reimagining a product landing page for stronger visual impact</h2>
+              <h2> Reimagining a product landing page for increased visual engagement</h2>
             </a>
           </div>
 

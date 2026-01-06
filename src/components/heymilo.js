@@ -286,7 +286,7 @@ function HeyMilo() {
             <a href="/wealthApp" class="carousel-card">
               <img src="images/wealthApp.png" alt="Wealth App" />
               <h2>
-                Structuring Intuitive Navigation for a Wealth Management App
+              Designing a future-ready navigation solution for Canada’s #1 insurance provider
               </h2>
             </a>
 
@@ -301,7 +301,7 @@ function HeyMilo() {
             <a href="/clearSpider" class="carousel-card">
               <img src="images/clearspiderBarcode.png" alt="ClearSpider" />
               <h2>
-                Reimagining a product landing page for stronger visual impact
+              Reimagining a product landing page for increased visual engagement
               </h2>
             </a>
           </div>
