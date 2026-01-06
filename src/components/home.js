@@ -232,9 +232,9 @@ function Home() {
             </span>
           </h1>
           <p>
-            I'm a Systems Design Engineering student @ UWaterloo and am
-            passionate about crafting experiences that simplify how people
-            navigate the digital space ⚙️💡
+            I'm a Systems Design Engineering student @ UWaterloo passionate
+            about crafting experiences that simplify how people navigate the
+            digital space ⚙️💡
           </p>
           <p>Currently designing @ Revvity! </p>
           <a
