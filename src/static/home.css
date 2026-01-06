@@ -300,16 +300,33 @@ left: 35vw; */
   border-radius: 2vw;
   overflow: hidden; /* KEY */
   margin: 30px;
-  height: 36vw;
+  padding-bottom: 2vw;
+  height: 45vw;
   cursor: pointer;
-  display: block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none; /* removes underline */
+  color: inherit; 
+}
+.wealthApp-card:hover {
+  transform: translateY(-0.4vw);
+  box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
+}
+
+.highlight3 {
+  color: #000000;
+  font-weight: 540;
 }
 
 /* Image fills container */
 .wealthApp-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 74%;          /* 🔑 controls image height */
+    object-fit: cover;
+    display: block;
+  
   transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -318,13 +335,14 @@ left: 35vw; */
   transform: scale(1.03);
 }
 
-.wealthApp h2 {
+.wealthApp-card h2 {
   font-family: inter;
   line-height: 140%;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   margin-left: 3vw;
-  width: 57vw;
-  font-weight: 540;
+  width: 49vw;
+  font-weight: 400;
+  padding-top:2vw;
 }
 
 /* .wealthApp img:hover {
@@ -337,10 +355,9 @@ left: 35vw; */
 } */
 
 .wealthButtons {
-  padding: 5px;
   margin-left: 2vw;
 }
-.projectsSection .wealthButtons button {
+.wealthButtons button {
   background-color: #dcede3;
   border-color: transparent;
   border-radius: 50px;
@@ -365,18 +382,29 @@ left: 35vw; */
 .heyMilo-card {
   width: 55vw;
   border-radius: 2vw;
-  overflow: hidden;
-  height: 36vw;
+  overflow: hidden; /* KEY */
   margin: 30px;
+  padding-bottom: 2vw;
+  height: 45vw;
   cursor: pointer;
-  display: block;
-  transition: box-shadow 0.4s ease;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none; /* removes underline */
+  color: inherit; 
+}
+.heyMilo-card:hover {
+  transform: translateY(-0.4vw);
+  box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
 }
 
 .heyMilo-card img {
-  width: 102%;
-  height: 102%;
+  width: 100%;
+  height: 74%;          /* 🔑 controls image height */
   object-fit: cover;
+  display: block;
+
   transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -384,13 +412,14 @@ left: 35vw; */
   transform: scale(1.03);
 }
 
-.heyMilo h2 {
+.heyMilo-card h2 {
   font-family: inter;
   line-height: 140%;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   margin-left: 3vw;
-  width: 57vw;
-  font-weight: 540;
+  width: 49vw;
+  font-weight: 400;
+  padding-top:2vw;
 }
 /* 
 .heyMilo img:hover {
@@ -403,7 +432,6 @@ left: 35vw; */
 } */
 
 .heyMiloButtons {
-  padding: 5px;
   margin-left: 2vw;
 }
 
@@ -429,19 +457,29 @@ left: 35vw; */
 
 .divvyUp-card {
   width: 55vw;
-  height: 36vw;
   border-radius: 2vw;
-  overflow: hidden;
+  overflow: hidden; /* KEY */
   margin: 30px;
+  padding-bottom: 2vw;
+  height: 45vw;
   cursor: pointer;
-  display: block;
-  transition: box-shadow 0.4s ease, transform 0.4s ease;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none; /* removes underline */
+  color: inherit; 
+}
+.divvyUp-card:hover {
+  transform: translateY(-0.4vw);
+  box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
 }
 
 .divvyUp-card img {
   width: 100%;
-  height: 100%;
+  height: 74%;          /* 🔑 controls image height */
   object-fit: cover;
+  display: block;
   transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -453,6 +491,12 @@ left: 35vw; */
   padding: 5px;
   margin-left: 2vw;
 }
+
+.clearSpiderButtons {
+  padding: 5px;
+  margin-left: 2vw;
+}
+
 
 .Subbud {
   margin-left: 20vw;
@@ -535,10 +579,11 @@ left: 35vw; */
 .DivvyUp h2 {
   font-family: inter;
   line-height: 140%;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   margin-left: 3vw;
-  width: 57vw;
-  font-weight: 540;
+  width: 49vw;
+  font-weight: 400;
+  padding-top:2vw;
 }
 
 .Subbud h2 {
@@ -556,18 +601,27 @@ left: 35vw; */
 .clearSpider-card {
   width: 55vw;
   border-radius: 2vw;
-  overflow: hidden;
-  height: 36vw;
+  overflow: hidden; /* KEY */
   margin: 30px;
+  /* padding-bottom: 2vw; */
+  height: 45vw;
   cursor: pointer;
-  display: block;
-  transition: box-shadow 0.4s ease, transform 0.4s ease;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none; /* removes underline */
+  color: inherit; 
 }
-
+.clearSpider-card:hover {
+  transform: translateY(-0.4vw);
+  box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
+}
 .clearSpider-card img {
   width: 100%;
-  height: 100%;
+  height: 74%;
   object-fit: cover;
+  display: block;
   transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -587,10 +641,11 @@ left: 35vw; */
 .clearSpider h2 {
   font-family: inter;
   line-height: 140%;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   margin-left: 3vw;
-  width: 57vw;
-  font-weight: 540;
+  width: 49vw;
+  font-weight: 400;
+  padding-top:2vw;
 }
 
 /* .clearSpider img:hover {
@@ -692,10 +747,10 @@ left: 35vw; */
 .myArtwork h1 {
   font-family: inter;
   line-height: 140%;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   margin-left: 22vw;
   width: 57vw;
-  font-weight: 540;
+  font-weight: 400;
   color: #e0e0da;
   font-weight: 180px;
 }
@@ -724,10 +779,10 @@ left: 35vw; */
 .otherProjects h1 {
   font-family: inter;
   line-height: 140%;
-  font-size: 1.6vw;
-  margin-left: 8vw;
+  font-size: 1.4vw;
+  margin-left: 11vw;
   width: 57vw;
-  font-weight: 540;
+  font-weight: 400;
   color: #e0e0da;
 }
 
@@ -811,7 +866,7 @@ left: 35vw; */
     display: flex;
   }
 
-  .projectsSection .DivvyUpButtons button {
+  /* .projectsSection .DivvyUpButtons button {
     background-color: #cedafd;
     border-color: transparent;
     border-radius: 8px;
@@ -820,9 +875,9 @@ left: 35vw; */
     font-size: 2vw;
     font-family: monospace;
     color: #344ea3;
-  }
+  } */
 
-  .projectsSection .heyMiloButtons button {
+  /* .projectsSection .heyMiloButtons button {
     background-color: #cee7fd;
     border-color: transparent;
     border-radius: 8px;
@@ -831,9 +886,9 @@ left: 35vw; */
     font-size: 2vw;
     font-family: monospace;
     color: #3d6491;
-  }
+  } */
 
-  .projectsSection .SubbudButtons button {
+  /* .projectsSection .SubbudButtons button {
     background-color: #e8e5ef;
     border-color: transparent;
     border-radius: 8px;
@@ -842,9 +897,9 @@ left: 35vw; */
     font-size: 2vw;
     font-family: inter;
     color: #9d8fbe;
-  }
+  } */
 
-  .projectsSection .clearSpiderButtons button {
+  /* .projectsSection .clearSpiderButtons button {
     background-color: #dbe9f5;
     border-color: transparent;
     border-radius: 8px;
@@ -853,8 +908,8 @@ left: 35vw; */
     font-size: 2vw;
     font-family: inter;
     color: #809aad;
-  }
-  .SubbudButtons {
+  } */
+  /* .SubbudButtons {
     padding: 1vw;
     margin-left: 2vw;
   }
@@ -872,7 +927,7 @@ left: 35vw; */
   .clearSpiderButtons {
     padding: 1vw;
     margin-left: 2vw;
-  }
+  } */
   /* .clearSpider img {
     width: 55vw;
     border-radius: 2vw;
@@ -920,7 +975,7 @@ left: 35vw; */
  
   } */
 
-  .DivvyUp h1 {
+  /* .DivvyUp h1 {
     font-family: inter;
     font-size: 3vw;
     margin-left: 3vw;
@@ -974,7 +1029,7 @@ left: 35vw; */
   .wealthApp {
     margin-left: 20vw;
     margin-bottom: 5vw;
-  }
+  } */
   /* .wealthApp img {
     width: 55vw;
     border-radius: 2vw;
@@ -984,16 +1039,16 @@ left: 35vw; */
   
   } */
 
-  .wealthApp h2 {
+  /* .wealthApp h2 {
     font-family: inter;
     line-height: 140%;
     font-size: 1.6vw;
     margin-left: 3vw;
     width: 57vw;
     font-weight: 540;
-  }
+  } */
 
-  .wealthButtons {
+  /* .wealthButtons {
     padding: 5px;
     margin-left: 2vw;
   }
@@ -1008,5 +1063,5 @@ left: 35vw; */
     padding: 2vw;
     margin: 1vw;
     font-size: 2vw;
-  }
+  } */
 }

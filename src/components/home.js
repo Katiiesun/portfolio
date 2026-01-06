@@ -259,46 +259,53 @@ function Home() {
         <div className="wealthApp">
           <Link to="/wealthApp" className="wealthApp-card">
             <img src={wealthApp} alt="wealth app cover" />
+
+            <h2>
+              Designing a <span className="highlight3">future-ready</span>{" "}
+              navigation solution for{" "}
+              <span className="highlight3">Canada’s #1 insurance provider</span>
+            </h2>
+            <div className="wealthButtons">
+              <button>A/B Testing</button>
+              <button>Prototyping</button>
+              <button>Product Thinking</button>
+            </div>
           </Link>
-          <div className="wealthButtons">
-            <button>A/B Testing</button>
-            <button>Prototyping</button>
-            <button>Product Thinking</button>
-          </div>
-          <h2>
-            Designing a future-ready navigation solution for Canada’s #1
-            insurance provider
-          </h2>
         </div>
 
         <div className="heyMilo">
           <Link to="/heymilo" className="heyMilo-card">
             <img src={heyMilo} alt="heyMilo" />
+
+            <h2>
+              Redesigning an ATS dashboard and navigation system to{" "}
+              <span className="highlight3">streamline recruiter workflows</span>
+            </h2>
+            <div className="heyMiloButtons">
+              <button>Interaction Design</button>
+              <button>Competitor Analysis</button>
+              <button>Information Architecture</button>
+            </div>
           </Link>
-          <div className="heyMiloButtons">
-            <button>Interaction Design</button>
-            <button>Competitor Analysis</button>
-            <button>Information Architecture</button>
-          </div>
-          <h2>
-            Redesigning an ATS dashboard and navigation system to streamline
-            recruiter workflows
-          </h2>
         </div>
 
         <div className="DivvyUp">
           <Link to="/DivvyUp" className="divvyUp-card">
             <img src={divvyUp} alt="divvyUp" />
+
+            <h2>
+              Simplifying group planning and bill splitting with DivvyUp, for a{" "}
+              <span className="highlight3">
+                seamless group outing experience
+              </span>
+            </h2>
+
+            <div className="DivvyUpButtons">
+              <button>Product thinking</button>
+              <button>App Architecture</button>
+              <button>Interaction design</button>
+            </div>
           </Link>
-          <div className="DivvyUpButtons">
-            <button>Product thinking</button>
-            <button>App Architecture</button>
-            <button>Interaction design</button>
-          </div>
-          <h2>
-            Simplifying group planning and bill splitting with DivvyUp, for a
-            seamless group outing experience
-          </h2>
         </div>
 
         {/* <div className="Subbud">
@@ -319,14 +326,17 @@ function Home() {
         <div className="clearSpider">
           <Link to="/clearSpider" className="clearSpider-card">
             <img src={clearSpider} alt="clear spider redesign" />
+
+            <h2>
+              Reimagining a product landing page for{" "}
+              <span className="highlight3">stronger visual impact</span>
+            </h2>
+
+            <div className="clearSpiderButtons">
+              <button>Web design</button>
+              <button>Illustrations</button>
+            </div>
           </Link>
-          <div className="clearSpiderButtons">
-            <button>Web design</button>
-            <button>Illustrations</button>
-          </div>
-          <h2>
-          Reimagining a product landing page for stronger visual impact
-          </h2>
         </div>
 
         {/* <div className="moodCraft">
