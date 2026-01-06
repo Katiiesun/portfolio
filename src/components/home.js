@@ -27,6 +27,7 @@ function Home() {
   const selfietwo = process.env.PUBLIC_URL + "images/IMG_9177.jpeg";
   const heyMilo = process.env.PUBLIC_URL + "images/heymilo-mockup.png";
   const wealthApp = process.env.PUBLIC_URL + "images/wealthApp.png";
+  const newCD = process.env.PUBLIC_URL + "images/newCD.png";
 
   // useEffect(() => {
   //   const initialText = "Product Designer, Engineering Student";
@@ -211,7 +212,7 @@ function Home() {
             rel="noopener noreferrer"
             href="https://open.spotify.com/user/awiui7eruupw35vkztv427960?si=ebec6fdd1f62438b"
           >
-            <img src={folkloreCD} alt="folklore cd" />
+            <img src={newCD} alt="cd" />
           </a>
         </div>
         <h1>Katie Sun</h1>
