@@ -55,6 +55,47 @@ function Home() {
     }
   }, [location]); 
   
+
+  function smoothScrollTo(element, duration = 1000) {
+    const targetPosition = element.getBoundingClientRect().top + window.pageYOffset;
+    const startPosition = window.pageYOffset;
+    const distance = targetPosition - startPosition;
+    let startTime = null;
+  
+    function animation(currentTime) {
+      if (!startTime) startTime = currentTime;
+      const timeElapsed = currentTime - startTime;
+      const run = ease(timeElapsed, startPosition, distance, duration);
+      window.scrollTo(0, run);
+      if (timeElapsed < duration) requestAnimationFrame(animation);
+    }
+  
+    // Ease function for smooth acceleration/deceleration
+    function ease(t, b, c, d) {
+      t /= d / 2;
+      if (t < 1) return (c / 2) * t * t + b;
+      t--;
+      return (-c / 2) * (t * (t - 2) - 1) + b;
+    }
+  
+    requestAnimationFrame(animation);
+  }
+
+  useEffect(() => {
+    const handleFirstScroll = (e) => {
+      const introSection = document.getElementById("intro");
+      if (introSection) {
+        smoothScrollTo(introSection, 700);
+      }
+      window.removeEventListener("wheel", handleFirstScroll);
+    };
+  
+    window.addEventListener("wheel", handleFirstScroll, { passive: true });
+  
+    return () => window.removeEventListener("wheel", handleFirstScroll);
+  }, []);
+  
+  
   useEffect(() => {
     const phrases = [
       "is a product designer",
@@ -227,7 +268,7 @@ function Home() {
         <h1>Katie Sun</h1>
         <h2 className="typing-text">{text}</h2>
       </div>
-      <div className="intro">
+      <div id="intro" className="intro">
         <div className="pic">
           {/* <div class="animated hidden"> */}{" "}
           <img ref={imgRef} src={selfietwo} alt="self pic" />
