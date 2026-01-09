@@ -39,6 +39,13 @@ const Navigation = ({ className }) => {
     window.scrollTo({ top: 0, behavior: "instant" });
   };
 
+  const resumeClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1YVCJ6VOETy-hnQGFbq9hB7BULz9hQKrx/view"
+    );
+  };
+  
+
   const myWorkClick = () => {
     if (location.pathname === "/") {
       // only scroll if already on home
@@ -56,6 +63,7 @@ const Navigation = ({ className }) => {
     <div className={`container ${className}`}>
       <button onClick={myWorkClick}>My Work</button>
       <button onClick={aboutMeClick}>About Me</button>
+      <button onClick={resumeClick}>Resume</button>
     </div>
   );
 };
