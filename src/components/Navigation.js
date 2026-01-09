@@ -20,7 +20,7 @@
 //     <button onClick={homeClick}>My Work</button>
 //     <button onClick={aboutMeClick}>About Me</button>
 //   </div>
-
+  
 //   );
 // };
 // export default Navigation;
@@ -41,9 +41,10 @@ const Navigation = ({ className }) => {
 
   const resumeClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1WxnfHQ9G_wKHkvzFhXNfSkUteJJ470GH/view?usp=sharing"
+      "https://drive.google.com/file/d/1oICFvhx3l8s5t9ni0doy2CeKYtshR22R/view?usp=sharing"
     );
   };
+  
 
   const myWorkClick = () => {
     if (location.pathname === "/") {
