@@ -77,10 +77,13 @@ function HeyMilo() {
         <div className="hm-problem">
           <h1>Defining the Problem</h1>
           <h2>
-            The original design faced multiple usability challenges, including
-            difficult navigation between AI agents, overwhelming information on
-            the candidates page, poor scrolling designs and information
-            hierarchy in candidate evaluations.
+            The original design had several usability challenges: navigating
+            between AI agents was confusing, the candidates page was
+            overwhelming, and the candidate evaluation views suffered from poor
+            scrolling designs and unclear information hierarchy. Additionally, the
+            connection between the Agents and Candidates views was not clear, as
+            the segmented control failed to effectively communicate how the two
+            contexts related.
           </h2>
 
           <img src={heymiloOG} alt="heymilo redesign" />
@@ -224,11 +227,20 @@ function HeyMilo() {
           <div className="hmsection6-text">
             <h1>Candidate Evaluation Display</h1>
             <h2>
-              To address <span className="highlight2">information overload</span>{" "}
-              on the candidates page, I redesigned it with
-              <span className="highlight2"> collapsible candidate lists</span> and
-              <span className="highlight2"> clean, focused evaluation views</span>
-              , supported by a streamlined information display. I prioritized a <span className="highlight2">clear visual hierarchy</span> to make
+              To address{" "}
+              <span className="highlight2">information overload</span> on the
+              candidates page, I redesigned it with
+              <span className="highlight2">
+                {" "}
+                collapsible candidate lists
+              </span>{" "}
+              and
+              <span className="highlight2">
+                {" "}
+                clean, focused evaluation views
+              </span>
+              , supported by a streamlined information display. I prioritized a{" "}
+              <span className="highlight2">clear visual hierarchy</span> to make
               it easier for users to find what they need. In addition, agent
               information can now be accessed through a drop-down, offering
               comparative statistics while keeping the focus on candidate
@@ -286,7 +298,8 @@ function HeyMilo() {
             <a href="/wealthApp" class="carousel-card">
               <img src="images/wealthApp.png" alt="Wealth App" />
               <h2>
-              Designing a future-ready navigation solution for Canada’s #1 insurance provider
+                Designing a future-ready navigation solution for Canada’s #1
+                insurance provider
               </h2>
             </a>
 
@@ -301,7 +314,8 @@ function HeyMilo() {
             <a href="/clearSpider" class="carousel-card">
               <img src="images/clearspiderBarcode.png" alt="ClearSpider" />
               <h2>
-              Reimagining a product landing page for increased visual engagement
+                Reimagining a product landing page for increased visual
+                engagement
               </h2>
             </a>
           </div>
