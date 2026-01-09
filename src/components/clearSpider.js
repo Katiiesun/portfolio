@@ -152,12 +152,7 @@ function ClearSpider() {
           {/* <button class="carousel-btn left" aria-label="Scroll left">←</button> */}
 
           <div class="carousel" id="carousel">
-      <a href="/wealthApp" class="carousel-card">
-        <img src="images/wealthApp.png" alt="Wealth App" />
-        <h2>Designing a future-ready navigation solution for Canada’s #1 insurance provider</h2>
-      </a>
-
-            <a href="/heymilo" class="carousel-card">
+          <a href="/heymilo" class="carousel-card">
               <img src="images/heymilo-mockup.png" alt="HeyMilo AI" />
               <h2>
                 Redesigning an ATS dashboard and navigation system to streamline
@@ -165,6 +160,12 @@ function ClearSpider() {
               </h2>
             </a>
 
+      <a href="/wealthApp" class="carousel-card">
+        <img src="images/wealthApp.png" alt="Wealth App" />
+        <h2>Designing a future-ready navigation solution for Canada’s #1 insurance provider</h2>
+      </a>
+
+           
 
             <a href="/DivvyUp" class="carousel-card">
               <img src="images/Artboard 6.png" alt="DivvyUp" />
