@@ -69,10 +69,10 @@ background-color: #3c6657;
     transform: translateY(0); /* ends at normal position */
   }
 }
-.wealthHeader img:hover {
+/* .wealthHeader img:hover {
   transform: translateY(-0.6vw) rotate(1.2deg);
   box-shadow: 0 1.2vw 2.5vw rgba(162, 162, 162, 0.08);
-}
+} */
 
 .wealthText {
   width: 43vw;
