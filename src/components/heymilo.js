@@ -15,7 +15,9 @@ const hmfinalThree = process.env.PUBLIC_URL + "images/Group 1171276153.png";
 const devhandoff = process.env.PUBLIC_URL + "images/dev handoff.png";
 const ideation = process.env.PUBLIC_URL + "images/IMG_1534.jpg";
 const heyMilo = process.env.PUBLIC_URL + "images/heymilo-mockup.png";
-const keyTakeaways = process.env.PUBLIC_URL + "images/key takeaways-heymilo.png";
+const keyTakeaways =
+  process.env.PUBLIC_URL + "images/key takeaways-heymilo.png";
+const components = process.env.PUBLIC_URL + "images/heymilo components.png";
 
 function HeyMilo() {
   useEffect(() => {
@@ -81,10 +83,10 @@ function HeyMilo() {
             The original design had several usability challenges: navigating
             between AI agents was confusing, the candidates page was
             overwhelming, and the candidate evaluation views suffered from poor
-            scrolling designs and unclear information hierarchy. Additionally, the
-            connection between the Agents and Candidates views was not clear, as
-            the segmented control failed to effectively communicate how the two
-            contexts related.
+            scrolling designs and unclear information hierarchy. Additionally,
+            the connection between the Agents and Candidates views was not
+            clear, as the segmented control failed to effectively communicate
+            how the two contexts related.
           </h2>
 
           <img src={heymiloOG} alt="heymilo redesign" />
@@ -253,6 +255,15 @@ function HeyMilo() {
           <img src={hmfinalThree} alt="Final design three" />
         </div>
         <div className="divvy-section2">
+          <div className="hm-components">
+            <h1> Components</h1>
+            <h2>
+              {" "}
+              For these screens, I built reusable components by leveraging the
+              existing design system and maintaining visual and functional consistency.
+            </h2>
+            <img src={components} alt="Final design three" />
+          </div>
           <div className="hm-handoff">
             <h1>Developer Handoff</h1>
             <h2>

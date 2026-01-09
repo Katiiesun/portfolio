@@ -15,15 +15,13 @@ const improvement1 = process.env.PUBLIC_URL + "images/iteration1.png";
 const improvement2 = process.env.PUBLIC_URL + "images/improvement2.png";
 const improvement3 = process.env.PUBLIC_URL + "images/improvement3.png";
 const improvement4 = process.env.PUBLIC_URL + "images/improvement4.png";
-
-
+const userneeds = process.env.PUBLIC_URL + "images/wealth-userneeds.png";
 
 function WealthApp() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
-  
+
   return (
     <div>
       <Navigation className="projectsnav" />
@@ -91,11 +89,11 @@ function WealthApp() {
             <h1>My role</h1>
             <h2>
               Working closely with the design lead and experience design
-              director, I conceptualized navigation structures while
-              designing and building high-fidelity interactive prototypes in
-              Figma. I also developed and moderated user testing tasks and
-              interviews, analyzing feedback to synthesize actionable insights
-              that guided design decisions.
+              director, I conceptualized navigation structures while designing
+              and building high-fidelity interactive prototypes in Figma. I also
+              developed and moderated user testing tasks and interviews,
+              analyzing feedback to synthesize actionable insights that guided
+              design decisions.
             </h2>
           </div>
         </div>
@@ -159,24 +157,7 @@ function WealthApp() {
         </div>
         <div className="wealth-userneeds">
           <h1>User needs</h1>
-          <h2>
-            • Easily access all account-related information (holdings,
-            transactions, files) without unnecessary navigation friction.
-          </h2>
-          <h2>
-            • Quickly compare the performance of accounts they naturally group
-            together (e.g., retirement funds, education savings), without having
-            to manually aggregate information.
-          </h2>
-          <h2>
-            • Easily orient themselves within the app through consistent,
-            familiar, and recognizable navigation structures.
-          </h2>
-          <h2>
-            • Minimize cognitive effort when completing common tasks like
-            checking performances, reviewing transactions, or accessing
-            documents.
-          </h2>
+          <img src={userneeds} alt="investing apps" />
         </div>
         <div className="wealthProcess">
           <h1>Process</h1>
@@ -309,14 +290,15 @@ function WealthApp() {
             </h2>
           </div>
           <div className="learning2">
-            <h1>🧠 Dig deep</h1>
+            <h1>🧠 Domain Expertise</h1>
             <h2>
-              Open-ended, non-leading questions reveal deeper reasoning behind
-              user actions.
+              Learning about the problem space and its unique challenges was
+              essential to making informed design decisions that reflected real
+              user needs.
             </h2>
           </div>
           <div className="learning3">
-            <h1>💸 Test early</h1>
+            <h1>💡 Be Proactive</h1>
             <h2>
               Testing future-scope features early prevents costly rework.
               Communicating design concerns with the product team is critical to
@@ -351,7 +333,11 @@ function WealthApp() {
 
             <a href="/clearSpider" class="carousel-card">
               <img src="images/clearspiderBarcode.png" alt="ClearSpider" />
-              <h2> Reimagining a product landing page for increased visual engagement</h2>
+              <h2>
+                {" "}
+                Reimagining a product landing page for increased visual
+                engagement
+              </h2>
             </a>
           </div>
 

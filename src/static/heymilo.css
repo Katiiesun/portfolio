@@ -400,3 +400,29 @@
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
+
+.hm-components h1{
+  font-weight: 600;
+  padding-bottom: 2vw;
+  font-size: 2vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.hm-components h2 {
+  font-weight: 400;
+  width:60vw;
+  line-height: 1.8vw;
+  font-size: 1.2vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.hm-components img{ 
+  width: 60vw;
+}
+
+.hm-components {
+margin-bottom: 3vw;
+}

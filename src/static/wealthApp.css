@@ -142,27 +142,27 @@ background-color: #3c6657;
 .wealthsection1 .confidential {
   display: flex;
   /* width: 90vw; */
-  padding: 2vw 2vw;
+  /* padding: 2vw 2vw; */
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
   border-radius: 10px;
-  background: #ffffff;
+  /* background: #ffffff;
   box-shadow: 1.2vw 1.2vw 2.5vw rgba(187, 187, 187, 0.08);
 
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; */
 }
 
-.wealthsection1 .confidential:hover {
+/* .wealthsection1 .confidential:hover {
   transform: translateY(-0.6vw);
   box-shadow: 0 1.2vw 2.5vw rgba(110, 110, 110, 0.08);
-}
+} */
 
 .wealthsection1 .confidential h1 {
   color: #000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.3vw;
+  font-size: 2vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -366,18 +366,17 @@ background-color: #3c6657;
   line-height: 2vw;
 }
 
-.wealth-userneeds {
+/* .wealth-userneeds {
   display: flex;
-  /* width: 90vw; */
   padding: 2vw 2vw;
   flex-direction: column;
   align-items: flex-start;
   border-radius: 10px;
   background: #528271;
-}
+} */
 
 .wealth-userneeds h1 {
-  color: #ffffff;
+  color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 2.4vw;
@@ -386,7 +385,7 @@ background-color: #3c6657;
   line-height: normal;
 }
 
-.wealth-userneeds h2 {
+/* .wealth-userneeds h2 {
   color: #f8f8f8;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -394,6 +393,11 @@ background-color: #3c6657;
   font-style: normal;
   font-weight: 400;
   line-height: 2vw;
+} */
+
+.wealth-userneeds img{
+  width:75vw;
+  padding-top: 3vw;
 }
 
 .wealthProcess img {
@@ -701,7 +705,7 @@ background-color: #3c6657;
   flex-wrap: wrap;
 }
 
-.learning1 {
+/* .learning1 {
   display: flex;
   width: 18.5vw;
   height: 25vw;
@@ -710,10 +714,10 @@ background-color: #3c6657;
   align-items: flex-start;
   background: #cbe1ec;
   border-radius: 2vw;
-}
+} */
 
 .learning1 h1 {
-  color: #000000;
+  color: #484848;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.4vw;
@@ -732,7 +736,7 @@ background-color: #3c6657;
   line-height: 2vw;
 }
 
-.learning2 {
+/* .learning2 {
   display: flex;
   width: 18.5vw;
   height: 25vw;
@@ -741,10 +745,10 @@ background-color: #3c6657;
   align-items: flex-start;
   background: #cbe1ec;
   border-radius: 2vw;
-}
+} */
 
 .learning2 h1 {
-  color: #000000;
+  color: #484848;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.4vw;
@@ -763,7 +767,7 @@ background-color: #3c6657;
   line-height: 2vw;
 }
 
-.learning3 {
+/* .learning3 {
   display: flex;
   width: 18.5vw;
   height: 25vw;
@@ -772,10 +776,10 @@ background-color: #3c6657;
   align-items: flex-start;
   background: #cbe1ec;
   border-radius: 2vw;
-}
+} */
 
 .learning3 h1 {
-  color: #000000;
+  color: #484848;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.4vw;
