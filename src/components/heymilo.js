@@ -15,6 +15,7 @@ const hmfinalThree = process.env.PUBLIC_URL + "images/Group 1171276153.png";
 const devhandoff = process.env.PUBLIC_URL + "images/dev handoff.png";
 const ideation = process.env.PUBLIC_URL + "images/IMG_1534.jpg";
 const heyMilo = process.env.PUBLIC_URL + "images/heymilo-mockup.png";
+const keyTakeaways = process.env.PUBLIC_URL + "images/key takeaways-heymilo.png";
 
 function HeyMilo() {
   useEffect(() => {
@@ -105,6 +106,8 @@ function HeyMilo() {
             existing layouts and user experiences.
           </h2>
           <img src={atsAnalysis} alt="heymilo redesign" />
+          <h1>Key Takeaways</h1>
+          <img src={keyTakeaways} alt="Competitor analysis key takeaways" />
           <h1>Framing the Solution</h1>
           <h2>
             {" "}
