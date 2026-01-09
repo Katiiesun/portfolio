@@ -27,7 +27,8 @@
 }
 
 .my-artwork h2 {
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   font-size: 1.4vw;
   font-weight: 510;
   width: 80vw;

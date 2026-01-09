@@ -34,7 +34,8 @@
 }
 
 .uwux-introText h2 {
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   font-size: 1.4vw;
   font-weight: 510;
   width: 36vw;
@@ -77,7 +78,8 @@
 }
 
 .clearSpider-Text h2 {
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   font-size: 1.4vw;
   font-weight: 510;
   width: 34vw;
@@ -126,7 +128,8 @@
 }
 
 .goose-intro .goose-text h2{
-    font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
     font-size: 1.4vw;
     font-weight: 510;
     width: 34vw;
@@ -135,7 +138,8 @@
 }
 
 .goose-pic h2{
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   font-size: 1.4vw;
   font-weight: 510;
   width: 34vw;
@@ -149,7 +153,8 @@
     gap:10vw;
 }
 .goose-process h2{
-    font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
     font-size: 1.4vw;
     font-weight: 510;
     width: 33vw;
@@ -173,7 +178,8 @@
 }
 
 .goose-struggles h2{
-    font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
     font-size: 1.4vw;
     font-weight: 510;
     width: 25vw;
@@ -194,7 +200,8 @@
 }
 
 .goose-final h2{
-    font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
     font-size: 1.4vw;
     font-weight: 510;
     width: 30vw;
@@ -227,7 +234,8 @@
 }
 
 .scooby-Text h2{
-    font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
     font-size: 1.4vw;
     font-weight: 510;
     width:30vw;
@@ -241,7 +249,8 @@
 
 @media (max-width: 700px) {
   .uwux-introText h2 {
-    font-family: inter;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
     font-size: 1.4vw;
     font-weight: 510;
     width: 38vw;
