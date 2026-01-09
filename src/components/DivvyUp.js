@@ -34,6 +34,23 @@ function DivvyUp() {
         <img src={DivvyUpBanner} alt="background" />
       </div>
       <div className="cs-section1">
+      <div className="subbud-intro">
+          <div className="subbud-skills">
+            <h1>Skills</h1>
+            <h2>Product thinking</h2>
+            <h2>App architecture</h2>
+            <h2>Interaction design</h2>
+          </div>
+          <div className="project-duration">
+            <h1>Tools</h1>
+            <h2>Figma</h2>
+          </div>
+          <div className="project-duration">
+            <h1>Duration</h1>
+            <h2>September - November 2024</h2>
+          </div>
+        </div>
+        
         <div className="cs-overview">
           <h1>Background</h1>
           <h2>
@@ -52,22 +69,7 @@ function DivvyUp() {
             accountability.{" "}
           </h2>
         </div>
-        <div className="subbud-intro">
-          <div className="subbud-skills">
-            <h1>SKILLS</h1>
-            <h2>Product thinking</h2>
-            <h2>App architecture</h2>
-            <h2>Interaction design</h2>
-          </div>
-          <div className="project-duration">
-            <h1>TOOLS</h1>
-            <h2>Figma</h2>
-          </div>
-          <div className="project-duration">
-            <h1>DURATION</h1>
-            <h2>September - November 2024</h2>
-          </div>
-        </div>
+       
       </div>
       <div className="divvy-section2">
         <div className="cs-overview">

@@ -1,155 +1,67 @@
-@font-face {
-  font-family: "inter";
-  src: url("../../public/fonts/InterVariable.ttf") format("truetype");
-}
+.navhome,
+.aboutmenav,
+.projectsnav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
 
-.navhome {
-  display: flex;
-  margin-left: 80%;
-  padding: 30px;
-  /* background-color: #2d2727; */
-  overflow-x: hidden;
-  position: absolute;
-}
-
-.navhome .container {
-  display: flex;
-  max-width: 100vw; /* Ensure it doesn't exceed the viewport */
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  width: 100%; /* Fill the entire width */
-}
-
-.navhome img {
   width: 100%;
-}
-
-.aboutmenav {
   display: flex;
-  margin-left: 80%;
-  padding: 30px;
-  /* background-color: #2d2727; */
-  overflow-x: hidden;
-  position: absolute;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 30px 40px;
+  background: transparent;
+
+  pointer-events: auto;
 }
 
-.navhome button {
-  background-color:transparent;
+.navhome button,
+.aboutmenav button,
+.projectsnav button {
+  background-color: transparent;
   border: none;
   cursor: pointer;
+
   margin: 3px;
   padding: 13px 10px;
+
   font-size: 1.25vw;
-  font-weight:500;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+
   color: #d1d0d0;
-  font-family: inter;
   position: relative;
 }
 
-.navhome button:hover {
-  color: #b5d8ab;
-  /* background-color:#3e3732; */
-  border-radius:50%;
-
-}
-
-.aboutmenav button {
-  background-color:transparent;
-  border: none;
-  cursor: pointer;
-  margin: 3px;
-  padding: 13px 10px;
-  font-size: 1.25vw;
-  font-weight:500;
-  color: #d1d0d0;
-  font-family: inter;
-  position: relative;
-}
-
+.navhome button:hover,
 .aboutmenav button:hover {
   color: #b5d8ab;
+  border-radius: 50%;
 }
 
-.projectsnav {
-  display: flex;
-  margin-left: 80%;
-  padding: 30px;
-  /* background-color: #2d2727; */
-  overflow-x: hidden;
-  position: absolute;
-}
-
+/* Projects page variant */
 .projectsnav button {
- 
   color: #282828;
-  background-color:transparent;
-  border: none;
-  cursor: pointer;
-  margin: 3px;
-  padding: 13px 10px;
-  font-size: 1.25vw;
-  font-weight:500;
-  font-family: inter;
-  position: relative;
 }
 
 .projectsnav button:hover {
   color: #6a6a6a;
 }
 
+
 @media (max-width: 700px) {
-  .navhome {
-    padding: 10px;
-    position: absolute;
-    margin-left: 60%;
-    overflow-x: hidden;
-  }
-
-  .navhome button {
-    font-size: 2.5vw;
-    padding: 6px;
-  }
-
-  .aboutmenav {
-    display: flex;
-    margin-left: 60%;
-    padding: 10px;
-    /* background-color: #2d2727; */
-    overflow-x: hidden;
-    position: absolute;
-  }
-  .aboutmenav button {
-    background-color:transparent;
-    border: none;
-    cursor: pointer;
-    margin: 5px;
-    padding: 6px;
-    font-size: 2.5vw;
-    font-weight:500;
-    color: #d1d0d0;
-    font-family: inter;
-    position: relative;
-  }
-
+  .navhome,
+  .aboutmenav,
   .projectsnav {
-    display: flex;
-    margin-left: 60%;
     padding: 10px;
-    /* background-color: #2d2727; */
-    overflow-x: hidden;
-    position: absolute;
   }
 
+  .navhome button,
+  .aboutmenav button,
   .projectsnav button {
-    color: #282828;
-    border: none;
-    cursor: pointer;
-    margin: 5px;
-    padding: 6px;
     font-size: 2.5vw;
-    font-family: inter;
-    background-color: transparent;
+    padding: 6px;
   }
-  }
-
+}

@@ -58,6 +58,8 @@ columns:2;
   font-weight: 500;
   margin-bottom: 3vw;
   line-height: 1.8vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .subbud-intro {
@@ -71,22 +73,33 @@ columns:2;
 .project-duration h1 {
   flex: 1;
   font-size: 1.3vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 
+.subbud-skills{
+  margin-bottom:5vw;
+}
 .subbud-skills h1 {
   flex: 1;
   font-size: 1.3vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .subbud-skills h2 {
   font-weight: 400;
   font-size: 1.2vw;
   margin-bottom: 0.5vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 .project-duration h2 {
   font-weight: 400;
   font-size: 1.2vw;
   margin-bottom: 0.5vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .subbud-section2 {
@@ -101,6 +114,8 @@ columns:2;
 
 .subbud-section2 h1 {
   font-size: 2vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .subbud-section2 h2 {
@@ -108,6 +123,8 @@ columns:2;
   font-weight: 600;
   width: 60vw;
   line-height: 2vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .designProcess1 {

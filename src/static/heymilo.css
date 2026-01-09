@@ -50,6 +50,8 @@
     font-size:2vw;
     padding-top:12vw;
     animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
   
   @keyframes fadeInUp {
@@ -74,10 +76,14 @@
     font-weight: 400;
     margin-bottom: 3vw;
     line-height: 1.8vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
 
   .hm-overview h1{
     font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
 
   .hm-problem{
@@ -96,11 +102,15 @@
     font-weight: 400;
     margin-bottom: 3vw;
     line-height: 1.8vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
 
   .hm-problem h1{
     font-weight: 600;
     font-size: 2vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
 
   .headline {
@@ -137,11 +147,14 @@
 
   .problem-statement h1 + h1 {
     margin-top: 2rem; /* adjust as needed */
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
 
   .hm-problem .problem-statement h1{
     font-weight: 600;
     color:#474747
+    
   }
 
   .design-principles {
@@ -182,11 +195,15 @@
     font-weight: 400;
     margin-bottom: 3vw;
     line-height: 1.8vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
 
   .hm-section3 h1{
     font-weight: 600;
     font-size: 2vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
 
 .userTesting{
@@ -212,12 +229,16 @@
     line-height: 1.8vw;
     font-size: 1.2vw;
     width: 67vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
 
   .final-text h1{
     font-weight: 600;
     font-size: 3.5vw;
     color:#00357e;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
 .hm-section4{
     columns:2;
@@ -239,10 +260,14 @@
     font-weight: 400;
     font-size: 1.2vw;
     line-height: 1.8vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 .hmsection4-text h1{
     font-size:1.7vw;
     font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 .hmsection4-text{
     padding-left:12vw;
@@ -270,10 +295,14 @@
     font-weight: 400;
     font-size: 1.2vw;
     line-height: 1.8vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 .hmsection5-text h1{
     font-size:1.7vw;
     font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 .hmsection5-text{
     padding-right:12vw;
@@ -300,10 +329,14 @@ transform: scale(1.05);
   font-weight: 400;
   font-size: 1.2vw;
   line-height: 1.8vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 .hmsection6-text h1{
   font-size:1.7vw;
   font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 .hmsection6-text{
   padding-left:12vw;
@@ -327,12 +360,16 @@ transform: scale(1.05);
     font-weight: 400;
     line-height: 1.8vw;
     font-size: 1.2vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
 
   .hm-handoff h1{
     font-weight: 600;
     padding-bottom: 2vw;
     font-size: 2vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
 
 
@@ -350,12 +387,16 @@ transform: scale(1.05);
     font-weight: 400;
     line-height: 1.8vw;
     font-size: 1.2vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }
 
   .hm-lessons h1{
     font-weight: 600;
     padding-bottom: 2vw;
     font-size: 2vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 
   }
 
@@ -363,5 +404,7 @@ transform: scale(1.05);
   .hm-lessons h3{
     font-weight: 600;
     font-size: 1.7vw;
-    color:#565656
+    color:#565656;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
   }

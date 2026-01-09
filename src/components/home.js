@@ -6,11 +6,13 @@ import "../static/footer.css";
 import { Link } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import { initializeScrollAnimation } from "./animationInView";
+import { useLocation } from "react-router-dom";
 
 function Home() {
   const [text, setText] = useState("");
   const imgRef = useRef(null);
   const handRef = useRef(null);
+  const location = useLocation();
 
   const background =
     process.env.PUBLIC_URL + "images/websitebackground-min (1).png";
@@ -46,6 +48,13 @@ function Home() {
   //   return () => clearInterval(intervalId);
   // }, []);
 
+  useEffect(() => {
+    if (location.state?.scrollTo === "my-work") {
+      const el = document.getElementById("my-work");
+      el?.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]); 
+  
   useEffect(() => {
     const phrases = [
       "is a product designer",
@@ -206,7 +215,7 @@ function Home() {
         <div className="homeBackground">
           <img src={background} alt="background" />
         </div>
-        <div className="folkloreCD">
+        {/* <div className="folkloreCD">
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -214,7 +223,7 @@ function Home() {
           >
             <img src={newCD} alt="cd" />
           </a>
-        </div>
+        </div> */}
         <h1>Katie Sun</h1>
         <h2 className="typing-text">{text}</h2>
       </div>
@@ -252,9 +261,25 @@ function Home() {
       <div className="matcha-spill">
         <img src={matchaSpill} alt="bottom of matcha" />
       </div>
-      <div className="projectsSection">
+      <div id="my-work" className="projectsSection">
         <div className="workTitle">
           <h1>My work</h1>
+        </div>
+
+        <div className="heyMilo">
+          <Link to="/heymilo" className="heyMilo-card">
+            <img src={heyMilo} alt="heyMilo" />
+
+            <h2>
+              Redesigning an ATS dashboard and navigation system to{" "}
+              <span className="highlight3">streamline recruiter workflows</span>
+            </h2>
+            <div className="heyMiloButtons">
+              <button>Interaction Design</button>
+              <button>Competitor Analysis</button>
+              <button>Information Architecture</button>
+            </div>
+          </Link>
         </div>
 
         <div className="wealthApp">
@@ -274,21 +299,7 @@ function Home() {
           </Link>
         </div>
 
-        <div className="heyMilo">
-          <Link to="/heymilo" className="heyMilo-card">
-            <img src={heyMilo} alt="heyMilo" />
-
-            <h2>
-              Redesigning an ATS dashboard and navigation system to{" "}
-              <span className="highlight3">streamline recruiter workflows</span>
-            </h2>
-            <div className="heyMiloButtons">
-              <button>Interaction Design</button>
-              <button>Competitor Analysis</button>
-              <button>Information Architecture</button>
-            </div>
-          </Link>
-        </div>
+       
 
         <div className="DivvyUp">
           <Link to="/DivvyUp" className="divvyUp-card">

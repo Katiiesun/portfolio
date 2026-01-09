@@ -17,7 +17,8 @@
       transform: translate(190%, -600%); */
     color: #4d4545;
     display: flex;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .construction-msg{
@@ -54,6 +55,8 @@ width:100vw;
     font-size: 1.3vw;
     width: 20vw;
     font-weight: 600; 
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 
@@ -64,6 +67,8 @@ width:100vw;
     font-size: 1.1vw;
     width: 20vw;
     font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .keyFindingsDivvy .keyFinding-2 h2{
@@ -73,6 +78,8 @@ width:100vw;
     font-size: 1.3vw;
     width: 20vw;
     font-weight: 600; 
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 
@@ -83,6 +90,8 @@ width:100vw;
     font-size: 1.1vw;
     width: 20vw;
     font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .keyFindingsDivvy .keyFinding-3 h2{
@@ -92,6 +101,8 @@ width:100vw;
     font-size: 1.3vw;
     width: 20vw;
     font-weight: 600; 
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 
@@ -102,6 +113,8 @@ width:100vw;
     font-size: 1.1vw;
     width: 20vw;
     font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .divvy-section3{
@@ -113,6 +126,8 @@ width:100vw;
 .divvy-section3 h1{
     font-size:1.7vw;
     font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .divvy-section3 h2{
@@ -120,6 +135,8 @@ width:100vw;
     font-size: 1.2vw;
     line-height: 1.8vw; 
     width: 65vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .divvy-section3 img{
@@ -138,6 +155,8 @@ width:100vw;
 .divvy-section4 h1{
     font-size:1.7vw;
     font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .divvy-section4 h2{
@@ -146,6 +165,8 @@ width:100vw;
     line-height: 1.8vw; 
     width: 65vw;
     padding-bottom:2vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .divvy-section4 img{
@@ -173,6 +194,8 @@ width:100vw;
 .divvy-section5 .divvy-final h1{
     font-size:1.7vw;
     font-weight: 600; 
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .divvy-section5 .divvy-final h2{
@@ -182,12 +205,16 @@ width:100vw;
     width: 23vw;
     padding-bottom:2vw;
     padding-top:11vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .divvy-section5 .divvy-onboarding h1{
     font-size:1.7vw;
     font-weight: 600;
     padding-top:2vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .divvy-section5 .divvy-onboarding h2{
@@ -196,6 +223,8 @@ width:100vw;
     line-height: 1.8vw; 
     width: 65vw;
     padding-bottom:0vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .divvy-section5 .divvy-onboarding img{
@@ -212,6 +241,8 @@ width:100vw;
 .divvy-section6 h1{
     font-size:1.7vw;
     font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .divvy-section6 h2{
@@ -219,4 +250,6 @@ width:100vw;
     font-size: 1.2vw;
     line-height: 1.8vw; 
     width: 65vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }

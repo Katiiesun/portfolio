@@ -29,6 +29,22 @@ function ClearSpider() {
         <img src={clearSpider1} alt="clear spider redesign landing" />
       </div>
       <div className="cs-section1">
+      <div className="subbud-intro">
+          <div className="subbud-skills">
+            <h1>Skills</h1>
+            <h2>Web design</h2>
+            <h2>Illustrations</h2>
+          </div>
+          <div className="project-duration">
+            <h1>Tools</h1>
+            <h2>Figma</h2>
+            <h2>Illustrator</h2>
+          </div>
+          <div className="project-duration">
+            <h1>Duration</h1>
+            <h2>March 2024</h2>
+          </div>
+        </div>
         <div className="cs-overview">
           <h1>Context</h1>
           <h2>
@@ -39,22 +55,7 @@ function ClearSpider() {
             well as an alternate solution to the 'Start Demo' interactions.
           </h2>
         </div>
-        <div className="subbud-intro">
-          <div className="subbud-skills">
-            <h1>SKILLS</h1>
-            <h2>Web design</h2>
-            <h2>Illustrations</h2>
-          </div>
-          <div className="project-duration">
-            <h1>TOOLS</h1>
-            <h2>Figma</h2>
-            <h2>Illustrator</h2>
-          </div>
-          <div className="project-duration">
-            <h1>DURATION</h1>
-            <h2>March 2024</h2>
-          </div>
-        </div>
+       
       </div>
       <div className="cs-section2">
         <div className="section2-text">

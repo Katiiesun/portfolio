@@ -49,7 +49,7 @@ left: 35vw; */
 }
 
 .home h1 {
-  font-size: 8vw;
+  font-size: 6.7rem;
   text-align: center;
   position: absolute;
   margin: auto;
@@ -78,7 +78,7 @@ left: 35vw; */
 }
 
 .typing-text {
-  font-size: 1.5vw;
+  font-size: 1.4rem;
   text-align: center;
   position: absolute;
   margin: auto;
@@ -86,8 +86,9 @@ left: 35vw; */
   left: 66%;
   /* transform: translate(30%, 300%); */
   color: #b3b3b3;
-  font-family: inter;
-  font-weight: 450;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
   animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
 }
 
@@ -221,7 +222,7 @@ left: 35vw; */
 }
 
 .introtext h1 {
-  font-size: 4.5vw;
+  font-size: 4.6rem;
   margin-bottom: 0px;
   /* position:absolute;
     transform: translate(190%, -600%); */
@@ -231,15 +232,16 @@ left: 35vw; */
 }
 
 .introtext p {
-  font-size: 1.5vw;
+  font-size: 1.3rem;
   line-height: 150%;
   /* position: absolute;
     transform: translate(179%, -270%); */
   color: #2d2727;
   width: 580px;
-  font-weight: 540;
+  font-weight: 600;
   display: flex;
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .intro .intro-button button {
@@ -252,7 +254,8 @@ left: 35vw; */
   padding-bottom: 1vw;
   margin-left: 12vw;
   margin-top: 1vw;
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   font-size: 1.3vw;
   font-weight: 500;
   color: #ffffff;
@@ -280,7 +283,7 @@ left: 35vw; */
 .projectsSection h1 {
   font-family: acorn-medium;
   color: #a2ba9c;
-  font-size: 6vw;
+  font-size: 6rem;
 }
 
 .wealthApp {
@@ -312,6 +315,7 @@ left: 35vw; */
 }
 .wealthApp-card:hover {
   transform: translateY(-0.4vw);
+  /* transform: scale(0.5); */
   box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
 }
 
@@ -332,11 +336,12 @@ left: 35vw; */
 
 /* Hover effect */
 .wealthApp-card:hover img {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .wealthApp-card h2 {
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   line-height: 140%;
   font-size: 1.4vw;
   margin-left: 3vw;
@@ -363,7 +368,8 @@ left: 35vw; */
   border-radius: 50px;
   padding: 0.8vw;
   margin: 10px;
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   color: #437956;
 }
 
@@ -409,11 +415,12 @@ left: 35vw; */
 }
 
 .heyMilo-card:hover img {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .heyMilo-card h2 {
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   line-height: 140%;
   font-size: 1.4vw;
   margin-left: 3vw;
@@ -484,7 +491,7 @@ left: 35vw; */
 }
 
 .divvyUp-card:hover img {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .DivvyUpButtons {
@@ -533,7 +540,8 @@ left: 35vw; */
   border-radius: 50px;
   padding: 0.8vw;
   margin: 10px;
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   color: #3d6491;
 }
 
@@ -543,7 +551,8 @@ left: 35vw; */
   border-radius: 50px;
   padding: 0.8vw;
   margin: 10px;
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   color: #344ea3;
 }
 
@@ -563,7 +572,8 @@ left: 35vw; */
   border-radius: 50px;
   padding: 0.8vw;
   margin: 10px;
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   color: #809aad;
 }
 
@@ -577,7 +587,8 @@ left: 35vw; */
   color: #9db79b;
 }
 .DivvyUp h2 {
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   line-height: 140%;
   font-size: 1.4vw;
   margin-left: 3vw;
@@ -626,7 +637,7 @@ left: 35vw; */
 }
 
 .clearSpider-card:hover img {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 /* .clearSpider img {
@@ -639,7 +650,8 @@ left: 35vw; */
 } */
 
 .clearSpider h2 {
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   line-height: 140%;
   font-size: 1.4vw;
   margin-left: 3vw;
@@ -735,7 +747,7 @@ left: 35vw; */
 
 .otherProjects-card:hover img,
 .myArtwork-card:hover img {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 /* .otherProjects-card:hover,
@@ -745,7 +757,8 @@ left: 35vw; */
 } */
 
 .myArtwork h1 {
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   line-height: 140%;
   font-size: 1.4vw;
   margin-left: 22vw;
@@ -777,7 +790,8 @@ left: 35vw; */
 } */
 
 .otherProjects h1 {
-  font-family: inter;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   line-height: 140%;
   font-size: 1.4vw;
   margin-left: 11vw;
@@ -816,7 +830,8 @@ left: 35vw; */
     top: 22%;
     left: 65%;
     color: #b3b3b3;
-    font-family: inter;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 500;
     animation: blink-cursor 0.75s step-end infinite;
   }
@@ -856,7 +871,8 @@ left: 35vw; */
 
   .introtext p {
     font-size: 1.5vw;
-    font-family: inter;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
     line-height: 150%;
     /* position: absolute;
       transform: translate(179%, -270%); */
