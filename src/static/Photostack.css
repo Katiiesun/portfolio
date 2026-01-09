@@ -1,0 +1,49 @@
+.photo-stack {
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+  }
+  
+  .photo-card {
+    position: absolute;
+    inset: 0;
+    border-radius: 2vw;
+    overflow: hidden;
+    cursor: pointer;
+  
+    transform:
+      translateY(calc(var(--i) * 14px))
+      rotate(calc(var(--i) * -1deg))
+      scale(calc(1 - var(--i) * 0.05));
+  
+    z-index: calc(100 - var(--i));
+    transition:
+      transform 0.5s ease,
+      opacity 0.4s ease;
+  }
+  
+  .photo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Hover hint */
+  .photo-card.active:hover {
+    transform:
+      translateY(-10px)
+      scale(1.03);
+  }
+  
+  /* Animate top card out */
+  .photo-card.active {
+    animation: swipe 0.5s ease forwards;
+  }
+  
+  @keyframes swipe {
+    to {
+      transform: translateX(-120%) rotate(-6deg);
+      opacity: 0;
+    }
+  }
+  
