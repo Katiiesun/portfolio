@@ -25,24 +25,24 @@
 
   background:
   radial-gradient(
-    1200px 600px at 10% 90%,
+    1200px 600px at 90% 5%,
     #84ccab 0%,
     transparent 60%
   ),
   radial-gradient(
-    900px 500px at 80% 30%,
-    #85c390 0%,
-    transparent 55%
+    900px 500px at 100% 80%,
+    #6bb794 0%,
+    transparent 0%
   ),
   radial-gradient(
-    1000px 700px at 50% 10%,
+    1000px 700px at 20% 10%,
     #f4fff5 0%,
     transparent 60%
   ),
   linear-gradient(
     135deg,
     #6bb794 0%,
-    #f9fffa 100%
+    #f9fffa 30%
   );
   
   border-radius: 0 0 40px 40px;

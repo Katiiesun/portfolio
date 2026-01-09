@@ -18,24 +18,24 @@
   /* background-color: rgb(246, 246, 246); */
   background:
   radial-gradient(
-    1200px 600px at 10% 90%,
-    #f3fbff 0%,
-    transparent 60%
+    1200px 600px at 20% 100%,
+    #f3fbff 80%,
+    transparent 100%
   ),
   radial-gradient(
-    900px 500px at 80% 30%,
+    900px 500px at 100% 80%,
     #e6f1f9 0%,
     transparent 55%
   ),
   radial-gradient(
-    1000px 700px at 50% 10%,
+    1000px 700px at 40% 10%,
     #f4f9ff 0%,
-    transparent 60%
+    transparent 30%
   ),
   linear-gradient(
     135deg,
     #8fb7eb 0%,
-    #b0ddff 100%
+    #b0ddff 10%
   );
 }
 
