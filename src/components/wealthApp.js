@@ -80,7 +80,7 @@ function WealthApp() {
               advisor team.
             </h2>
             <h2>
-              This case study focuses on how we leveraged user testing to
+              This case study focuses on how I leveraged user testing to
               validate the app’s information architecture and navigation
               patterns, especially around a future navigation element that would
               enable switching between different investment views, such as all
@@ -91,7 +91,7 @@ function WealthApp() {
             <h1>My role</h1>
             <h2>
               Working closely with the design lead and experience design
-              director, I helped conceptualize navigation structures while
+              director, I conceptualized navigation structures while
               designing and building high-fidelity interactive prototypes in
               Figma. I also developed and moderated user testing tasks and
               interviews, analyzing feedback to synthesize actionable insights
