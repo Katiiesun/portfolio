@@ -166,6 +166,11 @@ function WealthApp() {
       </div>
       <div className="whatwasTested-sec4">
         <h1>What was tested</h1>
+        <h2>
+          We had a lot of unanswered questions going into this project and
+          needed to validate any decisions made with the users before
+          potentially overhauling the designs. Below are the key elements we set out to test:{" "}
+        </h2>
         <div className="futurenav">
           <div className="futurenavtext">
             {" "}

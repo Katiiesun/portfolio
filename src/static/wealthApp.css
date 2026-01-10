@@ -421,22 +421,25 @@ background-color: #3c6657;
   align-items: flex-start;
   align-self: stretch;
   border-radius: 40px 40px 0 0;
-  background: #5a7684;
-  gap: 5vw;
+  background: #ebebeb;
+ 
 }
 
+
+
 .whatwasTested-sec4 h1 {
-  color: #ffffff;
+  color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 3vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  
 }
 
 .whatwasTested-sec4 h2 {
-  color: #eee;
+  color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.2vw;
@@ -447,7 +450,7 @@ background-color: #3c6657;
 
 .futurenav {
   columns: 2;
-  gap: 0vw;
+  padding-top:6vw;
 }
 
 .futurenav img {
@@ -459,7 +462,7 @@ background-color: #3c6657;
 }
 
 .futurenavtext h1 {
-  color: #eee;
+  color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.4vw;
@@ -471,6 +474,7 @@ background-color: #3c6657;
 .bottomnav {
   columns: 2;
   gap: 2vw;
+  padding-top:6vw;
 }
 
 .bottomnav img {
@@ -495,6 +499,7 @@ background-color: #3c6657;
 .scrollvstab {
   columns: 2;
   gap: 2vw;
+  padding-top:6vw;
 }
 
 .scrollvstabtext {
@@ -502,7 +507,7 @@ background-color: #3c6657;
 }
 
 .scrollvstabtext h1 {
-  color: #eee;
+  color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.4vw;
@@ -512,7 +517,7 @@ background-color: #3c6657;
 }
 
 .scrollvstabtext h2 {
-  color: #eee;
+  color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.2vw;
