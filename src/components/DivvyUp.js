@@ -31,8 +31,18 @@ function DivvyUp() {
         <h1> This page is under construction! 🔧👷🏻‍♀️</h1>
       </div> */}
       <div className="DivvyUp-header">
+        {/* <div className="divvyHeaderText">
+          <h1>DivvyUp</h1>
+
+          <h2>
+            Simplifying group planning and bill splitting for a seamless group
+            outing experience
+          </h2>
+        </div> */}
+
         <img src={DivvyUpBanner} alt="background" />
       </div>
+
       <div className="cs-section1">
         <div className="subbud-intro">
           <div className="subbud-skills">
@@ -123,9 +133,10 @@ function DivvyUp() {
             </h3>
           </div>
         </div>
-        <div className="userPersona"><h2>User Persona</h2>
-        <img src={divvypersona} alt="divvyUp user flow" /></div>
-        
+        <div className="userPersona">
+          <h2>User Persona</h2>
+          <img src={divvypersona} alt="divvyUp user flow" />
+        </div>
       </div>
       <div className="divvy-section3">
         <h1>Ideation</h1>
