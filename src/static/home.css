@@ -280,12 +280,12 @@ left: 35vw; */
 }
 
 .projectsSection .workTitle {
-  margin-left: 37vw;
+  margin-left: 39vw;
 }
 .projectsSection h1 {
   font-family: acorn-medium;
-  color: #a2ba9c;
-  font-size: 6rem;
+  color: #dedede;
+  font-size: 6vw;
 }
 
 .wealthApp {
@@ -305,7 +305,7 @@ left: 35vw; */
   border-radius: 2vw;
   overflow: hidden; /* KEY */
   margin: 30px;
-  padding-bottom: 2vw;
+  padding-bottom: 3vw;
   height: 45vw;
   cursor: pointer;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -373,6 +373,7 @@ left: 35vw; */
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   color: #437956;
+  font-size: 0.9vw;
 }
 
 .heyMilo {
@@ -392,7 +393,7 @@ left: 35vw; */
   border-radius: 2vw;
   overflow: hidden; /* KEY */
   margin: 30px;
-  padding-bottom: 2vw;
+  padding-bottom: 3vw;
   height: 45vw;
   cursor: pointer;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -467,9 +468,9 @@ left: 35vw; */
 .divvyUp-card {
   width: 55vw;
   border-radius: 2vw;
-  overflow: hidden; /* KEY */
+  overflow: hidden;
   margin: 30px;
-  padding-bottom: 2vw;
+  padding-bottom: 3vw;
   height: 45vw;
   cursor: pointer;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -497,13 +498,15 @@ left: 35vw; */
 }
 
 .DivvyUpButtons {
-  padding: 5px;
+  /* padding: 5px; */
   margin-left: 2vw;
+  font-size: 0.9vw;
 }
 
 .clearSpiderButtons {
-  padding: 5px;
+  /* padding: 5px; */
   margin-left: 2vw;
+  font-size: 0.9vw;
 }
 
 
@@ -545,6 +548,7 @@ left: 35vw; */
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   color: #3d6491;
+  font-size: 0.9vw;
 }
 
 .projectsSection .DivvyUpButtons button {
@@ -556,6 +560,7 @@ left: 35vw; */
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   color: #344ea3;
+  font-size: 0.9vw;
 }
 
 .projectsSection .SubbudButtons button {
@@ -566,6 +571,7 @@ left: 35vw; */
   margin: 10px;
   font-family: inter;
   color: #9d8fbe;
+  font-size: 0.9vw;
 }
 
 .projectsSection .clearSpiderButtons button {
@@ -577,6 +583,7 @@ left: 35vw; */
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   color: #809aad;
+  font-size: 0.9vw;
 }
 
 .projectsSection .moodcraftButtons button {
@@ -616,7 +623,7 @@ left: 35vw; */
   border-radius: 2vw;
   overflow: hidden; /* KEY */
   margin: 30px;
-  /* padding-bottom: 2vw; */
+  padding-bottom: 1vw;
   height: 45vw;
   cursor: pointer;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -704,10 +711,10 @@ left: 35vw; */
 }
 
 .moreProjectsText {
-  margin-left: 40vw;
+  /* margin-left: 40vw; */
 }
 .moreProjectsText h1 {
-  margin-left: 50px;
+  margin-left: 43vw;
   font-family: acorn-medium;
   font-size: 6vw;
   color: #958473;
