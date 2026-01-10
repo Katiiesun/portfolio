@@ -286,7 +286,15 @@ left: 35vw; */
   font-family: acorn-medium;
   color: #dedede;
   font-size: 6vw;
+  transition: color 0.5s ease;
 }
+.projectsSection h1:hover {
+  font-family: acorn-medium;
+  color: #91b892;
+  
+  font-size: 6vw;
+}
+
 
 .wealthApp {
   margin-left: 20vw;
