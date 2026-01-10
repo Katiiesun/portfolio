@@ -35,8 +35,7 @@ function AboutMe() {
           <p>
             Hey! I'm a product designer with a background in visual arts and
             engineering 🎨 ⚙️ Creating art since I was young helped me discover
-            that I love communicating ideas through visuals. Having been
-            immersed in art and design my entire life, I find I work best in
+            that I love communicating ideas through visuals. I find I work best in
             environments that foster creativity and innovation while also
             valuing grounded, evidence-based approaches. Problem-solving is at
             the heart of my work, and I am committed to bringing both creativity
