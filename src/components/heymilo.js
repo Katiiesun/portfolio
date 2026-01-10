@@ -44,7 +44,7 @@ function HeyMilo() {
           <div className="project-duration">
             <h1>Team</h1>
             <h2>Co-founder</h2>
-            <h2>1 Designer</h2>
+            <h2>1 Designer (me!)</h2>
             <h2>2 Developers</h2>
           </div>
           <div className="project-duration">
