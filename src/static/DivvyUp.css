@@ -159,6 +159,14 @@ width:100vw;
     font-optical-sizing: auto;
 }
 
+.divvy-section4 h3{
+    font-size:1.3vw;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    color:#8b8b8b
+}
+
 .divvy-section4 h2{
     font-weight: 400;
     font-size: 1.2vw;
@@ -250,6 +258,13 @@ width:100vw;
     font-size: 1.2vw;
     line-height: 1.8vw; 
     width: 65vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.keyFindingsDivvy{
+    font-size:1.7vw;
+    font-weight: 600;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
 }
