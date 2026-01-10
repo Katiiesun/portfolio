@@ -34,7 +34,7 @@ function DivvyUp() {
         <img src={DivvyUpBanner} alt="background" />
       </div>
       <div className="cs-section1">
-      <div className="subbud-intro">
+        <div className="subbud-intro">
           <div className="subbud-skills">
             <h1>Skills</h1>
             <h2>Product thinking</h2>
@@ -50,7 +50,7 @@ function DivvyUp() {
             <h2>September - November 2024</h2>
           </div>
         </div>
-        
+
         <div className="cs-overview">
           <h1>Background</h1>
           <h2>
@@ -69,11 +69,10 @@ function DivvyUp() {
             accountability.{" "}
           </h2>
         </div>
-       
       </div>
       <div className="divvy-section2">
         <div className="cs-overview">
-          <h1>User Research</h1>
+          <h1>Understanding the Users</h1>
           <h2>
             I started by talking with frequent group planners to validate common
             pain points around organizing events and tracking expenses. My own
@@ -124,6 +123,7 @@ function DivvyUp() {
             </h3>
           </div>
         </div>
+        <h2>User Persona</h2>
         <img src={divvypersona} alt="divvyUp user flow" />
       </div>
       <div className="divvy-section3">
@@ -139,9 +139,8 @@ function DivvyUp() {
         <img src={divvyWireframes} alt="divvyUp user flow" />
       </div>
       <div className="divvy-section4">
-        <h1>
-          Design Iteration: Enhancing the Schedule with Multi-Payment Tracking
-        </h1>
+        <h3>Design Iteration</h3>
+        <h1>Enhancing the Schedule with Multi-Payment Tracking</h1>
         <h2>
           One of the key design iterations I made during the development of
           DivvyUp was refining the way payments were logged within scheduled
@@ -177,7 +176,8 @@ function DivvyUp() {
         </h2>
         <div className="iteration-2">
           {" "}
-          <h1>Design Iteration: Streamlining the 'Adding Friends' Process</h1>
+          <h3>Design Iteration</h3>
+          <h1>Streamlining the 'Adding Friends' Process</h1>
           <h2>
             Another one of the design iterations I focused on was streamlining
             the process of adding friends to a plan. Initially, my idea was for
@@ -267,23 +267,23 @@ function DivvyUp() {
         {" "}
         <h1>Next steps</h1>
         <h2>
-          -Conduct further usability testing with target users to validate
+          → Conduct further usability testing with target users to validate
           multi-payment logging, scheduling, and AI plan suggestions.
         </h2>
         <h2>
-          -Explore integrating in-app payment options (e.g., PayPal) to allow
+          → Explore integrating in-app payment options (e.g., PayPal) to allow
           users to settle bills directly within the app.
         </h2>
       </div>
 
-      <section class="more-work">
+      <section className="more-work">
         <h1>Continue Reading</h1>
 
-        <div class="carousel-wrapper">
+        <div className="carousel-wrapper">
           {/* <button class="carousel-btn left" aria-label="Scroll left">←</button> */}
 
-          <div class="carousel" id="carousel">
-          <a href="/heymilo" class="carousel-card">
+          <div className="carousel" id="carousel">
+            <a href="/heymilo" className="carousel-card">
               <img src="images/heymilo-mockup.png" alt="HeyMilo AI" />
               <h2>
                 Redesigning an ATS dashboard and navigation system to streamline
@@ -291,16 +291,21 @@ function DivvyUp() {
               </h2>
             </a>
 
-      <a href="/wealthApp" class="carousel-card">
-        <img src="images/wealthApp.png" alt="Wealth App" />
-        <h2>Designing a future-ready navigation solution for Canada’s #1 insurance provider</h2>
-      </a>
+            <a href="/wealthApp" className="carousel-card">
+              <img src="images/wealthApp.png" alt="Wealth App" />
+              <h2>
+                Designing a future-ready navigation solution for Canada’s #1
+                insurance provider
+              </h2>
+            </a>
 
-        
-
-            <a href="/clearSpider" class="carousel-card">
+            <a href="/clearSpider" className="carousel-card">
               <img src="images/clearspiderBarcode.png" alt="ClearSpider" />
-              <h2> Reimagining a product landing page for increased visual engagement</h2>
+              <h2>
+                {" "}
+                Reimagining a product landing page for increased visual
+                engagement
+              </h2>
             </a>
           </div>
 
