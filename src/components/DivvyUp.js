@@ -123,8 +123,9 @@ function DivvyUp() {
             </h3>
           </div>
         </div>
-        <h2>User Persona</h2>
-        <img src={divvypersona} alt="divvyUp user flow" />
+        <div className="userPersona"><h2>User Persona</h2>
+        <img src={divvypersona} alt="divvyUp user flow" /></div>
+        
       </div>
       <div className="divvy-section3">
         <h1>Ideation</h1>

@@ -262,7 +262,14 @@ width:100vw;
     font-optical-sizing: auto;
 }
 
-.keyFindingsDivvy{
+/* .keyFindingsDivvy h2{
+    font-size:1.7vw;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+} */
+
+.userPersona h2{
     font-size:1.7vw;
     font-weight: 600;
     font-family: "DM Sans", sans-serif;
