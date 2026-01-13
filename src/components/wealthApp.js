@@ -188,7 +188,8 @@ function WealthApp() {
         <div className="bottomnav">
           <img src={bottomnav} alt="navigation element" />
           <div className="bottomnavtext">
-            <h1>→ Bottom Navigation Structure</h1>
+          <h1>→ Bottom Navigation Structure</h1>
+           
             <h2>
               • Compared two IA variations with different groupings of related
               content
