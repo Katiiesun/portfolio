@@ -78,7 +78,7 @@ function HeyMilo() {
           </h2>
           <h3>Design Focus</h3>
           <h4>
-            Designing navigation that scales across
+            Designing an interface that scales across
             <span class="highlight">
               {" "}
               agents, candidates, and future features{" "}
