@@ -104,6 +104,7 @@ function HeyMilo() {
 
           <img src={heymiloOG} alt="heymilo redesign" />
           <div className="problem-statement">
+            <h2>Problem Statement</h2>
             <h1 class="headline">
               This confusing navigation system and display of candidate
               evaluations was
@@ -112,7 +113,8 @@ function HeyMilo() {
               <span class="highlight"> leading to frustration </span>
               in tracking candidates.
             </h1>
-            <h1>So how do we solve this?</h1>
+            {/* <br></br> */}
+            <h3><i>So how do we solve this?</i></h3>
           </div>
           <h1>Competitor Analysis</h1>
           <h2>

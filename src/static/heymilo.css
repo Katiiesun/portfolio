@@ -438,6 +438,28 @@ margin-bottom: 3vw;
   color:#565656
 }
 
+.problem-statement h2{
+  font-weight: 600;
+  width:60vw;
+  line-height: 0vw;
+  font-size: 1.2vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  color:#b3b3b3
+}
+
+.problem-statement h3{
+  font-weight: 600;
+  width:60vw;
+  padding-top:2vw;
+  line-height: 0vw;
+  font-size: 1.5vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  color:#818181
+}
+
+
 .hm-overview h4{
   font-weight: 600;
   width:65vw;
