@@ -86,6 +86,7 @@ function HeyMilo() {
             without increasing
             <span class="highlight"> cognitive load</span>.
           </h4>
+          <br></br>
         </div>
       </div>
       <div className="divvy-section2">
@@ -179,6 +180,8 @@ function HeyMilo() {
           mapping out all interactions, while constantly keeping the team in the
           loop with updates and progress.
         </h2>
+        <br></br>
+        <br></br>
         <h1>Designing for Distinct Mental Modes</h1>
         <h2>
         One of the core insights that shaped this redesign was recognizing that recruiters move between  
