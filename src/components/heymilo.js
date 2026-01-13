@@ -18,6 +18,8 @@ const heyMilo = process.env.PUBLIC_URL + "images/heymilo-mockup.png";
 const keyTakeaways =
   process.env.PUBLIC_URL + "images/key takeaways-heymilo.png";
 const components = process.env.PUBLIC_URL + "images/heymilo components.png";
+const originalDesign = process.env.PUBLIC_URL + "images/heymilooriginal.png";
+const designDecision = process.env.PUBLIC_URL + "images/heymilodesigndecision.png";
 
 function HeyMilo() {
   useEffect(() => {
@@ -70,10 +72,20 @@ function HeyMilo() {
             with the team to identify pain points in navigation and information
             architecture. My role focused on transforming the platform's core
             functionality by implementing an intuitive navigation system and
-            restructuring the candidate evaluation interface, ultimately
-            creating a more streamlined and efficient experience for recruiters
-            managing AI-powered interviews.
+            restructuring the candidate evaluation interface. This redesign
+            redefined how recruiters navigate agents and evaluate candidates
+            across the platform.
           </h2>
+          <h3>Design Focus</h3>
+          <h4>
+            Designing navigation that scales across
+            <span class="highlight">
+              {" "}
+              agents, candidates, and future features{" "}
+            </span>
+            without increasing
+            <span class="highlight"> cognitive load</span>.
+          </h4>
         </div>
       </div>
       <div className="divvy-section2">
@@ -167,6 +179,29 @@ function HeyMilo() {
           mapping out all interactions, while constantly keeping the team in the
           loop with updates and progress.
         </h2>
+        <h1>Designing for Distinct Mental Modes</h1>
+        <h2>
+        One of the core insights that shaped this redesign was recognizing that recruiters move between  
+    <span class="highlight2"> two distinct modes:</span> scanning multiple candidates to compare status and performance, 
+    and deep evaluation of an individual candidate’s interview results.
+        </h2>
+        <h2>
+          {" "}
+          In the original experience, these two tasks were blended into a single
+          view, forcing recruiters to constantly re-orient themselves and
+          mentally filter information. This increased cognitive load and slowed
+          down decision-making.
+         
+        </h2>
+        <img src={originalDesign} alt="Original screen" />
+        <h2>
+            {" "}
+            A design decision I made was to separate these modes by introducing a
+            clear candidate list for quick scanning and comparison, paired with
+            a focused evaluation view that prioritizes depth, clarity, and
+            hierarchy. 
+          </h2>
+          <img src={designDecision} alt="Design decision" />
         <div className="userTesting">
           <h1>Feedback & Testing</h1>
           <h2>
@@ -260,7 +295,8 @@ function HeyMilo() {
             <h2>
               {" "}
               For these screens, I built reusable components by leveraging the
-              existing design system and maintaining visual and functional consistency.
+              existing design system and maintaining visual and functional
+              consistency.
             </h2>
             <img src={components} alt="Final design three" />
           </div>
