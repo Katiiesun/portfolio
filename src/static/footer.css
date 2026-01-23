@@ -33,7 +33,7 @@
   .footerHome button {
     padding: 1vw 2vw;
     border: none;
-    font-size: 1.1vw;
+    font-size: 1.1rem;
     background-color: transparent;
     color: rgb(255, 255, 255);
     font-family: "DM Sans", sans-serif;
@@ -46,7 +46,7 @@
     margin: 0 10px;
     padding: 10px 20px;
     border: none;
-    font-size: 2vw;
+    font-size: 2rem;
     background-color: transparent;
     color: rgb(130, 116, 108);
     font-family: acorn-medium;
@@ -75,7 +75,7 @@
   .footerAboutMe button {
     padding: 1vw 2vw;
     border: none;
-    font-size: 1.1vw;
+    font-size: 1.1rem;
     background-color: transparent;
     color:#2d2727 ;
     font-family: "DM Sans", sans-serif;
@@ -88,7 +88,7 @@
     margin: 0 10px;
     padding: 10px 20px;
     border: none;
-    font-size: 2vw;
+    font-size: 2rem;
     background-color: transparent;
     color: rgb(130, 116, 108);
     font-family: acorn-medium;
@@ -116,7 +116,7 @@
   .footerSubBud button {
     padding: 1vw 2vw;
     border: none;
-    font-size: 1.1vw;
+    font-size: 1.1rem;
     background-color: transparent;
     color:#2d2727 ;
     font-family: "DM Sans", sans-serif;
@@ -129,7 +129,7 @@
     margin: 0 10px;
     padding: 10px 20px;
     border: none;
-    font-size: 2vw;
+    font-size: 2rem;
     background-color: transparent;
     color: rgb(130, 116, 108);
     font-family: acorn-medium;
@@ -140,7 +140,7 @@
     opacity:60%;
   }
 
-  @media (max-width: 480px) {
+  /* @media (max-width: 480px) {
     .footerHome button {
       margin: 0 10px;
       padding: 10px 20px;
@@ -251,4 +251,4 @@
       font-optical-sizing: auto;
       font-weight: bold;
     }
-  }
+  } */

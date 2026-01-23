@@ -53,7 +53,7 @@
 }
 
 .hmHeader h1 {
-  font-size: 2vw;
+  font-size: 1.9rem;
   padding-top: 12vw;
   animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
   font-family: "DM Sans", sans-serif;
@@ -71,8 +71,30 @@
   }
 }
 
+@media (max-width: 768px) {
+  .hmHeader {
+    flex-direction: column;      /* stack vertically */
+    align-items: center;         /* center content */
+    padding: 10vw 6vw;
+  }
+
+  .hmHeader h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 6vw;
+  }
+
+  .hmHeader img {
+    width: 80vw;
+  
+    margin-top: 4vw;
+  }
+}
+
+
 .hm-overview {
-  font-size: 0.8vw;
+  font-size: 0.7rem;
   width: 65vw;
   padding-top: 4vw;
 }
@@ -80,7 +102,7 @@
 .hm-overview h2 {
   font-weight: 400;
   margin-bottom: 3vw;
-  line-height: 1.8vw;
+  line-height: 1.8rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -105,14 +127,14 @@
 .hm-problem h2 {
   font-weight: 400;
   margin-bottom: 3vw;
-  line-height: 1.8vw;
+  line-height: 1.8rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
 
 .hm-problem h1 {
   font-weight: 600;
-  font-size: 2vw;
+  font-size: 1.8rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -162,16 +184,24 @@
   max-width: 900px;
 }
 
+.hm-problem h2{
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
 .design-principles ul {
   list-style-type: disc;
   padding-left: 1.5rem;
 }
 
 .design-principles li {
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  line-height: 1.6;
+  line-height: 1.6rem;
   margin-bottom: 1.25rem;
   color: #111;
 }
@@ -182,7 +212,7 @@
 }
 
 .hm-section3 {
-  font-size: 0.8vw;
+  font-size: 0.7rem;
   width: 65vw;
   padding-left: 18vw;
   padding-top: 5vw;
@@ -197,14 +227,14 @@
 .hm-section3 h2 {
   font-weight: 400;
   margin-bottom: 3vw;
-  line-height: 1.8vw;
+  line-height: 1.8rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
 
 .hm-section3 h1 {
   font-weight: 600;
-  font-size: 2vw;
+  font-size: 1.8rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -227,8 +257,8 @@
 .final-text h2 {
   font-weight: 400;
   margin-bottom: 3vw;
-  line-height: 1.8vw;
-  font-size: 1.2vw;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
   width: 67vw;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -236,7 +266,7 @@
 
 .final-text h1 {
   font-weight: 600;
-  font-size: 3.5vw;
+  font-size: 3.2rem;
   color: #00357e;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -258,13 +288,13 @@
 
 .hmsection4-text h2 {
   font-weight: 400;
-  font-size: 1.2vw;
-  line-height: 1.8vw;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
 .hmsection4-text h1 {
-  font-size: 1.7vw;
+  font-size: 1.5rem;
   font-weight: 600;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -293,13 +323,13 @@
 
 .hmsection5-text h2 {
   font-weight: 400;
-  font-size: 1.2vw;
-  line-height: 1.8vw;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
 .hmsection5-text h1 {
-  font-size: 1.7vw;
+  font-size: 1.6rem;
   font-weight: 600;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -326,8 +356,8 @@
 
 .hmsection6-text h2 {
   font-weight: 400;
-  font-size: 1.2vw;
-  line-height: 1.8vw;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -343,6 +373,48 @@
   width: 30vw;
 }
 
+@media (max-width: 768px) {
+
+  .hm-section4,
+  .hm-section5,
+  .hm-section6 {
+    flex-direction: column;      /* stack vertically */
+    align-items: center;         /* center content */
+    padding: 8vw 6vw;
+  }
+
+  .hmsection4-text,
+  .hmsection5-text,
+  .hmsection6-text {
+    width: 100%;                 /* full width text */
+    padding: 0;
+    text-align: center;
+    margin-bottom: 6vw;
+  }
+
+  .hmsection4-text h1,
+  .hmsection5-text h1,
+  .hmsection6-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .hmsection4-text h2,
+  .hmsection5-text h2,
+  .hmsection6-text h2 {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  .hm-section4 img,
+  .hm-section5 img,
+  .hm-section6 img {
+    width: 90vw;                 /* full width image */
+    padding: 0;
+    margin-top: 4vw;
+  }
+}
+
+
 .hm-handoff img {
   width: 57vw;
   padding-bottom: 5vw;
@@ -355,8 +427,8 @@
 
 .hm-handoff h2 {
   font-weight: 400;
-  line-height: 1.8vw;
-  font-size: 1.2vw;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -364,7 +436,7 @@
 .hm-handoff h1 {
   font-weight: 600;
   padding-bottom: 2vw;
-  font-size: 2vw;
+  font-size: 1.8rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -379,8 +451,8 @@
 
 .hm-lessons h2 {
   font-weight: 400;
-  line-height: 1.8vw;
-  font-size: 1.2vw;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -388,14 +460,14 @@
 .hm-lessons h1 {
   font-weight: 600;
   padding-bottom: 2vw;
-  font-size: 2vw;
+  font-size: 1.8rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
 
 .hm-lessons h3 {
   font-weight: 600;
-  font-size: 1.7vw;
+  font-size: 1.6rem;
   color: #565656;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -405,7 +477,7 @@
 .hm-components h1{
   font-weight: 600;
   padding-bottom: 2vw;
-  font-size: 2vw;
+  font-size: 1.8rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -413,8 +485,8 @@
 .hm-components h2 {
   font-weight: 400;
   width:60vw;
-  line-height: 1.8vw;
-  font-size: 1.2vw;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -431,8 +503,8 @@ margin-bottom: 3vw;
   font-weight: 600;
   width:60vw;
   padding-top: 4vw;
-  line-height: 1.8vw;
-  font-size: 1.3vw;
+  line-height: 1.6rem;
+  font-size: 1.2rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   color:#565656
@@ -442,7 +514,7 @@ margin-bottom: 3vw;
   font-weight: 600;
   width:60vw;
   line-height: 0vw;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   color:#b3b3b3
@@ -453,7 +525,7 @@ margin-bottom: 3vw;
   width:60vw;
   padding-top:2vw;
   line-height: 0vw;
-  font-size: 1.5vw;
+  font-size: 1.4rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   color:#818181
@@ -463,9 +535,10 @@ margin-bottom: 3vw;
 .hm-overview h4{
   font-weight: 600;
   width:65vw;
-  line-height: 3.2vw;
-  font-size: 2.3vw;
+  line-height: 3.1rem;
+  font-size: 2.2rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   color:#565656
 }
+

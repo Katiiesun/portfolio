@@ -13,42 +13,25 @@
   src: url("../../public/fonts/Acorn/Acorn-Medium.otf") format("truetype");
 }
 
-
 .wealthHeader {
-  columns: 2;
+  /* columns: 2;  REMOVE THIS */
   display: flex;
-  padding-top: 4vw;
-  padding-left: 8vw;
-  padding-right: 8vw;
-  padding-bottom: 4vw;
-  /* background-color: #528271; */
-
-  background:
-  radial-gradient(
-    1200px 600px at 90% 5%,
-    #84ccab 0%,
-    transparent 60%
-  ),
-  radial-gradient(
-    900px 500px at 100% 80%,
-    #6bb794 0%,
-    transparent 0%
-  ),
-  radial-gradient(
-    1000px 700px at 20% 10%,
-    #f4fff5 0%,
-    transparent 60%
-  ),
-  linear-gradient(
-    135deg,
-    #6bb794 0%,
-    #f9fffa 30%
-  );
-  
-  border-radius: 0 0 40px 40px;
+  flex-direction: row; /* desktop */
   gap: 60px;
-  transition: background-color 0.4s ease;
+  padding: 4vw 8vw;
+  background: radial-gradient(
+      1200px 600px at 90% 5%,
+      #84ccab 0%,
+      transparent 60%
+    ),
+    radial-gradient(900px 500px at 100% 80%, #6bb794 0%, transparent 0%),
+    radial-gradient(1000px 700px at 20% 10%, #f4fff5 0%, transparent 60%),
+    linear-gradient(135deg, #6bb794 0%, #f9fffa 30%);
+  border-radius: 0 0 40px 40px;
 }
+
+
+
 /* .wealthHeader:hover{
 background-color: #3c6657;
 } */
@@ -93,7 +76,7 @@ background-color: #3c6657;
 }
 
 .wealthHeader .wealthText h1 {
-  font-size: 2.3vw;
+  font-size: 2.3rem;
   padding-top: 12vw;
   color: #000000;
   font-family: "DM Sans", sans-serif;
@@ -104,7 +87,7 @@ background-color: #3c6657;
 }
 
 .wealthHeader .wealthText h2 {
-  font-size: 1.3vw;
+  font-size: 1.2rem;
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -112,6 +95,38 @@ background-color: #3c6657;
   font-weight: 400;
   line-height: normal;
 }
+
+@media (max-width: 768px) {
+  .wealthHeader {
+    flex-direction: column;     /* stack text then image */
+    align-items: flex-start;
+    gap: 6vw;
+    padding: 10vw 8vw;          /* more breathing room */
+  }
+
+  .wealthText {
+    width: 100%;                /* text spans full width */
+    height: auto;               /* allow natural height */
+    padding-top: 0;
+  }
+
+  .wealthHeader img {
+    width: 100%;                /* image full width */
+    height: auto;
+  }
+
+  .wealthHeader .wealthText h1 {
+    padding-top: 0;             /* remove desktop spacing */
+    font-size: 1.9rem;
+    line-height: 2.4rem;
+  }
+
+  .wealthHeader .wealthText h2 {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+}
+
 
 .wealthContent {
   display: flex;
@@ -145,7 +160,7 @@ background-color: #3c6657;
   /* padding: 2vw 2vw; */
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 4px;
   border-radius: 10px;
   /* background: #ffffff;
   box-shadow: 1.2vw 1.2vw 2.5vw rgba(187, 187, 187, 0.08);
@@ -159,10 +174,10 @@ background-color: #3c6657;
 } */
 
 .wealthsection1 .confidential h1 {
-  color: #000;
+  color: #666666;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 2vw;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -177,19 +192,19 @@ background-color: #3c6657;
   color: #000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 .wealthsection1 .wealth-overview h1 {
-  color: #528271;
+  color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 4vw;
+  font-size: 1.3rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
 }
 
@@ -197,17 +212,17 @@ background-color: #3c6657;
   color: #000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 .wealthsection1 .wealth-myrole h1 {
   color: #000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 2.4vw;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -217,10 +232,10 @@ background-color: #3c6657;
   color: #000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 .wealthsection1 .wealth-myrole {
@@ -236,6 +251,9 @@ background-color: #3c6657;
   align-items: flex-start;
   align-self: stretch;
   border-radius: 40px 40px 0 0;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   background: #385b4f;
   /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
 }
@@ -249,19 +267,25 @@ background-color: #3c6657;
   color: #ffffff;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 4vw;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 .challenge-sec2 h2 {
   color: #eee;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 .challenge-container {
@@ -276,7 +300,7 @@ background-color: #3c6657;
   color: #ffffff;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.7vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -286,10 +310,10 @@ background-color: #3c6657;
   color: #eee;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 .whymatter {
@@ -303,6 +327,9 @@ background-color: #3c6657;
   /* gap: 2vw; */
   border-radius: 30px;
   background: #2e4e43;
+  flex: 1 1 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .ourgoal {
@@ -312,12 +339,30 @@ background-color: #3c6657;
   padding: 2vw 2vw;
   flex-direction: column;
   align-items: flex-start;
-  /* gap: 22px; */
   border-radius: 30px;
   line-height: 1vw;
   background: #2e4e43;
+  flex: 1 1 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+  .challenge-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .whymatter,
+  .ourgoal {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 2rem; /* ensure text wraps */
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+}
 .wealth-section3 {
   display: flex;
   /* margin-left: 18vw; */
@@ -330,9 +375,9 @@ background-color: #3c6657;
 }
 
 .targetUsers {
-  columns: 2;
-  gap: 4vw;
   display: flex;
+  flex-direction: row;
+  gap: 4vw;
   align-items: flex-start;
   flex-shrink: 0;
   align-self: stretch;
@@ -340,17 +385,31 @@ background-color: #3c6657;
 
 .targetUsers img {
   width: 22vw;
+  height: auto;
 }
 
 .targetUsersText {
   width: 44vw;
 }
 
+@media (max-width: 768px) {
+  .targetUsers {
+    flex-direction: column;
+  }
+  .targetUsersText {
+    width: 100%;
+  }
+  .targetUsers img {
+    width: 100%;
+    padding: 0;
+  }
+}
+
 .targetUsersText h1 {
   color: #000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 2.4vw;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -360,10 +419,10 @@ background-color: #3c6657;
   color: #000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 /* .wealth-userneeds {
@@ -379,7 +438,7 @@ background-color: #3c6657;
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 2.4vw;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -395,8 +454,8 @@ background-color: #3c6657;
   line-height: 2vw;
 } */
 
-.wealth-userneeds img{
-  width:75vw;
+.wealth-userneeds img {
+  width: 75vw;
   padding-top: 3vw;
 }
 
@@ -408,12 +467,22 @@ background-color: #3c6657;
   color: #5a7684;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 4vw;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding-bottom: 2vw;
 }
 
+.wealthProcess h3 {
+  color: #888888;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 .whatwasTested-sec4 {
   display: flex;
   padding: 4vw 14vw;
@@ -422,35 +491,45 @@ background-color: #3c6657;
   align-self: stretch;
   border-radius: 40px 40px 0 0;
   background: #ebebeb;
- 
 }
-
-
 
 .whatwasTested-sec4 h1 {
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 3vw;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  
+}
+
+.whatwasTested-sec4 h3 {
+  color: #888888;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .whatwasTested-sec4 h2 {
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 .futurenav {
-  columns: 2;
-  padding-top:6vw;
+  /* columns: 2; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4vw;
+  padding-top: 6vw;
 }
 
 .futurenav img {
@@ -465,41 +544,59 @@ background-color: #3c6657;
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.4vw;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 .bottomnav {
-  columns: 2;
-  gap: 2vw;
-  padding-top:6vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 3vw;
+  padding-top: 6vw;
 }
 
 .bottomnav img {
   width: 30vw;
-  padding-right: 4vw;
+  height: auto;
+  padding-right: 0; /* FIXED */
+  flex-shrink: 0;
 }
 
 .bottomnavtext {
+  width: 40vw; /* FIXED */
   padding-top: 4.4vw;
+  box-sizing: border-box;
 }
+
 
 .bottomnavtext h1 {
-  color: #000000;
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 1.4vw;
-  font-style: normal;
+  font-size: 1.3rem;
   font-weight: 600;
-  line-height: 2vw;
+  line-height: 1.6rem;
+  margin-bottom: 1rem;
 }
 
+.bottomnavtext h2 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  margin-bottom: 0.6rem;
+  display: block;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+
 .scrollvstab {
-  columns: 2;
-  gap: 2vw;
-  padding-top:6vw;
+  /* columns: 2; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8vw;
+  padding-top: 6vw;
 }
 
 .scrollvstabtext {
@@ -510,26 +607,46 @@ background-color: #3c6657;
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.4vw;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 .scrollvstabtext h2 {
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 .scrollvstab img {
   width: 30vw;
 }
 
+@media (max-width: 768px) {
+  .futurenav,
+  .bottomnav,
+  .scrollvstab {
+    flex-direction: column; /* stack vertically */
+  }
+  .futurenavtext,
+  .bottomnavtext,
+  .scrollvstabtext {
+    width: 100%;
+    padding-top: 0;
+  }
+  .futurenav img,
+  .bottomnav img,
+  .scrollvstab img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+}
 .keyinsights {
   display: flex;
   /* margin-left: 18vw; */
@@ -537,7 +654,7 @@ background-color: #3c6657;
   margin-bottom: 4vw;
   flex-direction: column;
   align-items: left;
-  gap: 2vw;
+  /* gap: 2vw; */
   padding: 0 14vw;
 }
 
@@ -545,9 +662,20 @@ background-color: #3c6657;
   color: #528271;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 4vw;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 700;
+  line-height: normal;
+  padding-bottom: 2vw;
+}
+
+.keyinsights h3 {
+  color: #888888;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
   line-height: normal;
 }
 
@@ -565,7 +693,7 @@ background-color: #3c6657;
   padding: 2vw 2vw;
   flex-direction: column;
   align-items: flex-start;
-  background: #ccdbd6;
+  background: #ddeae5;
   border-radius: 2vw;
 }
 
@@ -573,20 +701,20 @@ background-color: #3c6657;
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.4vw;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 28px;
+  line-height: 1.2rem;
 }
 
 .insight1 h2 {
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 .insight2 {
@@ -596,7 +724,7 @@ background-color: #3c6657;
   padding: 2vw 2vw;
   flex-direction: column;
   align-items: flex-start;
-  background: #ccdbd6;
+  background: #ddeae5;
   border-radius: 2vw;
 }
 
@@ -604,20 +732,20 @@ background-color: #3c6657;
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.4vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 28px;
+  line-height: 1.6rem;
 }
 
 .insight2 h2 {
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 .insight3 {
@@ -627,7 +755,7 @@ background-color: #3c6657;
   padding: 2vw 2vw;
   flex-direction: column;
   align-items: flex-start;
-  background: #ccdbd6;
+  background: #ddeae5;
   border-radius: 2vw;
 }
 
@@ -635,21 +763,48 @@ background-color: #3c6657;
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.4vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 28px;
+  line-height: 1.6rem;
 }
 
 .insight3 h2 {
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
+
+@media (max-width: 768px) {
+  .insights {
+    flex-direction: column;
+    gap: 4vw;
+  }
+
+  .insight1,
+  .insight2,
+  .insight3 {
+    width: 100%;
+    height: auto;
+    padding: 6vw 6vw;
+    box-sizing: border-box;
+  }
+
+  .insight1 h1,
+  .insight2 h1,
+  .insight3 h1,
+  .insight1 h2,
+  .insight2 h2,
+  .insight3 h2 {
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+}
+
 
 .recos {
   display: flex;
@@ -658,15 +813,29 @@ background-color: #3c6657;
   margin-bottom: 4vw;
   flex-direction: column;
   align-items: left;
-  gap: 2vw;
+  /* gap: 2vw; */
   padding: 0 14vw;
+}
+
+.recos img {
+  padding-bottom: 6vw;
 }
 
 .recos h1 {
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 2.4vw;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.recos h3 {
+  color: #888888;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -676,10 +845,10 @@ background-color: #3c6657;
   color: #000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 .whatIlearned {
@@ -697,7 +866,7 @@ background-color: #3c6657;
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 2.4vw;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
@@ -725,7 +894,7 @@ background-color: #3c6657;
   color: #484848;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.4vw;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
@@ -735,10 +904,10 @@ background-color: #3c6657;
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 /* .learning2 {
@@ -756,7 +925,7 @@ background-color: #3c6657;
   color: #484848;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.4vw;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
@@ -766,10 +935,10 @@ background-color: #3c6657;
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 /* .learning3 {
@@ -787,7 +956,7 @@ background-color: #3c6657;
   color: #484848;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.4vw;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
@@ -797,10 +966,10 @@ background-color: #3c6657;
   color: #000000;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2vw;
+  line-height: 1.6rem;
 }
 
 .more-work {
@@ -808,7 +977,7 @@ background-color: #3c6657;
 }
 
 .more-work h1 {
-  font-size: 3vw;
+  font-size: 3rem;
   font-weight: 600;
   margin-bottom: 3vw;
   font-family: acorn;
@@ -849,13 +1018,13 @@ background-color: #3c6657;
 }
 
 .carousel-card h2 {
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   font-weight: 500;
   margin-top: 3vw;
   margin-bottom: 3vw;
   margin-left: 2vw;
   margin-right: 2vw;
-  line-height: 1.6vw;
+  line-height: 1.6vrem;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -893,3 +1062,65 @@ background-color: #3c6657;
   right: -2vw;
 }
 
+
+@media (max-width: 768px) {
+  .carousel {
+    display: flex;
+    flex-direction: column;   /* stack vertically */
+    overflow-x: visible;      /* remove horizontal scroll */
+    gap: 6vw;                 /* spacing between cards */
+    padding-bottom: 0;
+  }
+
+  .carousel-card {
+    min-width: 100%;          /* full width */
+    width: 100%;
+    margin: 0;                /* remove horizontal spacing */
+  }
+
+  .carousel-card img {
+    width: 100%;              /* keep full-width images */
+  }
+}
+
+.impact {
+  display: flex;
+  /* margin-left: 18vw; */
+  margin-top: 4vw;
+  margin-bottom: vw;
+  flex-direction: column;
+  align-items: left;
+  /* gap: 2vw; */
+  padding: 0 14vw;
+}
+
+.impact h3 {
+  color: #888888;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.impact h1 {
+  color: #000000;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.impact-list {
+  padding-left: 1.25rem;
+}
+
+.impact-list li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 0.75rem;
+}

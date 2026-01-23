@@ -160,16 +160,19 @@ function WealthApp() {
           <img src={userneeds} alt="investing apps" />
         </div>
         <div className="wealthProcess">
-          <h1>Process</h1>
+          <h3>Process</h3>
+          <h1>Reducing uncertainty before locking the app’s structure</h1>
           <img src={testprocess} alt="Process" />
         </div>
       </div>
       <div className="whatwasTested-sec4">
-        <h1>What was tested</h1>
+        <h3>What was tested</h3>
+        <h1>Validating how users expect to move between investments</h1>
         <h2>
           We had a lot of unanswered questions going into this project and
           needed to validate any decisions made with the users before
-          potentially overhauling the designs. Below are the key elements we set out to test:{" "}
+          potentially overhauling the designs. Below are the key elements we set
+          out to test:{" "}
         </h2>
         <div className="futurenav">
           <div className="futurenavtext">
@@ -186,20 +189,23 @@ function WealthApp() {
           <img src={futurenav} alt="navigation element" />
         </div>
         <div className="bottomnav">
-          <img src={bottomnav} alt="navigation element" />
+          {" "}
           <div className="bottomnavtext">
-          <h1>→ Bottom Navigation Structure</h1>
-           
+            {" "}
+            <h1>→ Bottom Navigation Structure</h1>{" "}
             <h2>
+              {" "}
               • Compared two IA variations with different groupings of related
-              content
-            </h2>
+              content{" "}
+            </h2>{" "}
             <h2>
+              {" "}
               • Do users prefer all account-related content consolidated on a
               single page or organized into separate sections accessible through
-              the bottom navigation?
-            </h2>
-          </div>
+              the bottom navigation?{" "}
+            </h2>{" "}
+          </div>{" "}
+          <img src={bottomnav} alt="navigation element" />{" "}
         </div>
         <div className="scrollvstab">
           <div className="scrollvstabtext">
@@ -214,7 +220,8 @@ function WealthApp() {
       </div>
 
       <div className="keyinsights">
-        <h1>Key insights</h1>
+        <h3>Key insights</h3>
+        <h1>Clarity comes from consistency, visibility, and context</h1>
         <div className="insights">
           <div className="insight1">
             <h1>🧭 Navigation Preferences</h1>
@@ -256,33 +263,68 @@ function WealthApp() {
         </div>
       </div>
       <div className="recos">
-        <h1>Recommendations + Next steps</h1>
+        <h3>Recommendations + Next steps</h3>
+        <h1>Anchor Navigation to Preserve Context</h1>
         <h2>
-          → Maintain a persistent bottom navigation to reduce lack of context
-          within the app, prioritizing recognition over recall and improving
-          user orientation. Remove the bottom navigation when user goes through
-          a flow to reduce mis-tapping and exiting out of flow
+          Maintain a persistent bottom navigation across primary screens to
+          reduce disorientation when users switch between investment views.
+          Testing showed that removing navigation elements mid-journey caused
+          users to lose their sense of place, increasing hesitation and
+          backtracking. Persistence prioritizes recognition over recall while
+          supporting confident exploration.
         </h2>
         <img src={improvement1} alt="improvement 1" />
+
+        <h1>Support Both Aggregated and Account-Specific Mental Models</h1>
         <h2>
-          → Have account-related content available through both the bottom
-          navigation and individual account views. Screens accessed through
-          bottom navigation shows aggregated information based on the chosen
-          grouped view while individual account view screens show information
-          for that specific account.
+          Expose account-related content through both global navigation and
+          individual account views. Users expected to access high-level,
+          aggregated information when navigating globally, while relying on
+          account views for detailed, task-specific actions. Designing for both
+          patterns ensures flexibility without forcing users into a single
+          workflow.
         </h2>
         <img src={improvement2} alt="improvement 2" />
+        <h1>Clarify Grouping and Switching Workflows</h1>
         <h2>
-          → Simplify the grouping and switching workflows by clarifying labels,
-          confirmation states, and adding entry points that align with users’
-          mental models uncovered during testing.
+          Simplify the creation and switching of grouped investment views by
+          improving labels, visibility of entry points, and confirmation states.
+          Testing revealed mismatches between current workflows and users’
+          mental models, particularly around where grouping actions should begin
+          and how changes are acknowledged. When actions are clearly
+          communicated, users can complete high-impact tasks without unnecessary
+          friction or uncertainty.
         </h2>
         <img src={improvement3} alt="improvement 3" />
+        <h1>Contextualize Access to Investment Documents</h1>
         <h2>
-          → Integrate file access more contextually within account views to
-          align with user expectations.
+          Integrate files such as statements and reports directly within
+          relevant account views rather than relying on centralized
+          repositories. Users consistently looked for account-specific resources
+          in context, and surfacing them where decisions are made improves
+          discoverability and task efficiency.
         </h2>
         <img src={improvement4} alt="improvement 4" />
+      </div>
+      <div className="impact">
+        <h3>Impact</h3>
+        <h1>Reducing structural risk before the product shipped</h1>
+        <ul class="impact-list">
+          <li>
+            Validated a scalable navigation model before MVP lock, avoiding
+            foundational IA rework as grouped investment views roll out.
+          </li>
+          <li>
+            Aligned design, product, and leadership on a single navigation
+            direction, reducing ambiguity and unblocking downstream design and
+            engineering decisions.
+          </li>
+          <li>
+            Informed roadmap planning for post-launch features, ensuring future
+            grouping and switching capabilities could be introduced without
+            disrupting core user flows.
+          </li>
+        </ul>
       </div>
       <div className="whatIlearned">
         <h1>What I learned</h1>
@@ -290,9 +332,9 @@ function WealthApp() {
           <div className="learning1">
             <h1>🕹️ Maintain control</h1>
             <h2>
-              Maintaining control in user testing is critical. By eliminating
-              irrelevant inconsistencies in the prototypes, we ensured results
-              focused strictly on the elements we set out to test.
+              Isolating navigation variables in high-fidelity prototypes was
+              critical to ensuring feedback reflected structure, not visual
+              noise.
             </h2>
           </div>
           <div className="learning2">

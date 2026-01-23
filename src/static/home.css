@@ -232,7 +232,7 @@ left: 35vw; */
 }
 
 .introtext p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 150%;
   /* position: absolute;
     transform: translate(179%, -270%); */
@@ -256,7 +256,7 @@ left: 35vw; */
   margin-top: 1vw;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.3vw;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #3b624a;
   transition: color 0.5s ease;
@@ -294,6 +294,8 @@ left: 35vw; */
   
   font-size: 6vw;
 }
+
+
 
 
 .wealthApp {
@@ -685,32 +687,7 @@ left: 35vw; */
   transform-origin: center;
 } */
 
-.moodCraft {
-  margin-left: 20vw;
-  margin-top: 6vw;
-}
 
-.moodCraft img {
-  width: 55vw;
-  border-radius: 2vw;
-  cursor: pointer;
-  overflow-x: hidden;
-  margin: 30px;
-  /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
-}
-
-.moodCraft h1 {
-  font-family: monospace;
-  font-size: 1.6vw;
-  margin-left: 1.3vw;
-  width: 60vw;
-}
-
-.moodCraft img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-  transform-origin: center;
-}
 
 .moreProjects {
   padding-top: 60px;
@@ -826,275 +803,267 @@ left: 35vw; */
 } */
 
 /*NEED TO FIX THE IMAGES !!!!!!!!!!! */
+
 @media (max-width: 768px) {
-  .home h1 {
-    font-size: 8vw;
-    text-align: center;
-    position: absolute;
-    margin: auto;
-    top: 14%;
-    left: 56%;
-    color: #e0e0da;
-    font-family: "acorn-bold";
-    font-weight: 50;
-    animation: fadeInUp 0.6s;
+  .intro {
+    flex-direction: column;       /* stack vertically */
+    align-items: center;          /* center content */
+    padding: 8vw 6vw;
+    background-color: #b5d8ab;    /* keep green background */
   }
-  .typing-text {
-    font-size: 1.5vw;
-    text-align: center;
-    position: absolute;
-    margin: auto;
-    top: 22%;
-    left: 65%;
-    color: #b3b3b3;
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    animation: blink-cursor 0.75s step-end infinite;
+  .projectsSection h1:hover {
+    font-family: acorn-medium;
+    color: #91b892;
+    
+    font-size: 6vw;
   }
-
-  .folkloreCD img {
-    position: absolute;
-    top: 3%;
-    left: 35%;
-    width: 10vw;
-    animation: spin 3s linear;
-  }
-
-  .pic img {
-    width: 30vw;
-    margin: 5vw;
-    border-radius: 8vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2vw;
-  }
+  
 
   .introtext {
-    padding-top: 0vw;
-    width: 60vw;
+    width: 100%;                  /* full width text */
+    text-align: center;
+    padding: 0;
   }
 
   .introtext h1 {
-    font-size: 4.5vw;
-    margin-bottom: 0px;
-    /* position:absolute;
-      transform: translate(190%, -600%); */
-    color: #3b624a;
-    display: flex;
-    font-family: acorn-medium;
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    margin-bottom: 2vw;
+    justify-content: center;
   }
 
   .introtext p {
-    font-size: 1.5vw;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .intro .intro-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+  }
+
+  .pic img {
+    width: 60vw;
+    margin: 6vw auto 0 auto;
+    padding: 0;
+    border-radius: 100px;
+  }
+
+  .home h1 {
+    font-size: 3rem;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 13%;
+    left: 58%;
+    /* transform: translate(100%, -60%); */
+    color: #e0e0da;
+    font-family: "acorn-bold";
+    font-weight: 50;
+    animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
+  }
+  .typing-text {
+    font-size: 0.9rem;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 24%;
+    left: 59%;
+    /* transform: translate(30%, 300%); */
+    color: #b3b3b3;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    line-height: 150%;
-    /* position: absolute;
-      transform: translate(179%, -270%); */
-    color: #2d2727;
-    width: 45vw;
-    font-weight: 540;
-    display: flex;
+    font-weight: 600;
+    animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
   }
 
-  /* .projectsSection .DivvyUpButtons button {
-    background-color: #cedafd;
-    border-color: transparent;
-    border-radius: 8px;
-    padding: 2vw;
-    margin: 1vw;
-    font-size: 2vw;
-    font-family: monospace;
-    color: #344ea3;
-  } */
-
-  /* .projectsSection .heyMiloButtons button {
-    background-color: #cee7fd;
-    border-color: transparent;
-    border-radius: 8px;
-    padding: 2vw;
-    margin: 1vw;
-    font-size: 2vw;
-    font-family: monospace;
-    color: #3d6491;
-  } */
-
-  /* .projectsSection .SubbudButtons button {
-    background-color: #e8e5ef;
-    border-color: transparent;
-    border-radius: 8px;
-    padding: 2vw;
-    margin: 1vw;
-    font-size: 2vw;
-    font-family: inter;
-    color: #9d8fbe;
-  } */
-
-  /* .projectsSection .clearSpiderButtons button {
-    background-color: #dbe9f5;
-    border-color: transparent;
-    border-radius: 8px;
-    padding: 2vw;
-    margin: 1vw;
-    font-size: 2vw;
-    font-family: inter;
-    color: #809aad;
-  } */
-  /* .SubbudButtons {
-    padding: 1vw;
-    margin-left: 2vw;
+  @media (max-width: 768px) {
+  .wealthApp-card,
+  .heyMilo-card,
+  .divvyUp-card,
+  .clearSpider-card {
+    width: 90vw;
+    height: auto;
+    margin: 6vw auto;
+    padding: 6vw;
+    border-radius: 4vw;
   }
 
-  .heyMiloButtons {
-    padding: 1vw;
-    margin-left: 2vw;
+  .wealthApp-card h2,
+  .heyMilo-card h2,
+  .divvyUp-card h2,
+  .clearSpider-card h2 {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-left: 0;
+    width: 100%;
+    padding-top: 4vw;
   }
 
-  .DivvyUpButtons {
-    padding: 1vw;
-    margin-left: 2vw;
-  }
-
-  .clearSpiderButtons {
-    padding: 1vw;
-    margin-left: 2vw;
-  } */
-  /* .clearSpider img {
-    width: 55vw;
+  .wealthApp-card img,
+  .heyMilo-card img,
+  .divvyUp-card img,
+  .clearSpider-card img {
+    height: auto;
+    max-height: 60vw;
     border-radius: 2vw;
-    cursor: pointer;
-    overflow-x: hidden;
-    margin: 14px;
-
-  } */
-
-  /* .DivvyUp img {
-    width: 55vw;
-    border-radius: 2vw;
-    cursor: pointer;
-    overflow-x: hidden;
-    margin: 14px;
-
-  } */
-
-  /* .heyMilo img {
-    width: 55vw;
-    border-radius: 2vw;
-    cursor: pointer;
-    overflow-x: hidden;
-    margin: 14px;
- 
-  } */
-
- 
-
-  /* .myArtwork img {
-    width: 55vw;
-    border-radius: 2vw;
-    cursor: pointer;
-    overflow-x: hidden;
-    margin: 14px;
-   
-  } */
-
-  /* .otherProjects img {
-    width: 55vw;
-    border-radius: 2vw;
-    cursor: pointer;
-    overflow-x: hidden;
-    margin: 14px;
- 
-  } */
-
-  /* .DivvyUp h1 {
-    font-family: inter;
-    font-size: 3vw;
-    margin-left: 3vw;
-    width: 60vw;
   }
 
-  .Subbud h1 {
-    font-family: inter;
-    font-size: 3vw;
-    margin-left: 3vw;
-    width: 60vw;
-  }
-  .heyMilo h1 {
-    font-family: inter;
-    font-size: 3vw;
-    margin-left: 3vw;
-    width: 60vw;
+  .wealthButtons button,
+  .heyMiloButtons button,
+  .DivvyUpButtons button,
+  .clearSpiderButtons button {
+    font-size: 1rem;
+    padding: 2vw 4vw;
+    margin: 2vw 1vw;
+    border-radius: 40px;
   }
 
-  .clearSpider h1 {
-    font-family: inter;
-    font-size: 3vw;
-    margin-left: 3vw;
-    width: 60vw;
+  .wealthApp,
+  .heyMilo,
+  .DivvyUp,
+  .clearSpider {
+    margin-left: 0;
+    margin-bottom: 8vw;
   }
 
-  .myArtwork h1 {
-    font-family: inter;
-    font-size: 3vw;
-    margin-left: 22vw;
-    width: 60vw;
-    color: #e0e0da;
-    font-weight: 180px;
-  }
-  .otherProjects h1 {
-    font-family: inter;
-    font-size: 3vw;
-    margin-left: 9vw;
-    width: 50vw;
-    color: #e0e0da;
-    font-weight: 180px;
+  .projectsSection .workTitle {
+    margin-left: 0;
+    text-align: center;
   }
 
-  .moreProjectsText h1 {
-    margin-left: 4vw;
-    font-family: acorn-medium;
-    font-size: 6vw;
-    color: #958473;
+  .projectsSection h1 {
+    font-size: 2rem;
+    text-align: center;
   }
-
-  .wealthApp {
-    margin-left: 20vw;
-    margin-bottom: 5vw;
-  } */
-  /* .wealthApp img {
-    width: 55vw;
-    border-radius: 2vw;
-    cursor: pointer;
-    overflow-x: hidden;
-    margin: 14px;
-  
-  } */
-
-  /* .wealthApp h2 {
-    font-family: inter;
-    line-height: 140%;
-    font-size: 1.6vw;
-    margin-left: 3vw;
-    width: 57vw;
-    font-weight: 540;
-  } */
-
-  /* .wealthButtons {
-    padding: 5px;
-    margin-left: 2vw;
-  }
-  .projectsSection .wealthButtons button {
-    background-color: #dcede3;
-    border-color: transparent;
-    margin: 10px;
-    font-family: inter;
-    color: #437956;
-
-    border-radius: 8px;
-    padding: 2vw;
-    margin: 1vw;
-    font-size: 2vw;
-  } */
 }
+
+  
+}
+
+@media (max-width: 768px) {
+  .wealthApp-card,
+  .heyMilo-card,
+  .divvyUp-card,
+  .clearSpider-card {
+    width: 90vw;
+    height: auto;
+    margin: 6vw auto;
+    padding: 6vw;
+    border-radius: 4vw;
+  }
+
+  .wealthApp-card h2,
+  .heyMilo-card h2,
+  .divvyUp-card h2,
+  .clearSpider-card h2 {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-left: 0;
+    width: 100%;
+    padding-top: 4vw;
+  }
+
+  .wealthApp-card img,
+  .heyMilo-card img,
+  .divvyUp-card img,
+  .clearSpider-card img {
+    height: auto;
+    max-height: 60vw;
+    border-radius: 2vw;
+  }
+
+  .wealthButtons button,
+  .heyMiloButtons button,
+  .DivvyUpButtons button,
+  .clearSpiderButtons button {
+    font-size: 1rem;
+    padding: 2vw 4vw;
+    margin: 2vw 1vw;
+    border-radius: 40px;
+  }
+
+  .wealthApp,
+  .heyMilo,
+  .DivvyUp,
+  .clearSpider {
+    margin-left: 0;
+    margin-bottom: 8vw;
+  }
+
+  .projectsSection .workTitle {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .projectsSection h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .projectsSection h1:hover {
+    font-family: acorn-medium;
+    color: #91b892;
+    
+    font-size: 3rem;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .moreProjectsText h1 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 3rem;
+    padding: 0 6vw;
+  }
+
+  .myArtwork,
+  .otherProjects {
+    margin-left: 0;
+    margin-top: 8vw;
+    padding: 0 6vw;
+  }
+
+  .myArtwork-card,
+  .otherProjects-card {
+    width: 100%;
+    height: auto;
+    margin: 6vw 0;
+    border-radius: 4vw;
+  }
+
+  .myArtwork-card img,
+  .otherProjects-card img {
+    height: auto;
+    max-height: 60vw;
+    border-radius: 2vw;
+  }
+
+  .myArtwork h1,
+  .otherProjects h1 {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0 4vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .projectsSection .wealthButtons button,
+  .projectsSection .heyMiloButtons button,
+  .projectsSection .DivvyUpButtons button,
+  .projectsSection .clearSpiderButtons button {
+    font-size: 1rem !important;
+    padding: 2vw 4vw !important;
+    margin: 2vw 1vw !important;
+    border-radius: 40px !important;
+  }
+}
+
+

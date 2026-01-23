@@ -32,7 +32,7 @@
 }
 
 .aboutme h1 {
-  font-size: 7vw;
+  font-size: 5rem;
   /* text-align: left; */
   margin-bottom: 0px;
   color: #e0e0da;
@@ -53,7 +53,7 @@
 }
 
 .aboutme p {
-    font-size: 1.4vw;
+    font-size: 1.3rem;
     /* position: absolute;
     transform: translate(40%, 60%); */
     /* margin: auto; */
@@ -102,7 +102,7 @@
   overflow:hidden;
 }
 .music h1 {
-  font-size:4vw;
+  font-size:2rem;
   /* position: absolute;
   transform: translate(30%, 500%); */
   margin-left: 7vw;
@@ -232,18 +232,7 @@ padding-left:5vw;
     animation: fadeIn 1s;
   }
 
-  .music h1 {
-    font-size: 4vw;
-    /* position: absolute;
-    transform: translate(30%, 500%); */
-    margin-left: 20vw;
-    padding-top:10vw;
-    color: #5e5555;
-    width: 60vw;
-    font-size:5vw;
-    font-family:acorn-medium;
-    font-weight: 650;
-  }
+
   .musicvinyls{
     column-count:1;
     padding-bottom:10vw;
@@ -285,7 +274,7 @@ padding-left:5vw;
   animation: spin 3s linear infinite; /* Apply spin animation */
 }
 .breezeblocks h2{
-  font-size: 2.8vw;
+  font-size: 1.6rem;
   color: #5e5555;
 width: 40vw;
 font-family: "DM Sans", sans-serif;
@@ -294,7 +283,7 @@ font-weight: 650;
 padding-left:6vw;
 }
 .everseen h2{
-font-size: 2.8vw;
+font-size: 1.6rem;
 color: #5e5555;
 width: 40vw;
 font-family: "DM Sans", sans-serif;
@@ -304,7 +293,7 @@ padding-left:7vw;
 }
 
 .ivy h2{
-font-size: 2.8vw;
+font-size: 1.6rem;
 color: #5e5555;
 width: 40vw;
 font-family: "DM Sans", sans-serif;
@@ -314,3 +303,33 @@ padding-left:8vw;
 }
   }
 
+
+  @media (max-width: 768px) {
+    .aboutmesection {
+      flex-direction: column;      /* stack vertically */
+      align-items: center;         /* center content */
+      padding: 8vw 6vw;
+    }
+  
+    .aboutme h1 {
+      font-size: 2.8rem;
+      text-align: center;
+      margin-bottom: 4vw;
+    }
+  
+    .aboutme p {
+      width: 100%;
+      font-size: 1.1rem;
+      line-height: 1.6rem;
+      text-align: center;
+      margin-bottom: 6vw;
+    }
+  
+    .aboutmesection img {
+      width: 70vw;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 40px;
+    }
+  }
+  
