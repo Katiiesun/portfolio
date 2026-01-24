@@ -300,7 +300,7 @@ function WealthApp() {
         <h2>
           Integrate files such as statements and reports directly within
           relevant account views rather than relying on centralized
-          repositories. Users consistently looked for account-specific resources
+          screens. Users consistently looked for account-specific resources
           in context, and surfacing them where decisions are made improves
           discoverability and task efficiency.
         </h2>
