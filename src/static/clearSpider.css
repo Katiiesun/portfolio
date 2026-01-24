@@ -72,13 +72,15 @@
 .cs-overview h2 {
   font-weight: 400;
   margin-bottom: 3vw;
-  line-height: 1.8vw;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
 
 .cs-overview h1 {
   font-weight: 600;
+  font-size: 1.1rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }

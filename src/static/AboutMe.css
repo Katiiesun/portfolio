@@ -18,17 +18,20 @@
   src: url("../../public/fonts/Acorn/Acorn-Medium.otf") format("truetype");
 }
 
-
 .aboutme {
   margin: 5vh;
-  padding-bottom:20px;
-  overflow:hidden;
+  padding-bottom: 20px;
+  overflow: hidden;
   animation: fadeIn 1s;
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .aboutme h1 {
@@ -40,38 +43,37 @@
   font-weight: 50;
 }
 
-
 .aboutmesection {
   column-count: 2;
   /* margin: 100px;
   margin-bottom:200px; */
-  display:flex;
-  justify-content:center;
+  display: flex;
+  justify-content: center;
   padding: 5vw;
   background-color: #2d2727;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .aboutme p {
-    font-size: 1.3rem;
-    /* position: absolute;
+  font-size: 1.3rem;
+  /* position: absolute;
     transform: translate(40%, 60%); */
-    /* margin: auto; */
-    color: #cdcdcd;
-    width: 40vw;
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:450;
+  /* margin: auto; */
+  color: #cdcdcd;
+  width: 40vw;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
 
-    line-height:140%
-  }
-  
+  line-height: 140%;
+}
+
 .aboutmesection img {
   /* position: right; */
-  width:25vw;
-  height:34vw;
-  margin-top:10vw;
-  margin-left:3vw;
+  width: 25vw;
+  height: 34vw;
+  margin-top: 10vw;
+  margin-left: 3vw;
   border-radius: 50px;
   animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
 }
@@ -87,38 +89,34 @@
   }
 }
 
-.aboutmesection img:hover{
-  transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
-	&:hover; 
-		/* transform: scale(1.03); */
-    transform: rotate(2deg);
-    
+.aboutmesection img:hover {
+  transition: all 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+  &: hover;
+  /* transform: scale(1.03); */
+  transform: rotate(2deg);
 }
 
-
-.music{
-  background-color:#ffffff;
-  margin-top:-3.5vw;
-  overflow:hidden;
+.music {
+  background-color: #ffffff;
+  margin-top: -3.5vw;
+  overflow: hidden;
 }
 .music h1 {
-  font-size:2rem;
+  font-size: 2rem;
   /* position: absolute;
   transform: translate(30%, 500%); */
   margin-left: 7vw;
-  padding-top:7vw;
+  padding-top: 7vw;
   color: #5e5555;
   width: 70vw;
-  font-family:acorn-medium;
+  font-family: acorn-medium;
   font-weight: 650;
 }
 
-
-.musicvinyls{
-    column-count:3;
-    padding-bottom: 70px;
-    margin-left:30px
-
+.musicvinyls {
+  column-count: 3;
+  padding-bottom: 70px;
+  margin-left: 30px;
 }
 
 @keyframes spin {
@@ -137,10 +135,9 @@
   border-radius: 50px;
   cursor: pointer;
   overflow-x: hidden;
-  margin:50px;
-  animation: spin 3s linear infinite ; /* Apply spin animation */
+  margin: 50px;
+  animation: spin 3s linear infinite; /* Apply spin animation */
 }
-
 
 .music .everseenVinyl {
   /* position: absolute;
@@ -149,10 +146,9 @@
   border-radius: 50 px;
   cursor: pointer;
   overflow-x: hidden;
-  margin:50px;
+  margin: 50px;
   animation: spin 3s linear infinite; /* Apply spin animation */
 }
-
 
 .music .ivyVinyl {
   /* position: absolute;
@@ -161,10 +157,9 @@
   border-radius: 50px;
   cursor: pointer;
   overflow-x: hidden;
-  margin:50px;
+  margin: 50px;
   animation: spin 3s linear infinite; /* Apply spin animation */
 }
-
 
 .music .ivyVinyl:hover {
   animation-play-state: paused;
@@ -175,161 +170,154 @@
 
 .music .breezeblocksVinyl:hover {
   animation-play-state: paused;
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
-    transform-origin: center;
-  }
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
 
-  .music .everseenVinyl:hover{
-    animation-play-state: paused;
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
-    transform-origin: center;
-  }
-  
+.music .everseenVinyl:hover {
+  animation-play-state: paused;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
 
 /* .music .musicbackground {
   width: 100vw;
 } */
 
-.breezeblocks h2{
-    font-size: 1.8vw;
-    color: #5e5555;
+.breezeblocks h2 {
+  font-size: 1.8vw;
+  color: #5e5555;
   width: 500px;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 650;
-  padding-left:3.5vw;
+  padding-left: 3.5vw;
 }
-.everseen h2{
+.everseen h2 {
   font-size: 1.8vw;
   color: #5e5555;
-width: 500px;
-font-family: "DM Sans", sans-serif;
-font-optical-sizing: auto;
-font-weight: 650;
-padding-left:4.5vw;
+  width: 500px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  padding-left: 4.5vw;
 }
 
-.ivy h2{
+.ivy h2 {
   font-size: 1.8vw;
   color: #5e5555;
-width: 500px;
-font-family: "DM Sans", sans-serif;
-font-optical-sizing: auto;
-font-weight: 650;
-padding-left:5vw;
+  width: 500px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  padding-left: 5vw;
 }
 
 @media (max-width: 700px) {
   .aboutmesection img {
     /* position: right; */
-    width:25vw;
-    height:34vw;
-    margin-top:18vw;
-    margin-left:3vw;
+    width: 25vw;
+    height: 34vw;
+    margin-top: 18vw;
+    margin-left: 3vw;
     border-radius: 16px;
     animation: fadeIn 1s;
   }
 
-
-  .musicvinyls{
-    column-count:1;
-    padding-bottom:10vw;
-    margin-left:25vw;
-
-}
-.music .breezeblocksVinyl {
-  /* position: absolute;
+  .musicvinyls {
+    column-count: 1;
+    padding-bottom: 10vw;
+    margin-left: 25vw;
+  }
+  .music .breezeblocksVinyl {
+    /* position: absolute;
   transform: translate(49%, -160%); */
-  width: 40vw;
-  border-radius: 50px;
-  cursor: pointer;
-  overflow-x: hidden;
-  margin:5vw;
-  animation: spin 3s linear infinite ; /* Apply spin animation */
-}
+    width: 40vw;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow-x: hidden;
+    margin: 5vw;
+    animation: spin 3s linear infinite; /* Apply spin animation */
+  }
 
-
-.music .everseenVinyl {
-  /* position: absolute;
+  .music .everseenVinyl {
+    /* position: absolute;
   transform: translate(190%, -160%); */
-  width: 40vw;
-  border-radius: 50 px;
-  cursor: pointer;
-  overflow-x: hidden;
-  margin:5vw;
-  animation: spin 3s linear infinite; /* Apply spin animation */
-}
+    width: 40vw;
+    border-radius: 50 px;
+    cursor: pointer;
+    overflow-x: hidden;
+    margin: 5vw;
+    animation: spin 3s linear infinite; /* Apply spin animation */
+  }
 
-
-.music .ivyVinyl {
-  /* position: absolute;
+  .music .ivyVinyl {
+    /* position: absolute;
   transform: translate(340%, -160%); */
-  width: 40vw;
-  border-radius: 50px;
-  cursor: pointer;
-  overflow-x: hidden;
-  margin:5vw;
-  animation: spin 3s linear infinite; /* Apply spin animation */
-}
-.breezeblocks h2{
-  font-size: 1.6rem;
-  color: #5e5555;
-width: 40vw;
-font-family: "DM Sans", sans-serif;
-font-optical-sizing: auto;
-font-weight: 650;
-padding-left:6vw;
-}
-.everseen h2{
-font-size: 1.6rem;
-color: #5e5555;
-width: 40vw;
-font-family: "DM Sans", sans-serif;
-font-optical-sizing: auto;
-font-weight: 650;
-padding-left:7vw;
-}
-
-.ivy h2{
-font-size: 1.6rem;
-color: #5e5555;
-width: 40vw;
-font-family: "DM Sans", sans-serif;
-font-optical-sizing: auto;
-font-weight: 650;
-padding-left:8vw;
-}
+    width: 40vw;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow-x: hidden;
+    margin: 5vw;
+    animation: spin 3s linear infinite; /* Apply spin animation */
+  }
+  .breezeblocks h2 {
+    font-size: 1.6rem;
+    color: #5e5555;
+    width: 40vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    padding-left: 6vw;
+  }
+  .everseen h2 {
+    font-size: 1.6rem;
+    color: #5e5555;
+    width: 40vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    padding-left: 7vw;
   }
 
-
-  @media (max-width: 768px) {
-    .aboutmesection {
-      flex-direction: column;      /* stack vertically */
-      align-items: center;         /* center content */
-      padding: 8vw 6vw;
-    }
-  
-    .aboutme h1 {
-      font-size: 2.8rem;
-      text-align: center;
-      margin-bottom: 4vw;
-    }
-  
-    .aboutme p {
-      width: 100%;
-      font-size: 1.1rem;
-      line-height: 1.6rem;
-      text-align: center;
-      margin-bottom: 6vw;
-    }
-  
-    .aboutmesection img {
-      width: 70vw;
-      height: auto;
-      margin: 0 auto;
-      border-radius: 40px;
-    }
+  .ivy h2 {
+    font-size: 1.6rem;
+    color: #5e5555;
+    width: 40vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    padding-left: 8vw;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .aboutmesection {
+    flex-direction: column; /* stack vertically */
+    align-items: center; /* center content */
+    padding: 8vw 6vw;
+  }
+
+  .aboutme h1 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 4vw;
+  }
+
+  .aboutme p {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    text-align: left;
+    margin-bottom: 6vw;
+  }
+
+  .aboutmesection img {
+    width: 70vw;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 40px;
+  }
+}

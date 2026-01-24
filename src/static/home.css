@@ -229,6 +229,7 @@ left: 35vw; */
   color: #3b624a;
   display: flex;
   font-family: acorn-medium;
+  
 }
 
 .introtext p {
@@ -242,6 +243,7 @@ left: 35vw; */
   display: flex;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
+ 
 }
 
 .intro .intro-button button {

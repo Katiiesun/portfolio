@@ -37,6 +37,19 @@ width:100vw;
     padding-bottom:5vw;
 }
 
+.divvy-section2 h2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.1rem;
+    width: 65vw;
+    font-weight: 400; 
+    line-height: 1.6rem;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
 .divvy-section2 img{
     width:67vw;
     padding-top:3vw;
@@ -52,7 +65,7 @@ width:100vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 1.3vw;
+    font-size: 1.1rem;
     width: 20vw;
     font-weight: 600; 
     font-family: "DM Sans", sans-serif;
@@ -64,7 +77,7 @@ width:100vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 1.1vw;
+    font-size: 1.1rem;
     width: 20vw;
     font-weight: 400;
     font-family: "DM Sans", sans-serif;
@@ -75,7 +88,7 @@ width:100vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 1.3vw;
+    font-size: 1.1rem;
     width: 20vw;
     font-weight: 600; 
     font-family: "DM Sans", sans-serif;
@@ -87,7 +100,7 @@ width:100vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 1.1vw;
+    font-size: 1.1rem;
     width: 20vw;
     font-weight: 400;
     font-family: "DM Sans", sans-serif;
@@ -98,7 +111,7 @@ width:100vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 1.3vw;
+    font-size: 1.1rem;
     width: 20vw;
     font-weight: 600; 
     font-family: "DM Sans", sans-serif;
@@ -110,7 +123,7 @@ width:100vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 1.1vw;
+    font-size: 1.1rem;
     width: 20vw;
     font-weight: 400;
     font-family: "DM Sans", sans-serif;
@@ -124,7 +137,7 @@ width:100vw;
 }
 
 .divvy-section3 h1{
-    font-size:1.7vw;
+    font-size:1.3rem;
     font-weight: 600;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -132,8 +145,8 @@ width:100vw;
 
 .divvy-section3 h2{
     font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 1.8vw; 
+    font-size: 1.1rem;
+    line-height: 1.6rem; 
     width: 65vw;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -153,14 +166,14 @@ width:100vw;
 }
 
 .divvy-section4 h1{
-    font-size:1.7vw;
+    font-size:1.3rem;
     font-weight: 600;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
 }
 
 .divvy-section4 h3{
-    font-size:1.3vw;
+    font-size:1.1rem;
     font-weight: 600;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -169,8 +182,8 @@ width:100vw;
 
 .divvy-section4 h2{
     font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 1.8vw; 
+    font-size: 1.1rem;
+    line-height: 1.6rem; 
     width: 65vw;
     padding-bottom:2vw;
     font-family: "DM Sans", sans-serif;
@@ -200,7 +213,7 @@ width:100vw;
 }
 
 .divvy-section5 .divvy-final h1{
-    font-size:1.7vw;
+    font-size:1.3rem;
     font-weight: 600; 
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -208,8 +221,8 @@ width:100vw;
 
 .divvy-section5 .divvy-final h2{
     font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 1.8vw; 
+    font-size: 1.1rem;
+    line-height: 1.6rem; 
     width: 23vw;
     padding-bottom:2vw;
     padding-top:11vw;
@@ -217,8 +230,28 @@ width:100vw;
     font-optical-sizing: auto;
 }
 
+
+@media (max-width: 768px) {
+    .divvy-section5 .divvy-final {
+      flex-direction: column;   /* stack vertically */
+      align-items: left;      /* optional: centers content */
+    }
+  
+    .divvy-section5 .divvy-final img {
+      width: 80%;              /* full width on mobile */
+      padding: 0;
+      margin-bottom: 4vw;
+    }
+  
+    .divvy-section5 .divvy-final h2 {
+      width: 80%;              /* let text span full width */
+      padding-top: 4vw;         /* adjust spacing */
+      text-align: left;       /* optional */
+    }
+  }
+  
 .divvy-section5 .divvy-onboarding h1{
-    font-size:1.7vw;
+    font-size:1.3rem;
     font-weight: 600;
     padding-top:2vw;
     font-family: "DM Sans", sans-serif;
@@ -227,8 +260,8 @@ width:100vw;
 
 .divvy-section5 .divvy-onboarding h2{
     font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 1.8vw; 
+    font-size: 1.1rem;
+    line-height: 1.6rem; 
     width: 65vw;
     padding-bottom:0vw;
     font-family: "DM Sans", sans-serif;
@@ -247,7 +280,7 @@ width:100vw;
 }
 
 .divvy-section6 h1{
-    font-size:1.7vw;
+    font-size:1.3rem;
     font-weight: 600;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -255,8 +288,8 @@ width:100vw;
 
 .divvy-section6 h2{
     font-weight: 400;
-    font-size: 1.2vw;
-    line-height: 1.8vw; 
+    font-size: 1.1rem;
+    line-height: 1.6rem; 
     width: 65vw;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -270,7 +303,7 @@ width:100vw;
 } */
 
 .userPersona h2{
-    font-size:1.7vw;
+    font-size:1.1rem;
     font-weight: 600;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
