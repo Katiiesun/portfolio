@@ -64,7 +64,7 @@ function HeyMilo() {
             recruitment process by allowing recruiters to manage multiple AI
             agents and track candidate applications and evaluations efficiently.
           </h2>
-          <h3>My role</h3>
+          <h3>My Role</h3>
           <h1>
             Owning a Full Redesign as the Sole Designer in a Fast-Moving Startup
           </h1>
