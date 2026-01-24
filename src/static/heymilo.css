@@ -390,6 +390,8 @@
   padding-left: 12vw;
   padding-top: 8vw;
   width: 30vw;
+
+
 }
 
 @media (max-width: 768px) {
@@ -431,6 +433,8 @@
     padding: 0;
     margin-top: 4vw;
   }
+
+
 }
 
 
