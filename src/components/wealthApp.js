@@ -68,7 +68,11 @@ function WealthApp() {
             </h2>
           </div>
           <div className="wealth-overview">
-            <h1>Overview</h1>
+            <h3>Overview</h3>
+            <h1>
+              Helping clients understand and navigate their investments with
+              confidence
+            </h1>
             <h2>
               As part of my internship at a leading Canadian financial services
               provider, I worked on designing a new mobile app experience for
@@ -87,6 +91,7 @@ function WealthApp() {
           </div>
           <div className="wealth-myrole">
             <h1>My role</h1>
+
             <h2>
               Working closely with the design lead and experience design
               director, I conceptualized navigation structures while designing
@@ -99,17 +104,20 @@ function WealthApp() {
         </div>
       </div>
       <div className="challenge-sec2">
-        <h1>The Challenge</h1>
+        <h3>The Challenge</h3>
+        <h1>A future feature quietly threatened the app’s foundation</h1>
         <h2>
-          Introducing grouped investment views, a planned feature, had the
-          potential to reshape the app’s information architecture and
-          navigation, making it critical to understand how users expected to
-          access and switch between different views.
+          Grouped investment views were planned as a post-MVP feature, but I
+          questioned their broader implications on the app’s information
+          architecture and navigation. Early exploration suggested this
+          functionality would significantly influence how users access,
+          understand, and switch between their investments.
         </h2>
         <h2>
-          Although not required for the first launch, this feature needed early
-          exploration so we could ensure the navigation would scale without
-          requiring major rework later.
+          Although not required for the initial launch, I raised the risk that
+          deferring validation could lock the team into navigation decisions
+          that wouldn’t scale, potentially requiring substantial rework once
+          grouped views were introduced.
         </h2>
         <div className="challenge-container">
           <div className="whymatter">
@@ -299,10 +307,10 @@ function WealthApp() {
         <h1>Contextualize Access to Investment Documents</h1>
         <h2>
           Integrate files such as statements and reports directly within
-          relevant account views rather than relying on centralized
-          screens. Users consistently looked for account-specific resources
-          in context, and surfacing them where decisions are made improves
-          discoverability and task efficiency.
+          relevant account views rather than relying on centralized screens.
+          Users consistently looked for account-specific resources in context,
+          and surfacing them where decisions are made improves discoverability
+          and task efficiency.
         </h2>
         <img src={improvement4} alt="improvement 4" />
       </div>
