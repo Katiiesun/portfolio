@@ -19,7 +19,8 @@ const keyTakeaways =
   process.env.PUBLIC_URL + "images/key takeaways-heymilo.png";
 const components = process.env.PUBLIC_URL + "images/heymilo components.png";
 const originalDesign = process.env.PUBLIC_URL + "images/heymilooriginal.png";
-const designDecision = process.env.PUBLIC_URL + "images/heymilodesigndecision.png";
+const designDecision =
+  process.env.PUBLIC_URL + "images/heymilodesigndecision.png";
 
 function HeyMilo() {
   useEffect(() => {
@@ -63,7 +64,10 @@ function HeyMilo() {
             recruitment process by allowing recruiters to manage multiple AI
             agents and track candidate applications and evaluations efficiently.
           </h2>
-          <h1>My role</h1>
+          <h3>My role</h3>
+          <h1>
+            Owning a Full Redesign as the Sole Designer in a Fast-Moving Startup
+          </h1>
           <h2>
             When I joined HeyMilo AI, the team was looking to evolve their
             platform with a comprehensive V2 redesign that would address
@@ -91,7 +95,11 @@ function HeyMilo() {
       </div>
       <div className="divvy-section2">
         <div className="hm-problem">
-          <h1>Defining the Problem</h1>
+          <h3>Defining the Problem</h3>
+          <h1>
+            Recruiters Were Losing Time Navigating Instead of Evaluating
+            Candidates
+          </h1>
           <h2>
             The original design had several usability challenges: navigating
             between AI agents was confusing, the candidates page was
@@ -114,7 +122,9 @@ function HeyMilo() {
               in tracking candidates.
             </h1>
             {/* <br></br> */}
-            <h3><i>So how do we solve this?</i></h3>
+            <h3>
+              <i>So how do we solve this?</i>
+            </h3>
           </div>
           <h1>Competitor Analysis</h1>
           <h2>
@@ -123,7 +133,19 @@ function HeyMilo() {
             existing layouts and user experiences.
           </h2>
           <img src={atsAnalysis} alt="heymilo redesign" />
-          <h1>Key Takeaways</h1>
+          <h3>Key Takeaways</h3>
+          <h1>Why Most ATS Tools Optimize for Data Density, Not Human Focus</h1>
+          <h2>
+            {" "}
+            While reviewing different ATS platforms, I noticed a
+            recurring pattern: many tools prioritize showing as much information
+            as possible in a single view. Although this approach aims to support
+            thorough evaluation, it often increases cognitive load and slows
+            decision-making. At the same time, several platforms demonstrated
+            thoughtful patterns that successfully balance visibility with focus.
+            These strengths informed key design decisions in the HeyMilo
+            redesign.
+          </h2>
           <img src={keyTakeaways} alt="Competitor analysis key takeaways" />
           <h1>Framing the Solution</h1>
           <h2>
@@ -184,11 +206,14 @@ function HeyMilo() {
         </h2>
         <br></br>
         <br></br>
+        <h3>Core Design Decision</h3>
         <h1>Designing for Distinct Mental Modes</h1>
         <h2>
-        One of the core insights that shaped this redesign was recognizing that recruiters move between  
-    <span class="highlight2"> two distinct modes:</span> scanning multiple candidates to compare status and performance, 
-    and deep evaluation of an individual candidate’s interview results.
+          One of the core insights that shaped this redesign was recognizing
+          that recruiters move between
+          <span class="highlight2"> two distinct modes:</span> scanning multiple
+          candidates to compare status and performance, and deep evaluation of
+          an individual candidate’s interview results.
         </h2>
         <h2>
           {" "}
@@ -196,19 +221,19 @@ function HeyMilo() {
           view, forcing recruiters to constantly re-orient themselves and
           mentally filter information. This increased cognitive load and slowed
           down decision-making.
-         
         </h2>
         <img src={originalDesign} alt="Original screen" />
         <h2>
-            {" "}
-            A design decision I made was to separate these modes by introducing a
-            clear candidate list for quick scanning and comparison, paired with
-            a focused evaluation view that prioritizes depth, clarity, and
-            hierarchy. 
-          </h2>
-          <img src={designDecision} alt="Design decision" />
+          {" "}
+          A design decision I made was to separate these modes by introducing a
+          clear candidate list for quick scanning and comparison, paired with a
+          focused evaluation view that prioritizes depth, clarity, and
+          hierarchy.
+        </h2>
+        <img src={designDecision} alt="Design decision" />
         <div className="userTesting">
-          <h1>Feedback & Testing</h1>
+          <h3>Feedback & Testing</h3>
+          <h1>Rapid Iteration Through Team Walkthroughs and Flow Reviews</h1>
           <h2>
             Throughout the process, my team regularly held meetings and user
             flow run-throughs of my designs to spot any issues or points of
@@ -229,7 +254,7 @@ function HeyMilo() {
       <div className="hm-final">
         <div className="hm-section4">
           <div className="hmsection4-text">
-            <h1> Navigation Improvements</h1>
+            <h1> Navigation</h1>
             <h2>
               I introduced a{" "}
               <span className="highlight2">new sidebar navigation system </span>
