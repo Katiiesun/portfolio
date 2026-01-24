@@ -271,7 +271,7 @@ function WealthApp() {
         </div>
       </div>
       <div className="recos">
-        <h3>Recommendations + Next steps</h3>
+        <h3>Recommendations and Next steps</h3>
         <h1>Anchor Navigation to Preserve Context</h1>
         <h2>
           Maintain a persistent bottom navigation across primary screens to
