@@ -157,7 +157,7 @@ left: 35vw; */
 .pic img {
   width: 27vw;
   margin: 5em;
-  border-radius: 100px;
+  border-radius: 7vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -851,10 +851,10 @@ left: 35vw; */
   }
 
   .pic img {
-    width: 60vw;
+    width: 50vw;
     margin: 6vw auto 0 auto;
     padding: 0;
-    border-radius: 100px;
+    border-radius: 7vw;
   }
 
   .home h1 {
@@ -1014,6 +1014,8 @@ left: 35vw; */
     
     font-size: 3rem;
   }
+
+  
   
 }
 
