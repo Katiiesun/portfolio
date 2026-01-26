@@ -311,14 +311,14 @@ function DivvyUp() {
               </h2>
             </a>
 
-            <a href="/clearSpider" className="carousel-card">
+            {/* <a href="/clearSpider" className="carousel-card">
               <img src="images/clearspiderBarcode.png" alt="ClearSpider" />
               <h2>
                 {" "}
                 Reimagining a product landing page for increased visual
                 engagement
               </h2>
-            </a>
+            </a> */}
           </div>
 
           {/* <button class="carousel-btn right" aria-label="Scroll right">→</button> */}
