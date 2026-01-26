@@ -381,7 +381,7 @@ function Home() {
           </h1>
         </div> */}
 
-        <div className="clearSpider">
+        {/* <div className="clearSpider">
           <Link to="/clearSpider" className="clearSpider-card">
             <img src={clearSpider} alt="clear spider redesign" />
 
@@ -395,7 +395,7 @@ function Home() {
               <button>Illustrations</button>
             </div>
           </Link>
-        </div>
+        </div> */}
 
         {/* <div className="moodCraft">
           <img src={moodCraft} alt="moodcraft" />
