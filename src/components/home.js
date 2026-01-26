@@ -359,9 +359,9 @@ function Home() {
             </h2>
 
             <div className="DivvyUpButtons">
-              <button>Product thinking</button>
+              <button>Product Thinking</button>
               <button>App Architecture</button>
-              <button>Interaction design</button>
+              <button>Interaction Design</button>
             </div>
           </Link>
         </div>
