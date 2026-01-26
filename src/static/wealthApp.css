@@ -1023,18 +1023,28 @@ background-color: #3c6657;
 }
 
 .carousel-card {
-  min-width: 28vw;
-  border-radius: 2vw;
-  overflow: hidden;
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
-}
+ 
+    flex: 0 0 28vw;          
+    height: 29vw;           
+    border-radius: 2vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
+  }
+
 
 .carousel-card img {
   width: 100%;
-  display: block;
+  /* display: block; */
+   
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+
+  
   transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -1058,6 +1068,25 @@ background-color: #3c6657;
 .carousel-card:hover {
   transform: translateY(-0.4vw);
   box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
+}
+
+
+@media (max-width: 768px) {
+  .carousel {
+    align-items: flex-start;
+    gap: 5vw;
+  }
+
+  .carousel-card {
+    flex: 0 0 85vw;   /* full-width feel, still scrollable */
+    height: auto;     /* 🔑 allow card to grow naturally */
+  }
+
+  .carousel-card img {
+    aspect-ratio: auto;  /* 🔑 show full image */
+    height: auto;
+    object-fit: contain; /* or `cover` if you prefer slight cropping */
+  }
 }
 
 /* Arrows */
