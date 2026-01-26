@@ -111,8 +111,9 @@ background-color: #3c6657;
   }
 
   .wealthHeader img {
-    width: 100%;                /* image full width */
+    width: 78vw;                /* image full width */
     height: auto;
+   
   }
 
   .wealthHeader .wealthText h1 {
