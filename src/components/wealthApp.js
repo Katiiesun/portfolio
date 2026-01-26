@@ -271,15 +271,17 @@ function WealthApp() {
         </div>
       </div>
       <div className="recos">
-        <h3>Recommendations and Next steps</h3>
-        <h1>Anchor Navigation to Preserve Context</h1>
+        <h3>Recommendations and Next Steps</h3>
+        <h1>Navigation Should Adapt to User Intent</h1>
         <h2>
           Maintain a persistent bottom navigation across primary screens to
           reduce disorientation when users switch between investment views.
-          Testing showed that removing navigation elements mid-journey caused
-          users to lose their sense of place, increasing hesitation and
-          backtracking. Persistence prioritizes recognition over recall while
-          supporting confident exploration.
+          Testing showed that removing navigation mid-journey caused users to
+          lose their sense of place, increasing hesitation and backtracking.
+          Persistence supports recognition over recall and confident
+          exploration. In contrast, temporarily removing global navigation
+          during focused, multi-step flows reduced distraction and helped users
+          complete tasks with greater clarity and intent.
         </h2>
         <img src={improvement1} alt="improvement 1" />
 
