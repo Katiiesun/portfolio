@@ -283,7 +283,7 @@ function Home() {
           </h1>
           <p>
             I'm a Systems Design Engineering student @ UWaterloo passionate
-            about crafting experiences that simplify how people navigate the
+            about crafting meaningful experiences that simplify how people navigate the
             digital space ⚙️💡
           </p>
           <p>Currently designing @ Revvity! </p>
