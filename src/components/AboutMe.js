@@ -42,8 +42,7 @@ function AboutMe() {
             and reasoning to the design process 💪
           </p>
           <p>
-            Outside of designing, you'll likely find me sipping a matcha latte,
-            doing arts & crafts, thrifting, or binge watching modern family for
+            Outside of designing, you'll likely find me doing arts & crafts, thrifting, or binge watching modern family for
             the 10th time.{" "}
           </p>
           {/* <Photostack photos={photos} /> */}
