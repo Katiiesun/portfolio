@@ -48,6 +48,8 @@ function Home() {
   //   return () => clearInterval(intervalId);
   // }, []);
 
+
+  
   useEffect(() => {
     if (location.state?.scrollTo === "my-work") {
       const el = document.getElementById("my-work");

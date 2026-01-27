@@ -832,7 +832,7 @@ background-color: #3c6657;
   display: flex;
   /* margin-left: 18vw; */
   margin-top: 8vw;
-  margin-bottom: 4vw;
+  margin-bottom: 1vw;
   flex-direction: column;
   align-items: left;
   /* gap: 2vw; */
@@ -916,7 +916,7 @@ background-color: #3c6657;
   color: #484848;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
@@ -947,7 +947,7 @@ background-color: #3c6657;
   color: #484848;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
@@ -978,7 +978,7 @@ background-color: #3c6657;
   color: #484848;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
@@ -995,14 +995,14 @@ background-color: #3c6657;
 }
 
 .more-work {
-  padding: 3vw 4vw;
+  padding: 0vw 4vw;
 }
 
 .more-work h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 3vw;
-  font-family: acorn;
+  font-family: dm sans;
   color: rgb(130, 116, 108);
 }
 
@@ -1137,7 +1137,7 @@ background-color: #3c6657;
 .impact {
   display: flex;
   /* margin-left: 18vw; */
-  margin-top: 4vw;
+  margin-top: 0vw;
   margin-bottom: vw;
   flex-direction: column;
   align-items: left;
