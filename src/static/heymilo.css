@@ -620,7 +620,7 @@ margin-bottom: 3vw;
   .hm-handoff img,
   .hm-components img,
   .final-text img {
-    width: 90%;      /* nearly full viewport width */
+    width: 100%;      /* nearly full viewport width */
     height: auto;
     max-width: 95vw;  /* ensure it doesn’t overflow */
     margin-top: 4vw;  /* optional spacing above */
