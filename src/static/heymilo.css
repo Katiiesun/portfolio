@@ -571,8 +571,6 @@ margin-bottom: 3vw;
   .hmHeader,
   .hm-overview,
   .hm-section3,
-  .hm-components,
-  .hm-handoff,
   .hm-lessons,
   .final-text {
     width: 100% !important;
@@ -583,6 +581,9 @@ margin-bottom: 3vw;
     box-sizing: border-box;
   }
   .hm-problem{
+    width:100%;
+  }
+  .hm-handoff {
     width:100%;
   }
   
@@ -609,5 +610,22 @@ margin-bottom: 3vw;
     max-width: 100%;
     height: auto;
   }
+
+  .hmHeader img,
+  .hm-problem img,
+  .hm-section3 img,
+  .hm-section4 img,
+  .hm-section5 img,
+  .hm-section6 img,
+  .hm-handoff img,
+  .hm-components img,
+  .final-text img {
+    width: 90%;      /* nearly full viewport width */
+    height: auto;
+    max-width: 95vw;  /* ensure it doesn’t overflow */
+    margin-top: 4vw;  /* optional spacing above */
+    margin-bottom: 4vw; /* spacing below */
+  }
+
 
 }
