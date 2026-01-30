@@ -63,6 +63,21 @@
   align-items: flex-start;
 }
 
+@media (max-width: 768px) {
+  .cs-section1 {
+    margin-left: 0;        /* remove the 18vw push */
+    margin-right: 0;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+
+    padding-left: 6vw;     /* consistent mobile gutter */
+    padding-right: 6vw;
+
+    align-items: stretch;  /* prevents weird left alignment gaps */
+  }
+}
+
+
 .cs-overview {
   font-size: 0.8vw;
   width: 65vw;
@@ -76,6 +91,16 @@
   font-size: 1.1rem;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
+}
+
+@media (max-width: 768px) {
+  .cs-overview {
+    font-size: 1.05rem;       /* readable font on mobile */
+    width: 86%;           
+    padding-left: 6vw;        /* left/right padding */
+    padding-right: 6vw;
+    padding-bottom: 4vw;      /* adjust spacing */
+  }
 }
 
 .cs-overview h1 {

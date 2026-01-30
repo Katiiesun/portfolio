@@ -37,6 +37,16 @@ width:100vw;
     padding-bottom:5vw;
 }
 
+
+@media (max-width: 768px) {
+    .divvy-section2 {
+      padding-left: 6vw;     /* reset huge desktop gutter */
+      padding-right: 6vw;    /* add symmetric padding */
+      padding-top: 6vw;
+      padding-bottom: 6vw;
+    }
+  }
+  
 .divvy-section2 h2{
     display: flex;
     flex-direction: column;
@@ -48,6 +58,16 @@ width:100vw;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
 }
+
+@media (max-width: 768px) {
+    .divvy-section2 h2 {
+      width: 100%;        /* stop constrained text */
+      max-width: 100%;
+      font-size: 1.05rem; /* optional: slightly tighter for mobile */
+      line-height: 1.6rem;
+    }
+  }
+  
 
 
 .divvy-section2 img{
@@ -309,3 +329,84 @@ width:100vw;
     font-optical-sizing: auto;
 }
 
+/* MOBILE LAYOUT FIXES */
+@media (max-width: 768px) {
+
+    /* Sections: consistent padding */
+    .divvy-section2,
+    .divvy-section3,
+    .divvy-section4,
+    .divvy-section5,
+    .divvy-section6 {
+      padding-left: 6vw;
+      padding-right: 6vw;
+      padding-top: 6vw;
+      padding-bottom: 6vw;
+    }
+  
+    /* Headings: full width and readable size */
+    .divvy-section2 h2,
+    .divvy-section3 h2,
+    .divvy-section4 h2,
+    .divvy-section5 h2,
+    .divvy-section5 .divvy-onboarding h2,
+    .divvy-section6 h2,
+    .userPersona h2 {
+      width: 100%;
+      max-width: 100%;
+      font-size: 1.05rem;
+      line-height: 1.6rem;
+    }
+  
+    .divvy-section3 h1,
+    .divvy-section4 h1,
+    .divvy-section5 h1,
+    .divvy-section5 .divvy-onboarding h1,
+    .divvy-section6 h1 {
+      width: 100%;
+      font-size: 1.2rem; /* slightly smaller for mobile */
+    }
+  
+    /* Key findings columns: stack vertically */
+    .divvy-section2 .keyFindingsDivvy {
+      flex-direction: column;
+      gap: 4vw;
+    }
+  
+    .keyFindingsDivvy .keyFinding-1 h2,
+    .keyFindingsDivvy .keyFinding-1 h3,
+    .keyFindingsDivvy .keyFinding-2 h2,
+    .keyFindingsDivvy .keyFinding-2 h3,
+    .keyFindingsDivvy .keyFinding-3 h2,
+    .keyFindingsDivvy .keyFinding-3 h3 {
+      width: 100%;
+      font-size: 1.05rem;
+    }
+  
+    /* Images: scale down for mobile */
+    .divvy-section2 img,
+    .divvy-section3 img,
+    .divvy-section4 img,
+    .divvy-section5 .divvy-final img,
+    .divvy-section5 .divvy-onboarding img,
+    .divvy-section6 img {
+      width: 80%;       /* responsive width */
+      padding: 0;
+      margin-bottom: 4vw;
+    }
+  
+    /* Final section with 2-column layout: stack vertically */
+    .divvy-section5 .divvy-final {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .divvy-section5 .divvy-final h2 {
+      width: 80%;
+      padding-top: 4vw;
+      text-align: left;
+    }
+  
+  
+  }
+  

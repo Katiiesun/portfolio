@@ -70,6 +70,15 @@ columns:2;
   gap: 10vw;
 }
 
+@media (max-width: 768px) {
+  .subbud-intro {
+    flex-direction: column;   /* stack vertically */
+    width: 100%;              /* remove vw constraint */
+    gap: 6vw;  
+    padding:6vw;               /* vertical spacing between sections */
+  }
+}
+
 .project-duration h1 {
   flex: 1;
   font-size: 1.1rem;;
@@ -97,7 +106,7 @@ columns:2;
 .project-duration h2 {
   font-weight: 400;
   font-size: 1.1rem;;
-  margin-bottom: 0.5vw;
+  /* margin-bottom: 0.5vw; */
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
