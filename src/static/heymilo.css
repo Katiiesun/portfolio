@@ -570,7 +570,6 @@ margin-bottom: 3vw;
   /* 1. Force all main sections to behave */
   .hmHeader,
   .hm-overview,
-  .hm-problem,
   .hm-section3,
   .hm-components,
   .hm-handoff,
@@ -583,7 +582,12 @@ margin-bottom: 3vw;
     margin-right: 0 !important;
     box-sizing: border-box;
   }
+  .hm-problem{
+    width:100%;
+  }
+  
 
+  
   /* 2. Fix inner text widths that are causing overflow */
   .hm-components h2,
   .hm-overview h4,

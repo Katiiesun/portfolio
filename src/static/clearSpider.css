@@ -70,8 +70,8 @@
     margin-top: 6vw;
     margin-bottom: 6vw;
 
-    padding-left: 6vw;     /* consistent mobile gutter */
-    padding-right: 6vw;
+    padding-left: 0vw;     /* consistent mobile gutter */
+    padding-right: 0vw;
 
     align-items: stretch;  /* prevents weird left alignment gaps */
   }
