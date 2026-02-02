@@ -48,7 +48,7 @@ function WealthApp() {
             </div>
             <div className="project-duration">
               <h1>Duration</h1>
-              <h2>July 2025</h2>
+              <h2>1 Month</h2>
             </div>
             <div className="project-duration">
               <h1>Tools</h1>

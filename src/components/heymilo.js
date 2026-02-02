@@ -52,7 +52,7 @@ function HeyMilo() {
           </div>
           <div className="project-duration">
             <h1>Duration</h1>
-            <h2>November 2024 - January 2025</h2>
+            <h2>2 Months</h2>
           </div>
         </div>
         <div className="hm-overview">

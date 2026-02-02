@@ -57,7 +57,7 @@ function DivvyUp() {
           </div>
           <div className="project-duration">
             <h1>Duration</h1>
-            <h2>September - November 2024</h2>
+            <h2>1 Month</h2>
           </div>
         </div>
 
