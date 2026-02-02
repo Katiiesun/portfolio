@@ -355,6 +355,7 @@ function HeyMilo() {
             helping me adjust to the rapid iteration cycles and quick
             decision-making processes.
           </h2>
+          <br></br>
           <h3>02. Design Documentation & Development Handoff </h3>
           <h2>
             Working on my first large-scale project handoff taught me invaluable
