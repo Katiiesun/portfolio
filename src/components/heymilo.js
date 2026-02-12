@@ -102,12 +102,11 @@ function HeyMilo() {
           </h1>
           <h2>
             The original design had several usability challenges: navigating
-            between AI agents was confusing, the candidates page was
-            overwhelming, and the candidate evaluation views suffered from poor
-            scrolling designs and unclear information hierarchy. Additionally,
-            the connection between the Agents and Candidates views was not
-            clear, as the segmented control failed to effectively communicate
-            how the two contexts related.
+            between AI agents was not efficient, and the candidate evaluation views suffered from poor
+            scanability and unclear information hierarchy. Additionally, the
+            connection between the Agents and Candidates views was not clear, as
+            the segmented control failed to effectively communicate how the two
+            contexts related.
           </h2>
 
           <img src={heymiloOG} alt="heymilo redesign" />
@@ -137,9 +136,9 @@ function HeyMilo() {
           <h1>Why Most ATS Tools Optimize for Data Density, Not Human Focus</h1>
           <h2>
             {" "}
-            While reviewing different ATS platforms, I noticed a
-            recurring pattern: many tools prioritize showing as much information
-            as possible in a single view. Although this approach aims to support
+            While reviewing different ATS platforms, I noticed a recurring
+            pattern: many tools prioritize showing as much information as
+            possible in a single view. Although this approach aims to support
             thorough evaluation, it often increases cognitive load and slows
             decision-making. At the same time, several platforms demonstrated
             thoughtful patterns that successfully balance visibility with focus.
@@ -220,8 +219,14 @@ function HeyMilo() {
           In the original experience, these two tasks were blended into a single
           view, forcing recruiters to constantly re-orient themselves and
           mentally filter information. This increased cognitive load and slowed
-          down decision-making.
+          down decision-making. 
         </h2>
+        <h2>Additionally, each candidate was presented in a
+          large card format that occupied significant vertical space, resulting
+          in excessive scrolling and reduced scanability. In high-volume hiring
+          scenarios, this layout made it difficult for recruiters to quickly
+          compare applicants, further
+          increasing the friction in the evaluation process.</h2>
         <img src={originalDesign} alt="Original screen" />
         <h2>
           {" "}
