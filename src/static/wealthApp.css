@@ -131,7 +131,7 @@ background-color: #3c6657;
 
 .wealthContent {
   display: flex;
-  padding: 0 14vw;
+  padding: 0 18vw;
   align-items: center;
   align-self: stretch;
 }
@@ -278,7 +278,7 @@ background-color: #3c6657;
 
 .challenge-sec2 {
   display: flex;
-  padding: 4vw 14vw;
+  padding: 4vw 18vw;
   flex-direction: column;
   align-items: flex-start;
   align-self: stretch;
@@ -403,7 +403,7 @@ background-color: #3c6657;
   flex-direction: column;
   align-items: left;
   gap: 6vw;
-  padding: 0 14vw;
+  padding: 0 18vw;
 }
 
 .targetUsers {
@@ -487,12 +487,12 @@ background-color: #3c6657;
 } */
 
 .wealth-userneeds img {
-  width: 75vw;
+  width: 65vw;
   padding-top: 3vw;
 }
 
 .wealthProcess img {
-  width: 70vw;
+  width: 68vw;
 }
 
 .wealthProcess h1 {
@@ -699,6 +699,8 @@ background-color: #3c6657;
   font-weight: 700;
   line-height: normal;
   padding-bottom: 2vw;
+  padding-left: 4vw;
+ 
 }
 
 .keyinsights h3 {
@@ -709,6 +711,7 @@ background-color: #3c6657;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  padding-left: 4vw;
 }
 
 .insights {
@@ -737,6 +740,7 @@ background-color: #3c6657;
   font-style: normal;
   font-weight: 600;
   line-height: 1.2rem;
+padding-left: 0vw;
 }
 
 .insight1 h2 {
@@ -768,6 +772,7 @@ background-color: #3c6657;
   font-style: normal;
   font-weight: 600;
   line-height: 1.6rem;
+  padding-left: 0vw;
 }
 
 .insight2 h2 {
@@ -799,6 +804,7 @@ background-color: #3c6657;
   font-style: normal;
   font-weight: 600;
   line-height: 1.6rem;
+  padding-left: 0vw;
 }
 
 .insight3 h2 {
@@ -846,7 +852,7 @@ background-color: #3c6657;
   flex-direction: column;
   align-items: left;
   /* gap: 2vw; */
-  padding: 0 14vw;
+  padding: 0 18vw;
 }
 
 .recos img {
@@ -891,7 +897,7 @@ background-color: #3c6657;
   flex-direction: column;
   align-items: left;
   gap: 2vw;
-  padding: 0 14vw;
+  padding: 0 18vw;
 }
 
 .whatIlearned h1 {
@@ -1005,7 +1011,7 @@ background-color: #3c6657;
 }
 
 .more-work {
-  padding: 0vw 4vw;
+  /* padding: 0vw 4vw; */
 }
 
 .more-work h1 {
@@ -1014,6 +1020,7 @@ background-color: #3c6657;
   margin-bottom: 3vw;
   font-family: dm sans;
   color: rgb(130, 116, 108);
+  padding-left: 18vw;
 }
 
 .carousel-wrapper {
@@ -1027,7 +1034,10 @@ background-color: #3c6657;
   scroll-behavior: smooth;
   padding-bottom: 5vw;
   padding-top: 2vw;
+  padding-left: 18vw;
+  
 }
+
 
 .carousel::-webkit-scrollbar {
   display: none;
@@ -1045,6 +1055,7 @@ background-color: #3c6657;
     color: inherit;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
+    
   }
 
 
@@ -1070,6 +1081,7 @@ background-color: #3c6657;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
+  
 }
 
 .carousel-card:hover img {
@@ -1152,7 +1164,7 @@ background-color: #3c6657;
   flex-direction: column;
   align-items: left;
   /* gap: 2vw; */
-  padding: 0 14vw;
+  padding: 0 18vw;
 }
 
 .impact h3 {
