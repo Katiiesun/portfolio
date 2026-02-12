@@ -340,27 +340,34 @@ function WealthApp() {
         <h1>What I learned</h1>
         <div className="learnings">
           <div className="learning1">
-            <h1>🕹️ Maintain control</h1>
+            <h1>🕹️ Maintain Control</h1>
             <h2>
-              Isolating navigation variables in high-fidelity prototypes was
-              critical to ensuring feedback reflected structure, not visual
-              noise.
+              When creating testing prototypes with Figma Make, it was easy for
+              the different versions to drift apart visually. Isolating navigation
+              variables in the high-fidelity prototypes was essential to
+              ensuring that the feedback we received focused on structure and
+              usability rather than being influenced by visual inconsistencies.
             </h2>
           </div>
           <div className="learning2">
             <h1>🧠 Domain Expertise</h1>
             <h2>
-              Learning about the problem space and its unique challenges was
-              essential to making informed design decisions that reflected real
-              user needs.
+              Coming into this project with very little knowledge in the domain,
+              I found it was really important to learn by listening more and
+              asking questions to clarify assumptions I had. Learning about the
+              problem space and its unique challenges was essential to making
+              informed design decisions that reflected real user needs.
             </h2>
           </div>
           <div className="learning3">
             <h1>💡 Be Proactive</h1>
             <h2>
-              Testing future-scope features early prevents costly rework.
-              Communicating design concerns with the product team is critical to
-              reduce scalability risks.
+              Testing future-facing features early helps prevent costly rework
+              down the line. As a designer, I brought a perspective that may
+              have otherwise been overlooked by raising potential concerns
+              early. This experience reinforced to me the importance to
+              proactively communicate design considerations with the product
+              team to minimize scalability risks.
             </h2>
           </div>
         </div>
