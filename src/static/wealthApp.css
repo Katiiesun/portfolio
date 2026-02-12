@@ -1098,6 +1098,7 @@ padding-left: 0vw;
   .carousel {
     align-items: flex-start;
     gap: 5vw;
+    padding:3vw;
   }
 
   .carousel-card {
