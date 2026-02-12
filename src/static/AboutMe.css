@@ -226,10 +226,31 @@
     animation: fadeIn 1s;
   }
 
+  .aboutme p {
+    font-size: 1.3rem;
+    /* position: absolute;
+      transform: translate(40%, 60%); */
+    /* margin: auto; */
+    color: #cdcdcd;
+    width: 40vw;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    line-height: 140%;
+  }
+
+
+  .aboutme {
+    margin: 2vh;
+    padding-bottom: 20px;
+    overflow: hidden;
+    animation: fadeIn 1s;
+  } 
+
   .musicvinyls {
     column-count: 1;
     padding-bottom: 10vw;
-    margin-left: 25vw;
+    margin-left: 18vw;
   }
   .music .breezeblocksVinyl {
     /* position: absolute;
@@ -266,7 +287,7 @@
   .breezeblocks h2 {
     font-size: 1.6rem;
     color: #5e5555;
-    width: 40vw;
+    width: 55vw;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 650;
@@ -275,7 +296,7 @@
   .everseen h2 {
     font-size: 1.6rem;
     color: #5e5555;
-    width: 40vw;
+    width: 55vw;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 650;
@@ -285,7 +306,7 @@
   .ivy h2 {
     font-size: 1.6rem;
     color: #5e5555;
-    width: 40vw;
+    width: 55vw;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 650;
