@@ -44,9 +44,9 @@
   
   .footerHome h1 {
     margin: 0 10px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: none;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     background-color: transparent;
     color: rgb(130, 116, 108);
     font-family: acorn-medium;
@@ -84,13 +84,13 @@
   
   .footerAboutMe h1 {
     margin: 0 10px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: none;
-    font-size: 1.6rem;
     background-color: transparent;
     color: rgb(130, 116, 108);
     font-family: acorn-medium;
     font-weight: bold;
+    font-size: 1.4rem;
   }
   
   .footerAboutMe button:hover {
@@ -123,9 +123,9 @@
   
   .footerSubBud h1 {
     margin: 0 10px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: none;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     background-color: transparent;
     color: rgb(130, 116, 108);
     font-family: acorn-medium;
