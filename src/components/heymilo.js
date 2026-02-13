@@ -22,6 +22,9 @@ const originalDesign = process.env.PUBLIC_URL + "images/heymilooriginal.png";
 const designDecision =
   process.env.PUBLIC_URL + "images/heymilodesigndecision.png";
 
+  const systemdesign =
+  process.env.PUBLIC_URL + "images/systemdesign.png";
+
 function HeyMilo() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -108,8 +111,11 @@ function HeyMilo() {
             the navigation tabs failed to effectively communicate how the two
             contexts related.
           </h2>
+          
 
           <img src={heymiloOG} alt="heymilo redesign" />
+
+          <img src={systemdesign} alt="heymilo redesign" />
           <div className="problem-statement">
             <h2>Problem Statement</h2>
             <h1 class="headline">
