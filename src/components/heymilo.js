@@ -117,7 +117,7 @@ function HeyMilo() {
               evaluations was
               <span class="highlight"> wasting recruiters’ valuable time </span>
               in searching for information,
-              <span class="highlight"> leading to frustration </span>
+              <span class="highlight"> leading to low confidence </span>
               in tracking candidates.
             </h1>
             {/* <br></br> */}
