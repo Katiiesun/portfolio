@@ -105,7 +105,7 @@ function HeyMilo() {
             between AI agents was not efficient, and the candidate evaluation views suffered from poor
             scanability and unclear information hierarchy. Additionally, the
             connection between the Agents and Candidates views was not clear, as
-            the segmented control failed to effectively communicate how the two
+            the navigation tabs failed to effectively communicate how the two
             contexts related.
           </h2>
 
