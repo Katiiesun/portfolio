@@ -62,14 +62,14 @@ function AboutMe() {
         <div className="musicvinyls">
           <div className="breezeblocks">
             {" "}
-            <a target="_blank" href="https://youtu.be/tjuIzZ8uldo">
+            <a target="_blank" href="https://www.youtube.com/watch?v=cmaYpQniliE&list=RDcmaYpQniliE&start_radio=1">
               <img
                 className="breezeblocksVinyl"
                 src={breezeblocks}
-                alt="homemade dynamite vinyl"
+                alt="ladygirl vinyl"
               />
             </a>
-            <h2>Homemade Dynamite - Lorde</h2>
+            <h2>Ladygirl - Malcom Todd</h2>
           </div>
 
           <div className="everseen">
