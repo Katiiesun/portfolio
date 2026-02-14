@@ -41,6 +41,25 @@
   border-radius: 50%;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;   /* reduce from 40px if too large */
+  width: 100%;
+  box-sizing: border-box;  /* VERY important */
+}
+
+.nav-logo {
+  height: 40px; /* adjust size */
+  cursor: pointer;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 24px;
+}
+
 /* Projects page variant */
 .projectsnav button {
   color: #484848;

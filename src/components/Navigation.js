@@ -31,6 +31,8 @@ import "../static/Navigation.css";
 const Navigation = ({ className }) => {
   const navigate = useNavigate();
   const location = useLocation();
+  const logo =
+  process.env.PUBLIC_URL + "images/icon.png";
 
   const aboutMeClick = () => {
     navigate("/about-me");
@@ -45,6 +47,20 @@ const Navigation = ({ className }) => {
     );
   };
   
+  const logoClick = () => {
+    if (location.pathname === "/") {
+      // Already on home → just scroll up smoothly
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      // Navigate home first
+      navigate("/");
+  
+      // Then scroll after route loads
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: "instant" });
+      }, 0);
+    }
+  };
 
   const myWorkClick = () => {
     if (location.pathname === "/") {
@@ -61,9 +77,18 @@ const Navigation = ({ className }) => {
 
   return (
     <div className={`container ${className}`}>
+     <img
+      src={logo}
+      alt="Katie Sun Logo"
+      className="nav-logo"
+      onClick={logoClick}
+    />
+
+    <div className="nav-buttons">
       <button onClick={myWorkClick}>My Work</button>
       <button onClick={aboutMeClick}>About Me</button>
       <button onClick={resumeClick}>Resume</button>
+    </div>
     </div>
   );
 };
