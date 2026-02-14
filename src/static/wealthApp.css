@@ -1102,8 +1102,12 @@ padding-left: 0vw;
   }
 
   .carousel-card {
-    flex: 0 0 85vw;   /* full-width feel, still scrollable */
-    height: auto;     /* 🔑 allow card to grow naturally */
+
+    flex: 0 0 85vw;
+  height: auto;      
+  min-height: unset;     
+  overflow: visible;
+   
   }
 
   .carousel-card img {
@@ -1149,6 +1153,7 @@ padding-left: 0vw;
   .carousel-card {
     min-width: 100%;          /* full width */
     width: 100%;
+    height:100%;
     margin: 0;                /* remove horizontal spacing */
   }
 
