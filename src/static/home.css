@@ -912,8 +912,8 @@ left: 35vw; */
   .heyMilo-card img,
   .divvyUp-card img,
   .clearSpider-card img {
-    height: auto;
-    max-height: 60vw;
+    width: 100%;
+  height: auto;
     border-radius: 2vw;
   }
 
