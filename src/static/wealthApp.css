@@ -522,7 +522,7 @@ background-color: #3c6657;
   align-items: flex-start;
   align-self: stretch;
   border-radius: 40px 40px 0 0;
-  background: #ebebeb;
+  background-color:rgb(240, 240, 240);
 }
 
 .whatwasTested-sec4 h1 {
