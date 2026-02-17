@@ -301,7 +301,8 @@ left: 35vw; */
 
 
 .wealthApp {
-  margin-left: 20vw;
+  width: 60%; 
+  margin: 0 auto; 
   margin-bottom: 5vw;
 }
 /* .wealthApp img{
@@ -389,7 +390,8 @@ left: 35vw; */
 }
 
 .heyMilo {
-  margin-left: 20vw;
+  width: 60%; 
+  margin: 0 auto; 
   margin-bottom: 5vw;
 }
 /* .heyMilo img{
@@ -458,7 +460,8 @@ left: 35vw; */
 }
 
 .DivvyUp {
-  margin-left: 20vw;
+  width: 60%; 
+  margin: 0 auto; 
   margin-bottom: 5vw;
 }
 
@@ -893,8 +896,10 @@ left: 35vw; */
     width: 90vw;
     height: auto;
     margin: 6vw auto;
-    padding: 6vw;
+    padding: 4vw;
     border-radius: 4vw;
+
+   
   }
 
   .wealthApp-card h2,
@@ -931,8 +936,9 @@ left: 35vw; */
   .heyMilo,
   .DivvyUp,
   .clearSpider {
-    margin-left: 0;
-    margin-bottom: 8vw;
+    width: 60%; 
+  margin: 0 auto; 
+  margin-bottom: 5vw;
   }
 
   .projectsSection .workTitle {
