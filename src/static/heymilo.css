@@ -296,7 +296,7 @@
 }
 
 .hm-section4 img {
-  width: 40vw;
+  width: 50vw;
   padding: 5vw;
   transition: transform 0.3s ease;
 }
@@ -319,19 +319,19 @@
   font-optical-sizing: auto;
 }
 .hmsection4-text {
-  padding-left: 12vw;
-  padding-top: 8vw;
+  padding-left: 8vw;
+  padding-top: 12vw;
   width: 30vw;
 }
 
 .hm-section5 {
   columns: 2;
   display: flex;
-  padding-left: 6vw;
+  padding-left: 4vw;
 }
 
 .hm-section5 img {
-  width: 40vw;
+  width: 50vw;
   padding: 5vw;
   transition: transform 0.3s ease;
 }
@@ -364,7 +364,7 @@
 }
 
 .hm-section6 img {
-  width: 40vw;
+  width: 50vw;
   padding: 5vw;
   transition: transform 0.3s ease;
 }
@@ -387,7 +387,7 @@
   font-optical-sizing: auto;
 }
 .hmsection6-text {
-  padding-left: 12vw;
+  padding-left: 8vw;
   padding-top: 8vw;
   width: 30vw;
 
