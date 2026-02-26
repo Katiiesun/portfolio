@@ -43,7 +43,7 @@ const Navigation = ({ className }) => {
 
   const resumeClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1oICFvhx3l8s5t9ni0doy2CeKYtshR22R/view?usp=sharing"
+      "https://drive.google.com/file/d/1xsRybfdygC5RJwNtkD_w3STIukw4rYb0/view?usp=sharing"
     );
   };
   
