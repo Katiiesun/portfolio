@@ -22,8 +22,7 @@ const originalDesign = process.env.PUBLIC_URL + "images/heymilooriginal.png";
 const designDecision =
   process.env.PUBLIC_URL + "images/heymilodesigndecision.png";
 
-  const systemdesign =
-  process.env.PUBLIC_URL + "images/systemdesign.png";
+const systemdesign = process.env.PUBLIC_URL + "images/systemdesign.png";
 
 function HeyMilo() {
   useEffect(() => {
@@ -105,13 +104,12 @@ function HeyMilo() {
           </h1>
           <h2>
             The original design had several usability challenges: navigating
-            between AI agents was not efficient, and the candidate evaluation views suffered from poor
-            scanability and unclear information hierarchy. Additionally, the
-            connection between the Agents and Candidates views was not clear, as
-            the navigation tabs failed to effectively communicate how the two
-            contexts related.
+            between AI agents was not efficient, and the candidate evaluation
+            views suffered from poor scanability and unclear information
+            hierarchy. Additionally, the connection between the Agents and
+            Candidates views was not clear, as the navigation tabs failed to
+            effectively communicate how the two contexts related.
           </h2>
-          
 
           <img src={heymiloOG} alt="heymilo redesign" />
 
@@ -225,14 +223,15 @@ function HeyMilo() {
           In the original experience, these two tasks were blended into a single
           view, forcing recruiters to constantly re-orient themselves and
           mentally filter information. This increased cognitive load and slowed
-          down decision-making. 
+          down decision-making.
         </h2>
-        <h2>Additionally, each candidate was presented in a
-          large card format that occupied significant vertical space, resulting
-          in excessive scrolling and reduced scanability. In high-volume hiring
-          scenarios, this layout made it difficult for recruiters to quickly
-          compare applicants, further
-          increasing the friction in the evaluation process.</h2>
+        <h2>
+          Additionally, each candidate was presented in a large card format that
+          occupied significant vertical space, resulting in excessive scrolling
+          and reduced scanability. In high-volume hiring scenarios, this layout
+          made it difficult for recruiters to quickly compare applicants,
+          further increasing the friction in the evaluation process.
+        </h2>
         <img src={originalDesign} alt="Original screen" />
         <h2>
           {" "}
@@ -359,12 +358,15 @@ function HeyMilo() {
           <h1>Lessons Learned</h1>
           <h3>01. Adapting to Startup Pace </h3>
           <h2>
-            Redesigning an entire platform within a tight timeline initially
-            seemed quite daunting to me. However, this challenge taught me to
-            adapt quickly and work efficiently in a fast-paced startup
-            environment. The supportive team culture played a crucial role in
-            helping me adjust to the rapid iteration cycles and quick
-            decision-making processes.
+            Working on a full platform redesign in a startup environment taught
+            me that moving fast isn’t just about speed but also about
+            clarity under constraint. Requirements shifted, context was
+            incomplete, and timelines were tight. I learned to focus less on
+            perfecting every detail and more on identifying what truly needed to
+            change. I prioritized asking the right questions and aligning on what
+            success would look like. This experience strengthened my ability
+            to design with intention and make thoughtful decisions even when
+            information and time is limited.
           </h2>
           <br></br>
           <h3>02. Design Documentation & Development Handoff </h3>
