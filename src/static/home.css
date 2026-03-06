@@ -20,6 +20,7 @@
 .home {
   margin: 0%;
   overflow: hidden;
+ 
 }
 
 .homeBackground img {
@@ -34,6 +35,7 @@
 left: 35vw; */
   width: 10vw;
   animation: spin 3s linear; /* Apply spin animation */
+  
 }
 
 @keyframes spin {
@@ -43,6 +45,8 @@ left: 35vw; */
   to {
     transform: rotate(360deg); /* Rotate fully (360 degrees) */
   }
+
+ 
 }
 .folkloreCD img:hover {
   transform: scale(1.1);
@@ -59,7 +63,7 @@ left: 35vw; */
   color: #e0e0da;
   font-family: "acorn-bold";
   font-weight: 50;
-  animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
+  animation: fadeInUp 0.7s forwards; /* changed name to fadeInUp and added forwards to keep final state */
 }
 
 @keyframes fadeInUp {
@@ -330,6 +334,8 @@ left: 35vw; */
 }
 .wealthApp-card:hover {
   transform: translateY(-0.4vw);
+
+  /* transform: scale(0.95); */
   /* transform: scale(0.5); */
   box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
 }

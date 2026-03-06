@@ -33,6 +33,16 @@
     opacity: 1;
   }
 }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* starts slightly below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* ends at normal position */
+  }
+}
 
 .aboutme h1 {
   font-size: 5rem;
@@ -41,6 +51,7 @@
   color: #e0e0da;
   font-family: "acorn-bold";
   font-weight: 50;
+  animation: fadeInUp 0.9s forwards;
 }
 
 .aboutmesection {
@@ -52,6 +63,7 @@
   padding: 5vw;
   background-color: #2d2727;
   overflow: hidden;
+  
 }
 
 .aboutme p {
@@ -64,7 +76,7 @@
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 450;
-
+  animation: fadeInUp 0.7s forwards;
   line-height: 140%;
 }
 
@@ -75,7 +87,7 @@
   margin-top: 10vw;
   margin-left: 3vw;
   border-radius: 50px;
-  animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
+  animation: fadeInUp 0.7s forwards; /* changed name to fadeInUp and added forwards to keep final state */
 }
 
 @keyframes fadeInUp {
