@@ -1011,7 +1011,7 @@ padding-left: 0vw;
 }
 
 .more-work {
-  /* padding: 0vw 4vw; */
+  padding: 0vw 18vw;
 }
 
 .more-work h1 {
@@ -1020,7 +1020,7 @@ padding-left: 0vw;
   margin-bottom: 3vw;
   font-family: dm sans;
   color: rgb(130, 116, 108);
-  padding-left: 18vw;
+  /* padding-left: 18vw; */
 }
 
 .carousel-wrapper {
@@ -1034,7 +1034,7 @@ padding-left: 0vw;
   scroll-behavior: smooth;
   padding-bottom: 5vw;
   padding-top: 2vw;
-  padding-left: 18vw;
+  /* padding-left: 18vw; */
   
 }
 
@@ -1159,6 +1159,10 @@ padding-left: 0vw;
     overflow-x: visible;      /* remove horizontal scroll */
     gap: 6vw;                 /* spacing between cards */
     padding-bottom: 0;
+  }
+
+  .more-work {
+    padding: 0vw 6vw;
   }
 
   .carousel-card {
