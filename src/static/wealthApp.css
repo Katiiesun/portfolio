@@ -30,8 +30,6 @@
   border-radius: 0 0 40px 40px;
 }
 
-
-
 /* .wealthHeader:hover{
 background-color: #3c6657;
 } */
@@ -98,26 +96,25 @@ background-color: #3c6657;
 
 @media (max-width: 768px) {
   .wealthHeader {
-    flex-direction: column;     /* stack text then image */
+    flex-direction: column; /* stack text then image */
     align-items: flex-start;
     gap: 6vw;
-    padding: 10vw 8vw;          /* more breathing room */
+    padding: 10vw 8vw; /* more breathing room */
   }
 
   .wealthText {
-    width: 100%;                /* text spans full width */
-    height: auto;               /* allow natural height */
+    width: 100%; /* text spans full width */
+    height: auto; /* allow natural height */
     padding-top: 0;
   }
 
   .wealthHeader img {
-    width: 78vw;                /* image full width */
+    width: 78vw; /* image full width */
     height: auto;
-   
   }
 
   .wealthHeader .wealthText h1 {
-    padding-top: 0;             /* remove desktop spacing */
+    padding-top: 0; /* remove desktop spacing */
     font-size: 1.9rem;
     line-height: 2.4rem;
   }
@@ -127,7 +124,6 @@ background-color: #3c6657;
     line-height: 1.7rem;
   }
 }
-
 
 .wealthContent {
   display: flex;
@@ -157,13 +153,12 @@ background-color: #3c6657;
 
 @media (max-width: 768px) {
   .wealth-intro {
-    flex-direction: column;   /* stack sections */
-    width: 100%;              /* remove vw constraint */
-    gap: 6vw;    
-    padding:6vw;          
+    flex-direction: column; /* stack sections */
+    width: 100%; /* remove vw constraint */
+    gap: 6vw;
+    padding: 6vw;
   }
 }
-
 
 .wealthsection1 .confidential {
   display: flex;
@@ -239,8 +234,7 @@ background-color: #3c6657;
   line-height: normal;
 }
 
-
-.wealth-overview h3{
+.wealth-overview h3 {
   color: #888888;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -250,7 +244,7 @@ background-color: #3c6657;
   line-height: normal;
 }
 
-.challenge-sec2 h3{
+.challenge-sec2 h3 {
   color: #85b69b;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -522,7 +516,7 @@ background-color: #3c6657;
   align-items: flex-start;
   align-self: stretch;
   border-radius: 40px 40px 0 0;
-  background-color:rgb(240, 240, 240);
+  background-color: rgb(240, 240, 240);
 }
 
 .whatwasTested-sec4 h1 {
@@ -603,7 +597,6 @@ background-color: #3c6657;
   box-sizing: border-box;
 }
 
-
 .bottomnavtext h1 {
   font-size: 1.3rem;
   font-weight: 600;
@@ -620,7 +613,6 @@ background-color: #3c6657;
   white-space: normal;
   overflow-wrap: break-word;
 }
-
 
 .scrollvstab {
   /* columns: 2; */
@@ -700,7 +692,6 @@ background-color: #3c6657;
   line-height: normal;
   padding-bottom: 2vw;
   padding-left: 4vw;
- 
 }
 
 .keyinsights h3 {
@@ -740,7 +731,7 @@ background-color: #3c6657;
   font-style: normal;
   font-weight: 600;
   line-height: 1.2rem;
-padding-left: 0vw;
+  padding-left: 0vw;
 }
 
 .insight1 h2 {
@@ -842,7 +833,6 @@ padding-left: 0vw;
     overflow-wrap: break-word;
   }
 }
-
 
 .recos {
   display: flex;
@@ -1035,38 +1025,32 @@ padding-left: 0vw;
   padding-bottom: 5vw;
   padding-top: 2vw;
   /* padding-left: 18vw; */
-  
 }
-
 
 .carousel::-webkit-scrollbar {
   display: none;
 }
 
 .carousel-card {
- 
-    flex: 0 0 28vw;          
-    height: 29vw;           
-    border-radius: 2vw;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: inherit;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
-    
-  }
-
+  flex: 0 0 28vw;
+  height: 29vw;
+  border-radius: 2vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
+}
 
 .carousel-card img {
   width: 100%;
   /* display: block; */
-   
-    aspect-ratio: 16 / 10;
-    object-fit: cover;
 
-  
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+
   transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -1081,7 +1065,6 @@ padding-left: 0vw;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  
 }
 
 .carousel-card:hover img {
@@ -1093,34 +1076,30 @@ padding-left: 0vw;
   box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
 }
 
-
 @media (max-width: 768px) {
   .carousel {
     align-items: flex-start;
     gap: 5vw;
-    padding:4vw;
+    padding: 4vw;
   }
 
   .carousel-card {
-
     flex: 0 0 85vw;
-  height: auto;      
-  min-height: unset;     
-  overflow: visible;
-  border-radius: 2vw;
-   
+    height: auto;
+    min-height: unset;
+    overflow: visible;
+    border-radius: 2vw;
   }
   .carousel-card:hover {
     transform: translateY(-0.4vw);
     box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
   }
-  
 
   .carousel-card img {
-    aspect-ratio: auto;  /* 🔑 show full image */
+    aspect-ratio: auto; /* 🔑 show full image */
     height: auto;
     object-fit: contain;
-    border-radius:2vw;
+    border-radius: 2vw;
   }
 
   .carousel-card:hover img {
@@ -1151,13 +1130,12 @@ padding-left: 0vw;
   right: -2vw;
 }
 
-
 @media (max-width: 768px) {
   .carousel {
     display: flex;
-    flex-direction: column;   /* stack vertically */
-    overflow-x: visible;      /* remove horizontal scroll */
-    gap: 6vw;                 /* spacing between cards */
+    flex-direction: column; /* stack vertically */
+    overflow-x: visible; /* remove horizontal scroll */
+    gap: 6vw; /* spacing between cards */
     padding-bottom: 0;
   }
 
@@ -1166,14 +1144,14 @@ padding-left: 0vw;
   }
 
   .carousel-card {
-    min-width: 100%;          /* full width */
+    min-width: 100%; /* full width */
     width: 100%;
-    height:100%;
-    margin: 0;                /* remove horizontal spacing */
+    height: 100%;
+    margin: 0; /* remove horizontal spacing */
   }
 
   .carousel-card img {
-    width: 100%;              /* keep full-width images */
+    width: 100%; /* keep full-width images */
   }
 }
 
@@ -1218,7 +1196,6 @@ padding-left: 0vw;
   color: #333;
   margin-bottom: 0.75rem;
 }
-
 
 @media (max-width: 768px) {
   .wealthContent,

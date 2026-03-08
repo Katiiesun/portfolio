@@ -34,16 +34,16 @@ function AboutMe() {
           <h1>About Me</h1>
           <p>
             Hey! I'm a product designer with a background in visual arts and
-            engineering 🎨 ⚙️ Creating art since I was young helped me discover
-            that I love communicating ideas through visuals. I find I work best in
-            environments that foster creativity and innovation while also
-            valuing grounded, evidence-based approaches. Problem-solving is at
-            the heart of my work, and I am committed to bringing both creativity
-            and reasoning to the design process 💪
+            engineering 🎨 ⚙️ Growing up creating art helped me discover that I
+            love communicating ideas through visuals. Today, I approach design
+            by listening first, always staying curious, and never assuming I
+            already know the answer. Problem-solving is at the heart of my work,
+            and I am committed to bringing both creativity and reasoning to the
+            design process 💪
           </p>
           <p>
-            Outside of designing, you'll likely find me doing arts & crafts, thrifting, or binge watching modern family for
-            the 10th time.{" "}
+            Outside of designing, you'll likely find me doing arts & crafts,
+            thrifting, or binge watching modern family for the 10th time.{" "}
           </p>
           {/* <Photostack photos={photos} /> */}
         </div>
@@ -62,7 +62,10 @@ function AboutMe() {
         <div className="musicvinyls">
           <div className="breezeblocks">
             {" "}
-            <a target="_blank" href="https://www.youtube.com/watch?v=cmaYpQniliE&list=RDcmaYpQniliE&start_radio=1">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=cmaYpQniliE&list=RDcmaYpQniliE&start_radio=1"
+            >
               <img
                 className="breezeblocksVinyl"
                 src={breezeblocks}
