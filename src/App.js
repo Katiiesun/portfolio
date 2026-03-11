@@ -34,7 +34,7 @@ import Artwork from "./components/Artwork";
 import DivvyUp from "./components/DivvyUp";
 import HeyMilo from "./components/heymilo";
 import WealthApp from "./components/wealthApp";
-import { Analytics } from "@vercel/analytics/react";
+
 
 function App() {
   return (
