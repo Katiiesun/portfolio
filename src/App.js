@@ -27,13 +27,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
 import AboutMe from "./components/AboutMe";
-import Subbud from "./components/subbud"; 
+import Subbud from "./components/subbud";
 import ClearSpider from "./components/clearSpider";
 import MoreProjects from "./components/moreProjects";
 import Artwork from "./components/Artwork";
 import DivvyUp from "./components/DivvyUp";
 import HeyMilo from "./components/heymilo";
 import WealthApp from "./components/wealthApp";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -42,13 +43,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/subbud" element={<Subbud />} /> 
-          <Route path="/clearSpider" element={<ClearSpider />} /> 
-          <Route path="/moreProjects" element={<MoreProjects />} /> 
-          <Route path="/Artwork" element={<Artwork />} /> 
-          <Route path="/DivvyUp" element={<DivvyUp />} /> 
-          <Route path="/heymilo" element={<HeyMilo />} /> 
-          <Route path="/wealthApp" element={<WealthApp />} /> 
+          <Route path="/subbud" element={<Subbud />} />
+          <Route path="/clearSpider" element={<ClearSpider />} />
+          <Route path="/moreProjects" element={<MoreProjects />} />
+          <Route path="/Artwork" element={<Artwork />} />
+          <Route path="/DivvyUp" element={<DivvyUp />} />
+          <Route path="/heymilo" element={<HeyMilo />} />
+          <Route path="/wealthApp" element={<WealthApp />} />
         </Routes>
       </div>
     </Router>
@@ -59,7 +60,6 @@ export default App;
 
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { useEffect, useState } from "react";
-
 
 // import Home from "./components/home";
 // import AboutMe from "./components/AboutMe";
@@ -105,4 +105,3 @@ export default App;
 // }
 
 // export default App;
-
