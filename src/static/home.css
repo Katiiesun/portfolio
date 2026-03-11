@@ -190,9 +190,9 @@
   line-height: 150%;
 
   color: #2d2727;
-  width: 580px;
+  width: 42vw;
   font-weight: 400;
-  display: flex;
+  /* display: flex; */
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   animation: fadeInUp 0.7s forwards;

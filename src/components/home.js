@@ -33,9 +33,9 @@ function Home() {
   const mywork = process.env.PUBLIC_URL + "images/mywork.png";
 
   const snoopyOne = process.env.PUBLIC_URL + "images/snoop1.png";
-const snoopyTwo = process.env.PUBLIC_URL + "images/snoop2.png";
+  const snoopyTwo = process.env.PUBLIC_URL + "images/snoop2.png";
 
-const [currentImg, setCurrentImg] = useState(snoopyOne);
+  const [currentImg, setCurrentImg] = useState(snoopyOne);
 
   // useEffect(() => {
   //   const initialText = "Product Designer, Engineering Student";
@@ -56,9 +56,9 @@ const [currentImg, setCurrentImg] = useState(snoopyOne);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImg(prev => (prev === snoopyOne ? snoopyTwo : snoopyOne));
+      setCurrentImg((prev) => (prev === snoopyOne ? snoopyTwo : snoopyOne));
     }, 500); // 500ms = half a second
-  
+
     return () => clearInterval(interval); // cleanup on unmount
   }, []);
 
@@ -297,7 +297,7 @@ const [currentImg, setCurrentImg] = useState(snoopyOne);
         <div className="homeBackground">
           <img ref={deskRef} src={background} alt="background" />
         </div> */}
-        {/* <div className="folkloreCD">
+      {/* <div className="folkloreCD">
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -306,7 +306,7 @@ const [currentImg, setCurrentImg] = useState(snoopyOne);
             <img src={newCD} alt="cd" />
           </a>
         </div> */}
-        {/* <h1>Katie Sun</h1>
+      {/* <h1>Katie Sun</h1>
         <h2 className="typing-text">{text}</h2>
       </div> */}
       <div id="intro" className="intro">
@@ -323,11 +323,12 @@ const [currentImg, setCurrentImg] = useState(snoopyOne);
             </span>
           </h1>
           <p>
-            I'm a Product Designer studying Systems Design Engineering @ UWaterloo. I'm passionate
-            about crafting meaningful experiences that simplify how people
-            navigate the digital space ⚙️💡
+            I'm a <b>Product Designer</b> studying Systems Design Engineering @
+            <i>UWaterloo</i>. I'm passionate about crafting meaningful experiences that
+            simplify how people navigate the digital space ⚙️💡
           </p>
-          <p>Currently designing @ Revvity! </p>
+
+          <p>Currently designing @ <i>Revvity!</i> </p>
           <div className="intro-button">
             <button
               onClick={() => {
@@ -348,8 +349,8 @@ const [currentImg, setCurrentImg] = useState(snoopyOne);
           </a> */}
         </div>
         <div className="animated-pic">
-  <img src={currentImg} alt="animated pic" />
-</div>
+          <img src={currentImg} alt="animated pic" />
+        </div>
       </div>
 
       <div className="matcha-spill">
@@ -359,8 +360,6 @@ const [currentImg, setCurrentImg] = useState(snoopyOne);
         <div className="workTitle">
           {/* <h1>My work</h1> */}
           <img src={mywork} alt="my work text" />
-         
-          
         </div>
 
         {/* <div className="heyMilo">
@@ -379,32 +378,31 @@ const [currentImg, setCurrentImg] = useState(snoopyOne);
           </Link>
         </div> */}
 
-<div className="project">
-  <Link to="/heymilo" className="project-row">
+        <div className="project">
+          <Link to="/heymilo" className="project-row">
+            <div className="project-image">
+              <img src={heyMilo} alt="heyMilo" />
+            </div>
 
-    <div className="project-image">
-      <img src={heyMilo} alt="heyMilo" />
-    </div>
+            <div className="project-text">
+              <h2>AI-Powered Recruiter Dashboard</h2>
 
-    <div className="project-text">
-      <h2>
-       AI-Powered Recruiter Dashboard
-      </h2>
+              <p>
+                Redesigning an ATS dashboard and navigation system to
+                <span className="highlight3">
+                  {" "}
+                  streamline recruiter workflows
+                </span>
+              </p>
 
-      <p>
-      Redesigning an ATS dashboard and navigation system to
-      <span className="highlight3"> streamline recruiter workflows</span>
-      </p>
-
-      {/* <div className="project-tags">
+              {/* <div className="project-tags">
         <button>Interaction Design</button>
         <button>Competitor Analysis</button>
         <button>Information Architecture</button>
       </div> */}
-    </div>
-
-  </Link>
-</div>
+            </div>
+          </Link>
+        </div>
 
         {/* <div className="wealthApp">
           <Link to="/wealthApp" className="wealthApp-card">
@@ -423,34 +421,31 @@ const [currentImg, setCurrentImg] = useState(snoopyOne);
           </Link>
         </div> */}
 
-<div className="project">
-  <Link to="/wealthApp" className="project-row">
+        <div className="project">
+          <Link to="/wealthApp" className="project-row">
+            <div className="project-image">
+              <img src={wealthApp} alt="wealth app cover" />
+            </div>
 
-    <div className="project-image">
-      <img src={wealthApp} alt="wealth app cover" />
-    </div>
+            <div className="project-text">
+              <h2>Wealth Management Mobile App</h2>
 
-    <div className="project-text">
-      <h2>
-    Wealth Management Mobile App
-      </h2>
+              <p>
+                Designing a <span className="highlight3">future-ready</span>{" "}
+                navigation solution for{" "}
+                <span className="highlight3">
+                  Canada’s #1 insurance provider
+                </span>
+              </p>
 
-      <p>
-      Designing a <span className="highlight3">future-ready</span> navigation
-      solution for <span className="highlight3">Canada’s #1 insurance provider</span>
-      </p>
-
-      {/* <div className="project-tags">
+              {/* <div className="project-tags">
         <button>A/B Testing</button>
         <button>Prototyping</button>
         <button>Product Thinking</button>
       </div> */}
-    </div>
-
-  </Link>
-</div>
-
- 
+            </div>
+          </Link>
+        </div>
 
         {/* <div className="DivvyUp">
           <Link to="/DivvyUp" className="divvyUp-card">
@@ -471,32 +466,31 @@ const [currentImg, setCurrentImg] = useState(snoopyOne);
           </Link>
         </div> */}
 
-<div className="project">
-  <Link to="/DivvyUp" className="project-row">
+        <div className="project">
+          <Link to="/DivvyUp" className="project-row">
+            <div className="project-image">
+              <img src={divvyUp} alt="DivvyUp" />
+            </div>
 
-    <div className="project-image">
-      <img src={divvyUp} alt="DivvyUp" />
-    </div>
+            <div className="project-text">
+              <h2>Group Outings with DivvyUp</h2>
 
-    <div className="project-text">
-      <h2>
-       Group Outings with DivvyUp
-      </h2>
+              <p>
+                Simplifying group planning and bill splitting with DivvyUp for a
+                <span className="highlight3">
+                  {" "}
+                  seamless group outing experience
+                </span>
+              </p>
 
-      <p>
-      Simplifying group planning and bill splitting with DivvyUp for a
-      <span className="highlight3"> seamless group outing experience</span>
-      </p>
-
-      {/* <div className="project-tags">
+              {/* <div className="project-tags">
         <button>Product Thinking</button>
         <button>App Architecture</button>
         <button>Interaction Design</button>
       </div> */}
-    </div>
-
-  </Link>
-</div>
+            </div>
+          </Link>
+        </div>
 
         {/* <div className="Subbud">
           <Link to="/subbud">
