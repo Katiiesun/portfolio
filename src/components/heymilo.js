@@ -5,7 +5,7 @@ import Footer from "./footer";
 import "../static/footer.css";
 import { useState, useEffect, useCallback, useRef } from "react";
 
-const heymilopic = process.env.PUBLIC_URL + "images/heymilopic.png";
+const heymilopic = process.env.PUBLIC_URL + "images/heymiloheader.png";
 const heymiloOG = process.env.PUBLIC_URL + "images/heymilo-v1.png";
 const atsAnalysis = process.env.PUBLIC_URL + "images/hm-competitive.png";
 const hmfeedback = process.env.PUBLIC_URL + "images/hm-feedback.png";
@@ -25,6 +25,65 @@ const designDecision =
 const systemdesign = process.env.PUBLIC_URL + "images/systemdesign.png";
 
 function HeyMilo() {
+  const heyMiloRef = useRef(null);
+  const initialTranslateY = -10; // negative = higher on the page
+
+  useEffect(() => {
+    if (window.innerWidth <= 768) return;
+
+    const initialTranslateX = 10;
+    const initialRotateZ = 30;
+    const initialRotateY = -2;
+    const initialRotateX = 25;
+
+    const rotateMaxScroll = 500;
+    const moveMaxScroll = 900;
+
+    let currentRotateProgress = 0;
+    let currentMoveProgress = 0;
+
+    const smoothing = 0.08; // smaller = more delay
+
+    const handleScroll = () => {
+      if (!heyMiloRef.current) return;
+
+      const scroll = window.scrollY;
+
+      const targetRotateProgress = Math.min(scroll / rotateMaxScroll, 1);
+      const targetMoveProgress = Math.min(scroll / moveMaxScroll, 1);
+
+      // smooth interpolation
+      currentRotateProgress +=
+        (targetRotateProgress - currentRotateProgress) * smoothing;
+
+      currentMoveProgress +=
+        (targetMoveProgress - currentMoveProgress) * smoothing;
+
+      const rotateX = initialRotateX * (1 - currentRotateProgress);
+      const rotateY = initialRotateY * (1 - currentRotateProgress);
+      const rotateZ = initialRotateZ * (1 - currentRotateProgress);
+
+      const scale = 1 + currentRotateProgress * 0.03;
+
+      const translateY = initialTranslateY - currentMoveProgress * 15;
+
+      heyMiloRef.current.style.transform = `
+        translateY(${translateY}%)
+        translateX(${initialTranslateX}%)
+        rotateX(${rotateX}deg)
+        rotateY(${rotateY}deg)
+        rotateZ(${rotateZ}deg)
+        scale(${scale})
+      `;
+
+      requestAnimationFrame(handleScroll);
+    };
+
+    requestAnimationFrame(handleScroll);
+
+    return () => cancelAnimationFrame(handleScroll);
+  }, []);
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -36,7 +95,11 @@ function HeyMilo() {
           Redesigning an ATS dashboard and navigation system to{" "}
           <span className="highlight">streamline recruiter workflows</span>
         </h1>
-        <img src={hmfinalTwo} alt="heymilo redesign" />
+        <div className="image-layout-wrapper">
+          <div className="perspective-layer">
+            <img ref={heyMiloRef} src={heymilopic} alt="heymilo redesign" />
+          </div>
+        </div>
       </div>
       <div className="cs-section1">
         <div className="subbud-intro">
@@ -359,14 +422,14 @@ function HeyMilo() {
           <h3>01. Adapting to Startup Pace </h3>
           <h2>
             Working on a full platform redesign in a startup environment taught
-            me that moving fast isn’t just about speed but also about
-            clarity under constraint. Requirements shifted, context was
-            incomplete, and timelines were tight. I learned to focus less on
-            perfecting every detail and more on identifying what truly needed to
-            change. I prioritized asking the right questions and aligning on what
-            success would look like. This experience strengthened my ability
-            to design with intention and make thoughtful decisions even when
-            information and time is limited.
+            me that moving fast isn’t just about speed but also about clarity
+            under constraint. Requirements shifted, context was incomplete, and
+            timelines were tight. I learned to focus less on perfecting every
+            detail and more on identifying what truly needed to change. I
+            prioritized asking the right questions and aligning on what success
+            would look like. This experience strengthened my ability to design
+            with intention and make thoughtful decisions even when information
+            and time is limited.
           </h2>
           <br></br>
           <h3>02. Design Documentation & Development Handoff </h3>
