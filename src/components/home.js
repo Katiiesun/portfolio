@@ -323,7 +323,7 @@ const [currentImg, setCurrentImg] = useState(snoopyOne);
             </span>
           </h1>
           <p>
-            I'm a Systems Design Engineering student @ UWaterloo passionate
+            I'm a Product Designer studying Systems Design Engineering @ UWaterloo. I'm passionate
             about crafting meaningful experiences that simplify how people
             navigate the digital space ⚙️💡
           </p>
