@@ -14,7 +14,7 @@
 }
 
 .footerHome {
-    background-color: #2d2727;
+  background-color:#F7F7F8;
     
     text-align: left;
     position: relative; /* Change from fixed to relative */
@@ -23,6 +23,7 @@
     max-width: 100vw; /* Ensure it doesn't exceed the viewport */
     padding: 45 20px;
     padding-bottom:6vw;
+    transition: color 0.5s ease;
   }
   
   .footer-container {
@@ -35,11 +36,12 @@
     border: none;
     font-size: 1.1rem;
     background-color: transparent;
-    color: rgb(255, 255, 255);
+    color: rgb(135, 135, 135);
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: bold;
+    font-weight: 350;
     cursor: pointer;
+    transition: color 0.5s ease;
   }
   
   .footerHome h1 {
@@ -48,13 +50,13 @@
     border: none;
     font-size: 1.4rem;
     background-color: transparent;
-    color: rgb(130, 116, 108);
-    font-family: acorn-medium;
+    color: #6790DD;
+    font-family: "DM Sans", sans-serif;
     font-weight: 550;
   }
   
   .footerHome button:hover {
-    color:#b5d8ab;
+    color:#6790DD
   }
 
 
@@ -99,13 +101,15 @@
 
 
   .footerSubBud {
-    text-align: left;
-    position: relative; /* Change from fixed to relative */
-    width: 100;
-    display: flex;
-    max-width: 100vw; /* Ensure it doesn't exceed the viewport */
-    padding: 45 20px;
-    padding-bottom:6vw;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: rgb(130, 116, 108);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 550;
+    transition: color 0.5s ease;
   }
   
   
@@ -114,11 +118,12 @@
     border: none;
     font-size: 1.1rem;
     background-color: transparent;
-    color:#2d2727 ;
+    color: rgb(135, 135, 135);
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: bold;
+    font-weight: 350;
     cursor: pointer;
+    transition: color 0.5s ease;
   }
   
   .footerSubBud h1 {
@@ -127,13 +132,16 @@
     border: none;
     font-size: 1.4rem;
     background-color: transparent;
-    color: rgb(130, 116, 108);
-    font-family: acorn-medium;
-    font-weight: bold;
+    color: #6790DD;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 550;
   }
   
+  
   .footerSubBud button:hover {
-    opacity:60%;
+   
+    color:#6790DD
+    
   }
 
   /* @media (max-width: 480px) {

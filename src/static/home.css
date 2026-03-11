@@ -17,15 +17,65 @@
   src: url("../../public/fonts/Acorn/Acorn-Medium.otf") format("truetype");
 }
 
+
 .home {
-  margin: 0%;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
   overflow: hidden;
- 
+  perspective: 1500px;
+}
+
+.home p{
+  font-size: 1.2rem;
+  line-height: 150%;
+  /* position: absolute;
+    transform: translate(179%, -270%); */
+  color: #2d2727;
+  width: 580px;
+  font-weight: 400;
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  top: 37%;
+  left: 58%;
+}
+
+.homeBackground {
+  position: absolute;
+  inset: 0;
+  background-color:#F7F7F8;
 }
 
 .homeBackground img {
-  width: 100vw;
+  width: 82%;
+  height: 100%;
+  object-fit: cover;
+  /* object-position: 40% center; */
+  /* transform: translateX(-20%); */
+
+  /* transform: none;  */
 }
+
+/* .home {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  perspective: 1500px;
+  } */
+ 
+  /* .homeBackground img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transform: rotateX(0deg) rotateZ(0deg) scale(1);
+  } */
+
+/* .homeBackground img {
+  width: 100vw;
+} */
 
 .folkloreCD img {
   position: absolute;
@@ -59,23 +109,15 @@ left: 35vw; */
   margin: auto;
   top: 37%;
   left: 58%;
-  /* transform: translate(100%, -60%); */
-  color: #e0e0da;
-  font-family: "acorn-bold";
-  font-weight: 50;
-  animation: fadeInUp 0.7s forwards; /* changed name to fadeInUp and added forwards to keep final state */
-}
+  
 
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px); /* starts slightly below */
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); /* ends at normal position */
-  }
-}
+  font-family: "DM Sans", sans-serif;
+  font-size: 3.1rem;
+  line-height: 120%;
+  margin-bottom: 1.5vw;
+  color:#2b2b2b}
+
+
 
 .home h1.visible {
   opacity: 1;
@@ -89,10 +131,10 @@ left: 35vw; */
   top: 57%;
   left: 64%;
   /* transform: translate(30%, 300%); */
-  color: #b3b3b3;
+  color: #75787d;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 400;
   animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
 }
 
@@ -154,8 +196,9 @@ left: 35vw; */
   align-items: center;
   margin: 0vw;
   display: flex;
-  background-color: #b5d8ab;
-  margin-top: -6px;
+  background-color:#F7F7F8;
+  margin-top: -100px;
+  padding-top:5vw;
 }
 
 .pic img {
@@ -167,6 +210,16 @@ left: 35vw; */
   align-items: center;
   padding: 3em;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 0.7s forwards;
+}
+
+.animated-pic img{
+  position: absolute;  /* now we can move it freely */
+  top: 28vw;           /* distance from top of the container */
+  left: 68vw;         /* negative moves it left outside the container */
+  width: 16vw;         /* size of animated pic */
+  height: auto;
+  animation: fadeInUp 0.7s forwards;
 }
 
 /* .pic img:hover{
@@ -226,13 +279,12 @@ left: 35vw; */
 }
 
 .introtext h1 {
-  font-size: 4.6rem;
-  margin-bottom: 0px;
-  /* position:absolute;
-    transform: translate(190%, -600%); */
-  color: #3b624a;
-  display: flex;
-  font-family: acorn-medium;
+  font-family: "DM Sans", sans-serif;
+  font-size: 3.1rem;
+  line-height: 120%;
+  margin-bottom: 1.5vw;
+  color:#2b2b2b;
+  animation: fadeInUp 0.7s forwards;
   
 }
 
@@ -243,10 +295,11 @@ left: 35vw; */
     transform: translate(179%, -270%); */
   color: #2d2727;
   width: 580px;
-  font-weight: 600;
+  font-weight: 400;
   display: flex;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
+  animation: fadeInUp 0.7s forwards;
  
 }
 
@@ -264,15 +317,16 @@ left: 35vw; */
   font-optical-sizing: auto;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #3b624a;
+  color: #555555;
   transition: color 0.5s ease;
+  animation: fadeInUp 0.7s forwards;
 }
 
 .intro .intro-button button:hover {
   transform: scale(1.02);
   transition: transform 0.3s ease;
   transform-origin: center;
-  color: #142b1d;
+  color:#6790DD
   /* background-color: #8fbd95; */
 }
 .matcha-spill img {
@@ -280,35 +334,88 @@ left: 35vw; */
 }
 
 .projectsSection {
-  background-color: #ffffff;
-  margin-top: -1vw;
+  background-color:#F7F7F8;
+  margin-top: 0vw;
+  padding-top:2vw;
   padding-bottom: 10vw;
 }
 
-.projectsSection .workTitle {
-  margin-left: 39vw;
-}
+.projectsSection .workTitle img {
+
+    width: 20vw;   /* adjust this */
+    height: auto;
+    padding-left: 2vw;
+  }
+
+
 .projectsSection h1 {
-  font-family: acorn-medium;
-  color: #dedede;
-  font-size: 6vw;
+  font-family: "DM Sans", sans-serif;
+  color: #c8c8c8;
+  font-size: 5vw;
   transition: color 0.5s ease;
+  /* font-weight:500; */
 }
-.projectsSection h1:hover {
-  font-family: acorn-medium;
+/* .projectsSection h1:hover {
+  font-family: "DM Sans", sans-serif;
   color: #91b892;
   
   font-size: 6vw;
+} */
+.project {
+  width: 85vw;
+  margin: 6vw auto;
 }
 
+.project-row {
+  display: flex;
+  align-items: center;
+  gap: 6vw;
 
+  text-decoration: none;
+  color: inherit;
+}
 
+/* IMAGE */
+.project-image {
+  width: 130%;
+}
 
-.wealthApp {
+.project-image img {
+  width: 100%;
+  border-radius: 24px;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.project-row:hover img {
+  transform: scale(0.96);
+}
+
+/* TEXT */
+.project-text {
+  width: 65%;
+}
+
+.project-text h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 3.1rem;
+  line-height: 120%;
+  margin-bottom: 1.5vw;
+  color:#2b2b2b
+}
+
+.project-text p {
+  font-size: 1.1rem;
+  line-height: 160%;
+  color: #5f5f5f;
+  margin-bottom: 2vw;
+}
+
+/* .wealthApp {
   width: 60%; 
   margin: 0 auto; 
   margin-bottom: 5vw;
-}
+} */
 /* .wealthApp img{
   width: 55vw;
   border-radius: 2vw;
@@ -317,46 +424,30 @@ left: 35vw; */
   margin: 30px;
   /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
 
-.wealthApp-card {
+/* .wealthApp-card {
   width: 55vw;
   border-radius: 2vw;
   overflow: hidden; /* KEY */
-  margin: 30px;
-  padding-bottom: 3vw;
-  height: 45vw;
-  cursor: pointer;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
-  display: flex;
-  flex-direction: column;
-  text-decoration: none; /* removes underline */
-  color: inherit; 
-}
+
 .wealthApp-card:hover {
   transform: translateY(-0.4vw);
 
-  /* transform: scale(0.95); */
-  /* transform: scale(0.5); */
   box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
-}
+} */
 
-.highlight3 {
+/* .highlight3 {
   color: #000000;
   font-weight: 540;
-}
+} */
 
 /* Image fills container */
-.wealthApp-card img {
+/* .wealthApp-card img {
     width: 100%;
     height: 74%;          /* 🔑 controls image height */
-    object-fit: cover;
-    display: block;
-  
-  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
-}
+
 
 /* Hover effect */
-.wealthApp-card:hover img {
+/* .wealthApp-card:hover img {
   transform: scale(1.05);
 }
 
@@ -369,7 +460,7 @@ left: 35vw; */
   width: 49vw;
   font-weight: 400;
   padding-top:2vw;
-}
+} */
 
 /* .wealthApp img:hover {
 
@@ -380,7 +471,7 @@ left: 35vw; */
   transform-origin: center;
 } */
 
-.wealthButtons {
+/* .wealthButtons {
   margin-left: 2vw;
 }
 .wealthButtons button {
@@ -393,55 +484,16 @@ left: 35vw; */
   font-optical-sizing: auto;
   color: #437956;
   font-size: 0.9vw;
-}
+} */
 
-.heyMilo {
+/* .heyMilo {
   width: 60%; 
   margin: 0 auto; 
   margin-bottom: 5vw;
-}
-/* .heyMilo img{
-  width: 55vw;
-  border-radius: 2vw;
-  cursor: pointer;
-  overflow-x: hidden;
-  margin: 30px;
 } */
 
-.heyMilo-card {
-  width: 55vw;
-  border-radius: 2vw;
-  overflow: hidden; /* KEY */
-  margin: 30px;
-  padding-bottom: 3vw;
-  height: 45vw;
-  cursor: pointer;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
-  display: flex;
-  flex-direction: column;
-  text-decoration: none; /* removes underline */
-  color: inherit; 
-}
-.heyMilo-card:hover {
-  transform: translateY(-0.4vw);
-  box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
-}
 
-.heyMilo-card img {
-  width: 100%;
-  height: 74%;          /* 🔑 controls image height */
-  object-fit: cover;
-  display: block;
-
-  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.heyMilo-card:hover img {
-  transform: scale(1.05);
-}
-
-.heyMilo-card h2 {
+/* .heyMilo-card h2 {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   line-height: 140%;
@@ -450,7 +502,7 @@ left: 35vw; */
   width: 49vw;
   font-weight: 400;
   padding-top:2vw;
-}
+} */
 /* 
 .heyMilo img:hover {
 
@@ -461,15 +513,15 @@ left: 35vw; */
   transform-origin: center;
 } */
 
-.heyMiloButtons {
+/* .heyMiloButtons {
   margin-left: 2vw;
-}
+} */
 
-.DivvyUp {
+/* .DivvyUp {
   width: 60%; 
   margin: 0 auto; 
   margin-bottom: 5vw;
-}
+} */
 
 /* .DivvyUp img {
   width: 55vw;
@@ -486,7 +538,7 @@ left: 35vw; */
   transform-origin: center;
 } */
 
-.divvyUp-card {
+/* .divvyUp-card {
   width: 55vw;
   border-radius: 2vw;
   overflow: hidden;
@@ -498,7 +550,7 @@ left: 35vw; */
   box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
   display: flex;
   flex-direction: column;
-  text-decoration: none; /* removes underline */
+  text-decoration: none; 
   color: inherit; 
 }
 .divvyUp-card:hover {
@@ -508,7 +560,7 @@ left: 35vw; */
 
 .divvyUp-card img {
   width: 100%;
-  height: 74%;          /* 🔑 controls image height */
+  height: 74%;         
   object-fit: cover;
   display: block;
   transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
@@ -519,10 +571,10 @@ left: 35vw; */
 }
 
 .DivvyUpButtons {
-  /* padding: 5px; */
+ 
   margin-left: 2vw;
   font-size: 0.9vw;
-}
+} */
 
 .clearSpiderButtons {
   /* padding: 5px; */
@@ -819,10 +871,17 @@ left: 35vw; */
   .intro {
     flex-direction: column;       /* stack vertically */
     align-items: center;          /* center content */
-    padding: 8vw 6vw;
-    background-color: #b5d8ab;    /* keep green background */
+    padding: 30vw 6vw 10vw 6vw;
+    background-color:#F7F7F8;    /* keep green background */
   }
-
+  .animated-pic img{
+    position: absolute;  /* now we can move it freely */
+    top: 120vw;           /* distance from top of the container */
+    left: 68vw;         /* negative moves it left outside the container */
+    width: 16vw;         /* size of animated pic */
+    height: auto;
+    animation: fadeInUp 0.7s forwards;
+  }
   
   .projectsSection h1:hover {
     font-family: acorn-medium;
@@ -850,12 +909,12 @@ left: 35vw; */
     line-height: 1.6rem;
     width: 100%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
   }
 
   .intro .intro-button {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-top: 4vw;
   }
 
@@ -894,7 +953,7 @@ left: 35vw; */
     animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
   }
 
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
   .wealthApp-card,
   .heyMilo-card,
   .divvyUp-card,
@@ -947,11 +1006,12 @@ left: 35vw; */
   margin-bottom: 5vw;
   }
 
-  .projectsSection .workTitle {
-    margin-left: 0;
-    text-align: center;
+  .projectsSection img {
+    width: 10px;   
+    height: auto;
   }
 
+  
   .projectsSection h1 {
     font-size: 2rem;
     text-align: center;
@@ -1025,7 +1085,7 @@ left: 35vw; */
     color: #91b892;
     
     font-size: 3rem;
-  }
+  } */
 
   
   
@@ -1081,6 +1141,54 @@ left: 35vw; */
     padding: 2vw 4vw !important;
     margin: 2vw 1vw !important;
     border-radius: 40px !important;
+  }
+}
+
+/* Responsive for screens <= 768px */
+@media (max-width: 768px) {
+  .project {
+    width: 90vw;
+    margin: 6vw auto;
+  }
+
+  .project-row {
+    flex-direction: column; /* stack image and text vertically */
+    align-items: flex-start; /* align text to the left */
+    gap: 4vw;
+  }
+
+  /* IMAGE */
+  .project-image {
+    width: 100%; /* make image full width */
+  }
+
+  .project-image img {
+    width: 100%;
+    border-radius: 16px; /* slightly smaller radius for mobile */
+  }
+
+  /* TEXT */
+  .project-text {
+    width: 100%; /* take full width under image */
+  }
+
+  .project-text h2 {
+    font-size: 2rem; /* smaller headline */
+    line-height: 1.2;
+    margin-bottom: 1.5vw;
+  }
+
+  .project-text p {
+    font-size: 1rem; /* slightly smaller paragraph */
+    line-height: 1.5;
+    margin-bottom: 2vw;
+  }
+
+  .projectsSection .workTitle img {
+
+    width: vw;   /* adjust this */
+    height: auto;
+    padding-left: 2vw;
   }
 }
 

@@ -96,7 +96,7 @@ function AboutMe() {
           </div>
         </div>
       </div>
-      <Footer className="footerAboutMe" />
+      <Footer className="footerHome" />
     </div>
   );
 }

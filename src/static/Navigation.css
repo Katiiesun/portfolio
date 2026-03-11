@@ -31,13 +31,15 @@
   font-weight: 500;
   font-family: "DM Sans", sans-serif;
 
-  color: #d1d0d0;
+  color: #9e9e9e;
   position: relative;
+  transition: color 0.5s ease;
 }
 
 .navhome button:hover,
-.aboutmenav button:hover {
-  color: #b5d8ab;
+.aboutmenav button:hover,
+.projectsnav button:hover {
+  color: #6790DD;
   border-radius: 50%;
 }
 

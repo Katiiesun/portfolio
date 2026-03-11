@@ -13,9 +13,9 @@ function Home() {
   const imgRef = useRef(null);
   const handRef = useRef(null);
   const location = useLocation();
+  const deskRef = useRef(null);
 
-  const background =
-    process.env.PUBLIC_URL + "images/websitebackground-min (1).png";
+  const background = process.env.PUBLIC_URL + "images/Group 30.png";
   const selfie = process.env.PUBLIC_URL + "images/selfie.png";
   const matchaSpill =
     process.env.PUBLIC_URL + "images/matchabottom-removebg-preview.png";
@@ -30,6 +30,12 @@ function Home() {
   const heyMilo = process.env.PUBLIC_URL + "images/heymilo-mockup.png";
   const wealthApp = process.env.PUBLIC_URL + "images/wealthApp.png";
   const newCD = process.env.PUBLIC_URL + "images/newCD.png";
+  const mywork = process.env.PUBLIC_URL + "images/mywork.png";
+
+  const snoopyOne = process.env.PUBLIC_URL + "images/snoop1.png";
+const snoopyTwo = process.env.PUBLIC_URL + "images/snoop2.png";
+
+const [currentImg, setCurrentImg] = useState(snoopyOne);
 
   // useEffect(() => {
   //   const initialText = "Product Designer, Engineering Student";
@@ -48,22 +54,28 @@ function Home() {
   //   return () => clearInterval(intervalId);
   // }, []);
 
-
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImg(prev => (prev === snoopyOne ? snoopyTwo : snoopyOne));
+    }, 500); // 500ms = half a second
   
+    return () => clearInterval(interval); // cleanup on unmount
+  }, []);
+
   useEffect(() => {
     if (location.state?.scrollTo === "my-work") {
       const el = document.getElementById("my-work");
       el?.scrollIntoView({ behavior: "smooth" });
     }
-  }, [location]); 
-  
+  }, [location]);
 
   function smoothScrollTo(element, duration = 1000) {
-    const targetPosition = element.getBoundingClientRect().top + window.pageYOffset;
+    const targetPosition =
+      element.getBoundingClientRect().top + window.pageYOffset;
     const startPosition = window.pageYOffset;
     const distance = targetPosition - startPosition;
     let startTime = null;
-  
+
     function animation(currentTime) {
       if (!startTime) startTime = currentTime;
       const timeElapsed = currentTime - startTime;
@@ -71,7 +83,7 @@ function Home() {
       window.scrollTo(0, run);
       if (timeElapsed < duration) requestAnimationFrame(animation);
     }
-  
+
     // Ease function for smooth acceleration/deceleration
     function ease(t, b, c, d) {
       t /= d / 2;
@@ -79,25 +91,24 @@ function Home() {
       t--;
       return (-c / 2) * (t * (t - 2) - 1) + b;
     }
-  
+
     requestAnimationFrame(animation);
   }
 
-  useEffect(() => {
-    const handleFirstScroll = (e) => {
-      const introSection = document.getElementById("intro");
-      if (introSection) {
-        smoothScrollTo(introSection, 700);
-      }
-      window.removeEventListener("wheel", handleFirstScroll);
-    };
-  
-    window.addEventListener("wheel", handleFirstScroll, { passive: true });
-  
-    return () => window.removeEventListener("wheel", handleFirstScroll);
-  }, []);
-  
-  
+  // useEffect(() => {
+  //   const handleFirstScroll = (e) => {
+  //     const introSection = document.getElementById("intro");
+  //     if (introSection) {
+  //       smoothScrollTo(introSection, 700);
+  //     }
+  //     window.removeEventListener("wheel", handleFirstScroll);
+  //   };
+
+  //   window.addEventListener("wheel", handleFirstScroll, { passive: true });
+
+  //   return () => window.removeEventListener("wheel", handleFirstScroll);
+  // }, []);
+
   useEffect(() => {
     const phrases = [
       "is a product designer",
@@ -220,6 +231,34 @@ function Home() {
   const [handWaved, setHandWaved] = useState(false); // track if hand has already waved
 
   useEffect(() => {
+    const handleScroll = () => {
+      if (!deskRef.current) return;
+
+      const scroll = window.scrollY;
+      const maxScroll = 500;
+
+      const progress = Math.min(scroll / maxScroll, 1);
+
+      const rotateX = progress * 8;
+      const rotateZ = progress * 30;
+      const scale = 1 + progress * 0.05;
+      const translateX = -5;
+
+      deskRef.current.style.transform = `
+        translateX(${translateX}%)
+        rotateX(${rotateX}deg)
+        rotateZ(${rotateZ}deg)
+        scale(${scale})
+      `;
+    };
+
+    handleScroll(); // 👈 apply transform immediately on load
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -254,10 +293,10 @@ function Home() {
   return (
     <div>
       <Navigation className="navhome" />
-      <div className="home">
+      {/* <div className="home">
         <div className="homeBackground">
-          <img src={background} alt="background" />
-        </div>
+          <img ref={deskRef} src={background} alt="background" />
+        </div> */}
         {/* <div className="folkloreCD">
           <a
             target="_blank"
@@ -267,9 +306,9 @@ function Home() {
             <img src={newCD} alt="cd" />
           </a>
         </div> */}
-        <h1>Katie Sun</h1>
+        {/* <h1>Katie Sun</h1>
         <h2 className="typing-text">{text}</h2>
-      </div>
+      </div> */}
       <div id="intro" className="intro">
         <div className="pic">
           {/* <div class="animated hidden"> */}{" "}
@@ -285,17 +324,21 @@ function Home() {
           </h1>
           <p>
             I'm a Systems Design Engineering student @ UWaterloo passionate
-            about crafting meaningful experiences that simplify how people navigate the
-            digital space ⚙️💡
+            about crafting meaningful experiences that simplify how people
+            navigate the digital space ⚙️💡
           </p>
           <p>Currently designing @ Revvity! </p>
           <div className="intro-button">
-              <button onClick={() => {
-    const section = document.getElementById("my-work");
-    section?.scrollIntoView({ behavior: "smooth" });
-  }}
-> View my work <span className="arrow">↓</span></button>
-            </div>
+            <button
+              onClick={() => {
+                const section = document.getElementById("my-work");
+                section?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              {" "}
+              View my work <span className="arrow">↓</span>
+            </button>
+          </div>
           {/* <a
             target="_blank"
             rel="noopener noreferrer"
@@ -304,17 +347,23 @@ function Home() {
     
           </a> */}
         </div>
+        <div className="animated-pic">
+  <img src={currentImg} alt="animated pic" />
+</div>
       </div>
 
       <div className="matcha-spill">
-        <img src={matchaSpill} alt="bottom of matcha" />
+        {/* <img src={matchaSpill} alt="bottom of matcha" /> */}
       </div>
       <div id="my-work" className="projectsSection">
         <div className="workTitle">
-          <h1>My work</h1>
+          {/* <h1>My work</h1> */}
+          <img src={mywork} alt="my work text" />
+         
+          
         </div>
 
-        <div className="heyMilo">
+        {/* <div className="heyMilo">
           <Link to="/heymilo" className="heyMilo-card">
             <img src={heyMilo} alt="heyMilo" />
 
@@ -328,9 +377,36 @@ function Home() {
               <button>Information Architecture</button>
             </div>
           </Link>
-        </div>
+        </div> */}
 
-        <div className="wealthApp">
+<div className="project">
+  <Link to="/heymilo" className="project-row">
+
+    <div className="project-image">
+      <img src={heyMilo} alt="heyMilo" />
+    </div>
+
+    <div className="project-text">
+      <h2>
+       AI-Powered Recruiter Dashboard
+      </h2>
+
+      <p>
+      Redesigning an ATS dashboard and navigation system to
+      <span className="highlight3"> streamline recruiter workflows</span>
+      </p>
+
+      {/* <div className="project-tags">
+        <button>Interaction Design</button>
+        <button>Competitor Analysis</button>
+        <button>Information Architecture</button>
+      </div> */}
+    </div>
+
+  </Link>
+</div>
+
+        {/* <div className="wealthApp">
           <Link to="/wealthApp" className="wealthApp-card">
             <img src={wealthApp} alt="wealth app cover" />
 
@@ -345,11 +421,38 @@ function Home() {
               <button>Product Thinking</button>
             </div>
           </Link>
-        </div>
+        </div> */}
 
-       
+<div className="project">
+  <Link to="/wealthApp" className="project-row">
 
-        <div className="DivvyUp">
+    <div className="project-image">
+      <img src={wealthApp} alt="wealth app cover" />
+    </div>
+
+    <div className="project-text">
+      <h2>
+    Wealth Management Mobile App
+      </h2>
+
+      <p>
+      Designing a <span className="highlight3">future-ready</span> navigation
+      solution for <span className="highlight3">Canada’s #1 insurance provider</span>
+      </p>
+
+      {/* <div className="project-tags">
+        <button>A/B Testing</button>
+        <button>Prototyping</button>
+        <button>Product Thinking</button>
+      </div> */}
+    </div>
+
+  </Link>
+</div>
+
+ 
+
+        {/* <div className="DivvyUp">
           <Link to="/DivvyUp" className="divvyUp-card">
             <img src={divvyUp} alt="divvyUp" />
 
@@ -366,7 +469,34 @@ function Home() {
               <button>Interaction Design</button>
             </div>
           </Link>
-        </div>
+        </div> */}
+
+<div className="project">
+  <Link to="/DivvyUp" className="project-row">
+
+    <div className="project-image">
+      <img src={divvyUp} alt="DivvyUp" />
+    </div>
+
+    <div className="project-text">
+      <h2>
+       Group Outings with DivvyUp
+      </h2>
+
+      <p>
+      Simplifying group planning and bill splitting with DivvyUp for a
+      <span className="highlight3"> seamless group outing experience</span>
+      </p>
+
+      {/* <div className="project-tags">
+        <button>Product Thinking</button>
+        <button>App Architecture</button>
+        <button>Interaction Design</button>
+      </div> */}
+    </div>
+
+  </Link>
+</div>
 
         {/* <div className="Subbud">
           <Link to="/subbud">
@@ -410,7 +540,7 @@ function Home() {
           </h1>
         </div> */}
       </div>
-      <div className="moreProjects">
+      {/* <div className="moreProjects">
         <div className="moreProjectsText">
           <h1>More</h1>
         </div>
@@ -428,7 +558,7 @@ function Home() {
 
           <h1>Katie's art gallery!</h1>
         </div>
-      </div>
+      </div> */}
       <Footer className="footerHome" />
     </div>
   );
