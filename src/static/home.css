@@ -11,8 +11,6 @@
 .home p{
   font-size: 1.2rem;
   line-height: 150%;
-  /* position: absolute;
-    transform: translate(179%, -270%); */
   color: #2d2727;
   width: 580px;
   font-weight: 400;
@@ -33,56 +31,11 @@
   width: 82%;
   height: 100%;
   object-fit: cover;
-  /* object-position: 40% center; */
-  /* transform: translateX(-20%); */
-
-  /* transform: none;  */
-}
-
-/* .home {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  perspective: 1500px;
-  } */
- 
-  /* .homeBackground img {
-    width: 100%;
-  height: 100%;
-  object-fit: cover;
-
-  transform: rotateX(0deg) rotateZ(0deg) scale(1);
-  } */
-
-/* .homeBackground img {
-  width: 100vw;
-} */
-
-.folkloreCD img {
-  position: absolute;
-  top: 68px;
-  left: 35%;
-  /* top: 9.4vh;
-left: 35vw; */
-  width: 10vw;
-  animation: spin 3s linear; /* Apply spin animation */
   
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg); /* Start from 0 degrees */
-  }
-  to {
-    transform: rotate(360deg); /* Rotate fully (360 degrees) */
-  }
 
- 
-}
-.folkloreCD img:hover {
-  transform: scale(1.1);
-}
+
 
 .home h1 {
   font-size: 6.7rem;
@@ -112,22 +65,21 @@ left: 35vw; */
   margin: auto;
   top: 57%;
   left: 64%;
-  /* transform: translate(30%, 300%); */
   color: #75787d;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
+  animation: fadeInUp 0.6s forwards; 
 }
 
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    transform: translateY(20px); /* starts slightly below */
+    transform: translateY(20px); 
   }
   100% {
     opacity: 1;
-    transform: translateY(0); /* ends at normal position */
+    transform: translateY(0);
   }
 }
 
@@ -140,41 +92,11 @@ left: 35vw; */
   }
 }
 
-/* .home h2 {
-  font-size: 1.5vw;
-  text-align: center;
-  position: absolute;
-  margin: auto;
-  top: 50%;
-  left: 50%;
-  transform: translate(30%, 300%);
-  color: #e0e0da;
-  font-family: monospace;
-  font-weight: 50;
-  animation: fadeIn 2s; */
-/* animation: typing 4s steps(22, end) forwards, blink 1s infinite; */
 
-/* @keyframes typing {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-@keyframes blink {
-  0%,
-  100% {
-    border-right: 2px solid transparent;
-  }
-  50% {
-    border-right: 2px solid #222;
-  }
-} */
 
 .intro {
   column-count: 2;
-  justify-content: right; /* Center horizontally */
+  justify-content: right; 
   align-items: center;
   margin: 0vw;
   display: flex;
@@ -196,28 +118,21 @@ left: 35vw; */
 }
 
 .animated-pic img{
-  position: absolute;  /* now we can move it freely */
-  top: 28vw;           /* distance from top of the container */
-  left: 68vw;         /* negative moves it left outside the container */
-  width: 16vw;         /* size of animated pic */
+  position: absolute;  
+  top: 28vw;          
+  left: 68vw;       
+  width: 16vw;         
   height: auto;
   animation: fadeInUp 0.7s forwards;
 }
 
-/* .pic img:hover{
-  transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
-	&:hover; 
-		/* transform: scale(1.03); */
-/* transform: rotate(-2deg); */
+
 
 .pic img.scroll-rotate {
   transform: rotate(-2deg);
 }
 
-/* .pic img:hover{
-  transform: translateY(-0.6vw);
-  box-shadow: 0 1.2vw 2.5vw rgba(162, 162, 162, 0.08);
-} */
+
 
 .scroll-rotate {
   transform: rotate(10deg);
@@ -273,8 +188,7 @@ left: 35vw; */
 .introtext p {
   font-size: 1.2rem;
   line-height: 150%;
-  /* position: absolute;
-    transform: translate(179%, -270%); */
+
   color: #2d2727;
   width: 580px;
   font-weight: 400;
@@ -309,7 +223,6 @@ left: 35vw; */
   transition: transform 0.3s ease;
   transform-origin: center;
   color:#6790DD
-  /* background-color: #8fbd95; */
 }
 .matcha-spill img {
   width: 100vw;
@@ -324,7 +237,7 @@ left: 35vw; */
 
 .projectsSection .workTitle img {
 
-    width: 20vw;   /* adjust this */
+    width: 20vw;  
     height: auto;
     padding-left: 2vw;
   }
@@ -335,14 +248,8 @@ left: 35vw; */
   color: #c8c8c8;
   font-size: 5vw;
   transition: color 0.5s ease;
-  /* font-weight:500; */
 }
-/* .projectsSection h1:hover {
-  font-family: "DM Sans", sans-serif;
-  color: #91b892;
-  
-  font-size: 6vw;
-} */
+
 .project {
   width: 85vw;
   margin: 6vw auto;
@@ -357,7 +264,6 @@ left: 35vw; */
   color: inherit;
 }
 
-/* IMAGE */
 .project-image {
   width: 130%;
 }
@@ -373,7 +279,7 @@ left: 35vw; */
   transform: scale(0.96);
 }
 
-/* TEXT */
+
 .project-text {
   width: 65%;
 }
@@ -393,170 +299,14 @@ left: 35vw; */
   margin-bottom: 2vw;
 }
 
-/* .wealthApp {
-  width: 60%; 
-  margin: 0 auto; 
-  margin-bottom: 5vw;
-} */
-/* .wealthApp img{
-  width: 55vw;
-  border-radius: 2vw;
-  cursor: pointer;
-  overflow-x: hidden;
-  margin: 30px;
-  /* box-shadow: 2px 2px 8px rgba(115, 115, 115, 0.4); */
 
-/* .wealthApp-card {
-  width: 55vw;
-  border-radius: 2vw;
-  overflow: hidden; /* KEY */
 
 .wealthApp-card:hover {
   transform: translateY(-0.4vw);
 
   box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
-} */
+} 
 
-/* .highlight3 {
-  color: #000000;
-  font-weight: 540;
-} */
-
-/* Image fills container */
-/* .wealthApp-card img {
-    width: 100%;
-    height: 74%;          /* 🔑 controls image height */
-
-
-/* Hover effect */
-/* .wealthApp-card:hover img {
-  transform: scale(1.05);
-}
-
-.wealthApp-card h2 {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  line-height: 140%;
-  font-size: 1.4vw;
-  margin-left: 3vw;
-  width: 49vw;
-  font-weight: 400;
-  padding-top:2vw;
-} */
-
-/* .wealthApp img:hover {
-
-  transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
-	&:hover; 
-		transform: scale(1.03);
-
-  transform-origin: center;
-} */
-
-/* .wealthButtons {
-  margin-left: 2vw;
-}
-.wealthButtons button {
-  background-color: #dcede3;
-  border-color: transparent;
-  border-radius: 50px;
-  padding: 0.8vw;
-  margin: 10px;
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  color: #437956;
-  font-size: 0.9vw;
-} */
-
-/* .heyMilo {
-  width: 60%; 
-  margin: 0 auto; 
-  margin-bottom: 5vw;
-} */
-
-
-/* .heyMilo-card h2 {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  line-height: 140%;
-  font-size: 1.4vw;
-  margin-left: 3vw;
-  width: 49vw;
-  font-weight: 400;
-  padding-top:2vw;
-} */
-/* 
-.heyMilo img:hover {
-
-  transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
-	&:hover; 
-		transform: scale(1.03);
-
-  transform-origin: center;
-} */
-
-/* .heyMiloButtons {
-  margin-left: 2vw;
-} */
-
-/* .DivvyUp {
-  width: 60%; 
-  margin: 0 auto; 
-  margin-bottom: 5vw;
-} */
-
-/* .DivvyUp img {
-  width: 55vw;
-  border-radius: 2vw;
-  cursor: pointer;
-  overflow-x: hidden;
-  margin: 30px;
-} */
-
-/* .DivvyUp img:hover {
-  transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
-	&:hover; 
-		transform: scale(1.03);
-  transform-origin: center;
-} */
-
-/* .divvyUp-card {
-  width: 55vw;
-  border-radius: 2vw;
-  overflow: hidden;
-  margin: 30px;
-  padding-bottom: 3vw;
-  height: 45vw;
-  cursor: pointer;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  box-shadow: 0 1vw 1vw rgba(212, 212, 212, 0.15);
-  display: flex;
-  flex-direction: column;
-  text-decoration: none; 
-  color: inherit; 
-}
-.divvyUp-card:hover {
-  transform: translateY(-0.4vw);
-  box-shadow: 0 1vw 1vw rgba(163, 163, 163, 0.15);
-}
-
-.divvyUp-card img {
-  width: 100%;
-  height: 74%;         
-  object-fit: cover;
-  display: block;
-  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.divvyUp-card:hover img {
-  transform: scale(1.05);
-}
-
-.DivvyUpButtons {
- 
-  margin-left: 2vw;
-  font-size: 0.9vw;
-} */
 
 .clearSpiderButtons {
   /* padding: 5px; */
@@ -724,13 +474,6 @@ left: 35vw; */
   padding-top:2vw;
 }
 
-/* .clearSpider img:hover {
- 
-  transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
-	&:hover; 
-		transform: scale(1.03);
-  transform-origin: center;
-} */
 
 
 
@@ -753,14 +496,7 @@ left: 35vw; */
   margin-top: 6vw;
 }
 
-/* .myArtwork img {
-  width: 55vw;
-  border-radius: 2vw;
-  cursor: pointer;
-  overflow-x: hidden;
-  margin: 30px;
 
-} */
 
 .otherProjects-card,
 .myArtwork-card {
@@ -787,11 +523,6 @@ left: 35vw; */
   transform: scale(1.05);
 }
 
-/* .otherProjects-card:hover,
-.myArtwork-card:hover {
-  box-shadow: 0 2vw 4vw rgba(0, 0, 0, 0.15);
-  transform: translateY(-0.4vw);
-} */
 
 .myArtwork h1 {
   font-family: "DM Sans", sans-serif;
@@ -805,26 +536,13 @@ left: 35vw; */
   font-weight: 180px;
 }
 
-/* .myArtwork img:hover {
 
-  transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
-	&:hover; 
-		transform: scale(1.03);
-  transform-origin: center;
-} */
 
 .otherProjects {
   margin-left: 20vw;
   margin-top: 6vw;
 }
-/* 
-.otherProjects img {
-  width: 55vw;
-  border-radius: 2vw;
-  cursor: pointer;
-  overflow-x: hidden;
-  margin: 30px;
-} */
+
 
 .otherProjects h1 {
   font-family: "DM Sans", sans-serif;
@@ -837,15 +555,7 @@ left: 35vw; */
   color: #e0e0da;
 }
 
-/* .otherProjects img:hover {
 
-  transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
-	&:hover; 
-		transform: scale(1.03);
-  transform-origin: center;
-} */
-
-/*NEED TO FIX THE IMAGES !!!!!!!!!!! */
 
 @media (max-width: 768px) {
   .intro {
@@ -933,141 +643,6 @@ left: 35vw; */
     animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
   }
 
-  /* @media (max-width: 768px) {
-  .wealthApp-card,
-  .heyMilo-card,
-  .divvyUp-card,
-  .clearSpider-card {
-    width: 90vw;
-    height: auto;
-    margin: 6vw auto;
-    padding: 4vw;
-    border-radius: 4vw;
-
-   
-  }
-
-  .wealthApp-card h2,
-  .heyMilo-card h2,
-  .divvyUp-card h2,
-  .clearSpider-card h2 {
-    font-size: 1.1rem;
-    line-height: 1.6rem;
-    margin-left: 0;
-    width: 100%;
-    padding-top: 4vw;
-  }
-
-  .wealthApp-card img,
-  .heyMilo-card img,
-  .divvyUp-card img,
-  .clearSpider-card img {
-    width: 100%;
-  height: auto;
-    border-radius: 2vw;
-  }
-
-  .wealthButtons button,
-  .heyMiloButtons button,
-  .DivvyUpButtons button,
-  .clearSpiderButtons button {
-    font-size: 1rem;
-    padding: 2vw 4vw;
-    margin: 2vw 1vw;
-    border-radius: 40px;
-  }
-
-  .wealthApp,
-  .heyMilo,
-  .DivvyUp,
-  .clearSpider {
-    width: 60%; 
-  margin: 0 auto; 
-  margin-bottom: 5vw;
-  }
-
-  .projectsSection img {
-    width: 10px;   
-    height: auto;
-  }
-
-  
-  .projectsSection h1 {
-    font-size: 2rem;
-    text-align: center;
-  }
-}
-
-  
-}
-
-@media (max-width: 768px) {
-  .wealthApp-card,
-  .heyMilo-card,
-  .divvyUp-card,
-  .clearSpider-card {
-    width: 90vw;
-    height: auto;
-    margin: 6vw auto;
-    padding: 6vw;
-    border-radius: 4vw;
-  }
-
-  .wealthApp-card h2,
-  .heyMilo-card h2,
-  .divvyUp-card h2,
-  .clearSpider-card h2 {
-    font-size: 1.1rem;
-    line-height: 1.6rem;
-    margin-left: 0;
-    width: 100%;
-    padding-top: 4vw;
-  }
-
-  .wealthApp-card img,
-  .heyMilo-card img,
-  .divvyUp-card img,
-  .clearSpider-card img {
-    height: auto;
-    max-height: 60vw;
-    border-radius: 2vw;
-  }
-
-  .wealthButtons button,
-  .heyMiloButtons button,
-  .DivvyUpButtons button,
-  .clearSpiderButtons button {
-    font-size: 1rem;
-    padding: 2vw 4vw;
-    margin: 2vw 1vw;
-    border-radius: 40px;
-  }
-
-  .wealthApp,
-  .heyMilo,
-  .DivvyUp,
-  .clearSpider {
-    margin-left: 0;
-    margin-bottom: 8vw;
-  }
-
-  .projectsSection .workTitle {
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .projectsSection h1 {
-    font-size: 3rem;
-    text-align: center;
-  }
-  .projectsSection h1:hover {
-    font-family: acorn-medium;
-    color: #91b892;
-    
-    font-size: 3rem;
-  } */
-
-  
   
 }
 
