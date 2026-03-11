@@ -1,244 +1,121 @@
 
+/* Shared container */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+/* HOME FOOTER */
 .footerHome {
-  background-color:#F7F7F8;
-    
-    text-align: left;
-    position: relative; /* Change from fixed to relative */
-    width: 100;
-    display: flex;
-    max-width: 100vw; /* Ensure it doesn't exceed the viewport */
-    padding: 45 20px;
-    padding-bottom:6vw;
-    transition: color 0.5s ease;
-  }
-  
+  background-color: #F7F7F8;
+  width: 100%;
+  padding: 45px 60px;
+  box-sizing: border-box;
+}
+
+.footerHome h1 {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  color: #6790DD;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 550;
+}
+
+.footerHome button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.1rem;
+  background: transparent;
+  color: rgb(135,135,135);
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footerHome button:hover {
+  color: #6790DD;
+}
+
+/* SUBBUD FOOTER */
+.footerSubBud {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 45px 60px;
+  box-sizing: border-box;
+}
+
+.footerSubBud h1 {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  color: #6790DD;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 550;
+}
+
+.footerSubBud button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.1rem;
+  background: transparent;
+  color: rgb(135,135,135);
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footerSubBud button:hover {
+  color: #6790DD;
+}
+
+/* COPYRIGHT */
+.copyright {
+  font-size: 0.9rem;
+  color: rgb(135,135,135);
+  font-family: "DM Sans", sans-serif;
+}
+
+
+@media (max-width: 768px) {
+
   .footer-container {
-    display: flex;
-    justify-content: left;
-  }
-  
-  .footerHome button {
-    padding: 1vw 2vw;
-    border: none;
-    font-size: 1.1rem;
-    background-color: transparent;
-    color: rgb(135, 135, 135);
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    cursor: pointer;
-    transition: color 0.5s ease;
-  }
-  
-  .footerHome h1 {
-    margin: 0 10px;
-    padding: 10px 20px;
-    border: none;
-    font-size: 1.4rem;
-    background-color: transparent;
-    color: #6790DD;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 550;
-  }
-  
-  .footerHome button:hover {
-    color:#6790DD
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
   }
 
-
-  .footerAboutMe {
-    background-color:#ffffff;
-    text-align: left;
-    position: relative; /* Change from fixed to relative */
-    width: 100;
-    display: flex;
-    max-width: 100vw; /* Ensure it doesn't exceed the viewport */
-    padding: 45 20px;
-    padding-bottom:6vw;
-  }
-  
-  
-  .footerAboutMe button {
-    padding: 1vw 2vw;
-    border: none;
-    font-size: 1.1rem;
-    background-color: transparent;
-    color:#2d2727 ;
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  .footerAboutMe h1 {
-    margin: 0 10px;
-    padding: 10px 20px;
-    border: none;
-    background-color: transparent;
-    color: rgb(130, 116, 108);
-    font-family: acorn-medium;
-    font-weight: bold;
-    font-size: 1.4rem;
-  }
-  
-  .footerAboutMe button:hover {
-    opacity:60%;
+  .footer-left {
+    flex-wrap: wrap;
   }
 
-
+  .footerHome,
   .footerSubBud {
-    margin: 0 10px;
-    padding: 10px 20px;
-    border: none;
-    font-size: 1.4rem;
-    background-color: transparent;
-    color: rgb(130, 116, 108);
-    font-family: "DM Sans", sans-serif;
-    font-weight: 550;
-    transition: color 0.5s ease;
-  }
-  
-  
-  .footerSubBud button {
-    padding: 1vw 2vw;
-    border: none;
-    font-size: 1.1rem;
-    background-color: transparent;
-    color: rgb(135, 135, 135);
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    cursor: pointer;
-    transition: color 0.5s ease;
-  }
-  
-  .footerSubBud h1 {
-    margin: 0 10px;
-    padding: 10px 20px;
-    border: none;
-    font-size: 1.4rem;
-    background-color: transparent;
-    color: #6790DD;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 550;
-  }
-  
-  
-  .footerSubBud button:hover {
-   
-    color:#6790DD
-    
+    padding: 32px 24px;
   }
 
-  /* @media (max-width: 480px) {
-    .footerHome button {
-      margin: 0 10px;
-      padding: 10px 20px;
-      border: none;
-      font-size: 2vw;
-      background-color: transparent;
-      color: rgb(130, 116, 108);
-      font-family: acorn-medium;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    
-    .footerHome h1 {
-      margin: 0 10px;
-      padding: 10px 20px;
-      border: none;
-      font-size: 2vw;
-      background-color: transparent;
-      color: rgb(255, 255, 255);
-      font-family: "DM Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: bold;
-    }
-    
-    .footerHome button:hover {
-      color:#b5d8ab;
-    }
-  
-  
-    .footerAboutMe {
-      background-color:#ffffff;
-      overflow:hidden;
-      text-align: left;
-      position: relative; 
-      width: 97.23%;
-      display: flex;
-      max-width: 100vw; 
-      padding-top: 8vw;
-      padding-bottom:6vw;
-    }
-    
-    
-    .footerAboutMe button {
-      margin: 0 2vw;
-      padding: 2vw 4vw;
-      border: none;
-      font-size: 2vw;
-      background-color: transparent;
-      color:#2d2727 ;
-      font-family: "DM Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    
-    .footerAboutMe h1 {
-      margin: 0 2vw;
-      padding: 2vw 4vw;
-      border: none;
-      font-size: 2vw;
-      background-color: transparent;
-      color:#2d2727 ;
-      font-family: "DM Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: bold;
-    }
-    
-    .footerAboutMe button:hover {
-      opacity:60%;
-    }
-  
-  
-    .footerSubBud {
-      overflow:hidden;
-      padding: 20px;
-      text-align: left;
-      position: relative; 
-      bottom: 0;
-      width: 97.23%;
-      display: flex;
-      max-width: 100vw; 
-      padding: 45 20px;
-      padding-bottom:6vw;
-    }
-    
-    
-    .footerSubBud button {
-      margin: 0 10px;
-      padding: 10px 20px;
-      border: none;
-      font-size: 2vw;
-      background-color: transparent;
-      color:#2d2727 ;
-      font-family: "DM Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    
-    .footerSubBud h1 {
-      margin: 0 10px;
-      padding: 10px 20px;
-      border: none;
-      font-size: 2vw;
-      background-color: transparent;
-      color:#2d2727 ;
-      font-family: "DM Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: bold;
-    }
-  } */
+  .footerHome h1,
+  .footerSubBud h1 {
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  .footerHome button,
+  .footerSubBud button {
+    padding: 8px 12px;
+    font-size: 1rem;
+  }
+
+  .copyright {
+    align-self: flex-start;
+    font-size: 0.85rem;
+  }
+
+}

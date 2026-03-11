@@ -11,10 +11,14 @@ const Footer = ({ className }) => {
 
   return (
     <div className={`footer-container ${className}`}>
-      <h1>Get connected!</h1>
-      <button onClick={linkedInClick}>LinkedIn</button>
-      <button onClick={emailClick}>Email</button>
-    </div>
+  <div className="footer-left">
+    <h1>Get connected!</h1>
+    <button onClick={linkedInClick}>LinkedIn</button>
+    <button onClick={emailClick}>Email</button>
+  </div>
+
+  <p className="copyright">© {new Date().getFullYear()} Katie Sun</p>
+</div>
   );
 };
 
