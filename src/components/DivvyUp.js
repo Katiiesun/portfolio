@@ -5,21 +5,81 @@ import Footer from "./footer";
 import "../static/footer.css";
 import { useState, useEffect, useCallback, useRef } from "react";
 
+const DivvyUpBanner = process.env.PUBLIC_URL + "images/divvyheader.png";
+const divvyUserFlow = process.env.PUBLIC_URL + "images/divvy-userflow.JPG";
+const divvyWireframes =
+  process.env.PUBLIC_URL + "images/Screenshot 2024-11-14 at 1.09.13 PM.png";
+const divvyEventIteration =
+  process.env.PUBLIC_URL + "images/divvy-event-iteration.png";
+const addfriendCard = process.env.PUBLIC_URL + "images/add-friend-card.png";
+const divvyonboarding =
+  process.env.PUBLIC_URL + "images/divvy onboarding.png";
+const divvyhome = process.env.PUBLIC_URL + "images/divvy home and plan.png";
+const divvyplan = process.env.PUBLIC_URL + "images/divvy adding event.png";
+const divvyAI = process.env.PUBLIC_URL + "images/divvy ai.png";
+const divvysplit = process.env.PUBLIC_URL + "images/divvy bill splitter.png";
+const divvypersona = process.env.PUBLIC_URL + "images/Group 54.png";
+
+
 function DivvyUp() {
-  const DivvyUpBanner = process.env.PUBLIC_URL + "images/DivvyUp-banner.png";
-  const divvyUserFlow = process.env.PUBLIC_URL + "images/divvy-userflow.JPG";
-  const divvyWireframes =
-    process.env.PUBLIC_URL + "images/Screenshot 2024-11-14 at 1.09.13 PM.png";
-  const divvyEventIteration =
-    process.env.PUBLIC_URL + "images/divvy-event-iteration.png";
-  const addfriendCard = process.env.PUBLIC_URL + "images/add-friend-card.png";
-  const divvyonboarding =
-    process.env.PUBLIC_URL + "images/divvy onboarding.png";
-  const divvyhome = process.env.PUBLIC_URL + "images/divvy home and plan.png";
-  const divvyplan = process.env.PUBLIC_URL + "images/divvy adding event.png";
-  const divvyAI = process.env.PUBLIC_URL + "images/divvy ai.png";
-  const divvysplit = process.env.PUBLIC_URL + "images/divvy bill splitter.png";
-  const divvypersona = process.env.PUBLIC_URL + "images/Group 54.png";
+  const divvyUpRef = useRef(null);
+  const initialTranslateY = -20; // negative = higher on the page
+  const initialTranslateX = 30;
+  useEffect(() => {
+    if (window.innerWidth <= 768) return;
+  
+    // const initialTranslateX = 10;
+    const initialRotateZ = 30;
+    const initialRotateY = -2;
+    const initialRotateX = 25;
+  
+    const rotateMaxScroll = 500;
+    const moveMaxScroll = 900;
+  
+    let currentRotateProgress = 0;
+    let currentMoveProgress = 0;
+  
+    const smoothing = 0.08; // smaller = more delay
+  
+    const handleScroll = () => {
+      if (!divvyUpRef.current) return;
+  
+      const scroll = window.scrollY;
+  
+      const targetRotateProgress = Math.min(scroll / rotateMaxScroll, 1);
+      const targetMoveProgress = Math.min(scroll / moveMaxScroll, 1);
+  
+      // smooth interpolation
+      currentRotateProgress +=
+        (targetRotateProgress - currentRotateProgress) * smoothing;
+  
+      currentMoveProgress +=
+        (targetMoveProgress - currentMoveProgress) * smoothing;
+  
+      const rotateX = initialRotateX * (1 - currentRotateProgress);
+      const rotateY = initialRotateY * (1 - currentRotateProgress);
+      const rotateZ = initialRotateZ * (1 - currentRotateProgress);
+  
+      const scale = 1 + currentRotateProgress * 0.03;
+  
+      const translateY = initialTranslateY - currentMoveProgress * 15;
+  
+      divvyUpRef.current.style.transform = `
+        translateY(${translateY}%)
+        translateX(${initialTranslateX}%)
+        rotateX(${rotateX}deg)
+        rotateY(${rotateY}deg)
+        rotateZ(${rotateZ}deg)
+        scale(${scale})
+      `;
+  
+      requestAnimationFrame(handleScroll);
+    };
+  
+    requestAnimationFrame(handleScroll);
+  
+    return () => cancelAnimationFrame(handleScroll);
+  }, []);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -27,21 +87,19 @@ function DivvyUp() {
   return (
     <div>
       <Navigation className="projectsnav" />
-      {/* <div className="construction-msg">
-        <h1> This page is under construction! 🔧👷🏻‍♀️</h1>
-      </div> */}
-      <div className="DivvyUp-header">
-        {/* <div className="divvyHeaderText">
-          <h1>DivvyUp</h1>
 
-          <h2>
-            Simplifying group planning and bill splitting for a seamless group
-            outing experience
-          </h2>
-        </div> */}
+<div className="DivvyUp-Header">
+  <h1>
+    Simplifying group planning and bill splitting with{" "}
+    <span className="highlight">DivvyUp</span> for a seamless group outing experience
+  </h1>
 
-        <img src={DivvyUpBanner} alt="background" />
-      </div>
+  <div className="image-layout-wrapper">
+    <div className="perspective-layer">
+      <img ref={divvyUpRef} src={DivvyUpBanner} alt="DivvyUp redesign" />
+    </div>
+  </div>
+</div>
 
       <div className="cs-section1">
         <div className="subbud-intro">

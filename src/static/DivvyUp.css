@@ -9,26 +9,71 @@
   }
   
 
-.construction-msg h1{
-    font-size: 1.5vw;
-    font-weight: 600;
-    margin-bottom: 0px;
-    /* position:absolute;
-      transform: translate(190%, -600%); */
-    color: #4d4545;
+  .perspective-layer{
+    width:65vw;
+    height:55vw;
+  }
+  
+  .image-layout-wrapper {
+    perspective: 1200px;
+    perspective-origin: center;
+    overflow: visible;
+    position: relative;
+  }
+  
+  .image-layout-wrapper img {
+    transform-style: preserve-3d;
+    transition: transform 0.15s ease-out;
+  }
+  
+  .DivvyUp-Header {
     display: flex;
+    padding-top: 4vw;
+    padding-left: 8vw;
+  
+    background-color: #E1E8FF;
+  }
+  
+  .DivvyUp-Header .highlight {
+    color: #2072e5;
+    font-weight: 600;
+  }
+  
+  .highlight2 {
+    color: #393939;
+    font-weight: 700;
+  }
+  
+  .DivvyUp-Header h1 {
+    font-size: 1.9rem;
+    padding-top: 12vw;
+    animation: fadeInUp 0.6s forwards; /* changed name to fadeInUp and added forwards to keep final state */
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-}
+  }
+  .DivvyUp-Header img {
+    width: 50vw;
+  
+    transform-style: preserve-3d;
+    transition: transform 0.1s linear;
+  
+    transform:
+      translateY(-10%)
+      translateX(10%)
+      rotateX(25deg)
+      rotateY(-2deg)
+      rotateZ(30deg)
+      scale(1);
+  }
+  
+  @media (max-width: 768px) {
+    .DivvyUp-Header img {
+      transform: none !important;
+    }
+  }
 
-.construction-msg{
-    padding-left: 35vw;
-    padding-top: 20vw;
-}
 
-.DivvyUp-header img{
-width:100vw;
-}
+
 
 .divvy-section2{
     padding-left: 18vw;
