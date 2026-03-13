@@ -69,7 +69,23 @@
   @media (max-width: 768px) {
     .DivvyUp-Header img {
       transform: none !important;
+ 
+  padding-left: 12vw;
+  
+ 
+  
     }
+
+    .DivvyUp-Header {
+      flex-direction: column;
+      padding: 10vw 6vw 12vw 6vw;
+      gap: 6vw;
+    }
+
+
+  
+
+    
   }
 
 
