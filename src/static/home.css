@@ -124,13 +124,13 @@
   /* background-color:#F7F7F8; */
   background-color: transparent;
   margin-top: -100px;
-  padding-top:5vw;
+  padding-top:8vw;
 }
 
 .pic img {
-  width: 27vw;
-  margin: 5em;
-  border-radius: 7vw;
+  width: 34vw;
+  margin: 1em;
+  /* border-radius: 7vw; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,7 +141,7 @@
 
 .animated-pic img{
   position: absolute;  
-  top: 34vw;          
+  top: 36vw;          
   left: 70vw;       
   width: 16vw;         
   height: auto;
@@ -610,7 +610,7 @@
     flex-direction: column;       /* stack vertically */
     align-items: center;          /* center content */
     padding: 30vw 6vw 10vw 6vw;
-    background-color:#F7F7F8;    /* keep green background */
+    background-color:transparent;    /* keep green background */
   }
   .animated-pic img{
     position: absolute;  /* now we can move it freely */

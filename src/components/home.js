@@ -16,7 +16,7 @@ function Home() {
 
   const snoopyOne = process.env.PUBLIC_URL + "images/snoop1.png";
   const snoopyTwo = process.env.PUBLIC_URL + "images/snoop2.png";
-  const selfietwo = process.env.PUBLIC_URL + "images/IMG_9177.jpeg";
+  const selfietwo = process.env.PUBLIC_URL + "images/introimg.png";
   const heyMilo = process.env.PUBLIC_URL + "images/heymilo-mockup.png";
   const wealthApp = process.env.PUBLIC_URL + "images/wealthApp.png";
   const divvyUp = process.env.PUBLIC_URL + "images/Artboard 6.png";
