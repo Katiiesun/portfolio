@@ -27,7 +27,7 @@ function AboutMe() {
   // };
 
   return (
-    <div>
+    <div className="home-wrapper">
       <Navigation className="aboutmenav" />
       <div className="aboutmesection">
         <div className="aboutme">

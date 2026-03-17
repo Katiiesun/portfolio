@@ -1,3 +1,11 @@
+.home-wrapper{
+  background-image: url( "../../public/images/Graph Paper - 01.png"
+  );
+  background-size: cover;        /* fills screen */
+  background-position: center;   /* keeps it centered */
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* optional: subtle parallax feel */
+}
 
 .aboutme {
   margin: 5vh;
@@ -41,7 +49,7 @@
   display: flex;
   justify-content: center;
   padding: 6vw;
-  background-color:#F7F7F8;
+  background-color:transparent;
   overflow: hidden;
   
 }
@@ -87,7 +95,7 @@
 }
 
 .music {
-  background-color:#F7F7F8;
+  background-color:transparent;
   margin-top: -3.5vw;
   overflow: hidden;
 }

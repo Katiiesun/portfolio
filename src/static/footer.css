@@ -14,7 +14,8 @@
 
 /* HOME FOOTER */
 .footerHome {
-  background-color: #F7F7F8;
+  /* background-color: #F7F7F8; */
+  background-color: transparent;
   width: 100%;
   padding: 45px 60px;
   box-sizing: border-box;
@@ -44,6 +45,11 @@
   color: #6790DD;
 }
 
+.footer-title-img {
+  width: 250px;   /* adjust this */
+  height: auto;
+  margin-bottom: 1rem;
+}
 /* SUBBUD FOOTER */
 .footerSubBud {
   background-color: #ffffff;

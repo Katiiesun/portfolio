@@ -1,4 +1,24 @@
 
+.home-wrapper  {
+ 
+  background-image: url( "../../public/images/Graph Paper - 01.png"
+  );
+  background-size: cover;        /* fills screen */
+  background-position: center;   /* keeps it centered */
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* optional: subtle parallax feel */
+}
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .home {
   width: 100vw;
@@ -24,7 +44,8 @@
 .homeBackground {
   position: absolute;
   inset: 0;
-  background-color:#F7F7F8;
+  /* background-color:#F7F7F8; */
+  background-color: transparent;
 }
 
 .homeBackground img {
@@ -100,7 +121,8 @@
   align-items: center;
   margin: 0vw;
   display: flex;
-  background-color:#F7F7F8;
+  /* background-color:#F7F7F8; */
+  background-color: transparent;
   margin-top: -100px;
   padding-top:5vw;
 }
@@ -119,8 +141,8 @@
 
 .animated-pic img{
   position: absolute;  
-  top: 28vw;          
-  left: 68vw;       
+  top: 34vw;          
+  left: 70vw;       
   width: 16vw;         
   height: auto;
   animation: fadeInUp 0.7s forwards;
@@ -180,7 +202,9 @@
   font-size: 3.1rem;
   line-height: 120%;
   margin-bottom: 1.5vw;
-  color:#2b2b2b;
+  /* color:#2b2b2b; */
+
+  
   animation: fadeInUp 0.7s forwards;
   
 }
@@ -216,7 +240,30 @@
   color: #555555;
   transition: color 0.5s ease;
   animation: fadeInUp 0.7s forwards;
+  /* font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.7rem 1.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  color: transparent;
+  background: linear-gradient(270deg, #ff6ec4, #7873f5, #00e0ff, #ff6ec4);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: gradientMove 5s ease infinite; */
 }
+/* @keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
 
 .intro .intro-button button:hover {
   transform: scale(1.02);
@@ -229,7 +276,8 @@
 }
 
 .projectsSection {
-  background-color:#F7F7F8;
+  /* background-color:#F7F7F8; */
+  background-color: transparent;
   margin-top: 0vw;
   padding-top:2vw;
   padding-bottom: 10vw;
@@ -566,7 +614,7 @@
   }
   .animated-pic img{
     position: absolute;  /* now we can move it freely */
-    top: 120vw;           /* distance from top of the container */
+    top: 136vw;           /* distance from top of the container */
     left: 68vw;         /* negative moves it left outside the container */
     width: 16vw;         /* size of animated pic */
     height: auto;

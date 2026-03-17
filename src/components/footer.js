@@ -1,5 +1,7 @@
 import "../static/footer.css";
 
+const titleImg = process.env.PUBLIC_URL + "images/getconnected.png";
+
 const Footer = ({ className }) => {
   const linkedInClick = () => {
     window.open("https://www.linkedin.com/in/sun-katie/");
@@ -12,7 +14,7 @@ const Footer = ({ className }) => {
   return (
     <div className={`footer-container ${className}`}>
   <div className="footer-left">
-    <h1>Get connected!</h1>
+  <img src={titleImg} alt="Get connected" className="footer-title-img" />
     <button onClick={linkedInClick}>LinkedIn</button>
     <button onClick={emailClick}>Email</button>
   </div>
