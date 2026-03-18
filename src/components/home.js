@@ -21,6 +21,7 @@ function Home() {
   const wealthApp = process.env.PUBLIC_URL + "images/wealthApp.png";
   const divvyUp = process.env.PUBLIC_URL + "images/Artboard 6.png";
   const mywork = process.env.PUBLIC_URL + "images/mywork.png";
+  const newborns = process.env.PUBLIC_URL + "images/newborns.png";
 
   const [currentImg, setCurrentImg] = useState(snoopyOne);
   const [handWaved, setHandWaved] = useState(false);
@@ -200,12 +201,31 @@ function Home() {
         </div>
 
         <div className="project scroll-reveal">
+          <Link to="#" className="project-row">
+            <div className="project-image">
+              <img src={newborns} alt="Revvity" />
+            </div>
+            <div className="project-text">
+              <h2>Newborn Screening Analysis Tool</h2>
+              <p className="company">Revvity</p>
+              
+              <p>
+              Reducing newborn screening analysis and reporting turnaround from weeks to days
+              </p>
+              <span className="coming-soon-btn">In Progress</span>
+            </div>
+          </Link>
+        </div>
+
+
+        <div className="project scroll-reveal">
           <Link to="/heymilo" className="project-row">
             <div className="project-image">
               <img src={heyMilo} alt="heyMilo" />
             </div>
             <div className="project-text">
               <h2>AI-Powered Recruiter Dashboard</h2>
+              <p className="company">HeyMilo AI</p>
               <p>
                 Redesigning an ATS dashboard and navigation system to
                 <span className="highlight3"> streamline recruiter workflows</span>
@@ -221,6 +241,7 @@ function Home() {
             </div>
             <div className="project-text">
               <h2>Wealth Management Mobile App</h2>
+              <p className="company">Manulife Financial</p>
               <p>
                 Designing a <span className="highlight3">future-ready</span>{" "}
                 navigation solution for{" "}
