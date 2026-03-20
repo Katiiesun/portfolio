@@ -174,11 +174,13 @@ function Home() {
           </h1>
           <p>
             I'm a <b>Product Designer</b> studying Systems Design Engineering @
-            <i>UWaterloo</i>. I'm passionate about crafting meaningful experiences that
-            simplify how people navigate the digital space ⚙️💡
+            <i>UWaterloo</i>. I'm passionate about crafting meaningful
+            experiences that simplify how people navigate the digital space ⚙️💡
           </p>
 
-          <p>Currently designing @ <i>Revvity!</i> </p>
+          <p>
+            Currently designing @ <i>Revvity!</i>{" "}
+          </p>
           <div className="intro-button">
             <button
               onClick={() => {
@@ -208,15 +210,15 @@ function Home() {
             <div className="project-text">
               <h2>Newborn Screening Analysis Tool</h2>
               <p className="company">Revvity</p>
-              
+
               <p>
-              Reducing newborn screening analysis and reporting turnaround from weeks to days
+                Reducing newborn screening analysis and reporting turnaround
+                from weeks to days
               </p>
               <span className="coming-soon-btn">In Progress</span>
             </div>
           </Link>
         </div>
-
 
         <div className="project scroll-reveal">
           <Link to="/heymilo" className="project-row">
@@ -228,7 +230,10 @@ function Home() {
               <p className="company">HeyMilo AI</p>
               <p>
                 Redesigning an ATS dashboard and navigation system to
-                <span className="highlight3"> streamline recruiter workflows</span>
+                <span className="highlight3">
+                  {" "}
+                  streamline recruiter workflows
+                </span>
               </p>
             </div>
           </Link>
@@ -245,7 +250,9 @@ function Home() {
               <p>
                 Designing a <span className="highlight3">future-ready</span>{" "}
                 navigation solution for{" "}
-                <span className="highlight3">Canada’s #1 insurance provider</span>
+                <span className="highlight3">
+                  Canada’s #1 insurance provider
+                </span>
               </p>
             </div>
           </Link>
@@ -260,7 +267,10 @@ function Home() {
               <h2>Group Outings with DivvyUp</h2>
               <p>
                 Simplifying group planning and bill splitting with DivvyUp for a
-                <span className="highlight3"> seamless group outing experience</span>
+                <span className="highlight3">
+                  {" "}
+                  seamless group outing experience
+                </span>
               </p>
             </div>
           </Link>

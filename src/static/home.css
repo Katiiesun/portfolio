@@ -208,7 +208,9 @@
 }
 
 .introtext h1 {
-  font-family: "DM Sans", sans-serif;
+  /* font-family: "DM Sans", sans-serif; */
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-size: 3.1rem;
   line-height: 120%;
   margin-bottom: 1.5vw;
@@ -337,8 +339,10 @@
 }
 
 .project-text h2 {
-  font-family: "DM Sans", sans-serif;
-  font-size: 3.1rem;
+  /* font-family: "DM Sans", sans-serif; */
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  font-size: 2.8rem;
   line-height: 120%;
   margin-bottom: 1.5vw;
   color: #2b2b2b;

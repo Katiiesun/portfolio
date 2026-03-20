@@ -77,9 +77,9 @@ background-color: #3c6657;
   font-size: 2.3rem;
   padding-top: 12vw;
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
@@ -181,10 +181,10 @@ background-color: #3c6657;
 
 .wealthsection1 .confidential h1 {
   color: #666666;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.3rem;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
@@ -206,10 +206,10 @@ background-color: #3c6657;
 
 .wealthsection1 .wealth-overview h1 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.8rem;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
@@ -226,10 +226,10 @@ background-color: #3c6657;
 
 .wealthsection1 .wealth-myrole h1 {
   color: #000;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.8rem;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
@@ -291,10 +291,10 @@ background-color: #3c6657;
 
 .challenge-sec2 h1 {
   color: #ffffff;
-  font-family: "DM Sans", sans-serif;
+   font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.8rem;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
   word-wrap: break-word;
@@ -433,10 +433,10 @@ background-color: #3c6657;
 
 .targetUsersText h1 {
   color: #000;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.6rem;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
@@ -462,10 +462,10 @@ background-color: #3c6657;
 
 .wealth-userneeds h1 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.6rem;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
@@ -491,10 +491,10 @@ background-color: #3c6657;
 
 .wealthProcess h1 {
   color: #5a7684;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.6rem;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   padding-bottom: 2vw;
@@ -521,10 +521,10 @@ background-color: #3c6657;
 
 .whatwasTested-sec4 h1 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.6rem;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
@@ -568,10 +568,10 @@ background-color: #3c6657;
 
 .futurenavtext h1 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.3rem;
-  font-style: normal;
   font-weight: 600;
   line-height: 1.6rem;
 }
@@ -602,6 +602,8 @@ background-color: #3c6657;
   font-weight: 600;
   line-height: 1.6rem;
   margin-bottom: 1rem;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
 }
 
 .bottomnavtext h2 {
@@ -629,10 +631,10 @@ background-color: #3c6657;
 
 .scrollvstabtext h1 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.3rem;
-  font-style: normal;
   font-weight: 600;
   line-height: 1.6rem;
 }
@@ -684,10 +686,10 @@ background-color: #3c6657;
 
 .keyinsights h1 {
   color: #528271;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.6rem;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   padding-bottom: 2vw;
@@ -851,10 +853,10 @@ background-color: #3c6657;
 
 .recos h1 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.3rem;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
@@ -892,10 +894,11 @@ background-color: #3c6657;
 
 .whatIlearned h1 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.3rem;
-  font-style: normal;
+  
   font-weight: 600;
   line-height: 28px;
 }
@@ -1008,7 +1011,8 @@ background-color: #3c6657;
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 3vw;
-  font-family: dm sans;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   color: rgb(130, 116, 108);
   /* padding-left: 18vw; */
 }
@@ -1178,10 +1182,11 @@ background-color: #3c6657;
 
 .impact h1 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
   font-optical-sizing: auto;
   font-size: 1.3rem;
-  font-style: normal;
+
   font-weight: 600;
   line-height: normal;
 }
