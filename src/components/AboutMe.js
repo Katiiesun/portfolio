@@ -37,9 +37,14 @@ function AboutMe() {
             engineering 🎨 ⚙️ Growing up creating art helped me discover that I
             love communicating ideas through visuals. Today, I approach design
             by listening first, always staying curious, and never assuming I
-            already know the answer. Problem-solving is at the heart of my work,
-            and I am committed to bringing both creativity and reasoning to the
-            design process 💪
+            already know the answer.
+          </p>
+          <p>
+            I design because I believe technology should work for people, not
+            the other way around. In a world that's shaped by complex
+            systems, I care about creating experiences that give people control and confidence in how they interact with
+            them. Problem-solving is at the heart of my work, and I am committed
+            to bringing both creativity and reasoning to the design process 💪
           </p>
           <p>
             Outside of designing, you'll likely find me doing arts & crafts,
