@@ -80,20 +80,26 @@ columns:2;
 }
 
 .project-duration h1 {
-  flex: 1;
-  font-size: 1.1rem;;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #8a8a8a;
+  margin-bottom: 0.6vw;
   font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-weight: 600;
 }
 
 .subbud-skills{
   margin-bottom:5vw;
 }
 .subbud-skills h1 {
-  flex: 1;
-  font-size: 1.1rem;;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #8a8a8a;
+  margin-bottom: 0.6vw;
   font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-weight: 600;
 }
 
 .subbud-skills h2 {

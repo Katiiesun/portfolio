@@ -1,329 +1,326 @@
 /* PAGE BASE */
 .ns-page {
-    background: #fbfbfb;
-    color: #1a1a1a;
-  }
-  
-  /* CONTAINER */
-  .ns-container {
-    width: 65vw;
-    margin: 0 auto;
-    padding-top: 3vw;
-    padding-bottom: 6vw;
-  }
+  background: #fbfbfb;
+  color: #1a1a1a;
+}
 
-  .ns-coming-soon{
-    display: inline-block;
-    padding: 8px 12px;
-    margin: 2px 0; /* space below the title */
-    background-color: #f1f1f1; /* light gray, you can change */
-    color: #8e8e8e;
-    border-radius: 20px; /* makes it fully rounded */
-    font-size: 0.75rem; /* small text */
-    font-weight: 600;
-    text-transform: uppercase;
-    cursor: default;
-    border: none;      /* remove any default border */
-    outline: none;     /* remove focus outline */
-    animation: fadeInUp 0.6s ease forwards;
-  }
-  
-  /* HERO */
-  .ns-hero {
-    padding-top: 6vw;
-    padding-bottom: 3vw;
-  
-    border-radius: 2vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
-  
-    display: flex;
-    flex-direction: column;
-    gap: 2vw;
-  }
-  
-  /* TITLE */
-  .ns-hero h1 {
-    font-size: 2.6rem;
-    font-family: 'Noto Serif', serif;
-    font-style: italic;
-    font-weight: 600;
-    margin-bottom: 0.5vw;
-  }
-  
-  /* SUBTITLE */
-  .ns-subtitle {
-    font-size: 1.2rem;
-    color: #4f4f4f;
-    margin-bottom: 1vw;
-    font-family: "DM Sans", sans-serif;
-    max-width: 70vw;
-  }
-  
-  /* ===== NEW: IMAGE ===== */
-  .ns-image-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    /* Remove any container padding if you want edge-to-edge */
-    padding: 0;
-    margin: 0;
+/* CONTAINER */
+.ns-container {
+  width: 65vw;
+  margin: 0 auto;
+  padding-top: 3vw;
+  padding-bottom: 6vw;
+}
+
+.ns-coming-soon {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 2px 0; /* space below the title */
+  background-color: #f1f1f1; /* light gray, you can change */
+  color: #8e8e8e;
+  border-radius: 20px; /* makes it fully rounded */
+  font-size: 0.75rem; /* small text */
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: default;
+  border: none; /* remove any default border */
+  outline: none; /* remove focus outline */
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* HERO */
+.ns-hero {
+  padding-top: 6vw;
+  padding-bottom: 3vw;
+
+  border-radius: 2vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+/* TITLE */
+.ns-hero h1 {
+  font-size: 2.6rem;
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 0.5vw;
+}
+
+/* SUBTITLE */
+.ns-subtitle {
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  margin-bottom: 1vw;
+  font-family: "DM Sans", sans-serif;
+  max-width: 70vw;
+}
+
+/* ===== NEW: IMAGE ===== */
+.ns-image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* Remove any container padding if you want edge-to-edge */
+  padding: 0;
+  margin: 0;
 }
 
 .ns-image img {
-    width: 70vw;       /* makes the image exactly 70% of viewport width */
-    height: auto;      /* maintain aspect ratio */
-    max-width: 70vw;   /* optional safety cap */
-    border-radius: 1.5vw;
-    display: block;    /* removes inline gaps */
-    animation: fadeInUp 0.6s ease forwards;
+  width: 70vw; /* makes the image exactly 70% of viewport width */
+  height: auto; /* maintain aspect ratio */
+  max-width: 70vw; /* optional safety cap */
+  border-radius: 1.5vw;
+  display: block; /* removes inline gaps */
+  animation: fadeInUp 0.6s ease forwards;
 }
 
-  /* ===== META (UPDATED → GRID) ===== */
-  .ns-meta {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 4vw;
-    margin-top: 1.5vw;
-  }
-  
-  /* each block */
-  .ns-meta-item {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* label */
-  .ns-label {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #8a8a8a;
-    margin-bottom: 0.6vw;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 600;
-  }
-  
-  /* content */
-  .ns-meta-item p {
-    font-size: 0.95rem;
-    color: #4f4f4f;
-    margin-bottom: 0.3vw;
-    font-family: "DM Sans", sans-serif;
-  }
-  
-  /* fallback if you still use old structure */
-  .ns-meta p {
-    font-size: 1rem;
-    color: #6a6a6a;
-    margin-bottom: 0.5vw;
-    font-family: "DM Sans", sans-serif;
-  }
-  
-  /* SECTIONS */
-  .ns-section {
-    margin-top: 5vw;
-  }
-  
-  /* HEADINGS */
-  .ns-section h2 {
-    font-size: 2rem;
-    font-family: 'Noto Serif', serif;
-    font-style: italic;
-    font-weight: 600;
-    margin-bottom: 1.5vw;
-  }
-  
-  .ns-section h3 {
-    font-size: 1.2rem;
-    color: #7a7a7a;
-    font-weight: 600;
-    margin-bottom: 1.2vw;
-    font-family: "DM Sans", sans-serif;
-  }
-  
-  /* BODY TEXT */
-  .ns-section p {
-    font-size: 1.1rem;
-    line-height: 1.7rem;
-    margin-bottom: 1.2vw;
-    font-family: "DM Sans", sans-serif;
-    color: #2a2a2a;
-  }
-  
-  /* HIGHLIGHT CALLOUT */
-  .ns-highlight {
-    margin-top: 2vw;
-    padding: 2vw;
-    background-color: #f1f7f5;
-    border-radius: 1.5vw;
-  
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .ns-highlight:hover {
-    transform: translateY(-0.4vw);
-    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.05);
-  }
-  
-  /* -------------------- */
-  /* TAKEAWAYS */
-  /* -------------------- */
-  
-  .ns-takeaways {
-    margin-top: 6vw;
-  }
-  
-  /* TITLE */
-  .ns-takeaways-title {
-    font-size: 1.2rem;
-    color: #7a7a7a;
-    font-weight: 600;
-    margin-bottom: 3vw;
-    font-family: "DM Sans", sans-serif;
-  }
-  
-  /* BLOCK */
-  .ns-takeaway-block {
-    margin-bottom: 5vw;
-    max-width: 70vw;
-  }
-  
-  /* NUMBER */
-  .ns-takeaway-number {
-    font-size: 3rem;
-    font-family: 'Noto Serif', serif;
-    font-style: italic;
-    color: #d6e5e1;
-    letter-spacing: 2px;
-    margin-bottom: 0.5vw;
-  }
-  
-  /* HEADING */
-  .ns-takeaway-heading {
-    font-size: 1.6rem;
-    font-family: 'Noto Serif', serif;
-    font-style: italic;
-    font-weight: 600;
-    margin-bottom: 1.5vw;
-  }
-  
-  /* TEXT */
-  .ns-takeaway-block p {
-    font-size: 1.1rem;
-    line-height: 1.7rem;
-    margin-bottom: 1.2vw;
-    font-family: "DM Sans", sans-serif;
-    color: #2a2a2a;
-  }
-  
-  /* CLOSING */
-  .ns-closing {
-    margin-top: 4vw;
-    /* font-weight: 500; */
-    color: #3a3a3a;
-    font-size: 1.1rem;
-    font-family: "DM Sans", sans-serif;
-    line-height: 1.7rem;
-  }
-  
+/* ===== META (UPDATED → GRID) ===== */
+.ns-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4vw;
+  margin-top: 1.5vw;
+}
 
-  
-  
-  /* ANIMATION */
-  @keyframes fadeInUp {
-    0% {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
+/* each block */
+.ns-meta-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* label */
+.ns-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #8a8a8a;
+  margin-bottom: 0.6vw;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+
+/* content */
+.ns-meta-item p {
+  font-size: 0.95rem;
+  color: #4f4f4f;
+  margin-bottom: 0.3vw;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* fallback if you still use old structure */
+.ns-meta p {
+  font-size: 1rem;
+  color: #6a6a6a;
+  margin-bottom: 0.5vw;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* SECTIONS */
+.ns-section {
+  margin-top: 5vw;
+}
+
+/* HEADINGS */
+.ns-section h2 {
+  font-size: 2rem;
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 1.5vw;
+}
+
+.ns-section h3 {
+  font-size: 1.2rem;
+  color: #7a7a7a;
+  font-weight: 600;
+  margin-bottom: 1.2vw;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* BODY TEXT */
+.ns-section p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  margin-bottom: 1.2vw;
+  font-family: "DM Sans", sans-serif;
+  color: #2a2a2a;
+}
+
+/* HIGHLIGHT CALLOUT */
+.ns-highlight {
+  margin-top: 2vw;
+  padding: 2vw;
+  background-color: #f1f7f5;
+  border-radius: 1.5vw;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ns-highlight:hover {
+  transform: translateY(-0.4vw);
+  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.05);
+}
+
+/* -------------------- */
+/* TAKEAWAYS */
+/* -------------------- */
+
+.ns-takeaways {
+  margin-top: 6vw;
+}
+
+/* TITLE */
+.ns-takeaways-title {
+  font-size: 1.2rem;
+  color: #7a7a7a;
+  font-weight: 600;
+  margin-bottom: 3vw;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* BLOCK */
+.ns-takeaway-block {
+  margin-bottom: 5vw;
+  max-width: 70vw;
+}
+
+/* NUMBER */
+.ns-takeaway-number {
+  font-size: 3rem;
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  color: #d6e5e1;
+  letter-spacing: 2px;
+  margin-bottom: 0.5vw;
+}
+
+/* HEADING */
+.ns-takeaway-heading {
+  font-size: 1.6rem;
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 1.5vw;
+}
+
+/* TEXT */
+.ns-takeaway-block p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  margin-bottom: 1.2vw;
+  font-family: "DM Sans", sans-serif;
+  color: #2a2a2a;
+}
+
+/* CLOSING */
+.ns-closing {
+  margin-top: 4vw;
+  /* font-weight: 500; */
+  color: #3a3a3a;
+  font-size: 1.1rem;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.7rem;
+}
+
+/* ANIMATION */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
-  .ns-hero h1,
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ns-hero h1,
+.ns-subtitle {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* -------------------- */
+/* RESPONSIVE */
+/* -------------------- */
+
+@media (max-width: 768px) {
+  /* Container full width with safe padding */
+  .ns-container {
+    width: 100%;
+    padding-left: 5vw; /* safer than 6vw on small screens */
+    padding-right: 5vw;
+    box-sizing: border-box; /* include padding in width */
+  }
+
+  /* Hero section padding */
+  .ns-hero {
+    padding: 6vw 5vw; /* top/bottom + left/right */
+  }
+
+  /* Hero heading & subtitle scale */
+  .ns-hero h1 {
+    font-size: 1.8rem;
+    line-height: 2.2rem; /* prevent text clipping */
+  }
+
   .ns-subtitle {
-    animation: fadeInUp 0.6s ease forwards;
+    max-width: 100%; /* allow subtitle to wrap fully */
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
-  
-  /* -------------------- */
-  /* RESPONSIVE */
-  /* -------------------- */
-  
-  @media (max-width: 768px) {
-    /* Container full width with safe padding */
-    .ns-container {
-      width: 100%;
-      padding-left: 5vw;   /* safer than 6vw on small screens */
-      padding-right: 5vw;
-      box-sizing: border-box; /* include padding in width */
-    }
-  
-    /* Hero section padding */
-    .ns-hero {
-      padding: 6vw 5vw; /* top/bottom + left/right */
-    }
-  
-    /* Hero heading & subtitle scale */
-    .ns-hero h1 {
-      font-size: 1.8rem;
-      line-height: 2.2rem; /* prevent text clipping */
-    }
-  
-    .ns-subtitle {
-      max-width: 100%;      /* allow subtitle to wrap fully */
-      font-size: 1rem;
-      line-height: 1.5rem;
-    }
-  
-    /* Meta grid stacks vertically */
-    .ns-meta {
-      grid-template-columns: 1fr; 
-      gap: 3vw;
-    }
-  
-    /* Section headings smaller */
-    .ns-section h2 {
-      font-size: 1.5rem;
-      line-height: 1.8rem;
-    }
-  
-    .ns-section h3 {
-      font-size: 1.1rem;
-      line-height: 1.4rem;
-    }
-  
-    .ns-section p {
-      font-size: 1rem;
-      line-height: 1.6rem;
-    }
-  
-    /* Takeaways block full width */
-    .ns-takeaway-block {
-      max-width: 100%;
-    }
-  
-    /* Highlight padding smaller */
-    .ns-highlight {
-      padding: 3vw;
-    }
-  
-    /* Images responsive */
-    .ns-image img {
-      width: 100%;       /* fill container width */
-      max-width: 100%;
-      height: auto;      /* maintain aspect ratio */
-    }
-  
-    .ns-image-wrapper {
-      padding: 0;
-      margin: 0 auto;
-    }
-  
-    /* Image placeholder if used */
-    .ns-image-placeholder {
-      height: auto;
-      max-height: 50vw;  /* scale for smaller screens */
-    }
+
+  /* Meta grid stacks vertically */
+  .ns-meta {
+    grid-template-columns: 1fr;
+    gap: 3vw;
   }
+
+  /* Section headings smaller */
+  .ns-section h2 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  .ns-section h3 {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+
+  .ns-section p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+  /* Takeaways block full width */
+  .ns-takeaway-block {
+    max-width: 100%;
+  }
+
+  /* Highlight padding smaller */
+  .ns-highlight {
+    padding: 3vw;
+  }
+
+  /* Images responsive */
+  .ns-image img {
+    width: 100%; /* fill container width */
+    max-width: 100%;
+    height: auto; /* maintain aspect ratio */
+  }
+
+  .ns-image-wrapper {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  /* Image placeholder if used */
+  .ns-image-placeholder {
+    height: auto;
+    max-height: 50vw; /* scale for smaller screens */
+  }
+}
