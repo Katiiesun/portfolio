@@ -224,15 +224,11 @@
     color: #3a3a3a;
     font-size: 1.1rem;
     font-family: "DM Sans", sans-serif;
+    line-height: 1.7rem;
   }
   
 
   
-  /* OPTIONAL ACCENT */
-  .ns-accent {
-    color: #2f8f83;
-    font-weight: 600;
-  }
   
   /* ANIMATION */
   @keyframes fadeInUp {
