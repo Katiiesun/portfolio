@@ -256,32 +256,46 @@
   /* -------------------- */
   
   @media (max-width: 768px) {
+    /* Container full width with safe padding */
     .ns-container {
       width: 100%;
-      padding-left: 6vw;
-      padding-right: 6vw;
+      padding-left: 5vw;   /* safer than 6vw on small screens */
+      padding-right: 5vw;
+      box-sizing: border-box; /* include padding in width */
     }
   
+    /* Hero section padding */
     .ns-hero {
-      padding: 8vw 6vw;
+      padding: 6vw 5vw; /* top/bottom + left/right */
     }
   
+    /* Hero heading & subtitle scale */
     .ns-hero h1 {
-      font-size: 2rem;
+      font-size: 1.8rem;
+      line-height: 2.2rem; /* prevent text clipping */
     }
   
     .ns-subtitle {
-      max-width: 100%;
+      max-width: 100%;      /* allow subtitle to wrap fully */
+      font-size: 1rem;
+      line-height: 1.5rem;
     }
   
-    /* stack meta */
+    /* Meta grid stacks vertically */
     .ns-meta {
-      grid-template-columns: 1fr;
-      gap: 2vw;
+      grid-template-columns: 1fr; 
+      gap: 3vw;
     }
   
+    /* Section headings smaller */
     .ns-section h2 {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+    }
+  
+    .ns-section h3 {
+      font-size: 1.1rem;
+      line-height: 1.4rem;
     }
   
     .ns-section p {
@@ -289,15 +303,31 @@
       line-height: 1.6rem;
     }
   
+    /* Takeaways block full width */
     .ns-takeaway-block {
       max-width: 100%;
     }
   
+    /* Highlight padding smaller */
     .ns-highlight {
-      padding: 4vw;
+      padding: 3vw;
     }
   
+    /* Images responsive */
+    .ns-image img {
+      width: 100%;       /* fill container width */
+      max-width: 100%;
+      height: auto;      /* maintain aspect ratio */
+    }
+  
+    .ns-image-wrapper {
+      padding: 0;
+      margin: 0 auto;
+    }
+  
+    /* Image placeholder if used */
     .ns-image-placeholder {
-      height: 40vw;
+      height: auto;
+      max-height: 50vw;  /* scale for smaller screens */
     }
   }
