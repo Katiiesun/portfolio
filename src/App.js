@@ -34,6 +34,7 @@ import Artwork from "./components/Artwork";
 import DivvyUp from "./components/DivvyUp";
 import HeyMilo from "./components/heymilo";
 import WealthApp from "./components/wealthApp";
+import NewbornScreening from "./components/NewbornScreening";
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
           <Route path="/DivvyUp" element={<DivvyUp />} />
           <Route path="/heymilo" element={<HeyMilo />} />
           <Route path="/wealthApp" element={<WealthApp />} />
+          <Route path="/NewbornScreening" element={<NewbornScreening />} />
         </Routes>
       </div>
     </Router>

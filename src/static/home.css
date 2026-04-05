@@ -19,15 +19,44 @@
 
 .coming-soon-btn {
   display: inline-block;
-  padding: 8px 12px;
-  margin: 2px 0; /* space below the title */
-  background-color: #e0e0e0; /* light gray, you can change */
-  color: #333;
-  border-radius: 20px; /* makes it fully rounded */
-  font-size: 0.75rem; /* small text */
+    padding: 8px 12px;
+    margin: 2px 0; /* space below the title */
+    background-color: #e7e7e7; /* light gray, you can change */
+    color: #7b7b7b;
+    border-radius: 20px; /* makes it fully rounded */
+    font-size: 0.75rem; /* small text */
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: default;
+    border: none;      /* remove any default border */
+    outline: none;     /* remove focus outline */
+}
+
+.case-study-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;           /* space between text and arrow */
+     /* button padding */
+  color: #171717;     
+  border-radius: 8px;
+  font-size: 0.875rem;
   font-weight: 600;
-  text-transform: uppercase;
-  cursor: default;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.case-study-btn .arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+/* Hover effect */
+.case-study-btn:hover {
+  color: #3c3c3c; 
+}
+
+.case-study-btn:hover .arrow {
+  transform: translateX(4px);  /* arrow slides right on hover */
 }
 
 .company {

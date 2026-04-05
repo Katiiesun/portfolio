@@ -203,11 +203,12 @@ function Home() {
         </div>
 
         <div className="project scroll-reveal">
-          <Link to="#" className="project-row">
+          <Link to="NewbornScreening" className="project-row">
             <div className="project-image">
               <img src={newborns} alt="Revvity" />
             </div>
             <div className="project-text">
+            <span className="coming-soon-btn">CASE STUDY COMING SOON</span>
               <h2>Newborn Screening Analysis Tool</h2>
               <p className="company">Revvity</p>
 
@@ -215,7 +216,10 @@ function Home() {
                 Reducing newborn screening analysis and reporting turnaround
                 from weeks to days
               </p>
-              <span className="coming-soon-btn">In Progress</span>
+            
+              <span className="case-study-btn">
+        Read Reflection <span className="arrow">→</span>
+      </span>
             </div>
           </Link>
         </div>
@@ -234,7 +238,14 @@ function Home() {
                   {" "}
                   streamline recruiter workflows
                 </span>
+                
               </p>
+               {/* Read Case Study button */}
+      <span className="case-study-btn">
+        Read Case Study <span className="arrow">→</span>
+      </span>
+              
+              
             </div>
           </Link>
         </div>
@@ -254,6 +265,10 @@ function Home() {
                   Canada’s #1 insurance provider
                 </span>
               </p>
+               {/* Read Case Study button */}
+      <span className="case-study-btn">
+        Read Case Study <span className="arrow">→</span>
+      </span>
             </div>
           </Link>
         </div>
@@ -272,6 +287,10 @@ function Home() {
                   seamless group outing experience
                 </span>
               </p>
+               {/* Read Case Study button */}
+      <span className="case-study-btn">
+        Read Case Study <span className="arrow">→</span>
+      </span>
             </div>
           </Link>
         </div>
