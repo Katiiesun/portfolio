@@ -78,8 +78,7 @@ function NewbornScreening() {
 
           <p>
             Scientists had to move between multiple platforms, manually import,
-            stratify, and graph data in Excel, cross-reference decision logic in
-            lengthy PDFs, and compile findings into reports for leadership.
+            stratify, and graph data by various demographics in Excel, analyze those graphs, and compile findings into reports for leadership.
           </p>
 
           <p>
