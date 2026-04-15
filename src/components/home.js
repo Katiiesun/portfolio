@@ -203,12 +203,12 @@ function Home() {
         </div>
 
         <div className="project scroll-reveal">
-          <Link to="NewbornScreening" className="project-row">
+          <Link to="ProtectedNBS" className="project-row">
             <div className="project-image">
               <img src={newborns} alt="Revvity" />
             </div>
             <div className="project-text">
-            <span className="coming-soon-btn">CASE STUDY COMING SOON</span>
+            {/* <span className="coming-soon-btn">CASE STUDY COMING SOON</span> */}
               <h2>Newborn Screening Analysis Tool</h2>
               <p className="company">Revvity</p>
 
@@ -218,10 +218,11 @@ function Home() {
               </p>
             
               <span className="case-study-btn">
-        Read Reflection <span className="arrow">→</span>
+        Learn more <span className="arrow">→</span>
       </span>
             </div>
           </Link>
+       
         </div>
 
         <div className="project scroll-reveal">

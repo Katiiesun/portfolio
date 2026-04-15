@@ -84,7 +84,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 4vw;
-  margin-top: 1.5vw;
+  margin-top: 3vw;
 }
 
 /* each block */
