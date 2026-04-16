@@ -567,7 +567,7 @@ function NBSTool() {
 
       <div className="nbs-iteration-feedback">
         <div className="nbs-feedback-col">
-          <h5 className="nbs-feedback-label nbs-label-worked">What worked</h5>
+          <h5 className="nbs-feedback-label nbs-label-worked">Improvements</h5>
           <ul className="nbs-check-list">
             <li className="nbs-check">Adjust data setup without losing context</li>
             <li className="nbs-check">Data parameters always visible</li>
