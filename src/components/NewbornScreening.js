@@ -19,7 +19,7 @@ function NewbornScreening() {
         {/* HERO */}
         <section className="ns-hero">
           <div className="ns-hero-text">
-            <button className="ns-coming-soon">Case Study Coming Soon</button>
+            {/* <button className="ns-coming-soon">Case Study Coming Soon</button> */}
             <h1>Newborn Screening Analysis Tool</h1>
 
             <p className="ns-subtitle">

@@ -25,8 +25,7 @@ export default function ProtectedNBS() {
 
         <p>
           This case study is available upon request due to sensitive healthcare
-          context. If you’d like to view the full project, feel free to reach out
-          via email or message me.
+          context. If you’d like to view the full project, shoot me an email.
         </p>
 
         {/* BUTTON ROW */}
