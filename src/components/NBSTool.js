@@ -165,7 +165,7 @@ function NBSTool() {
 
             <div className="nbs-visual-text">
               <h4>60+ analytes to review & report</h4>
-              <p>Hours of manual work spent per analyte</p>
+              <p>Hours of manual spreadsheet and insights compilation work spent per analyte</p>
             </div>
           </div>
         </section>
