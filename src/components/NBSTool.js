@@ -59,7 +59,7 @@ function NBSTool() {
 
               <div className="ns-meta-item">
                 <span className="ns-label">Status</span>
-                <p>Pilot released to partner lab</p>
+                <p>Pilot released to partner lab for testing</p>
               </div>
             </div>
           </div>
@@ -287,7 +287,7 @@ function NBSTool() {
   <h3>Understanding the Current Workflow</h3>
 
   <p>
-    The existing workflow at partner labs was largely manual: scientists would
+    The existing workflow at NBS labs was largely manual: scientists would
     export data from the legacy system <b>SpecimenGate</b>, manually stratify
     and graph data in Excel, analyze the results, propose new cutoffs, and
     compile findings into reports for approval committee review.
