@@ -51,7 +51,7 @@ function NewbornScreening() {
 
             <div className="ns-meta-item">
               <span className="ns-label">Status</span>
-              <p>Pilot released to partner lab for testing</p>
+              <p>Validated through user testing with a partner newborn screening lab</p>
             </div>
           </div>
         </section>
@@ -99,10 +99,10 @@ function NewbornScreening() {
         <section className="ns-section">
           <h3>Outcome</h3>
           <p>
-            The product was developed from my designs and released as a pilot,
-            allowing a partner newborn screening lab to begin testing the tool
-            in their workflow. Seeing it reach real users was incredibly
-            rewarding :)
+            The product was developed from my designs and tested with a partner
+            newborn screening lab, where users were given access to explore the
+            platform and provide early feedback. Seeing it reach real users was
+            incredibly rewarding :)
           </p>
         </section>
 
@@ -173,11 +173,10 @@ function NewbornScreening() {
               able to respond faster when disorder screening panels change. And
               sometimes, it simply meant scientists getting their evenings back.
             </p>
-           
           </div>
 
           <p className="ns-closing">
-          <p>
+            <p>
               Designing in this space really pushed me as a designer,
               challenging me to think more critically about clarity, trust, and
               the real-world consequences of the tools we build. It also

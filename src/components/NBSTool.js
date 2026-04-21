@@ -165,7 +165,10 @@ function NBSTool() {
 
             <div className="nbs-visual-text">
               <h4>60+ analytes to review & report</h4>
-              <p>Hours of manual spreadsheet and insights compilation work spent per analyte</p>
+              <p>
+                Hours of manual spreadsheet and insights compilation work spent
+                per analyte
+              </p>
             </div>
           </div>
         </section>
@@ -258,7 +261,6 @@ function NBSTool() {
             analyze cutoff values, validate results against diagnosed cases, and
             generate reports directly within the system.
           </p>
-
         </section>
 
         {/* OUTCOME */}
@@ -266,8 +268,9 @@ function NBSTool() {
           <h4> Outcome</h4>
 
           <p>
-            The product was developed from my designs and released as a pilot
-            for a partner newborn screening lab to begin testing.
+            The product was built from my designs and deployed as a pilot with a
+            partner newborn screening lab, where we conducted early user testing
+            sessions and gathered feedback to inform future iterations.
           </p>
 
           <p>
@@ -281,320 +284,391 @@ function NBSTool() {
         <div className="nbs-divider-strip"></div>
 
         <section className="nbs-section">
+          <h2 className="ns-accent-title">Design Process</h2>
 
-        <h2 className="ns-accent-title">Design Process</h2>
+          <h3>Understanding the Current Workflow</h3>
 
-  <h3>Understanding the Current Workflow</h3>
+          <p>
+            The existing workflow at NBS labs was largely manual: scientists
+            would export data from the legacy system <b>SpecimenGate</b>,
+            manually stratify and graph data in Excel, analyze the results,
+            propose new cutoffs, and compile findings into reports for approval
+            committee review.
+          </p>
 
-  <p>
-    The existing workflow at NBS labs was largely manual: scientists would
-    export data from the legacy system <b>SpecimenGate</b>, manually stratify
-    and graph data in Excel, analyze the results, propose new cutoffs, and
-    compile findings into reports for approval committee review.
-  </p>
+          <p>
+            This process was highly time-intensive and inconsistent, especially
+            when dealing with demographic variations or borderline threshold
+            decisions.
+          </p>
 
-  <p>
-    This process was highly time-intensive and inconsistent, especially when
-    dealing with demographic variations or borderline threshold decisions.
-  </p>
+          <div className="nbs-process-image">
+            <img src={currentworkflow} alt="Current workflow diagram" />
+          </div>
+        </section>
 
-  <div className="nbs-process-image">
-    <img
-      src={currentworkflow}
-      alt="Current workflow diagram"
-    />
-  </div>
+        <section className="nbs-section">
+          <h3>Rewriting the Workflow</h3>
 
-</section>
+          <p>
+            We needed to identify where AI could assist without removing human
+            oversight. To do this, we analyzed points of highest manual effort,
+            decision complexity, and error risk within the existing workflow.
+          </p>
 
-<section className="nbs-section">
+          <p>
+            This led to three key intervention points where AI could reduce
+            cognitive and operational burden while keeping scientists fully in
+            control:
+          </p>
 
+          <div className="nbs-process-image">
+            <img src={newworkflow} alt="New workflow diagram" />
+          </div>
 
+          <p>
+            Based on these intervention points, we redesigned the workflow so
+            that data visualization and insight generation are automated, while
+            scientists remain responsible for final cutoff decisions and report
+            approval.
+          </p>
 
-  <h3>Rewriting the Workflow</h3>
+          <p>
+            Rather than replacing human judgment, the system guides scientists
+            through critical decision points, reducing both time and error while
+            preserving full control over outcomes.
+          </p>
+        </section>
 
-  <p>
-    We needed to identify where AI could assist without removing human oversight.
-    To do this, we analyzed points of highest manual effort, decision complexity,
-    and error risk within the existing workflow.
-  </p>
+        {/* DESIGN RATIONALE */}
+        <section className="nbs-section">
+          <h4>Design Rationale</h4>
 
-  <p>
-    This led to three key intervention points where AI could reduce cognitive
-    and operational burden while keeping scientists fully in control:
-  </p>
+          {/* Column headers */}
+          <div className="nbs-rationale-header">
+            <span>Problem</span>
+            <span>Rationale</span>
+            <span>Feature Requirement</span>
+          </div>
 
+          {/* Row 1 */}
+          <div className="nbs-rationale-row">
+            <div className="nbs-rationale-cell">
+              <p>
+                Scientists were accustomed to a{" "}
+                <strong>fragmented workflow</strong> involving SpecimenGate
+                exports, Excel analysis, and manual report compilation.
+                Introducing a completely new system would require extensive
+                retraining and disrupt established processes, creating
+                resistance to adoption.
+              </p>
+            </div>
+            <div className="nbs-rationale-cell">
+              <p>
+                By{" "}
+                <strong>embedding automation within existing patterns</strong>{" "}
+                rather than replacing them, we could reduce adoption friction
+                and allow scientists to leverage familiar mental models. This
+                respects organizational structures already in place while
+                gradually introducing efficiency improvements.
+              </p>
+            </div>
+            <div className="nbs-rationale-cell">
+              <ul className="nbs-list">
+                <li>
+                  Direct SpecimenGate integration for seamless data import
+                </li>
+                <li>
+                  Disorder → analyte navigation mirroring current lab taxonomy
+                </li>
+                <li>
+                  Preserved approval committee review workflow with digital
+                  enhancements
+                </li>
+                <li>Report templates matching existing format expectations</li>
+              </ul>
+            </div>
+          </div>
 
-  <div className="nbs-process-image">
-    <img
-      src={newworkflow}
-      alt="New workflow diagram"
-    />
-  </div>
+          {/* Row 2 */}
+          <div className="nbs-rationale-row">
+            <div className="nbs-rationale-cell">
+              <p>
+                Borderline cutoff values and outlier interpretation require{" "}
+                <strong>
+                  nuanced clinical judgment that AI cannot fully replicate.
+                </strong>{" "}
+                Removing human oversight could introduce risk in a high-stakes
+                environment where errors have serious consequences for newborn
+                health outcomes.
+              </p>
+            </div>
+            <div className="nbs-rationale-cell">
+              <p>
+                Rather than automating decisions, the system should{" "}
+                <strong>augment human expertise</strong> by reducing cognitive
+                load and surfacing relevant information at critical decision
+                points. This respects domain expertise while addressing the
+                manual burden that slows down analysis.
+              </p>
+            </div>
+            <div className="nbs-rationale-cell">
+              <ul className="nbs-list">
+                <li>
+                  AI-generated insights presented as observations, not mandates
+                </li>
+                <li>
+                  Contextual data displays (demographic breakdowns, historical
+                  trends)
+                </li>
+                <li>
+                  Interactive graph manipulation for threshold scenario
+                  exploration
+                </li>
+                <li>
+                  Manual override capability of AI outputs for all
+                  configurations
+                </li>
+              </ul>
+            </div>
+          </div>
 
-  <p>
-    Based on these intervention points, we redesigned the workflow so that data
-    visualization and insight generation are automated, while scientists remain
-    responsible for final cutoff decisions and report approval.
-  </p>
+          {/* Row 3 */}
+          <div className="nbs-rationale-row">
+            <div className="nbs-rationale-cell">
+              <p>
+                Scientists don't want a black box that simply outputs results.
+                Without visibility into the analysis process, scientists may{" "}
+                <strong>distrust AI recommendations</strong> or second-guess
+                their own decisions.
+              </p>
+            </div>
+            <div className="nbs-rationale-cell">
+              <p>
+                Building trust requires making all data configurations, decision
+                logic, and analysis steps{" "}
+                <strong>visible and easy to follow.</strong> The interface
+                should support careful exploration rather than encouraging quick
+                guesses.
+              </p>
+            </div>
+            <div className="nbs-rationale-cell">
+              <ul className="nbs-list">
+                <li>
+                  Visible data configurations showing parameters being analyzed
+                </li>
+                <li>Clear explanations for AI-generated insights</li>
+                <li>
+                  Real-time visibility of suggestions as approvers leave them
+                </li>
+                <li>
+                  Audit trail showing all changes and decisions made during
+                  analysis
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-  <p>
-    Rather than replacing human judgment, the system guides scientists through
-    critical decision points, reducing both time and error while preserving
-    full control over outcomes.
-  </p>
+        <section className="nbs-section">
+          <h3>Holistic User Flow</h3>
 
-</section>
+          <p>
+            To ensure the solution fit naturally into existing lab operations,
+            we mapped a holistic end-to-end user flow from both the{" "}
+            <b>lab scientist</b> and
+            <b> approval committee</b> perspectives.
+          </p>
 
+          {/* IMAGE */}
+          <div className="nbs-flow-image">
+            <img src={holisticflow} alt="Holistic user flow diagram" />
+          </div>
+        </section>
 
-{/* DESIGN RATIONALE */}
-<section className="nbs-section">
-  <h4>Design Rationale</h4>
+        {/* DESIGN ITERATIONS */}
+        <section className="nbs-section">
+          <h2 className="ns-accent-title">Design Iterations</h2>
 
-  {/* Column headers */}
-  <div className="nbs-rationale-header">
-    <span>Problem</span>
-    <span>Rationale</span>
-    <span>Feature Requirement</span>
-  </div>
+          {/* Iteration 1 */}
+          <div className="nbs-iteration">
+            <div className="nbs-iteration-header">
+              <span className="nbs-iteration-tag">Iteration 1</span>
+              <h3 className="nbs-iteration-title">
+                Linear Workflow (Analysis → Report)
+              </h3>
+              <p className="nbs-iteration-concept">
+                Data setup → Analyze → Generate report + AI insights
+              </p>
+            </div>
 
-  {/* Row 1 */}
-  <div className="nbs-rationale-row">
-    <div className="nbs-rationale-cell">
-      <p>
-        Scientists were accustomed to a <strong>fragmented workflow</strong> involving
-        SpecimenGate exports, Excel analysis, and manual report compilation. Introducing
-        a completely new system would require extensive retraining and disrupt established
-        processes, creating resistance to adoption.
-      </p>
-    </div>
-    <div className="nbs-rationale-cell">
-      <p>
-        By <strong>embedding automation within existing patterns</strong> rather than
-        replacing them, we could reduce adoption friction and allow scientists to leverage
-        familiar mental models. This respects organizational structures already in place
-        while gradually introducing efficiency improvements.
-      </p>
-    </div>
-    <div className="nbs-rationale-cell">
-      <ul className="nbs-list">
-        <li>Direct SpecimenGate integration for seamless data import</li>
-        <li>Disorder → analyte navigation mirroring current lab taxonomy</li>
-        <li>Preserved approval committee review workflow with digital enhancements</li>
-        <li>Report templates matching existing format expectations</li>
-      </ul>
-    </div>
-  </div>
+            <div className="nbs-iteration-body">
+              <div className="nbs-iteration-image-placeholder">
+                <img src={iteration1} alt="iteration1" />
+              </div>
 
-  {/* Row 2 */}
-  <div className="nbs-rationale-row">
-    <div className="nbs-rationale-cell">
-      <p>
-        Borderline cutoff values and outlier interpretation require <strong>nuanced
-        clinical judgment that AI cannot fully replicate.</strong> Removing human oversight
-        could introduce risk in a high-stakes environment where errors have serious
-        consequences for newborn health outcomes.
-      </p>
-    </div>
-    <div className="nbs-rationale-cell">
-      <p>
-        Rather than automating decisions, the system should <strong>augment human
-        expertise</strong> by reducing cognitive load and surfacing relevant information
-        at critical decision points. This respects domain expertise while addressing
-        the manual burden that slows down analysis.
-      </p>
-    </div>
-    <div className="nbs-rationale-cell">
-      <ul className="nbs-list">
-        <li>AI-generated insights presented as observations, not mandates</li>
-        <li>Contextual data displays (demographic breakdowns, historical trends)</li>
-        <li>Interactive graph manipulation for threshold scenario exploration</li>
-        <li>Manual override capability of AI outputs for all configurations</li>
-      </ul>
-    </div>
-  </div>
+              <div className="nbs-iteration-feedback">
+                <div className="nbs-feedback-col">
+                  <h5 className="nbs-feedback-label nbs-label-worked">
+                    What worked
+                  </h5>
+                  <ul className="nbs-check-list">
+                    <li className="nbs-check">
+                      Clear, structured flow for first-time users
+                    </li>
+                  </ul>
+                  <h5 className="nbs-feedback-label nbs-label-didnt">
+                    What it lacked
+                  </h5>
+                  <ul className="nbs-check-list">
+                    <li className="nbs-ex">
+                      Rigid, linear workflow. Limited iteration
+                    </li>
+                    <li className="nbs-ex">
+                      AI only available at the end, not helpful during analysis
+                    </li>
+                    <li className="nbs-ex">
+                      Disconnect between analysis and reporting
+                    </li>
+                  </ul>
+                </div>
+                <div className="nbs-feedback-col nbs-feedback-user">
+                  <h5 className="nbs-feedback-label">User feedback</h5>
+                  <ul className="nbs-check-list">
+                    <li className="nbs-neutral">
+                      Scientists analyze data iteratively, not step-by-step
+                    </li>
+                    <li className="nbs-neutral">
+                      Need support during analysis, not just at the end
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
 
-  {/* Row 3 */}
-  <div className="nbs-rationale-row">
-    <div className="nbs-rationale-cell">
-      <p>
-        Scientists don't want a black box that simply outputs results. Without
-        visibility into the analysis process, scientists may <strong>distrust AI
-        recommendations</strong> or second-guess their own decisions.
-      </p>
-    </div>
-    <div className="nbs-rationale-cell">
-      <p>
-        Building trust requires making all data configurations, decision logic, and
-        analysis steps <strong>visible and easy to follow.</strong> The interface should
-        support careful exploration rather than encouraging quick guesses.
-      </p>
-    </div>
-    <div className="nbs-rationale-cell">
-      <ul className="nbs-list">
-        <li>Visible data configurations showing parameters being analyzed</li>
-        <li>Clear explanations for AI-generated insights</li>
-        <li>Real-time visibility of suggestions as approvers leave them</li>
-        <li>Audit trail showing all changes and decisions made during analysis</li>
-      </ul>
-    </div>
-  </div>
-</section>
+          {/* Iteration 2 */}
+          <div className="nbs-iteration">
+            <div className="nbs-iteration-header">
+              <span className="nbs-iteration-tag">Iteration 2</span>
+              <h3 className="nbs-iteration-title">
+                Integrated Analysis + Reporting
+              </h3>
+              <p className="nbs-iteration-concept">
+                Data setup → Analyze ⇄ Report (AI always accessible)
+              </p>
+            </div>
 
-<section className="nbs-section">
+            <div className="nbs-iteration-body">
+              <div className="nbs-iteration-image-placeholder">
+                <img src={iteration2} alt="iteration2" />
+              </div>
 
+              <div className="nbs-iteration-feedback">
+                <div className="nbs-feedback-col">
+                  <h5 className="nbs-feedback-label nbs-label-worked">
+                    What worked
+                  </h5>
+                  <ul className="nbs-check-list">
+                    <li className="nbs-check">
+                      Supports a more iterative workflow
+                    </li>
+                    <li className="nbs-check">
+                      Users maintain full visibility into their report
+                    </li>
+                    <li className="nbs-check">
+                      AI becomes a real-time analysis tool, not just output
+                      generation
+                    </li>
+                  </ul>
+                  <h5 className="nbs-feedback-label nbs-label-didnt">
+                    What it lacked
+                  </h5>
+                  <ul className="nbs-check-list">
+                    <li className="nbs-ex">
+                      Data parameters hidden within filter, unclear what was
+                      being analyzed
+                    </li>
+                    <li className="nbs-ex">
+                      Loss of context when user went back a step to edit data
+                      setup
+                    </li>
+                    <li className="nbs-ex">
+                      Higher cognitive load with more simultaneous options
+                    </li>
+                  </ul>
+                </div>
+                <div className="nbs-feedback-col nbs-feedback-user">
+                  <h5 className="nbs-feedback-label">User feedback</h5>
+                  <ul className="nbs-check-list">
+                    <li className="nbs-neutral">
+                      Flexibility improves workflows, but needs structure and
+                      guidance
+                    </li>
+                    <li className="nbs-neutral">
+                      Balance required between power and usability
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
 
-  <h3>Holistic User Flow</h3>
+          {/* Iteration 3 */}
+          <div className="nbs-iteration">
+            <div className="nbs-iteration-header">
+              <span className="nbs-iteration-tag">Iteration 3</span>
+              <h3 className="nbs-iteration-title">
+                Increasing Visibility and Control in Analysis
+              </h3>
+            </div>
 
-  <p>
-    To ensure the solution fit naturally into existing lab operations, we mapped
-    a holistic end-to-end user flow from both the <b>lab scientist</b> and
-    <b> approval committee</b> perspectives.
-  </p>
+            <div className="nbs-iteration-body">
+              <div className="nbs-iteration-image-placeholder">
+                <img src={iteration3} alt="iteration3" />
+              </div>
 
- 
+              <div className="nbs-iteration-feedback">
+                <div className="nbs-feedback-col">
+                  <h5 className="nbs-feedback-label nbs-label-worked">
+                    Improvements
+                  </h5>
+                  <ul className="nbs-check-list">
+                    <li className="nbs-check">
+                      Adjust data setup without losing context
+                    </li>
+                    <li className="nbs-check">
+                      Data parameters always visible
+                    </li>
+                    <li className="nbs-check">
+                      Controls accessible during analysis, supporting in-context
+                      iteration
+                    </li>
+                  </ul>
 
-  {/* IMAGE */}
-  <div className="nbs-flow-image">
-    <img
-      src={holisticflow}
-      alt="Holistic user flow diagram"
-    />
-  </div>
+                  <ul className="nbs-check-list"></ul>
+                </div>
+                <div className="nbs-feedback-col nbs-feedback-user">
+                  <h5 className="nbs-feedback-label">Key learning</h5>
+                  <ul className="nbs-check-list">
+                    <li className="nbs-neutral">
+                      Critical parameters should be defined upfront, but remain
+                      editable
+                    </li>
+                    <li className="nbs-neutral">
+                      Users need both clarity at the start and flexibility
+                      during analysis
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-</section>
-
-{/* DESIGN ITERATIONS */}
-<section className="nbs-section">
-  <h2 className="ns-accent-title">Design Iterations</h2>
-
-  {/* Iteration 1 */}
-  <div className="nbs-iteration">
-    <div className="nbs-iteration-header">
-      <span className="nbs-iteration-tag">Iteration 1</span>
-      <h3 className="nbs-iteration-title">Linear Workflow (Analysis → Report)</h3>
-      <p className="nbs-iteration-concept">Data setup → Analyze → Generate report + AI insights</p>
-    </div>
-
-    <div className="nbs-iteration-body">
-      <div className="nbs-iteration-image-placeholder">
-      <img
-      src={iteration1}
-      alt="iteration1"
-    />
-      </div>
-
-      <div className="nbs-iteration-feedback">
-        <div className="nbs-feedback-col">
-          <h5 className="nbs-feedback-label nbs-label-worked">What worked</h5>
-          <ul className="nbs-check-list">
-            <li className="nbs-check">Clear, structured flow for first-time users</li>
-          </ul>
-          <h5 className="nbs-feedback-label nbs-label-didnt">What it lacked</h5>
-          <ul className="nbs-check-list">
-            <li className="nbs-ex">Rigid, linear workflow. Limited iteration</li>
-            <li className="nbs-ex">AI only available at the end, not helpful during analysis</li>
-            <li className="nbs-ex">Disconnect between analysis and reporting</li>
-          </ul>
-        </div>
-        <div className="nbs-feedback-col nbs-feedback-user">
-          <h5 className="nbs-feedback-label">User feedback</h5>
-          <ul className="nbs-check-list">
-            <li className="nbs-neutral">Scientists analyze data iteratively, not step-by-step</li>
-            <li className="nbs-neutral">Need support during analysis, not just at the end</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  {/* Iteration 2 */}
-  <div className="nbs-iteration">
-    <div className="nbs-iteration-header">
-      <span className="nbs-iteration-tag">Iteration 2</span>
-      <h3 className="nbs-iteration-title">Integrated Analysis + Reporting</h3>
-      <p className="nbs-iteration-concept">Data setup → Analyze ⇄ Report (AI always accessible)</p>
-    </div>
-
-    <div className="nbs-iteration-body">
-    <div className="nbs-iteration-image-placeholder">
-      <img
-      src={iteration2}
-      alt="iteration2"
-    />
-      </div>
-
-      <div className="nbs-iteration-feedback">
-        <div className="nbs-feedback-col">
-          <h5 className="nbs-feedback-label nbs-label-worked">What worked</h5>
-          <ul className="nbs-check-list">
-            <li className="nbs-check">Supports a more iterative workflow</li>
-            <li className="nbs-check">Users maintain full visibility into their report</li>
-            <li className="nbs-check">AI becomes a real-time analysis tool, not just output generation</li>
-          </ul>
-          <h5 className="nbs-feedback-label nbs-label-didnt">What it lacked</h5>
-          <ul className="nbs-check-list">
-            <li className="nbs-ex">Data parameters hidden within filter, unclear what was being analyzed</li>
-            <li className="nbs-ex">Loss of context when user went back a step to edit data setup</li>
-            <li className="nbs-ex">Higher cognitive load with more simultaneous options</li>
-          </ul>
-        </div>
-        <div className="nbs-feedback-col nbs-feedback-user">
-          <h5 className="nbs-feedback-label">User feedback</h5>
-          <ul className="nbs-check-list">
-            <li className="nbs-neutral">Flexibility improves workflows, but needs structure and guidance</li>
-            <li className="nbs-neutral">Balance required between power and usability</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  {/* Iteration 3 */}
-  <div className="nbs-iteration">
-    <div className="nbs-iteration-header">
-      <span className="nbs-iteration-tag">Iteration 3</span>
-      <h3 className="nbs-iteration-title">Increasing Visibility and Control in Analysis</h3>
-    </div>
-
-    <div className="nbs-iteration-body">
-    <div className="nbs-iteration-image-placeholder">
-      <img
-      src={iteration3}
-      alt="iteration3"
-    />
-      </div>
-
-      <div className="nbs-iteration-feedback">
-        <div className="nbs-feedback-col">
-          <h5 className="nbs-feedback-label nbs-label-worked">Improvements</h5>
-          <ul className="nbs-check-list">
-            <li className="nbs-check">Adjust data setup without losing context</li>
-            <li className="nbs-check">Data parameters always visible</li>
-            <li className="nbs-check">Controls accessible during analysis, supporting in-context iteration</li>
-          </ul>
-        
-          <ul className="nbs-check-list">
-      
-          </ul>
-        </div>
-        <div className="nbs-feedback-col nbs-feedback-user">
-          <h5 className="nbs-feedback-label">Key learning</h5>
-          <ul className="nbs-check-list">
-            <li className="nbs-neutral">Critical parameters should be defined upfront, but remain editable</li>
-            <li className="nbs-neutral">Users need both clarity at the start and flexibility during analysis</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
-
-<section className="nbs-section">
-<h2 className="ns-accent-title">Final Designs Coming Soon...</h2>
-
-</section>
-
+        <section className="nbs-section">
+          <h2 className="ns-accent-title">Final Designs Coming Soon...</h2>
+        </section>
       </main>
 
       <Footer className="footerHome" />
