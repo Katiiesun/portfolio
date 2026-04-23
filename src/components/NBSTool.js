@@ -289,7 +289,7 @@ function NBSTool() {
           <h3>Understanding the Current Workflow</h3>
 
           <p>
-            The existing workflow at NBS labs was largely manual: scientists
+            Speaking to the Director of a Newborn Screening Lab, we learned that the existing workflow to review cutoffs was largely manual: scientists
             would export data from the legacy system <b>SpecimenGate</b>,
             manually stratify and graph data in Excel, analyze the results,
             propose new cutoffs, and compile findings into reports for approval
