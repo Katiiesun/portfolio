@@ -353,7 +353,7 @@ function DivvyUp() {
           {/* <button class="carousel-btn left" aria-label="Scroll left">←</button> */}
 
           <div className="carousel" id="carousel">
-            <a href="/heymilo" className="carousel-card">
+            <a href="/" className="carousel-card">
               <img src="images/heymilo-mockup.png" alt="HeyMilo AI" />
               <h2>
                 Redesigning an ATS dashboard and navigation system to streamline
