@@ -226,13 +226,13 @@ function Home() {
         </div>
 
         <div className="project scroll-reveal">
-          <Link to="/heymilo" className="project-row">
+          <Link to="/" className="project-row">
             <div className="project-image">
               <img src={heyMilo} alt="heyMilo" />
             </div>
             <div className="project-text">
               <h2>AI-Powered Recruiter Dashboard</h2>
-              <p className="company">HeyMilo AI</p>
+              <p className="company">Early-Stage AI Startup</p>
               <p>
                 Redesigning an ATS dashboard and navigation system to
                 <span className="highlight3">
@@ -242,8 +242,12 @@ function Home() {
                 
               </p>
                {/* Read Case Study button */}
+      {/* <span className="case-study-btn">
+        Under Construction <span className="arrow">→</span>
+      </span> */}
+
       <span className="case-study-btn">
-        Read Case Study <span className="arrow">→</span>
+        Under Construction 
       </span>
               
               

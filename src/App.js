@@ -8,7 +8,7 @@ import ClearSpider from "./components/clearSpider";
 import MoreProjects from "./components/moreProjects";
 import Artwork from "./components/Artwork";
 import DivvyUp from "./components/DivvyUp";
-import HeyMilo from "./components/heymilo";
+import Recruitment from "./components/recruitment";
 import WealthApp from "./components/wealthApp";
 import NewbornScreening from "./components/NewbornScreening";
 import ProtectedNBS from "./components/ProtectedNBS";
@@ -27,7 +27,7 @@ function App() {
           <Route path="/moreProjects" element={<MoreProjects />} />
           <Route path="/Artwork" element={<Artwork />} />
           <Route path="/DivvyUp" element={<DivvyUp />} />
-          <Route path="/heymilo" element={<HeyMilo />} />
+          <Route path="/recruitment" element={<Recruitment />} />
           <Route path="/wealthApp" element={<WealthApp />} />
           <Route path="/NewbornScreening" element={<NewbornScreening />} />
           <Route path="/protectedNBS" element={<ProtectedNBS />} />

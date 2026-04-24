@@ -1,4 +1,4 @@
-import "../static/heymilo.css";
+import "../static/recruitment.css";
 import Navigation from "./Navigation";
 import "../static/Navigation.css";
 import Footer from "./footer";
