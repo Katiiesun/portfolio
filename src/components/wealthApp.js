@@ -380,7 +380,7 @@ function WealthApp() {
           {/* <button class="carousel-btn left" aria-label="Scroll left">←</button> */}
 
           <div class="carousel" id="carousel">
-            <a href="/heymilo" class="carousel-card">
+            <a href="/" class="carousel-card">
               <img src="images/heymilo-mockup.png" alt="HeyMilo AI" />
               <h2>
                 Redesigning an ATS dashboard and navigation system to streamline
