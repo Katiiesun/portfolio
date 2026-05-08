@@ -209,7 +209,7 @@ function HeyMilo() {
             thorough evaluation, it often increases cognitive load and slows
             decision-making. At the same time, several platforms demonstrated
             thoughtful patterns that successfully balance visibility with focus.
-            These strengths informed key design decisions in the HeyMilo
+            These strengths informed key design decisions in the
             redesign.
           </h2>
           <img src={keyTakeaways} alt="Competitor analysis key takeaways" />
