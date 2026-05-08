@@ -91,8 +91,9 @@ function NBSTool() {
             <div className="nbs-tldr-card">
               <h4>Outcome</h4>
               <p>
-                Pilot validated with partner lab, reducing analysis time from
-                weeks to days, improving workflow efficiency.
+                Pilot validated with a partner lab, reducing analysis time from
+                weeks to days and enabling 3–5× faster screening result
+                reporting.
               </p>
             </div>
           </div>
@@ -289,11 +290,12 @@ function NBSTool() {
           <h3>Understanding the Current Workflow</h3>
 
           <p>
-            Speaking to the Director of a Newborn Screening Lab, we learned that the existing workflow to review cutoffs was largely manual: scientists
-            would export data from the legacy system <b>SpecimenGate</b>,
-            manually stratify and graph data in Excel, analyze the results,
-            propose new cutoffs, and compile findings into reports for approval
-            committee review.
+            Speaking to the Director of a Newborn Screening Lab, we learned that
+            the existing workflow to review cutoffs was largely manual:
+            scientists would export data from the legacy system{" "}
+            <b>SpecimenGate</b>, manually stratify and graph data in Excel,
+            analyze the results, propose new cutoffs, and compile findings into
+            reports for approval committee review.
           </p>
 
           <p>
