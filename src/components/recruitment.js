@@ -97,7 +97,7 @@ function HeyMilo() {
         </h1>
         <div className="image-layout-wrapper">
           <div className="perspective-layer">
-            <img ref={heyMiloRef} src={heymilopic} alt="heymilo redesign" />
+            <img ref={heyMiloRef} src={heymilopic} alt="ats redesign" />
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@ function HeyMilo() {
             <h1>Team</h1>
             <h2>Co-founder</h2>
             <h2>1 Designer (me!)</h2>
-            <h2>2 Developers</h2>
+            <h2>Team of Engineers</h2>
           </div>
           <div className="project-duration">
             <h1>Duration</h1>
@@ -121,9 +121,9 @@ function HeyMilo() {
           </div>
         </div>
         <div className="hm-overview">
-          <h1>What is HeyMilo AI?</h1>
+          <h1>Background</h1>
           <h2>
-            HeyMilo AI is an innovative AI-powered interviewing platform that
+            The software is an innovative AI-powered interviewing platform that
             enables recruiters to create voice agents capable of conducting
             two-way conversational interviews. The platform streamlines the
             recruitment process by allowing recruiters to manage multiple AI
@@ -134,7 +134,7 @@ function HeyMilo() {
             Owning a Full Redesign as the Sole Designer in a Fast-Moving Startup
           </h1>
           <h2>
-            When I joined HeyMilo AI, the team was looking to evolve their
+            When I joined the team, the company was looking to evolve their
             platform with a comprehensive V2 redesign that would address
             critical user experience challenges. As the sole designer for this
             initiative, I conducted thorough user flow analysis and collaborated

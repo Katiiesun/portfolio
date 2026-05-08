@@ -179,7 +179,7 @@ function Home() {
           </p>
 
           <p>
-            Currently designing @ <i>Revvity!</i>{" "}
+            Previously @ <i>Revvity!</i>{" "}
           </p>
           <div className="intro-button">
             <button
@@ -208,25 +208,24 @@ function Home() {
               <img src={newborns} alt="Revvity" />
             </div>
             <div className="project-text">
-            {/* <span className="coming-soon-btn">CASE STUDY COMING SOON</span> */}
+              {/* <span className="coming-soon-btn">CASE STUDY COMING SOON</span> */}
               <h2>Newborn Screening Analysis Tool</h2>
-              <p className="company">Revvity</p>
+              <p className="company">Revvity Health Sciences</p>
 
               <p>
                 Reducing newborn screening analysis and reporting turnaround
                 from weeks to days
               </p>
-            
+
               <span className="case-study-btn">
-        Learn more <span className="arrow">→</span>
-      </span>
+                Learn more <span className="arrow">→</span>
+              </span>
             </div>
           </Link>
-       
         </div>
 
         <div className="project scroll-reveal">
-          <Link to="/" className="project-row">
+          <Link to="/recruitment" className="project-row">
             <div className="project-image">
               <img src={heyMilo} alt="heyMilo" />
             </div>
@@ -239,18 +238,13 @@ function Home() {
                   {" "}
                   streamline recruiter workflows
                 </span>
-                
               </p>
-               {/* Read Case Study button */}
-      {/* <span className="case-study-btn">
-        Under Construction <span className="arrow">→</span>
-      </span> */}
-
-      <span className="case-study-btn">
-        Under Construction 
+              {/* Read Case Study button */}
+              <span className="case-study-btn">
+        Read Case Study <span className="arrow">→</span>
       </span>
-              
-              
+
+              {/* <span className="case-study-btn">Under Construction</span> */}
             </div>
           </Link>
         </div>
@@ -270,10 +264,10 @@ function Home() {
                   Canada’s #1 insurance provider
                 </span>
               </p>
-               {/* Read Case Study button */}
-      <span className="case-study-btn">
-        Read Case Study <span className="arrow">→</span>
-      </span>
+              {/* Read Case Study button */}
+              <span className="case-study-btn">
+                Read Case Study <span className="arrow">→</span>
+              </span>
             </div>
           </Link>
         </div>
@@ -292,10 +286,10 @@ function Home() {
                   seamless group outing experience
                 </span>
               </p>
-               {/* Read Case Study button */}
-      <span className="case-study-btn">
-        Read Case Study <span className="arrow">→</span>
-      </span>
+              {/* Read Case Study button */}
+              <span className="case-study-btn">
+                Read Case Study <span className="arrow">→</span>
+              </span>
             </div>
           </Link>
         </div>
