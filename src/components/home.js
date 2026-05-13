@@ -22,6 +22,7 @@ function Home() {
   const divvyUp = process.env.PUBLIC_URL + "images/Artboard 6.png";
   const mywork = process.env.PUBLIC_URL + "images/mywork.png";
   const newborns = process.env.PUBLIC_URL + "images/newborns.png";
+  const hafb = process.env.PUBLIC_URL + "images/homeagain.png";
 
   const [currentImg, setCurrentImg] = useState(snoopyOne);
   const [handWaved, setHandWaved] = useState(false);
@@ -174,12 +175,13 @@ function Home() {
           </h1>
           <p>
             I'm a <b>Product Designer</b> studying Systems Design Engineering @
-            <i>UWaterloo</i>. I'm passionate about crafting meaningful
-            experiences that simplify how people navigate the digital space ⚙️💡
+            <i>UWaterloo</i>, focused on designing experiences that reduce
+            friction, support real people, and make technology feel more
+            approachable.
           </p>
 
           <p>
-            Previously @ <i>Revvity!</i>{" "}
+            Previously @ <i>Revvity, Manulife, Heymilo AI</i>{" "}
           </p>
           <div className="intro-button">
             <button
@@ -225,6 +227,31 @@ function Home() {
         </div>
 
         <div className="project scroll-reveal">
+          <Link to="/" className="project-row">
+            <div className="project-image">
+              <img src={hafb} alt="furniture bank cover" />
+            </div>
+            <div className="project-text">
+              <h2>Furniture Bank Operations Portal</h2>
+              <p className="company">
+                UW Blueprint x Home Again Furniture Bank
+              </p>
+              <p>
+                Designing the{" "}
+                <span className="highlight3">
+                  admin portal and donation intake experience for a non-profit
+                </span>{" "}
+                furniture bank <span className="highlight3"></span>
+              </p>
+              {/* Read Case Study button */}
+              <span className="case-study-btn">
+                Work in progress <span className="arrow"></span>
+              </span>
+            </div>
+          </Link>
+        </div>
+
+        <div className="project scroll-reveal">
           <Link to="/recruitment" className="project-row">
             <div className="project-image">
               <img src={heyMilo} alt="heyMilo" />
@@ -241,8 +268,8 @@ function Home() {
               </p>
               {/* Read Case Study button */}
               <span className="case-study-btn">
-        Read Case Study <span className="arrow">→</span>
-      </span>
+                Read Case Study <span className="arrow">→</span>
+              </span>
 
               {/* <span className="case-study-btn">Under Construction</span> */}
             </div>
