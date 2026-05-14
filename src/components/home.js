@@ -181,7 +181,7 @@ function Home() {
           </p>
 
           <p>
-            Previously @ <i>Revvity, Manulife, Heymilo AI</i>{" "}
+            Previously @ <i>Revvity, Manulife</i>{" "}
           </p>
           <div className="intro-button">
             <button
