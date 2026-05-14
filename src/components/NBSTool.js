@@ -15,6 +15,8 @@ const iteration1 = process.env.PUBLIC_URL + "/images/nbsiteration1.png";
 const iteration2 = process.env.PUBLIC_URL + "/images/nbsiteration2.png";
 
 const iteration3 = process.env.PUBLIC_URL + "/images/iteration 3.png";
+const nbsanalyze = process.env.PUBLIC_URL + "/images/nbs1.png";
+const nbsreport = process.env.PUBLIC_URL + "/images/nbs2.png";
 
 function NBSTool() {
   useEffect(() => {
@@ -669,7 +671,11 @@ function NBSTool() {
         </section>
 
         <section className="nbs-section">
-          <h2 className="ns-accent-title">Final Designs Coming Soon...</h2>
+          <h2 className="ns-accent-title">Final Designs</h2>
+          <div className="nbs-images">
+          <img src={nbsanalyze} alt="final 1" />
+          <img src={nbsreport} alt="final 2" />
+          </div>
         </section>
       </main>
 
