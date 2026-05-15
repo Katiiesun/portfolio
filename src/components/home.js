@@ -174,15 +174,14 @@ function Home() {
             </span>
           </h1>
           <p>
-            I'm a <b>Product Designer</b> studying Systems Design Engineering @
-            <i>UWaterloo</i>, focused on designing experiences that reduce
-            friction, support real people, and make technology feel more
-            approachable.
-          </p>
+  I'm a <b className="keyword-underline">Product Designer</b> studying Systems Design Engineering @
+  <span className="keyword-underline"><i>UWaterloo</i></span>, focused on designing experiences that reduce
+  friction, support real people, and make technology feel more approachable.
+</p>
 
-          <p>
-            Previously @ <i>Revvity, Manulife</i>{" "}
-          </p>
+<p className="intro-prev">
+  Previously @ <i>Revvity, Manulife</i>
+</p>
           <div className="intro-button">
             <button
               onClick={() => {

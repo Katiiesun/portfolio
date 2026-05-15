@@ -250,7 +250,7 @@
 
 .introtext p {
   font-size: 1.2rem;
-  line-height: 150%;
+  line-height: 155%;
 
   color: #2d2727;
   width: 42vw;
@@ -810,4 +810,21 @@
     height: auto;
     padding-left: 2vw;
   }
+}
+
+
+.keyword-underline {
+  position: relative;
+  font-weight: 700;
+  color: #2d2727;
+  background-image: linear-gradient(#769BDD, #769BDD);
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-position: 0 100%;
+  padding-bottom: 1px;
+}
+ 
+.intro-prev {
+  color: #878787 !important;
+  font-size: 1rem;
 }
