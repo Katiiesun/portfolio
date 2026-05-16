@@ -175,7 +175,7 @@ function Home() {
 </h1>
 <p>
   I'm a <b className="keyword-underline">Product Designer</b> studying Systems Design Engineering @{" "}
-  <b className="keyword-underline">UWaterloo</b>, driven by the goal of designing experiences that reduce
+  <b className="keyword-underline"><i>UWaterloo</i></b>, driven by the goal of designing experiences that reduce
   friction, support real people, and make life a little easier.
 </p>
 
