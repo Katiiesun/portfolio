@@ -234,6 +234,7 @@
 .introtext {
   padding-top: 0vw;
   width: 60vw;
+  
 }
 
 .introtext h1 {
@@ -251,7 +252,6 @@
 .introtext p {
   font-size: 1.2rem;
   line-height: 155%;
-
   color: #2d2727;
   width: 42vw;
   font-weight: 400;

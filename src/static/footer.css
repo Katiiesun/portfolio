@@ -1,127 +1,68 @@
+/* Add Dancing Script to your index.html <head>, or import at top of CSS: */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
-/* Shared container */
+.footer-heading {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  color: #2a2a2a;
+  
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  line-height: 1.1;
+}
+
+.footer-script {
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 4rem;
+  color: #6790DD;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;  /* aligns copyright to bottom, looks nice */
   width: 100%;
+  box-sizing: border-box;
+  padding-right: 3vw;     /* matches the left padding on footer-left */
+}
+
+.footer-links {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  
+}
+
+.footer-links button{
+  border: none;
+  font-size: 1.1rem;
+  background: transparent;
+  color: rgb(135,135,135);
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
 .footer-left {
   display: flex;
-  align-items: center;
+  flex-direction: column;  /* stack heading above links */
+  align-items: flex-start;
+  padding: 3vw;
+  gap:1vw;
 }
 
-/* HOME FOOTER */
-.footerHome {
-  /* background-color: #F7F7F8; */
-  background-color: transparent;
-  width: 100%;
-  padding: 45px 60px;
-  box-sizing: border-box;
-}
 
-.footerHome h1 {
-  margin: 0 10px;
-  padding: 10px 20px;
-  font-size: 1.4rem;
-  color: #6790DD;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 550;
-}
-
-.footerHome button {
-  padding: 10px 20px;
-  border: none;
-  font-size: 1.1rem;
-  background: transparent;
-  color: rgb(135,135,135);
-  font-family: "DM Sans", sans-serif;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.footerHome button:hover {
-  color: #6790DD;
-}
-
-.footer-title-img {
-  width: 250px;   /* adjust this */
-  height: auto;
-  margin-bottom: 1rem;
-}
-/* SUBBUD FOOTER */
-.footerSubBud {
-  background-color: #ffffff;
-  width: 100%;
-  padding: 45px 60px;
-  box-sizing: border-box;
-}
-
-.footerSubBud h1 {
-  margin: 0 10px;
-  padding: 10px 20px;
-  font-size: 1.4rem;
-  color: #6790DD;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 550;
-}
-
-.footerSubBud button {
-  padding: 10px 20px;
-  border: none;
-  font-size: 1.1rem;
-  background: transparent;
-  color: rgb(135,135,135);
-  font-family: "DM Sans", sans-serif;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.footerSubBud button:hover {
-  color: #6790DD;
-}
-
-/* COPYRIGHT */
 .copyright {
   font-size: 0.9rem;
   color: rgb(135,135,135);
   font-family: "DM Sans", sans-serif;
+  padding-bottom: 3vw;
 }
 
 
-@media (max-width: 768px) {
-
-  .footer-container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-  }
-
-  .footer-left {
-    flex-wrap: wrap;
-  }
-
-  .footerHome,
-  .footerSubBud {
-    padding: 32px 24px;
-  }
-
-  .footerHome h1,
-  .footerSubBud h1 {
-    padding: 0;
-    margin-right: 10px;
-  }
-
-  .footerHome button,
-  .footerSubBud button {
-    padding: 8px 12px;
-    font-size: 1rem;
-  }
-
-  .copyright {
-    align-self: flex-start;
-    font-size: 0.85rem;
-  }
-
+.footer-links button:hover {
+  color: #6790DD;
 }

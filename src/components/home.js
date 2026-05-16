@@ -167,20 +167,20 @@ function Home() {
           <img ref={imgRef} src={selfietwo} alt="self pic" />
         </div>
         <div className="introtext">
-          <h1>
-            Hello I'm Katie{" "}
-            <span ref={handRef} className={handWaved ? "wave-hand" : ""}>
-              👋
-            </span>
-          </h1>
-          <p>
-  I'm a <b className="keyword-underline">Product Designer</b> studying Systems Design Engineering @
-  <span className="keyword-underline"><i>UWaterloo</i></span>, focused on designing experiences that reduce
-  friction, support real people, and make technology feel more approachable.
+        <h1>
+  Hello, I'm <span className="footer-script">Katie</span>{" "}
+  {/* <span ref={handRef} className={handWaved ? "wave-hand" : ""}>
+    👋
+  </span> */}
+</h1>
+<p>
+  I'm a <b className="keyword-underline">Product Designer</b> studying Systems Design Engineering @{" "}
+  <b className="keyword-underline">UWaterloo</b>, driven by the goal of designing experiences that reduce
+  friction, support real people, and make life a little easier.
 </p>
 
 <p className="intro-prev">
-  Previously @ <i>Revvity, Manulife</i>
+  previously @ <i>Revvity, Manulife</i>
 </p>
           <div className="intro-button">
             <button
@@ -211,7 +211,7 @@ function Home() {
             <div className="project-text">
               {/* <span className="coming-soon-btn">CASE STUDY COMING SOON</span> */}
               <h2>Newborn Screening Analysis Tool</h2>
-              <p className="company">Revvity Health Sciences</p>
+              <p className="company">Revvity Health Sciences, 2026</p>
 
               <p>
                 Reducing newborn screening analysis and reporting turnaround
@@ -233,7 +233,7 @@ function Home() {
             <div className="project-text">
               <h2>Furniture Bank Operations Portal</h2>
               <p className="company">
-                UW Blueprint x Home Again Furniture Bank
+                UW Blueprint x Home Again Furniture Bank, 2026
               </p>
               <p>
                 Designing the{" "}
@@ -257,7 +257,7 @@ function Home() {
             </div>
             <div className="project-text">
               <h2>AI-Powered Recruiter Dashboard</h2>
-              <p className="company">Early-Stage AI Startup</p>
+              <p className="company">Early-Stage AI Startup, 2024</p>
               <p>
                 Redesigning an ATS dashboard and navigation system to
                 <span className="highlight3">
@@ -282,7 +282,7 @@ function Home() {
             </div>
             <div className="project-text">
               <h2>Wealth Management Mobile App</h2>
-              <p className="company">Manulife Financial</p>
+              <p className="company">Manulife Financial, 2025</p>
               <p>
                 Designing a <span className="highlight3">future-ready</span>{" "}
                 navigation solution for{" "}
@@ -305,6 +305,7 @@ function Home() {
             </div>
             <div className="project-text">
               <h2>Group Outings with DivvyUp</h2>
+              <p className="company">Personal Project, 2024</p>
               <p>
                 Simplifying group planning and bill splitting with DivvyUp for a
                 <span className="highlight3">
