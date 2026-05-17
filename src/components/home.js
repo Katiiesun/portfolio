@@ -229,30 +229,7 @@ function Home() {
           </Link>
         </div>
 
-        <div className="project scroll-reveal">
-          <Link to="/" className="project-row">
-            <div className="project-image">
-              <img src={hafb} alt="furniture bank cover" />
-            </div>
-            <div className="project-text">
-              <h2>Furniture Bank Operations Portal</h2>
-              <p className="company">
-                UW Blueprint x Home Again Furniture Bank, 2026
-              </p>
-              <p>
-                Designing the{" "}
-                <span className="highlight3">
-                  admin portal and donation intake experience for a non-profit
-                </span>{" "}
-                furniture bank <span className="highlight3"></span>
-              </p>
-              {/* Read Case Study button */}
-              <span className="case-study-btn">
-                Work in progress <span className="arrow"></span>
-              </span>
-            </div>
-          </Link>
-        </div>
+      
 
         <div className="project scroll-reveal">
           <Link to="/recruitment" className="project-row">
@@ -291,6 +268,31 @@ function Home() {
               {/* Read Case Study button */}
               <span className="case-study-btn">
                 Read Case Study <span className="arrow">→</span>
+              </span>
+            </div>
+          </Link>
+        </div>
+
+        <div className="project scroll-reveal">
+          <Link to="/" className="project-row">
+            <div className="project-image">
+              <img src={hafb} alt="furniture bank cover" />
+            </div>
+            <div className="project-text">
+              <h2>Furniture Bank Operations Portal</h2>
+              <p className="company">
+                UW Blueprint x Home Again Furniture Bank, 2026
+              </p>
+              <p>
+                Designing the{" "}
+                <span className="highlight3">
+                  admin portal and donation intake experience for a non-profit
+                </span>{" "}
+                furniture bank <span className="highlight3"></span>
+              </p>
+              {/* Read Case Study button */}
+              <span className="case-study-btn">
+                Work in progress <span className="arrow"></span>
               </span>
             </div>
           </Link>
