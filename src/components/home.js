@@ -167,21 +167,25 @@ function Home() {
           <img ref={imgRef} src={selfietwo} alt="self pic" />
         </div>
         <div className="introtext">
-        <h1>
-  Hello, I'm <span className="footer-script">Katie</span>{" "}
-  {/* <span ref={handRef} className={handWaved ? "wave-hand" : ""}>
+          <h1>
+            Hello, I'm <span className="footer-script">Katie</span>{" "}
+            {/* <span ref={handRef} className={handWaved ? "wave-hand" : ""}>
     👋
   </span> */}
-</h1>
-<p>
-  I'm a <b className="keyword-underline">Product Designer</b> studying Systems Design Engineering @{" "}
-  <b className="keyword-underline"><i>UWaterloo</i></b>, driven by the goal of designing experiences that reduce
-  friction, support real people, and make life a little easier.
-</p>
+          </h1>
+          <p>
+            I'm a <b className="keyword-underline">Product Designer</b> studying
+            Systems Design Engineering @{" "}
+            <b className="keyword-underline">
+              <i>UWaterloo</i>
+            </b>
+            , driven by the goal of designing experiences that reduce friction,
+            support real people, and make life a little easier.
+          </p>
 
-<p className="intro-prev">
-  previously @ <i>Revvity, Manulife</i>
-</p>
+          <p className="intro-prev">
+            previously @ <i>Revvity, Manulife</i>
+          </p>
           <div className="intro-button">
             <button
               onClick={() => {
@@ -256,14 +260,12 @@ function Home() {
               <img src={heyMilo} alt="heyMilo" />
             </div>
             <div className="project-text">
-              <h2>AI-Powered Recruiter Dashboard</h2>
+              <h2>AI-powered Recruiting ATS</h2>
               <p className="company">Early-Stage AI Startup, 2024</p>
               <p>
-                Redesigning an ATS dashboard and navigation system to
-                <span className="highlight3">
-                  {" "}
-                  streamline recruiter workflows
-                </span>
+                Improving the candidate evaluation and agent navigation
+                experience
+                <span className="highlight3"> in an AI-powered ATS</span>
               </p>
               {/* Read Case Study button */}
               <span className="case-study-btn">
@@ -284,11 +286,7 @@ function Home() {
               <h2>Wealth Management Mobile App</h2>
               <p className="company">Manulife Financial, 2025</p>
               <p>
-                Designing a <span className="highlight3">future-ready</span>{" "}
-                navigation solution for{" "}
-                <span className="highlight3">
-                  Canada’s #1 insurance provider
-                </span>
+              Designing scalable navigation for a new mobile wealth experience
               </p>
               {/* Read Case Study button */}
               <span className="case-study-btn">

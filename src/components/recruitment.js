@@ -92,8 +92,8 @@ function HeyMilo() {
       <Navigation className="projectsnav" />
       <div className="hmHeader">
         <h1>
-          Redesigning an ATS dashboard and navigation system to{" "}
-          <span className="highlight">streamline recruiter workflows</span>
+          Improving the candidate evaluation and agent navigation experience in an {" "}
+          <span className="highlight">AI-powered ATS</span>
         </h1>
         <div className="image-layout-wrapper">
           <div className="perspective-layer">
@@ -455,8 +455,7 @@ function HeyMilo() {
             <a href="/wealthApp" class="carousel-card">
               <img src="images/wealthApp.png" alt="Wealth App" />
               <h2>
-                Designing a future-ready navigation solution for Canada’s #1
-                insurance provider
+              Designing scalable navigation for a new mobile wealth experience
               </h2>
             </a>
 

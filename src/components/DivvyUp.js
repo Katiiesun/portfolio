@@ -355,16 +355,14 @@ function DivvyUp() {
             <a href="/" className="carousel-card">
               <img src="images/heymilo-mockup.png" alt="HeyMilo AI" />
               <h2>
-                Redesigning an ATS dashboard and navigation system to streamline
-                recruiter workflows
+              Improving the candidate evaluation and agent navigation experience in an AI-powered ATS
               </h2>
             </a>
 
             <a href="/wealthApp" className="carousel-card">
               <img src="images/wealthApp.png" alt="Wealth App" />
               <h2>
-                Designing a future-ready navigation solution for Canada’s #1
-                insurance provider
+              Designing scalable navigation for a new mobile wealth experience
               </h2>
             </a>
 

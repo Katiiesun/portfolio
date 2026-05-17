@@ -27,11 +27,10 @@ function WealthApp() {
       <Navigation className="projectsnav" />
       <div className="wealthHeader">
         <div className="wealthText">
-          <h1>Structuring Intuitive Navigation for a Wealth Management App</h1>
+          <h1> Designing scalable navigation for a new mobile wealth experience</h1>
 
           <h2>
-            Designing a future-ready navigation solution for Canada’s #1
-            insurance provider
+            Manulife Financial, 2025
           </h2>
         </div>
 
@@ -383,8 +382,7 @@ function WealthApp() {
             <a href="/" class="carousel-card">
               <img src="images/heymilo-mockup.png" alt="HeyMilo AI" />
               <h2>
-                Redesigning an ATS dashboard and navigation system to streamline
-                recruiter workflows
+              Improving the candidate evaluation and agent navigation experience in an AI-powered ATS
               </h2>
             </a>
 
