@@ -238,7 +238,7 @@ function Home() {
             </div>
             <div className="project-text">
               <h2>AI-powered Recruiting ATS</h2>
-              <p className="company">Early-Stage AI Startup, 2024</p>
+              <p className="company">Early-Stage Startup, 2024</p>
               <p>
                 Improving the candidate evaluation and agent navigation
                 experience

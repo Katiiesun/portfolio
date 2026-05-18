@@ -92,8 +92,8 @@ function HeyMilo() {
       <Navigation className="projectsnav" />
       <div className="hmHeader">
         <h1>
-          Improving the candidate evaluation and agent navigation experience in an {" "}
-          <span className="highlight">AI-powered ATS</span>
+          Improving the candidate evaluation and agent navigation experience in
+          an <span className="highlight">AI-powered ATS</span>
         </h1>
         <div className="image-layout-wrapper">
           <div className="perspective-layer">
@@ -131,19 +131,16 @@ function HeyMilo() {
           </h2>
           <h3>My Role</h3>
           <h1>
-            Owning a Full Redesign as the Sole Designer in a Fast-Moving Startup
+            Owning a Full Redesign as the Sole Designer in a Fast-Moving
+            Pre-Seed Startup
           </h1>
           <h2>
-            When I joined the team, the company was looking to evolve their
-            platform with a comprehensive V2 redesign that would address
-            critical user experience challenges. As the sole designer for this
-            initiative, I conducted thorough user flow analysis and collaborated
-            with the team to identify pain points in navigation and information
-            architecture. My role focused on transforming the platform's core
-            functionality by implementing an intuitive navigation system and
-            restructuring the candidate evaluation interface. This redesign
-            redefined how recruiters navigate agents and evaluate candidates
-            across the platform.
+            When I joined the team in its pre-seed stage, the company was looking to evolve its platform with a
+            comprehensive V2 redesign ahead of its next stage of growth. As the
+            sole designer, I led the redesign end-to-end, working closely with
+            the co-founder and engineering team to identify core usability
+            issues and redefine the product’s navigation and evaluation
+            experience.
           </h2>
           <h3>Design Focus</h3>
           <h4>
@@ -209,8 +206,7 @@ function HeyMilo() {
             thorough evaluation, it often increases cognitive load and slows
             decision-making. At the same time, several platforms demonstrated
             thoughtful patterns that successfully balance visibility with focus.
-            These strengths informed key design decisions in the
-            redesign.
+            These strengths informed key design decisions in the redesign.
           </h2>
           <img src={keyTakeaways} alt="Competitor analysis key takeaways" />
           <h1>Framing the Solution</h1>
@@ -421,15 +417,17 @@ function HeyMilo() {
           <h1>Lessons Learned</h1>
           <h3>01. Adapting to Startup Pace </h3>
           <h2>
-            Working on a full platform redesign in a startup environment taught
-            me that moving fast isn’t just about speed but also about clarity
-            under constraint. Requirements shifted, context was incomplete, and
-            timelines were tight. I learned to focus less on perfecting every
-            detail and more on identifying what truly needed to change. I
-            prioritized asking the right questions and aligning on what success
-            would look like. This experience strengthened my ability to design
-            with intention and make thoughtful decisions even when information
-            and time is limited.
+            Working on a full platform redesign in a fast-moving
+            startup environment taught me that moving quickly isn’t just about
+            speed, but about creating clarity under constraint. With limited
+            historical data, evolving requirements, incomplete context, and
+            tight engineering timelines, I learned to make thoughtful product
+            decisions without waiting for perfect information. Rather than
+            over-polishing every detail, I focused on identifying what truly
+            needed to change, asking the right questions, and aligning the team
+            around clear outcomes. This experience strengthened my ability to
+            design with intention, adapt quickly to ambiguity, and balance user
+            needs with business and technical constraints.
           </h2>
           <br></br>
           <h3>02. Design Documentation & Development Handoff </h3>
@@ -455,7 +453,7 @@ function HeyMilo() {
             <a href="/wealthApp" class="carousel-card">
               <img src="images/wealthApp.png" alt="Wealth App" />
               <h2>
-              Designing scalable navigation for a new mobile wealth experience
+                Designing scalable navigation for a new mobile wealth experience
               </h2>
             </a>
 
