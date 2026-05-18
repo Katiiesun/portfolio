@@ -633,12 +633,8 @@
     background-color: transparent; /* keep green background */
   }
   .animated-pic img {
-    position: absolute; /* now we can move it freely */
-    top: 136vw; /* distance from top of the container */
-    left: 68vw; /* negative moves it left outside the container */
-    width: 16vw; /* size of animated pic */
-    height: auto;
-    animation: fadeInUp 0.7s forwards;
+    display: none;
+    
   }
 
   .projectsSection h1:hover {
