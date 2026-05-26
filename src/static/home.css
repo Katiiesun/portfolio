@@ -167,7 +167,7 @@
   /* background-color:#F7F7F8; */
   background-color: transparent;
   margin-top: -100px;
-  padding-top: 8vw;
+  padding-top: 4vw;
 }
 
 .pic img {
@@ -184,7 +184,7 @@
 
 .animated-pic img {
   position: absolute;
-  top: 36vw;
+  top: 32vw;
   left: 70vw;
   width: 16vw;
   height: auto;
