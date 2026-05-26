@@ -25,47 +25,43 @@ function NBSTool() {
 
   return (
     <div className="ns-page">
-      <Navigation className="navhome" />
-
-      <main className="ns-container">
-        {/* HERO */}
+      <div className="ns-hero-wrapper">
+        <Navigation className="navhome" />
         <section className="ns-hero">
           <div className="ns-hero-text">
             <h1>Newborn Screening Analysis Tool</h1>
-
             <p className="ns-subtitle">
               Reducing newborn screening analysis and reporting turnaround from
               <span className="highlight2"> weeks to days</span>
             </p>
-
             <div className="ns-image-wrapper">
               <div className="ns-image">
-                <img src={newbornsimg} alt="Newborn screening tool" />
-              </div>
-            </div>
-
-            {/* META ROW */}
-            <div className="ns-meta">
-              <div className="ns-meta-item">
-                <span className="ns-label">Timeline</span>
-                <p>Q1 2026</p>
-              </div>
-
-              <div className="ns-meta-item">
-                <span className="ns-label">Team</span>
-                <p>UX Designer (me)</p>
-                <p>2 UX Researchers</p>
-                <p>Product Manager</p>
-                <p>Engineering Team</p>
-              </div>
-
-              <div className="ns-meta-item">
-                <span className="ns-label">Status</span>
-                <p>Pilot released to partner lab for testing</p>
+                <img src={nbsanalyze} alt="Newborn screening tool" />
               </div>
             </div>
           </div>
         </section>
+      </div>
+
+      <main className="ns-container">
+        {/* META ROW */}
+        <div className="ns-meta">
+          <div className="ns-meta-item">
+            <span className="ns-label">Timeline</span>
+            <p>Q1 2026</p>
+          </div>
+          <div className="ns-meta-item">
+            <span className="ns-label">Team</span>
+            <p>UX Designer (me)</p>
+            <p>2 UX Researchers</p>
+            <p>Product Manager</p>
+            <p>Engineering Team</p>
+          </div>
+          <div className="ns-meta-item">
+            <span className="ns-label">Status</span>
+            <p>Pilot released to partner lab for testing</p>
+          </div>
+        </div>
 
         {/* TLDR */}
         <section className="nbs-section">
