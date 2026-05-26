@@ -670,3 +670,41 @@ margin-bottom: 3vw;
 
 
 }
+
+
+.mode-card {
+  background-color: #ffffff;
+  border: 0.5px solid #c3c3c3;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.mode-card__label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-family: "DM Sans", sans-serif;
+  color: #185FA5;
+}
+
+
+.mode-card__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  color: #000000;
+  margin: 0.5rem 0 0.4rem;
+}
+
+.mode-card__desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-family: "DM Sans", sans-serif;
+  color: #4b4b4b;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .mode-card { grid-column: 1 / -1; }
+}

@@ -273,10 +273,25 @@ function HeyMilo() {
         <h2>
           One of the core insights that shaped this redesign was recognizing
           that recruiters move between
-          <span class="highlight2"> two distinct modes:</span> scanning multiple
-          candidates to compare status and performance, and deep evaluation of
-          an individual candidate’s interview results.
+          <span class="highlight2"> two distinct modes:</span> 
         </h2>
+
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px", margin: "2rem 0" }}>
+  <div className="mode-card mode-card--scan">
+    <div className="mode-card__icon-wrap mode-card__icon-wrap--blue">
+      <span className="mode-card__label">Mode 01</span>
+    </div>
+    <h3 className="mode-card__title">Scanning & comparing</h3>
+    <p className="mode-card__desc">Quickly reviewing multiple candidates to compare status, scores, and progress at a glance.</p>
+  </div>
+  <div className="mode-card mode-card--eval">
+    <div className="mode-card__icon-wrap mode-card__icon-wrap--blue">
+      <span className="mode-card__label">Mode 02</span>
+    </div>
+    <h3 className="mode-card__title">Deep evaluation</h3>
+    <p className="mode-card__desc">Diving into a single candidate's full interview results, notes, and performance breakdown.</p>
+  </div>
+</div>
         <h2>
           {" "}
           In the original experience, these two tasks were blended into a single
