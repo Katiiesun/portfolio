@@ -5,7 +5,8 @@ import Footer from "./footer";
 import "../static/footer.css";
 import { useState, useEffect, useCallback, useRef } from "react";
 
-const newborns = process.env.PUBLIC_URL + "images/newborns.png";
+const newborns = process.env.PUBLIC_URL + "images/nbsprotectedvisual.png";
+
 
 function NewbornScreening() {
   useEffect(() => {
@@ -14,47 +15,42 @@ function NewbornScreening() {
 
   return (
     <div className="ns-page">
-      <Navigation className="navhome" />
-      <main className="ns-container">
-        {/* HERO */}
+      <div className="ns-hero-wrapper">
+        <Navigation className="navhome" />
         <section className="ns-hero">
           <div className="ns-hero-text">
-            {/* <button className="ns-coming-soon">Case Study Coming Soon</button> */}
             <h1>Newborn Screening Analysis Tool</h1>
-
             <p className="ns-subtitle">
               Reducing newborn screening analysis and reporting turnaround from
               <span className="highlight2"> weeks to days</span>
             </p>
           </div>
-
-          {/* Image placeholder */}
           <div className="ns-image-wrapper">
             <div className="ns-image">
               <img src={newborns} alt="Newborn screening tool" />
             </div>
           </div>
-
-          <div className="ns-meta">
-            <div className="ns-meta-item">
-              <span className="ns-label">Timeline</span>
-              <p>Q1 2026</p>
-            </div>
-
-            <div className="ns-meta-item">
-              <span className="ns-label">Team</span>
-              <p>UX Designer (me)</p>
-              <p>2 UX Researchers</p>
-              <p>Product Manager</p>
-              <p>Team of Engineers</p>
-            </div>
-
-            <div className="ns-meta-item">
-              <span className="ns-label">Status</span>
-              <p>Validated through user testing with a partner newborn screening lab</p>
-            </div>
-          </div>
         </section>
+      </div>
+
+      <main className="ns-container">
+        <div className="ns-meta">
+          <div className="ns-meta-item">
+            <span className="ns-label">Timeline</span>
+            <p>Q1 2026</p>
+          </div>
+          <div className="ns-meta-item">
+            <span className="ns-label">Team</span>
+            <p>UX Designer (me)</p>
+            <p>2 UX Researchers</p>
+            <p>Product Manager</p>
+            <p>Team of Engineers</p>
+          </div>
+          <div className="ns-meta-item">
+            <span className="ns-label">Status</span>
+            <p>Validated through user testing with a partner newborn screening lab</p>
+          </div>
+        </div>
 
         {/* OVERVIEW */}
         <section className="ns-section">
