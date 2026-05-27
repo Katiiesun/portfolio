@@ -158,9 +158,12 @@ function Home() {
     }
   }, [location]);
 
+
   return (
+    <>
+    <Navigation className="navhome" />
     <div className="home-wrapper">
-      <Navigation className="navhome" />
+      
 
       <div id="intro" className="intro scroll-reveal">
         <div className="pic">
@@ -324,6 +327,7 @@ function Home() {
 
       <Footer className="footerHome" />
     </div>
+    </>
   );
 }
 

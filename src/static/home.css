@@ -76,7 +76,7 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
-  perspective: 1500px;
+  /* perspective: 1500px; */
 }
 
 .home p {
