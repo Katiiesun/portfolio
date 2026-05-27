@@ -41,7 +41,7 @@
   font-size: 1.1rem;
   background: transparent;
   color: rgb(135,135,135);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   cursor: pointer;
   transition: color 0.3s ease;
 }
@@ -58,7 +58,7 @@
 .copyright {
   font-size: 0.9rem;
   color: rgb(135,135,135);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   padding-bottom: 3vw;
 }
 

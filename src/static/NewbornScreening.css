@@ -56,7 +56,7 @@
   font-size: 1.2rem;
   color: #4f4f4f;
   margin-bottom: 1vw;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   max-width: 70vw;
 }
 
@@ -100,7 +100,7 @@
   letter-spacing: 0.08em;
   color: #8a8a8a;
   margin-bottom: 0.6vw;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-weight: 600;
 }
 
@@ -109,7 +109,7 @@
   font-size: 0.95rem;
   color: #4f4f4f;
   margin-bottom: 0.3vw;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
 }
 
 /* fallback if you still use old structure */
@@ -117,7 +117,7 @@
   font-size: 1rem;
   color: #6a6a6a;
   margin-bottom: 0.5vw;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
 }
 
 /* SECTIONS */
@@ -139,7 +139,7 @@
   color: #7a7a7a;
   font-weight: 600;
   margin-bottom: 1.2vw;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
 }
 
 /* BODY TEXT */
@@ -147,7 +147,7 @@
   font-size: 1.1rem;
   line-height: 1.7rem;
   margin-bottom: 1.2vw;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   color: #2a2a2a;
 }
 
@@ -180,7 +180,7 @@
   color: #7a7a7a;
   font-weight: 600;
   margin-bottom: 3vw;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
 }
 
 /* BLOCK */
@@ -213,7 +213,7 @@
   font-size: 1.1rem;
   line-height: 1.7rem;
   margin-bottom: 1.2vw;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   color: #2a2a2a;
 }
 
@@ -223,7 +223,7 @@
   /* font-weight: 500; */
   color: #3a3a3a;
   font-size: 1.1rem;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   line-height: 1.7rem;
 }
 

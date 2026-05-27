@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../public/fonts/Satoshi-Regular.otf") format("opentype");
+}
+
 .home-wrapper {
   background-image: url("../../public/images/Graph Paper - 01.png");
   background-size: cover; /* fills screen */
@@ -255,7 +260,7 @@
   width: 42vw;
   font-weight: 400;
   /* display: flex; */
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   animation: fadeInUp 0.7s forwards;
 }
@@ -270,7 +275,7 @@
   padding-bottom: 1vw;
   margin-left: 0vw;
   margin-top: 1vw;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.2rem;
   font-weight: 700;
@@ -327,7 +332,7 @@
 }
 
 .projectsSection h1 {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   color: #c8c8c8;
   font-size: 5vw;
   transition: color 0.5s ease;
@@ -381,6 +386,8 @@
   line-height: 160%;
   color: #5f5f5f;
   /* margin-bottom: 2vw; */
+
+  font-family: "Satoshi", sans-serif;
 }
 
 .wealthApp-card:hover {
@@ -430,7 +437,7 @@
   border-radius: 50px;
   padding: 0.8vw;
   margin: 10px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   color: #3d6491;
   font-size: 0.9vw;
@@ -442,7 +449,7 @@
   border-radius: 50px;
   padding: 0.8vw;
   margin: 10px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   color: #344ea3;
   font-size: 0.9vw;
@@ -465,7 +472,7 @@
   border-radius: 50px;
   padding: 0.8vw;
   margin: 10px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   color: #809aad;
   font-size: 0.9vw;
@@ -481,7 +488,7 @@
   color: #9db79b;
 }
 .DivvyUp h2 {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   line-height: 140%;
   font-size: 1.4vw;

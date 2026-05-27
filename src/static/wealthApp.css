@@ -3,15 +3,6 @@
   src: url("../../public/fonts/InterVariable.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: "acorn-bold";
-  src: url("../../public/fonts/Acorn/Acorn-Bold.otf") format("truetype");
-}
-
-@font-face {
-  font-family: "acorn-medium";
-  src: url("../../public/fonts/Acorn/Acorn-Medium.otf") format("truetype");
-}
 
 .wealthHeader {
   /* columns: 2;  REMOVE THIS */
@@ -87,7 +78,7 @@ background-color: #3c6657;
 .wealthHeader .wealthText h2 {
   font-size: 1.2rem;
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 400;
@@ -145,7 +136,7 @@ background-color: #3c6657;
 .wealth-intro {
   display: flex;
   justify-content: flex-start;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   width: 60vw;
   gap: 10vw;
@@ -196,7 +187,7 @@ background-color: #3c6657;
   flex-direction: column;
   justify-content: center;
   color: #000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -216,7 +207,7 @@ background-color: #3c6657;
 
 .wealthsection1 .wealth-overview h2 {
   color: #000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -236,7 +227,7 @@ background-color: #3c6657;
 
 .wealth-overview h3 {
   color: #888888;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.2rem;
   font-style: normal;
@@ -246,7 +237,7 @@ background-color: #3c6657;
 
 .challenge-sec2 h3 {
   color: #85b69b;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.2rem;
   font-style: normal;
@@ -256,7 +247,7 @@ background-color: #3c6657;
 
 .wealthsection1 .wealth-myrole h2 {
   color: #000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -303,7 +294,7 @@ background-color: #3c6657;
 }
 .challenge-sec2 h2 {
   color: #eee;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -324,7 +315,7 @@ background-color: #3c6657;
 
 .challenge-container h1 {
   color: #ffffff;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -334,7 +325,7 @@ background-color: #3c6657;
 
 .challenge-container h2 {
   color: #eee;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -443,7 +434,7 @@ background-color: #3c6657;
 
 .targetUsersText h2 {
   color: #000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -502,7 +493,7 @@ background-color: #3c6657;
 
 .wealthProcess h3 {
   color: #888888;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.2rem;
   font-style: normal;
@@ -531,7 +522,7 @@ background-color: #3c6657;
 
 .whatwasTested-sec4 h3 {
   color: #888888;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.2rem;
   font-style: normal;
@@ -541,7 +532,7 @@ background-color: #3c6657;
 
 .whatwasTested-sec4 h2 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -641,7 +632,7 @@ background-color: #3c6657;
 
 .scrollvstabtext h2 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -698,7 +689,7 @@ background-color: #3c6657;
 
 .keyinsights h3 {
   color: #888888;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.2rem;
   font-style: normal;
@@ -727,7 +718,7 @@ background-color: #3c6657;
 
 .insight1 h1 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -738,7 +729,7 @@ background-color: #3c6657;
 
 .insight1 h2 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -759,7 +750,7 @@ background-color: #3c6657;
 
 .insight2 h1 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -770,7 +761,7 @@ background-color: #3c6657;
 
 .insight2 h2 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -791,7 +782,7 @@ background-color: #3c6657;
 
 .insight3 h1 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -802,7 +793,7 @@ background-color: #3c6657;
 
 .insight3 h2 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -863,7 +854,7 @@ background-color: #3c6657;
 
 .recos h3 {
   color: #888888;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.2rem;
   font-style: normal;
@@ -873,7 +864,7 @@ background-color: #3c6657;
 
 .recos h2 {
   color: #000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -923,7 +914,7 @@ background-color: #3c6657;
 
 .learning1 h1 {
   color: #484848;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -933,7 +924,7 @@ background-color: #3c6657;
 
 .learning1 h2 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -954,7 +945,7 @@ background-color: #3c6657;
 
 .learning2 h1 {
   color: #484848;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -964,7 +955,7 @@ background-color: #3c6657;
 
 .learning2 h2 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -985,7 +976,7 @@ background-color: #3c6657;
 
 .learning3 h1 {
   color: #484848;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -995,7 +986,7 @@ background-color: #3c6657;
 
 .learning3 h2 {
   color: #000000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.1rem;
   font-style: normal;
@@ -1067,7 +1058,7 @@ background-color: #3c6657;
   margin-right: 2vw;
   line-height: 1.6vrem;
   font-weight: 400;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
 }
 
@@ -1172,7 +1163,7 @@ background-color: #3c6657;
 
 .impact h3 {
   color: #888888;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.2rem;
   font-style: normal;

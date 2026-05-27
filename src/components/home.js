@@ -295,7 +295,7 @@ function Home() {
               </p>
               {/* Read Case Study button */}
               <span className="case-study-btn">
-                Work in progress <span className="arrow"></span>
+                Work in Progress <span className="arrow"></span>
               </span>
             </div>
           </Link>
