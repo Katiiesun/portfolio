@@ -236,9 +236,7 @@ function Home() {
 
         <div className="project scroll-reveal">
           <Link to="/recruitment" className="project-row">
-            <div className="project-image">
-              <img src={heyMilo} alt="heyMilo" />
-            </div>
+            
             <div className="project-text">
               <h2>AI-powered Recruiting ATS</h2>
               <p className="company">Early-Stage Startup, 2024</p>
@@ -253,6 +251,9 @@ function Home() {
               </span>
 
               {/* <span className="case-study-btn">Under Construction</span> */}
+            </div>
+            <div className="project-image">
+              <img src={heyMilo} alt="heyMilo" />
             </div>
           </Link>
         </div>
@@ -278,9 +279,7 @@ function Home() {
 
         <div className="project scroll-reveal">
           <Link to="/" className="project-row">
-            <div className="project-image">
-              <img src={hafb} alt="furniture bank cover" />
-            </div>
+            
             <div className="project-text">
               <h2>Furniture Bank Operations Portal</h2>
               <p className="company">
@@ -297,6 +296,10 @@ function Home() {
               <span className="case-study-btn">
                 Work in Progress <span className="arrow"></span>
               </span>
+
+            </div>
+            <div className="project-image">
+              <img src={hafb} alt="furniture bank cover" />
             </div>
           </Link>
         </div>
