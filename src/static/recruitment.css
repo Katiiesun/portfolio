@@ -333,12 +333,12 @@
 .hm-section4 img {
   width: 50vw;
   padding: 5vw;
-  transition: transform 0.3s ease;
+  /* transition: transform 0.3s ease; */
 }
 
-.hm-section4 img:hover {
+/* .hm-section4 img:hover {
   transform: scale(1.05);
-}
+} */
 
 .hmsection4-text h2 {
   font-weight: 400;
@@ -369,12 +369,12 @@
 .hm-section5 img {
   width: 50vw;
   padding: 5vw;
-  transition: transform 0.3s ease;
+  /* transition: transform 0.3s ease; */
 }
 
-.hm-section5 img:hover {
+/* .hm-section5 img:hover {
   transform: scale(1.05);
-}
+} */
 
 .hmsection5-text h2 {
   font-weight: 400;
@@ -403,12 +403,12 @@
 .hm-section6 img {
   width: 50vw;
   padding: 5vw;
-  transition: transform 0.3s ease;
+  /* transition: transform 0.3s ease; */
 }
 
-.hm-section6 img:hover {
+/* .hm-section6 img:hover {
   transform: scale(1.05);
-}
+} */
 
 .hmsection6-text h2 {
   font-weight: 400;
