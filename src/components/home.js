@@ -16,7 +16,7 @@ function Home() {
 
   const snoopyOne = process.env.PUBLIC_URL + "images/snoop1.png";
   const snoopyTwo = process.env.PUBLIC_URL + "images/snoop2.png";
-  const selfietwo = process.env.PUBLIC_URL + "images/introimg.png";
+  const selfietwo = process.env.PUBLIC_URL + "images/mepic.png";
   const heyMilo = process.env.PUBLIC_URL + "images/heymilo-mockup.png";
   const wealthApp = process.env.PUBLIC_URL + "images/wealthApp.png";
   const divvyUp = process.env.PUBLIC_URL + "images/Artboard 6.png";
@@ -319,13 +319,13 @@ function Home() {
                   seamless group outing experience
                 </span>
               </p>
-              {/* Read Case Study button */}
-              <span className="case-study-btn">
+              Read Case Study button
+              /* <span className="case-study-btn">
                 Read Case Study <span className="arrow">→</span>
               </span>
             </div>
           </Link>
-        </div>
+        </div> 
       </div>
 
       <Footer className="footerHome" />
