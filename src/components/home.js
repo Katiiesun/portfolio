@@ -319,8 +319,7 @@ function Home() {
                   seamless group outing experience
                 </span>
               </p>
-              Read Case Study button
-              /* <span className="case-study-btn">
+              <span className="case-study-btn">
                 Read Case Study <span className="arrow">→</span>
               </span>
             </div>
