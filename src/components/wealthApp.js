@@ -379,7 +379,7 @@ function WealthApp() {
           {/* <button class="carousel-btn left" aria-label="Scroll left">←</button> */}
 
           <div class="carousel" id="carousel">
-            <a href="/" class="carousel-card">
+            <a href="/recruitment" class="carousel-card">
               <img src="images/heymilo-mockup.png" alt="HeyMilo AI" />
               <h2>
               Improving the candidate evaluation and agent navigation experience in an AI-powered ATS

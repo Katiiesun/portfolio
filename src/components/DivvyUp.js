@@ -352,7 +352,7 @@ function DivvyUp() {
           {/* <button class="carousel-btn left" aria-label="Scroll left">←</button> */}
 
           <div className="carousel" id="carousel">
-            <a href="/" className="carousel-card">
+            <a href="/recruitment" className="carousel-card">
               <img src="images/heymilo-mockup.png" alt="HeyMilo AI" />
               <h2>
               Improving the candidate evaluation and agent navigation experience in an AI-powered ATS
